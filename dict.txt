@@ -2,6 +2,7 @@
 あのかた,pp:➃のかた,kj:あの方,mg:that gentleman;that lady;he;she,vr:彼の方
 あのひと,pp:➂の,kj:あの人,mg:,vr:
 あんた,pp:➁,kj:,mg:,vr:
+いく,pp:➀,kj:行く,mg:to go;to move;to do,vr:
 いくら,pp:➁,kj:幾ら,mg:how much,vr:,ex:入場料はいくらですか。
 いしゃ➀,pp:➀,kj:医者,mg:,vr:,ex:医者に掛[か]かる
 いす,pp:➀,kj:椅子,mg:,vr:
@@ -36,6 +37,7 @@
 がくせい,pp:➀,kj:学生,mg:,vr:
 きょうし,pp:➁,kj:教師,mg:,vr:
 きょうしつ,pp:➀,kj:教室,mg:classroom;department (in a university),vr:
+ぎんこう,pp:➀,kj:銀行,mg:,vr:
 ぎんこういん,pp:➂んこ,kj:銀行員,mg:,vr:
 くだもの,pp:➂だ,kj:果物;菓物,mg:fruit,vr:
 くつ,pp:➃,kj:靴,mg:,vr:
@@ -56,11 +58,15 @@
 じしょ,pp:➁,kj:辞書,mg:,vr:
 じどうしゃ,pp:➁ど➀,kj:自動車,mg:car,vr:,ex:自動車事故[じこ]
 じむしょ,pp:➂む,kj:事務所,mg:,vr:
+すごい,pp:➂ご,kj:凄い,mg:amazing,vr:
 せいしんてき,pp:➀,kj:精神的,mg:mental,vr:,ex:精神的苦痛[くつう]
 せん,pp:➁,kj:千,mg:,vr:阡仟
+せんしゃ➀,pp:➁,kj:戦車,mg:tank;chariot,vr:
+せんしゃ➁,pp:➀,kj:洗車,mg:,vr:
 せんせい,pp:➂んせ,kj:先生,mg:,vr:
 たいいくかいけい,pp:➀,kj:体育会系,mg:sports-minded;sports-oriented,vr:
 だいがく,pp:➀,kj:大学,mg:,vr:
+だいじ,pp:➃,kj:大事,mg:important,vr:
 だびょいん,pp:➀,kj:病院,mg:,vr:
 だれ,pp:➁,kj:誰,mg:,vr:
 だれ,pp:➁,kj:誰,mg:,vr:
@@ -83,8 +89,10 @@
 にほんご,pp:➀,kj:日本語,mg:,vr:
 にほんじん,pp:➃じ,kj:日本人,mg:,vr:
 にゅうじょうりょう,pp:,kj:入場料,mg:entrance fee;admission fee,vr:
+ねむい,pp:➂,kj:眠い,mg:,vr:
 はし,pp:➁,kj:箸,mg:,vr:
 はじめに,pp:,kj:初めに,mg:introduction,vr:
+ばん➀,pp:➀,kj:晚,mg:evening;dinner,vr:
 ひゃく,pp:➃く,kj:百,mg:,vr:
 びょういん,pp:➀,kj:病院,mg:hospital;clinic;doctor's office,vr:
 ふくおかし,pp:➃か,kj:福岡市,mg:,vr:
@@ -111,29 +119,29 @@
 イランじん,pp:➃ラ,kj:,mg:Iranian people,vr:
 イングランド,pp:,kj:,mg:England,vr:
 イントネーション,pp:,kj:,mg:intonation,vr:
-エスカレ─タ─,pp:➂スカレ,kj:,mg:escalator,vr:
-エレベ─タ─,pp:➂レベ,kj:,mg:elevator;lift,vr:
+エスカレーター,pp:➂スカレ,kj:,mg:escalator,vr:
+エレベーター,pp:➂レベ,kj:,mg:elevator;lift,vr:
 エンジニア,pp:➂んじ,kj:,mg:,vr:
-カセットテ─プ,pp:➂セットテ,kj:,mg:cassette tape,vr:
+カセットテープ,pp:➂セットテ,kj:,mg:cassette tape,vr:
 カメラ,pp:➁,kj:,mg:camera,vr:
-コ─ヒ─,pp:➂ヒ,kj:,mg:coffee,vr:
-コンピュ─タ─,pp:➂ンピュ,kj:,mg:,vr:
-シャ─プペンシル,pp:➂─プペ,kj:,mg:mechanical pencil,vr:
-スウェ─デンじん,pp:➃デ,kj:スウェ─デン人,mg:Swedish people,vr:
+コーヒー,pp:➂ヒ,kj:,mg:coffee,vr:
+コンピューター,pp:➂ンピュ,kj:,mg:,vr:
+シャープペンシル,pp:➂ープペ,kj:,mg:mechanical pencil,vr:
+スウェーデンじん,pp:➃デ,kj:スウェーデン人,mg:Swedish people,vr:
 スペイン,pp:,kj:西班牙,mg:,vr:
 スペインご,pp:➀,kj:スペイン語,mg:,vr:
 タイ,pp:➁,kj:泰,mg:,vr:
 タイご,pp:➀,kj:泰語,mg:,vr:
 タバコ,pp:➀,kj:煙草,mg:,vr:
-チョコレ─ト,pp:➂コレ,kj:,mg:,vr:
-テ─プ,pp:➁,kj:,mg:,vr:
-テ─プレコ─ダ─,pp:➂─プレコ,kj:,mg:,vr:
+チョコレート,pp:➂コレ,kj:,mg:,vr:
+テープ,pp:➁,kj:,mg:,vr:
+テープレコーダー,pp:➂ープレコ,kj:,mg:,vr:
 テレビ,pp:➁,kj:,mg:TV,vr:
-テレホンカ─ド,pp:➂レホンカ,kj:,mg:,vr:
+テレホンカード,pp:➂レホンカ,kj:,mg:,vr:
 ディズニーランド,pp:➂ラ,kj:,mg:Disneyland,vr:
 トイレ,pp:➁,kj:,mg:toilet,vr:
 ネクタイ,pp:➁,kj:,mg:necktie,vr:
-ノ─ト,pp:➁,kj:,mg:note,vr:
+ノート,pp:➁,kj:,mg:note,vr:
 ビジュアル,pp:,kj:,mg:visual,vr:ヴィジュアル
 ビジュアルけい,pp:,kj:ビジュアル系,mg:,vr:
 フランス,pp:➀,kj:仏蘭西,mg:,vr:
@@ -142,7 +150,8 @@
 ブラジルじん,pp:➃ル,kj:ブラジル人,mg:Brazilian,vr:
 ベトナム,pp:,kj:,mg:Vietnam,vr:
 ベトナムご,pp:➀,kj:ベトナム語,mg:,vr:
-ボ─ルペン,pp:➀,kj:,mg:,vr:
+ボールペン,pp:➀,kj:,mg:,vr:
+ポチタ,pp:➀,kj:,mg:Pochita,vr:
 モンゴルじん,pp:➃ル,kj:モンゴル人,mg:Mongolian people,vr:
 ラジオ,pp:➁,kj:,mg:radio,vr:
 ロシア,pp:➁,kj:,mg:Russia,vr:
@@ -152,15 +161,34 @@
 ワイン,pp:➁,kj:,mg:wine,vr:
 ヴィジュアル,pp:,kj:,mg:visual,vr:ビジュアル
 ヴィジュアルけい,pp:,kj:ヴィジュアル系,mg:,vr:
-
-ばん➀,pp:➀,kj:晚,mg:evening;dinner,vr:
-ぎんこう,pp:➀,kj:銀行,mg:,vr:
-,pp:,kj:,mg:,vr:
-,pp:,kj:,mg:,vr:
-,pp:,kj:,mg:,vr:
-,pp:,kj:,mg:,vr:
-,pp:,kj:,mg:,vr:
-,pp:,kj:,mg:,vr:
+あさ,pp:➁,kj:朝,mg:,vr:
+いま,pp:➁,kj:今,mg:,vr:
+きょう,pp:➁,kj:今日,mg:,vr:
+けさ,pp:➁,kj:今朝,mg:,vr:
+ごご,pp:➁,kj:午後,mg:,vr:
+はん,pp:➁,kj:半,mg:,vr:
+よる,pp:➁,kj:夜,mg:,vr:
+ごぜん,pp:➁,kj:午前,mg:,vr:
+なんじ,pp:➁,kj:何時,mg:,vr:
+こんばん,pp:➁,kj:今晚,mg:,vr:
+なんばん,pp:➁,kj:何番,mg:,vr:
+なんぶん,pp:➁,kj:何分,mg:,vr:
+まいあさ,pp:➁➀,kj:每朝,mg:,vr:
+まいにち,pp:➁,kj:每日,mg:,vr:
+まいばん,pp:➁➀,kj:每晚,mg:,vr:
+きのう,pp:➂の➀,kj:昨日,mg:,vr:
+かようび,pp:➂よ,kj:火曜日,mg:Tuesday,vr:
+としょかん,pp:➂しょ,kj:図書館,mg:,vr:
+どようび,pp:➂よ,kj:土曜日,mg:Saturday,vr:
+デパート,pp:➂パ,kj:,mg:department store,vr:
+あさって,pp:➂さっ,kj:明後日,mg:,vr:
+おととい,pp:➂とと,kj:一昨日,mg:,vr:
+ばんごう,pp:➂んご,kj:番号,mg:,vr:
+きんようび,pp:➂んよ,kj:金曜日,mg:Friday,vr:
+げつようび,pp:➂つよ,kj:月曜日,mg:Monday,vr:
+すいようび,pp:➂いよ,kj:水曜日,mg:Wednesday,vr:
+なんようび,pp:➂んよ,kj:何曜日,mg:,vr:
+,pp:,kj:日曜日,mg:Sunday,vr:
 ,pp:,kj:,mg:,vr:
 ,pp:,kj:,mg:,vr:
 ,pp:,kj:,mg:,vr:
