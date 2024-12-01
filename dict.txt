@@ -1,5 +1,7 @@
 104（いちれいよん）,pp:➂ちれ,kj:,mg:,vr:
+CD（シー・ティー）,pp:➂ーティ,kj:,mg:,vr:
 あさ,pp:➁,kj:朝,mg:,vr:
+あさごはん,pp:➂さご,kj:朝御飯,mg:breakfast,vr:朝ご飯
 あさって,pp:➂さっ,kj:明後日,mg:,vr:
 あした,pp:➃した,kj:明日,mg:,vr:
 あなた,pp:➂な,kj:,mg:,vr:
@@ -11,20 +13,26 @@
 いしゃ➀,pp:➀,kj:医者,mg:,vr:,ex:医者に掛[か]かる
 いす,pp:➀,kj:椅子,mg:,vr:
 いたい,pp:➂た,kj:痛い,mg:,vr:
+いつか,pp:➀,kj:五日,mg:,vr:
 いま,pp:➁,kj:今,mg:,vr:
 いもうと,pp:➀➂と,kj:,mg:little sister,vr:
 いもうとは,pp:➃と,kj:,mg:little sister,vr:
 うけつけ,pp:➀,kj:受付,mg:reception (desk);information desk;receipt,vr:
 うち,pp:➀,kj:内,mg:within;while;among,vr:
 うば,pp:➀,kj:売り場,mg:selling area;counter;section;department;favorable time to sell,vr:売場
+えいが,pp:➁➀,kj:映画,mg:,vr:
 えいこく,pp:,kj:英国,mg:,vr:
 えいご,pp:➀,kj:英語,mg:,vr:
+えき,pp:➁,kj:駅,mg:,vr:
 えんぴつ,pp:➀,kj:鉛筆,mg:,vr:
 おくに,pp:➀,kj:お国,mg:your/my hometown;countryside,vr:
+おさけ,pp:➀,kj:お酒,mg:,vr:御酒
+おちゃ,pp:➀,kj:お茶,mg:,vr:
 おてあらい,pp:➂てあ,kj:お手洗い,mg:toilet,vr:御手洗
 おとうと,pp:➀➂と,kj:,mg:little brother,vr:
 おとこ,pp:➀,kj:,mg:man,vr:
 おととい,pp:➂とと,kj:一昨日,mg:,vr:
+おはなみ,pp:➀,kj:お花見,mg:cherry blossom viewing,vr:
 おんがく,pp:➁,kj:音楽,mg:music,vr:
 おんな,pp:➀,kj:,mg:woman,vr:
 かいぎしつ,pp:➂いぎ,kj:会議室,mg:,vr:
@@ -35,18 +43,25 @@
 かいわ,pp:,kj:会話,mg:,vr:
 かぎ,pp:,kj:鍵,mg:key;lock,vr:
 かさ,pp:➁,kj:傘,mg:,vr:
+かぞく,pp:➁,kj:家族,mg:family,vr:
+かのじょ,pp:➁,kj:彼女,mg:she;girlfriend,vr:
 かばん,pp:➀,kj:鞄,mg:bag;briefcase,vr:
 かぶつ,pp:,kj:果物,mg:,vr:
 かようび,pp:➂よ,kj:火曜日,mg:Tuesday,vr:
 から,pp:➂,kj:,mg:,vr:
+かれ,pp:➁,kj:彼,mg:,vr:
 かんこく,pp:➁,kj:韓国,mg:,vr:
 かんこくご,pp:➀,kj:韓国語,mg:,vr:
 がくせい,pp:➀,kj:学生,mg:,vr:
+がっこう,pp:➀,kj:学校,mg:,vr:
 きのう,pp:➂の➀,kj:昨日,mg:,vr:
+きゅうこう,pp:➀,kj:急行,mg:,vr:
 きょう,pp:➁,kj:今日,mg:,vr:
 きょうし,pp:➁,kj:教師,mg:,vr:
 きょうしつ,pp:➀,kj:教室,mg:classroom;department (in a university),vr:
+きょねん,pp:➁,kj:去年,mg:,vr:
 きんようび,pp:➂んよ,kj:金曜日,mg:Friday,vr:
+ぎゅうにゅう,pp:➀,kj:牛乳,mg:,vr:
 ぎんこう,pp:➀,kj:銀行,mg:,vr:
 ぎんこういん,pp:➂んこ,kj:銀行員,mg:,vr:
 くだもの,pp:➂だ,kj:果物;菓物,mg:fruit,vr:
@@ -55,32 +70,49 @@
 けさ,pp:➁,kj:今朝,mg:,vr:
 けんきゅうしゃ,pp:➂んきゅ,kj:研究者,mg:,vr:
 げつようび,pp:➂つよ,kj:月曜日,mg:Monday,vr:
+こうちゃ,pp:➀,kj:紅茶,mg:,vr:,ex:紅茶道具一式[こうちゃどうぐいっしき] tea set
 こうとうがっこう,pp:➂が,kj:高等学校,mg:,vr:
 こうべし,pp:➃べ,kj:神戸市,mg:,vr:
+ここのか,pp:➀,kj:九日,mg:,vr:
 こころぃてき,pp:,kj:心ぃ的,mg:psychological,vr:
 こじんてき,pp:➀,kj:個人的,mg:personal,vr:,ex:個人[こじん]的[てき]意見[いけん]
 こちら,pp:➀,kj:此方,mg:this;this person;this (one),vr:,ex:こちらの方[ほう]があちらより値段[ねだん]が高[たか]い。This costs more than that.
+ことし,pp:➀,kj:今年,mg:,vr:
+こんげつ,pp:➀,kj:今月,mg:,vr:
+こんしゅう,pp:➀,kj:今週,mg:,vr:
 こんばん,pp:➁,kj:今晚,mg:,vr:
 ごご,pp:➁,kj:午後,mg:,vr:
 ごぜん,pp:➁,kj:午前,mg:,vr:
+ごはん,pp:➁,kj:御飯,mg:rice;meal,vr:ご飯
 さいこう,pp:,kj:最高,mg:best;supreme;great,vr:
+さかな,pp:➀,kj:魚,mg:,vr:
+さけ,pp:➀,kj:酒,mg:,vr:
 さっぽろし,pp:➃ろ,kj:札幌市,mg:Sapporo City,vr:
 さとう,pp:➁,kj:佐藤,mg:,vr:
 ざっし,pp:➀,kj:雑誌,mg:,vr:
 しゃいん,pp:➁,kj:社員,mg:,vr:
+しゃしん,pp:➀,kj:写真,mg:photo,vr:ex:あなたに何[なん]枚[まい]かの写真を見せましょう。I will show you some pictures.
+しゅくだい,pp:➀,kj:宿題,mg:homework,vr:
 しょくどう,pp:➀,kj:食堂,mg:dining room;dining hall;cafeteria;restaurant,vr:
+しんかんせん,pp:➂んか,kj:新幹線,mg:,vr:
 しんぶん,pp:,kj:新聞,mg:newspaper,vr:
 じしょ,pp:➁,kj:辞書,mg:,vr:
+じてんしゃ,pp:➀,kj:自転車,mg:,vr:
 じどうしゃ,pp:➁ど➀,kj:自動車,mg:car,vr:,ex:自動車事故[じこ]
 じむしょ,pp:➂む,kj:事務所,mg:,vr:
+じゅうよっか,pp:➁,kj:十四日,mg:,vr:
 すいようび,pp:➂いよ,kj:水曜日,mg:Wednesday,vr:
 すごい,pp:➂ご,kj:凄い,mg:amazing,vr:
 せいしんてき,pp:➀,kj:精神的,mg:mental,vr:,ex:精神的苦痛[くつう]
 せん,pp:➁,kj:千,mg:,vr:阡仟
+せんげつ,pp:➁,kj:先月,mg:,vr:
 せんしゃ➀,pp:➁,kj:戦車,mg:tank;chariot,vr:
 せんしゃ➁,pp:➀,kj:洗車,mg:,vr:
+せんしゅう,pp:➀,kj:先週,mg:,vr:
 せんせい,pp:➂んせ,kj:先生,mg:,vr:
 たいいくかいけい,pp:➀,kj:体育会系,mg:sports-minded;sports-oriented,vr:
+たまご,pp:➂ま,kj:卵,mg:,vr:
+たんじょうび,pp:➂んじょ,kj:誕生日,mg:,vr:
 だいがく,pp:➀,kj:大学,mg:,vr:
 だいじ,pp:➃,kj:大事,mg:important,vr:
 だびょいん,pp:➀,kj:病院,mg:,vr:
@@ -88,42 +120,66 @@
 だれ,pp:➁,kj:誰,mg:,vr:
 ちか,pp:➁➃,kj:地下,mg:,vr:
 ちかてつ,pp:,kj:地下鉄,mg:,vr:
+ちかてつ,pp:➀,kj:地下鉄,mg:,vr:
 ちゅうごく,pp:➁,kj:中国,mg:,vr:
 ちゅうごくご,pp:➀,kj:中国語,mg:,vr:
 ちゅうごくじん,pp:➀,kj:中国人,mg:,vr:
+ついたち,pp:➃,kj:一日,mg:,vr:
+つぎ,pp:➃,kj:次,mg:next;stage;station,vr:
 つくえ,pp:➀,kj:机,mg:desk,vr:
+てがみ,pp:➀,kj:手紙,mg:,vr:
 てちょう,pp:➀,kj:手帳,mg:notebook;memo pad,vr:
 でんき,pp:➁,kj:電気,mg:,vr:,ex:このエアコンは電気を多量[たりょう]に消費[しょうひ]する。
+でんしゃ,pp:➀,kj:電車,mg:,vr:
 でんわ,pp:➀,kj:電話,mg:phone call;phone,vr:
 とうきょう,pp:➀,kj:東京,mg:,vr:
+とおか,pp:➀,kj:十日,mg:,vr:
 とけい,pp:➀,kj:時計,mg:,vr:
 としょかん,pp:➂しょ,kj:図書館,mg:,vr:
+とっきゅう,pp:➀,kj:特急,mg:,vr:
+ともだち,pp:➀,kj:友達,mg:,vr:
 どうぶつ,pp:➀,kj:動物,mg:,vr:
 どようび,pp:➂よ,kj:土曜日,mg:Saturday,vr:
 なごやし,pp:,kj:名古屋市,mg:,vr:
+なに,pp:➁,kj:何,mg:what;that thing,vr:
+なのか,pp:➀,kj:七日,mg:,vr:
 なんがい,pp:➀,kj:何階,mg:,vr:
+なんがつ,pp:➁,kj:何月,mg:,vr:
 なんさい,pp:➁,kj:何歳,mg:,vr:
 なんじ,pp:➁,kj:何時,mg:,vr:
+なんにち,pp:➁,kj:何日,mg:,vr:
 なんばん,pp:➁,kj:何番,mg:,vr:
 なんぶん,pp:➁,kj:何分,mg:,vr:
 なんようび,pp:➂んよ,kj:何曜日,mg:,vr:
+にく,pp:➃,kj:肉,mg:,vr:
+にじゅうよっか,pp:➁,kj:二十四日,mg:,vr:
 にちようび,pp:➂ちよ,kj:日曜日,mg:Sunday,vr:
 にほん,pp:,kj:日本,mg:,vr:
 にほんご,pp:➀,kj:日本語,mg:,vr:
 にほんじん,pp:➃じ,kj:日本人,mg:,vr:
 にゅうじょうりょう,pp:,kj:入場料,mg:entrance fee;admission fee,vr:
+にわ,pp:➀,kj:庭,mg:,vr:
 ねむい,pp:➂,kj:眠い,mg:,vr:
 はし,pp:➁,kj:箸,mg:,vr:
 はじめに,pp:,kj:初めに,mg:introduction,vr:
+はつか,pp:➀,kj:二十日,mg:,vr:
+はなみ,pp:➀,kj:花見,mg:cherry blossom viewing,vr:
 はん,pp:➁,kj:半,mg:,vr:
 ばん➀,pp:➀,kj:晚,mg:evening;dinner,vr:
 ばんごう,pp:➂んご,kj:番号,mg:,vr:
+ばんごはん,pp:➂んご,kj:晚御飯,mg:,vr:
+ひこうき,pp:➂こ,kj:飛行機,mg:,vr:
+ひと,pp:➀,kj:人,mg:,vr:
 ひゃく,pp:➃く,kj:百,mg:,vr:
 ひる,pp:➃る,kj:昼,mg:,vr:
+ひるごはん,pp:➂るご,kj:昼御飯,mg:lunch,vr:
 ひるやすみ,pp:➂るや,kj:昼休み,mg:,vr:
 びじゅつかん,pp:➂じゅつ➂じゅ,kj:美術館,mg:,vr:
 びょういん,pp:➀,kj:病院,mg:hospital;clinic;doctor's office,vr:
 ふくおかし,pp:➃か,kj:福岡市,mg:,vr:
+ふつう,pp:➀,kj:普通,mg:,vr:
+ふつか,pp:➀,kj:二日,mg:,vr:
+ふね,pp:➁,kj:船,mg:,vr:
 ぶんか⓵,pp:,kj:文化,mg:,vr:,ex:文化遺産[いさん]
 ぶんか⓶,pp:,kj:文科,mg:,vr:
 ぶんか⓷,pp:,kj:分化,mg:specialization,vr:
@@ -138,13 +194,23 @@
 まいにち,pp:➁,kj:每日,mg:,vr:
 まいばん,pp:➁➀,kj:每晚,mg:,vr:
 まん,pp:➁,kj:万,mg:,vr:
+みず,pp:➀,kj:水,mg:,vr:
+みせ,pp:➃,kj:店,mg:,vr:
+みっか,pp:➀,kj:三日,mg:,vr:
 みなさん,pp:➂な,kj:皆さん,mg:all;everyone,vr:
+むいか,pp:➀,kj:六日,mg:,vr:
 めいし➀,pp:➀,kj:名刺,mg:,vr:
 めいし➁,pp:,kj:名詞,mg:,vr:
 もくようび,pp:➂くよ,kj:木曜日,mg:,vr:
+やさい,pp:➀,kj:野菜,mg:vegetable;marijuana,vr:
 やすみ,pp:➃すみ,kj:休み,mg:,vr:
 ゆうびんきょく,pp:➂うび,kj:郵便局,mg:,vr:
+ようか,pp:➀,kj:八日,mg:,vr:
+よっか,pp:➀,kj:四日,mg:,vr:
 よる,pp:➁,kj:夜,mg:,vr:
+らいげつ,pp:➁,kj:来月,mg:,vr:
+らいしゅう,pp:➀,kj:来週,mg:,vr:
+らいねん,pp:➀,kj:来年,mg:,vr:
 ろんり,pp:,kj:論理,mg:logic,vr:
 ろんりてき,pp:,kj:論理的,mg:,vr:
 わたし,pp:➀,kj:私,mg:,vr:
@@ -161,14 +227,19 @@
 カメラ,pp:➁,kj:,mg:camera,vr:
 コンピューター,pp:➂ンピュ,kj:,mg:,vr:
 コーヒー,pp:➂ヒ,kj:,mg:coffee,vr:
+サッカー,pp:➁,kj:,mg:soccer,vr:
 シャープペンシル,pp:➂ープペ,kj:,mg:mechanical pencil,vr:
+ジュース,pp:➁,kj:,mg:juice,vr:
 スウェーデンじん,pp:➃デ,kj:スウェーデン人,mg:Swedish people,vr:
 スペイン,pp:,kj:西班牙,mg:,vr:
 スペインご,pp:➀,kj:スペイン語,mg:,vr:
+スーパー,pp:➁,kj:,mg:supermarket,vr:
 タイ,pp:➁,kj:泰,mg:,vr:
 タイご,pp:➀,kj:泰語,mg:,vr:
+タクシー,pp:➁,kj:,mg:,vr:
 タバコ,pp:➀,kj:煙草,mg:,vr:
 チョコレート,pp:➂コレ,kj:,mg:,vr:
+テニス,pp:➁,kj:,mg:tennis,vr:
 テレビ,pp:➁,kj:,mg:TV,vr:
 テレホンカード,pp:➂レホンカ,kj:,mg:,vr:
 テープ,pp:➁,kj:,mg:,vr:
@@ -178,8 +249,12 @@
 トイレ,pp:➁,kj:,mg:toilet,vr:
 ネクタイ,pp:➁,kj:,mg:necktie,vr:
 ノート,pp:➁,kj:,mg:note,vr:
+バス,pp:➁,kj:,mg:,vr:
+パン,pp:➁,kj:,mg:bread,vr:
 ビジュアル,pp:,kj:,mg:visual,vr:ヴィジュアル
 ビジュアルけい,pp:,kj:ビジュアル系,mg:,vr:
+ビデオ,pp:➁,kj:,mg:video,vr:
+ビール,pp:➁,kj:,mg:beer,vr:
 フランス,pp:➀,kj:仏蘭西,mg:,vr:
 フランスご,pp:➀,kj:フランス語,mg:,vr:
 フランスじん,pp:➃ス,kj:仏蘭西人,mg:,vr:
@@ -188,8 +263,11 @@
 ベトナムご,pp:➀,kj:ベトナム語,mg:,vr:
 ボールペン,pp:➀,kj:,mg:,vr:
 ポチタ,pp:➀,kj:,mg:Pochita,vr:
+ミルク,pp:➁,kj:,mg:milk,vr:
 モンゴルじん,pp:➃ル,kj:モンゴル人,mg:Mongolian people,vr:
 ラジオ,pp:➁,kj:,mg:radio,vr:
+レストラン,pp:➁,kj:,mg:restaurant,vr:
+レポート,pp:➂ポ➀,kj:,mg:report,vr:
 ロシア,pp:➁,kj:,mg:Russia,vr:
 ロシアご,pp:➀,kj:ロシア語,mg:,vr:
 ロシアじん,pp:➃ア,kj:ロシア人,mg:,vr:
