@@ -1,0 +1,154 @@
+あなた,pp:➂な,kj:,mg:,vr:
+あのかた,pp:➃のかた,kj:あの方,mg:that gentleman;that lady;he;she,vr:彼の方
+あのひと,pp:➂の,kj:あの人,mg:,vr:
+あんた,pp:➁,kj:,mg:,vr:
+いくら,pp:➁,kj:幾ら,mg:how much,vr:,ex:入場料はいくらですか。
+いしゃ➀,pp:➀,kj:医者,mg:,vr:,ex:医者に掛[か]かる
+いす,pp:➀,kj:椅子,mg:,vr:
+いたい,pp:➂た,kj:痛い,mg:,vr:
+いもうと,pp:➀➂と,kj:,mg:little sister,vr:
+いもうとは,pp:➃と,kj:,mg:little sister,vr:
+うけつけ,pp:➀,kj:受付,mg:reception (desk);information desk;receipt,vr:
+うち,pp:➀,kj:内,mg:within;while;among,vr:
+うば,pp:➀,kj:売り場,mg:selling area;counter;section;department;favorable time to sell,vr:売場
+えいこく,pp:,kj:英国,mg:,vr:
+えいご,pp:➀,kj:英語,mg:,vr:
+えんぴつ,pp:➀,kj:鉛筆,mg:,vr:
+おくに,pp:➀,kj:お国,mg:your/my hometown;countryside,vr:
+おてあらい,pp:➂てあ,kj:お手洗い,mg:toilet,vr:御手洗
+おとうと,pp:➀➂と,kj:,mg:little brother,vr:
+おとこ,pp:➀,kj:,mg:man,vr:
+おんがく,pp:➁,kj:音楽,mg:music,vr:
+おんな,pp:➀,kj:,mg:woman,vr:
+かいぎしつ,pp:➂いぎ,kj:会議室,mg:,vr:
+かいしゃ,pp:➀,kj:会社,mg:company;one's workplace,vr:
+かいしゃいん,pp:➂しゃ,kj:会社員,mg:,vr:
+かいだん➀,pp:➀,kj:階段,mg:stairs;stairway,vr:
+かいだん➁,pp:,kj:会談,mg:,vr:
+かいわ,pp:,kj:会話,mg:,vr:
+かぎ,pp:,kj:鍵,mg:key;lock,vr:
+かさ,pp:➁,kj:傘,mg:,vr:
+かばん,pp:➀,kj:鞄,mg:bag;briefcase,vr:
+かぶつ,pp:,kj:果物,mg:,vr:
+から,pp:➂,kj:,mg:,vr:
+かんこく,pp:➁,kj:韓国,mg:,vr:
+かんこくご,pp:➀,kj:韓国語,mg:,vr:
+がくせい,pp:➀,kj:学生,mg:,vr:
+きょうし,pp:➁,kj:教師,mg:,vr:
+きょうしつ,pp:➀,kj:教室,mg:classroom;department (in a university),vr:
+ぎんこういん,pp:➂んこ,kj:銀行員,mg:,vr:
+くだもの,pp:➂だ,kj:果物;菓物,mg:fruit,vr:
+くつ,pp:➃,kj:靴,mg:,vr:
+くに,pp:➀,kj:国,mg:,vr:
+けんきゅうしゃ,pp:➂んきゅ,kj:研究者,mg:,vr:
+こうとうがっこう,pp:➂が,kj:高等学校,mg:,vr:
+こうべし,pp:➃べ,kj:神戸市,mg:,vr:
+こころぃてき,pp:,kj:心ぃ的,mg:psychological,vr:
+こじんてき,pp:➀,kj:個人的,mg:personal,vr:,ex:個人[こじん]的[てき]意見[いけん]
+こちら,pp:➀,kj:此方,mg:this;this person;this (one),vr:,ex:こちらの方[ほう]があちらより値段[ねだん]が高[たか]い。This costs more than that.
+さいこう,pp:,kj:最高,mg:best;supreme;great,vr:
+さっぽろし,pp:➃ろ,kj:札幌市,mg:Sapporo City,vr:
+さとう,pp:➁,kj:佐藤,mg:,vr:
+ざっし,pp:➀,kj:雑誌,mg:,vr:
+しゃいん,pp:➁,kj:社員,mg:,vr:
+しょくどう,pp:➀,kj:食堂,mg:dining room;dining hall;cafeteria;restaurant,vr:
+しんぶん,pp:,kj:新聞,mg:newspaper,vr:
+じしょ,pp:➁,kj:辞書,mg:,vr:
+じどうしゃ,pp:➁ど➀,kj:自動車,mg:car,vr:,ex:自動車事故[じこ]
+じむしょ,pp:➂む,kj:事務所,mg:,vr:
+せいしんてき,pp:➀,kj:精神的,mg:mental,vr:,ex:精神的苦痛[くつう]
+せん,pp:➁,kj:千,mg:,vr:阡仟
+せんせい,pp:➂んせ,kj:先生,mg:,vr:
+たいいくかいけい,pp:➀,kj:体育会系,mg:sports-minded;sports-oriented,vr:
+だいがく,pp:➀,kj:大学,mg:,vr:
+だびょいん,pp:➀,kj:病院,mg:,vr:
+だれ,pp:➁,kj:誰,mg:,vr:
+だれ,pp:➁,kj:誰,mg:,vr:
+ちか,pp:➁➃,kj:地下,mg:,vr:
+ちかてつ,pp:,kj:地下鉄,mg:,vr:
+ちゅうごく,pp:➁,kj:中国,mg:,vr:
+ちゅうごくご,pp:➀,kj:中国語,mg:,vr:
+ちゅうごくじん,pp:➀,kj:中国人,mg:,vr:
+つくえ,pp:➀,kj:机,mg:desk,vr:
+てちょう,pp:➀,kj:手帳,mg:notebook;memo pad,vr:
+でんき,pp:➁,kj:電気,mg:,vr:,ex:このエアコンは電気を多量[たりょう]に消費[しょうひ]する。
+でんわ,pp:➀,kj:電話,mg:phone call;phone,vr:
+とうきょう,pp:➀,kj:東京,mg:,vr:
+とけい,pp:➀,kj:時計,mg:,vr:
+どうぶつ,pp:➀,kj:動物,mg:,vr:
+なごやし,pp:,kj:名古屋市,mg:,vr:
+なんがい,pp:➀,kj:何階,mg:,vr:
+なんさい,pp:➁,kj:何歳,mg:,vr:
+にほん,pp:,kj:日本,mg:,vr:
+にほんご,pp:➀,kj:日本語,mg:,vr:
+にほんじん,pp:➃じ,kj:日本人,mg:,vr:
+にゅうじょうりょう,pp:,kj:入場料,mg:entrance fee;admission fee,vr:
+はし,pp:➁,kj:箸,mg:,vr:
+はじめに,pp:,kj:初めに,mg:introduction,vr:
+ひゃく,pp:➃く,kj:百,mg:,vr:
+びょういん,pp:➀,kj:病院,mg:hospital;clinic;doctor's office,vr:
+ふくおかし,pp:➃か,kj:福岡市,mg:,vr:
+ぶんか⓵,pp:,kj:文化,mg:,vr:,ex:文化遺産[いさん]
+ぶんか⓶,pp:,kj:文科,mg:,vr:
+ぶんか⓷,pp:,kj:分化,mg:specialization,vr:
+ぶんか⓸,pp:,kj:分科,mg:department;section;branch;course;school,vr:
+ぶんか⓹,pp:,kj:分荷,mg:divided delivery of cargo, etc.,vr:
+ぶんか⓺,pp:,kj:分火,mg:passing the flame;spreading (of a sentiment, movement, etc.),vr:
+ぶんか⓻,pp:,kj:分解,mg:,vr:,ex:時計[とけい]を分解するのは組[く]み立[た]てるより簡単[かんたん]だ。Taking a watch apart is easier than putting it together.
+ぶんかてき,pp:,kj:文化的,mg:,vr:
+へや,pp:➃,kj:部屋,mg:room;apartment,vr:
+ほん,pp:➁,kj:本,mg:,vr:
+まん,pp:➁,kj:万,mg:,vr:
+みなさん,pp:➂な,kj:皆さん,mg:all;everyone,vr:
+めいし➀,pp:➀,kj:名刺,mg:,vr:
+めいし➁,pp:,kj:名詞,mg:,vr:
+ろんり,pp:,kj:論理,mg:logic,vr:
+ろんりてき,pp:,kj:論理的,mg:,vr:
+わたし,pp:➀,kj:私,mg:,vr:
+わたしたち,pp:➂たし,kj:私,mg:,vr:
+アメリカじん,pp:➃カ,kj:アメリカ人,mg:,vr:
+イラン,pp:➁,kj:,mg:Iran,vr:
+イランじん,pp:➃ラ,kj:,mg:Iranian people,vr:
+イングランド,pp:,kj:,mg:England,vr:
+イントネーション,pp:,kj:,mg:intonation,vr:
+エスカレ─タ─,pp:➂スカレ,kj:,mg:escalator,vr:
+エレベ─タ─,pp:➂レベ,kj:,mg:elevator;lift,vr:
+エンジニア,pp:➂んじ,kj:,mg:,vr:
+カセットテ─プ,pp:➂セットテ,kj:,mg:cassette tape,vr:
+カメラ,pp:➁,kj:,mg:camera,vr:
+コ─ヒ─,pp:➂ヒ,kj:,mg:coffee,vr:
+コンピュ─タ─,pp:➂ンピュ,kj:,mg:,vr:
+シャ─プペンシル,pp:➂─プペ,kj:,mg:mechanical pencil,vr:
+スウェ─デンじん,pp:➃デ,kj:スウェ─デン人,mg:Swedish people,vr:
+スペイン,pp:,kj:西班牙,mg:,vr:
+スペインご,pp:➀,kj:スペイン語,mg:,vr:
+タイ,pp:➁,kj:泰,mg:,vr:
+タイご,pp:➀,kj:泰語,mg:,vr:
+タバコ,pp:➀,kj:煙草,mg:,vr:
+チョコレ─ト,pp:➂コレ,kj:,mg:,vr:
+テ─プ,pp:➁,kj:,mg:,vr:
+テ─プレコ─ダ─,pp:➂─プレコ,kj:,mg:,vr:
+テレビ,pp:➁,kj:,mg:TV,vr:
+テレホンカ─ド,pp:➂レホンカ,kj:,mg:,vr:
+ディズニーランド,pp:➂ラ,kj:,mg:Disneyland,vr:
+トイレ,pp:➁,kj:,mg:toilet,vr:
+ネクタイ,pp:➁,kj:,mg:necktie,vr:
+ノ─ト,pp:➁,kj:,mg:note,vr:
+ビジュアル,pp:,kj:,mg:visual,vr:ヴィジュアル
+ビジュアルけい,pp:,kj:ビジュアル系,mg:,vr:
+フランス,pp:➀,kj:仏蘭西,mg:,vr:
+フランスご,pp:➀,kj:フランス語,mg:,vr:
+フランスじん,pp:➃ス,kj:仏蘭西人,mg:,vr:
+ブラジルじん,pp:➃ル,kj:ブラジル人,mg:Brazilian,vr:
+ベトナム,pp:,kj:,mg:Vietnam,vr:
+ベトナムご,pp:➀,kj:ベトナム語,mg:,vr:
+ボ─ルペン,pp:➀,kj:,mg:,vr:
+モンゴルじん,pp:➃ル,kj:モンゴル人,mg:Mongolian people,vr:
+ラジオ,pp:➁,kj:,mg:radio,vr:
+ロシア,pp:➁,kj:,mg:Russia,vr:
+ロシアご,pp:➀,kj:ロシア語,mg:,vr:
+ロシアじん,pp:➃ア,kj:ロシア人,mg:,vr:
+ロビー,pp:➁,kj:,mg:lobby;lounge,vr:
+ワイン,pp:➁,kj:,mg:wine,vr:
+ヴィジュアル,pp:,kj:,mg:visual,vr:ビジュアル
+ヴィジュアルけい,pp:,kj:ヴィジュアル系,mg:,vr:
