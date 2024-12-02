@@ -64,7 +64,9 @@ while( true )
 				mb_strlen( $dict[ $input ] ) > 1 )
 			{
 				// append entire string to buffer
-				if( str_starts_with( $dict[ $input ], "*" ) )
+				if( str_starts_with( $dict[ $input ], "*" ) &&
+					mb_strpos( $dict[ $input ], ":" ) === false
+				)
 				{
 					$buffer .= trim( $dict[ $input ], "*" );
 					printBuffer( $buffer );
@@ -72,15 +74,25 @@ while( true )
 				// provide options
 				else
 				{
-					$option_str = $dict[ $input ];
-					$options = array( '' );
-				
-					// create option array
-					for( $i=1; $i<=mb_strlen( $option_str ); $i++ )
+					if( mb_strpos( $dict[ $input ], ":" ) !== false )
 					{
-						array_push( $options, 
-							mb_substr( $option_str, $i-1, 1 ) );		
-					}	
+						$options = array( '' );
+						$options = array_merge( $options,
+							explode(
+								':', trim( $dict[ $input ], "*" ) ) );
+					}
+					else
+					{
+						$option_str = $dict[ $input ];
+						$options = array( '' );
+				
+						// create option array
+						for( $i=1; $i<=mb_strlen( $option_str ); $i++ )
+						{
+							array_push( $options, 
+								mb_substr( $option_str, $i-1, 1 ) );
+						}
+					}
 					// output options
 					print_r( $options );
 					// wait for user option choice
