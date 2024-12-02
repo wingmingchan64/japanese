@@ -117,9 +117,7 @@ CD（シー・ティー）,pp:➂ーティ,kj:,mg:,vr:
 だいじ,pp:➃,kj:大事,mg:important,vr:
 だびょいん,pp:➀,kj:病院,mg:,vr:
 だれ,pp:➁,kj:誰,mg:,vr:
-だれ,pp:➁,kj:誰,mg:,vr:
 ちか,pp:➁➃,kj:地下,mg:,vr:
-ちかてつ,pp:,kj:地下鉄,mg:,vr:
 ちかてつ,pp:➀,kj:地下鉄,mg:,vr:
 ちゅうごく,pp:➁,kj:中国,mg:,vr:
 ちゅうごくご,pp:➀,kj:中国語,mg:,vr:
@@ -184,8 +182,8 @@ CD（シー・ティー）,pp:➂ーティ,kj:,mg:,vr:
 ぶんか⓶,pp:,kj:文科,mg:,vr:
 ぶんか⓷,pp:,kj:分化,mg:specialization,vr:
 ぶんか⓸,pp:,kj:分科,mg:department;section;branch;course;school,vr:
-ぶんか⓹,pp:,kj:分荷,mg:divided delivery of cargo, etc.,vr:
-ぶんか⓺,pp:,kj:分火,mg:passing the flame;spreading (of a sentiment, movement, etc.),vr:
+ぶんか⓹,pp:,kj:分荷,mg:divided delivery of cargo,vr:
+ぶんか⓺,pp:,kj:分火,mg:passing the flame;spreading (of a sentiment or movement),vr:
 ぶんか⓻,pp:,kj:分解,mg:,vr:,ex:時計[とけい]を分解するのは組[く]み立[た]てるより簡単[かんたん]だ。Taking a watch apart is easier than putting it together.
 ぶんかてき,pp:,kj:文化的,mg:,vr:
 へや,pp:➃,kj:部屋,mg:room;apartment,vr:
@@ -275,3 +273,4 @@ CD（シー・ティー）,pp:➂ーティ,kj:,mg:,vr:
 ワイン,pp:➁,kj:,mg:wine,vr:
 ヴィジュアル,pp:,kj:,mg:visual,vr:ビジュアル
 ヴィジュアルけい,pp:,kj:ヴィジュアル系,mg:,vr:
+どなた,pp:,kj:何方,mg:who,vr:
