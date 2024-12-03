@@ -81,68 +81,69 @@ CD（シー・ティー），rm:shi-di-，pp:➂ーティ，kj:，mg:，vr:
 ことし，rm:kotoshi，pp:➀，kj:今年，mg:，vr:
 こんげつ，rm:kongetsu，pp:➀，kj:今月，mg:，vr:
 こんしゅう，rm:konshuu，pp:➀，kj:今週，mg:，vr:
+こんばん，rm:konban，pp:➁，kj:今晚，mg:，vr:
+ごご，rm:gogo，pp:➁，kj:午後，mg:，vr:
+ごぜん，rm:gozen，pp:➁，kj:午前，mg:，vr:
+ごはん，rm:gohan，pp:➁，kj:御飯，mg:rice;meal，vr:ご飯
+さいこう，rm:saikou，pp:，kj:最高，mg:best;supreme;great，vr:
+さかな，rm:sakana，pp:➀，kj:魚，mg:，vr:
+さけ，rm:sake，pp:➀，kj:酒，mg:，vr:
+さっぽろし，rm:sapporoshi，pp:➃ろ，kj:札幌市，mg:Sapporo City，vr:
+さとう，rm:satou，pp:➁，kj:佐藤，mg:，vr:
+ざっし，rm:zasshi，pp:➀，kj:雑誌，mg:，vr:
+しつれい，rm:shitsurei，pp:，kj:失礼，mg:，vr:
+しゃいん，rm:shain，pp:➁，kj:社員，mg:，vr:
+しゃしん，rm:shashin，pp:➀，kj:写真，mg:photo，vr:ex:あなたに何[なん]枚[まい]かの写真を見せましょう。I will show you some pictures.
+しゅくだい，rm:shukudai，pp:➀，kj:宿題，mg:homework，vr:
+しょくどう，rm:shokudou，pp:➀，kj:食堂，mg:dining room;dining hall;cafeteria;restaurant，vr:
+しんかんせん，rm:shinkansen，pp:➂んか，kj:新幹線，mg:，vr:
+しんぶん，rm:shinbun，pp:，kj:新聞，mg:newspaper，vr:
+じしょ，rm:jisho，pp:➁，kj:辞書，mg:，vr:
+じてんしゃ，rm:jitensha，pp:➀，kj:自転車，mg:，vr:
+じどうしゃ，rm:jidousha，pp:➁ど➀，kj:自動車，mg:car，vr:，ex:自動車事故[じこ]
+じむしょ，rm:shimusho，pp:➂む，kj:事務所，mg:，vr:
+じゅうよっか，rm:juuyokka，pp:➁，kj:十四日，mg:，vr:
+すいようび，rm:suiyoubi，pp:➂いよ，kj:水曜日，mg:Wednesday，vr:
+すごい，rm:sugoi，pp:➂ご，kj:凄い，mg:amazing，vr:
+せいしんてき，rm:seishinteki，pp:➀，kj:精神的，mg:mental，vr:，ex:精神的苦痛[くつう]
+せん，rm:sen，pp:➁，kj:千，mg:，vr:阡仟
+せんげつ，rm:sengotsu，pp:➁，kj:先月，mg:，vr:
+せんしゃ，rm:sensha，pp:➁，kj:戦車，mg:tank;chariot，vr:
+せんしゃ，rm:sensha，pp:➀，kj:洗車，mg:，vr:
+せんしゅう，rm:senshuu，pp:➀，kj:先週，mg:，vr:
+せんせい，rm:sensei，pp:➂んせ，kj:先生，mg:，vr:
+たいいくかいけい，rm:taiikukaikei，pp:➀，kj:体育会系，mg:sports-minded;sports-oriented，vr:
+たまご，rm:tamago，pp:➂ま，kj:卵，mg:，vr:
+たんじょうび，rm:tanjoubi，pp:➂んじょ，kj:誕生日，mg:，vr:
+だいがく，rm:daigaku，pp:➀，kj:大学，mg:，vr:
+だいじ，rm:daiji，pp:➃，kj:大事，mg:important，vr:
+だれ，rm:dare，pp:➁，kj:誰，mg:，vr:
+ちか，rm:chika，pp:➁➃，kj:地下，mg:，vr:
+ちかてつ，rm:chikatetsu，pp:➀，kj:地下鉄，mg:，vr:
+ちゅうごく，rm:chuugoku，pp:➁，kj:中国，mg:，vr:
+ちゅうごくご，rm:chuugokugo，pp:➀，kj:中国語，mg:，vr:
+ちゅうごくじん，rm:chuugokujin，pp:➀，kj:中国人，mg:，vr:
+ついたち，rm:tsuitachi，pp:➃，kj:一日，mg:，vr:
+つぎ，rm:tsugi，pp:➃，kj:次，mg:next;stage;station，vr:
+つくえ，rm:tsukue，pp:➀，kj:机，mg:desk，vr:
+てがみ，rm:tegami，pp:➀，kj:手紙，mg:，vr:
+てちょう，rm:techou，pp:➀，kj:手帳，mg:notebook;memo pad，vr:
+でんき，rm:denki，pp:➁，kj:電気，mg:，vr:，ex:このエアコンは電気を多量[たりょう]に消費[しょうひ]する。
+でんしゃ，rm:densha，pp:➀，kj:電車，mg:，vr:
+でんわ，rm:denwa，pp:➀，kj:電話，mg:phone call;phone，vr:
+とうきょう，rm:toukyou，pp:➀，kj:東京，mg:，vr:
+とおか，rm:tooka，pp:➀，kj:十日，mg:，vr:
+とけい，rm:tokei，pp:➀，kj:時計，mg:，vr:
+としょかん，rm:toshokan，pp:➂しょ，kj:図書館，mg:，vr:
+とっきゅう，rm:tokkyuu，pp:➀，kj:特急，mg:，vr:
+ともだち，rm:tomodachi，pp:➀，kj:友達，mg:，vr:
+どうぶつ，rm:doubutsu，pp:➀，kj:動物，mg:，vr:
+どようび，rm:doyoubi，pp:➂よ，kj:土曜日，mg:Saturday，vr:
 
-こんばん，rm:，pp:➁，kj:今晚，mg:，vr:
-ごご，rm:，pp:➁，kj:午後，mg:，vr:
-ごぜん，rm:，pp:➁，kj:午前，mg:，vr:
-ごはん，rm:，pp:➁，kj:御飯，mg:rice;meal，vr:ご飯
-さいこう，rm:，pp:，kj:最高，mg:best;supreme;great，vr:
-さかな，rm:，pp:➀，kj:魚，mg:，vr:
-さけ，rm:，pp:➀，kj:酒，mg:，vr:
-さっぽろし，rm:，pp:➃ろ，kj:札幌市，mg:Sapporo City，vr:
-さとう，rm:，pp:➁，kj:佐藤，mg:，vr:
-ざっし，rm:，pp:➀，kj:雑誌，mg:，vr:
-しゃいん，rm:，pp:➁，kj:社員，mg:，vr:
-しゃしん，rm:，pp:➀，kj:写真，mg:photo，vr:ex:あなたに何[なん]枚[まい]かの写真を見せましょう。I will show you some pictures.
-しゅくだい，rm:，pp:➀，kj:宿題，mg:homework，vr:
-しょくどう，rm:，pp:➀，kj:食堂，mg:dining room;dining hall;cafeteria;restaurant，vr:
-しんかんせん，rm:，pp:➂んか，kj:新幹線，mg:，vr:
-しんぶん，rm:，pp:，kj:新聞，mg:newspaper，vr:
-じしょ，rm:，pp:➁，kj:辞書，mg:，vr:
-じてんしゃ，rm:，pp:➀，kj:自転車，mg:，vr:
-じどうしゃ，rm:，pp:➁ど➀，kj:自動車，mg:car，vr:，ex:自動車事故[じこ]
-じむしょ，rm:，pp:➂む，kj:事務所，mg:，vr:
-じゅうよっか，rm:，pp:➁，kj:十四日，mg:，vr:
-すいようび，rm:，pp:➂いよ，kj:水曜日，mg:Wednesday，vr:
-すごい，rm:，pp:➂ご，kj:凄い，mg:amazing，vr:
-せいしんてき，rm:，pp:➀，kj:精神的，mg:mental，vr:，ex:精神的苦痛[くつう]
-せん，rm:，pp:➁，kj:千，mg:，vr:阡仟
-せんげつ，rm:，pp:➁，kj:先月，mg:，vr:
-せんしゃ➀，rm:，pp:➁，kj:戦車，mg:tank;chariot，vr:
-せんしゃ➁，rm:，pp:➀，kj:洗車，mg:，vr:
-せんしゅう，rm:，pp:➀，kj:先週，mg:，vr:
-せんせい，rm:，pp:➂んせ，kj:先生，mg:，vr:
-たいいくかいけい，rm:，pp:➀，kj:体育会系，mg:sports-minded;sports-oriented，vr:
-たまご，rm:，pp:➂ま，kj:卵，mg:，vr:
-たんじょうび，rm:，pp:➂んじょ，kj:誕生日，mg:，vr:
-だいがく，rm:，pp:➀，kj:大学，mg:，vr:
-だいじ，rm:，pp:➃，kj:大事，mg:important，vr:
-だびょいん，rm:，pp:➀，kj:病院，mg:，vr:
-だれ，rm:，pp:➁，kj:誰，mg:，vr:
-ちか，rm:，pp:➁➃，kj:地下，mg:，vr:
-ちかてつ，rm:，pp:➀，kj:地下鉄，mg:，vr:
-ちゅうごく，rm:，pp:➁，kj:中国，mg:，vr:
-ちゅうごくご，rm:，pp:➀，kj:中国語，mg:，vr:
-ちゅうごくじん，rm:，pp:➀，kj:中国人，mg:，vr:
-ついたち，rm:，pp:➃，kj:一日，mg:，vr:
-つぎ，rm:，pp:➃，kj:次，mg:next;stage;station，vr:
-つくえ，rm:，pp:➀，kj:机，mg:desk，vr:
-てがみ，rm:，pp:➀，kj:手紙，mg:，vr:
-てちょう，rm:，pp:➀，kj:手帳，mg:notebook;memo pad，vr:
-でんき，rm:，pp:➁，kj:電気，mg:，vr:，ex:このエアコンは電気を多量[たりょう]に消費[しょうひ]する。
-でんしゃ，rm:，pp:➀，kj:電車，mg:，vr:
-でんわ，rm:，pp:➀，kj:電話，mg:phone call;phone，vr:
-とうきょう，rm:，pp:➀，kj:東京，mg:，vr:
-とおか，rm:，pp:➀，kj:十日，mg:，vr:
-とけい，rm:，pp:➀，kj:時計，mg:，vr:
-としょかん，rm:，pp:➂しょ，kj:図書館，mg:，vr:
-とっきゅう，rm:，pp:➀，kj:特急，mg:，vr:
-ともだち，rm:，pp:➀，kj:友達，mg:，vr:
-どうぶつ，rm:，pp:➀，kj:動物，mg:，vr:
-どようび，rm:，pp:➂よ，kj:土曜日，mg:Saturday，vr:
 なごやし，rm:，pp:，kj:名古屋市，mg:，vr:
 なに，rm:，pp:➁，kj:何，mg:what;that thing，vr:
 なのか，rm:，pp:➀，kj:七日，mg:，vr:
+なまえ，rm:namae，pp:，kj:名前，mg:，vr:
 なんがい，rm:，pp:➀，kj:何階，mg:，vr:
 なんがつ，rm:，pp:➁，kj:何月，mg:，vr:
 なんさい，rm:，pp:➁，kj:何歳，mg:，vr:
@@ -175,7 +176,7 @@ CD（シー・ティー），rm:shi-di-，pp:➂ーティ，kj:，mg:，vr:
 ひるごはん，rm:，pp:➂るご，kj:昼御飯，mg:lunch，vr:
 ひるやすみ，rm:，pp:➂るや，kj:昼休み，mg:，vr:
 びじゅつかん，rm:，pp:➂じゅつ➂じゅ，kj:美術館，mg:，vr:
-びょういん，rm:，pp:➀，kj:病院，mg:hospital;clinic;doctor's office，vr:
+びょういん，rm:byouin，pp:➀，kj:病院，mg:hospital;clinic;doctor's office，vr:
 ふくおかし，rm:，pp:➃か，kj:福岡市，mg:，vr:
 ふつう，rm:，pp:➀，kj:普通，mg:，vr:
 ふつか，rm:，pp:➀，kj:二日，mg:，vr:

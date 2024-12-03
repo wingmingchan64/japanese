@@ -558,7 +558,7 @@ $dict = array(
 'Brazil'=>'*ブラジル',
 'England'=>'*イギリス',
 'Germany'=>'*ドイツ',
-'Indonesia'=>'*',
+'Indonesia'=>'*インドネシア',
 'Iran'=>'*イラン',
 'Thai'=>'*タイ',
 'The UK'=>'*英国[えいこく]',
@@ -580,10 +580,10 @@ $dict = array(
 'Taro'=>'*太郎[たろう]',
 'Teresa'=>'*テレ─ザ',
 'Thawaphon'=>'*タワポンさん',
+'Tanaka'=>'*田中[たなか]さん',
 'Wang'=>'*ワンさん',
 'Watt'=>'*ワットさん',
 'Yamada'=>'*山田[やまだ]さん',
-'Yamada'=>'*山田さん',
 ''=>'',
 );
 ?>
