@@ -1,6 +1,5 @@
 <?php
 $romaji_kanji = array(
-
 'abiru'=>'*浴びる[あびる]', // take a shower
 'acchi'=>'*あっち', // other side, over there casual
 'achikochi'=>'*あちこち', // all over, here and there
