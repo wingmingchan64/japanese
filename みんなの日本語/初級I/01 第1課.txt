@@ -243,11 +243,17 @@
 
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:1-1/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:20
 Pitch Accent:
+文型[ぶんけい]⓪
+例文[れいぶん]⓪
 医者[いしゃ]⓪
 私[わたし]⓪
 学生[がくせい]⓪
 大学[だいがく]⓪
 病院[びょういん]⓪
+銀行[ぎんこう]⓪
+君[きみ]⓪
+会社[かいしゃ]⓪
+研究[けんきゅう]⓪
 誰[だれ]➀
 教師[きょうし]➀
 社員[しゃいん]➀
@@ -259,7 +265,12 @@ Pitch Accent:
 先生[せ➁んせ➁い]
 会社員[か➁いしゃ➁いん]
 研究者[け➁んきゅ➁うしゃ]
+研究員[け➁んきゅ➁ういん]
 私たち[わたしたち]:わ➁たし➁たち/わ➁た➁したち
 エ➁ンジ➁ニア
 銀行員[ぎ➁んこ➁ういん]
 あの方[かた]③
+
+病[やまい]➀
+社会[しゃかい]➀
+社説[しゃせつ]⓪
