@@ -388,6 +388,7 @@ $romaji_kanji = array(
 'kanojo'=>'*彼女[かのじょ]', // she, one’s girlfriend
 'kantan'=>'*簡単[かんたん]', // simple, easy
 'kao'=>'*顔[かお]', // face
+'kara'=>'*から',
 'karada'=>'*体[からだ]', // body, physique
 'karai'=>'*辛い[からい]', // spicy, hot
 'kare'=>'*彼[かれ]', // he, one’s boyfriend
