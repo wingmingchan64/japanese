@@ -205,3 +205,25 @@
 4) はい、アメリカ人[じん]です。
 5) いいえ、会社員[かいしゃいん]じゃ ありません。
 
+https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:1-1/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:20
+Pitch Accent:
+医者[いしゃ]⓪
+私[わたし]⓪
+学生[がくせい]⓪
+大学[だいがく]⓪
+病院[びょういん]⓪
+誰[だれ]➀
+教師[きょうし]➀
+社員[しゃいん]➀
+電気[でんき]➀
+何歳[なんさい]➀
+あ➁な➁た
+あ➁の➁人[ひと]
+み➁な➁さん
+先生[せ➁んせ➁い]
+会社員[か➁いしゃ➁いん]
+研究者[け➁んきゅ➁うしゃ]
+私たち[わたしたち]:わ➁たし➁たち/わ➁た➁したち
+エ➁ンジ➁ニア
+銀行員[ぎ➁んこ➁ういん]
+あの方[かた]③

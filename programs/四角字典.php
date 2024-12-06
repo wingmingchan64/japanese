@@ -565,6 +565,7 @@ $dict = array(
 'The USA'=>'*アメリカ',
 
 // names
+'Angelia'=>'*エンジニア',
 'Gupta'=>'*グプタさん',
 'Jose'=>'*ジョゼ',
 'Karina'=>'*カリナさん',
