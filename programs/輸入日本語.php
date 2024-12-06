@@ -132,6 +132,41 @@ while( true )
 				printBuffer( $buffer );
 			}
 		}
+		elseif( str_ends_with( $input, '..' ) )
+		{
+			// remove marker
+			$input = str_replace( '..', '', $input );
+			
+			foreach( array_keys( $dict ) as $key )
+			{
+				// use the first key
+				if( !str_starts_with( $key, $input ) )
+				{
+					continue;
+				}
+				$option_str = $dict[ $key ];
+				$options = array( '' );
+				$options = array_merge( $options,
+					explode(
+						':', trim( $dict[ $key ], "*" ) ) );
+				break;
+			}
+			// output options
+			print_r( $options );
+			// wait for user option choice
+			$num = intval( readline() );
+		
+			if( $num >= 0 && $num < sizeof( $options ) )
+			{
+				$buffer .= $options[ $num ];
+				printBuffer( $buffer );
+			}
+			else
+			{
+				echo "Not a valid option. Try again.\n";
+			}
+
+		}
 		else
 		{
 			echo "Not a valid key. Try again.\n";
