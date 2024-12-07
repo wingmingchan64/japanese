@@ -129,9 +129,14 @@ $romaji_kanji = array(
 'atsumeru'=>'*集める[あつめる]', // あ➁つめ➁る collect, gather
 'atsusa'=>'*厚さ[あつさ]:暑さ[]', // ⓪ thickness; ➀ heat
 'atsusaatari'=>'*暑さあたり', // あ➁つさ'あ➁たり heatstroke
-
-'au'=>'*会う[あう]', // meet
-'au'=>'*合う[あう]', // fit, match
+'au'=>'*会[あ]う:合[あ]う:遭[あ]う:遇[あ]う', // ➀ meet; ➀ fit, match; ➀ meet, encounter, get caught in
+'awaseru'=>'*合[あ]わせる', // あ➁わせ➁る match (something), adapt (oneself)
+'awatadashii'=>'*慌ただしい[]', // busy and hurried
+'awateru'=>'*慌てる[]', // be flustered, be in a hurry
+'ayamaru'=>'*謝る[]', // apologize
+'ayashii'=>'*怪しい[]', // suspicious, dubious
+'azukaru'=>'*預かる[]', // take care of, keep
+'azukeru'=>'*預ける[]', // deposit, leave (something) with (someone)
 'baai'=>'*場合[ばあい]', // situation, case
 'ban'=>'*晩[ばん]', // evening, night from sunset to bedtime
 'bangumi'=>'*番組[ばんぐみ]', // program
