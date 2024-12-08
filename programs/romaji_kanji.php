@@ -646,6 +646,7 @@ $romaji_kanji = array(
 'kangaeru'=>'*考える[かんがえる]', // think, consider
 'kanji'=>'*漢字[かんじ]', // Chinese character
 'kanjiru'=>'*感じる[かんじる]', // feel, sense
+'kankokugo'=>'*韓国[かんこく]語[ご]',
 'kanojo'=>'*彼女[かのじょ]', // she, one’s girlfriend
 'kantan'=>'*簡単[かんたん]', // simple, easy
 'kao'=>'*顔[かお]', // face

@@ -568,6 +568,7 @@ $dict = array(
 'Iran'=>'*イラン', // ①
 'Italy'=>'*イタリア', // ⓪
 'kitaamerika'=>'*北[きた]アメリカ', // ➁た'ア➁
+'Korea'=>'*韓国[かんこく]',
 'Malasia'=>'*マレーシア', // ➁レ➁
 'minimiamerika'=>'*南[みなみ]アメリカ',
 'Mongolia'=>'*モンゴル', // ①
