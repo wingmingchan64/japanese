@@ -297,7 +297,6 @@
 サントス：     コーヒーます。
 山田[やまだ]： どうも ありがとうございます。
 
-
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:2-2/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:100
 Pitch Accent:
 
@@ -377,3 +376,4 @@ https://www.youtube.com/watch?v=94F5sTXhhjg
 電話[でんわ]番号[ばんごう]
 あなたの電話[でんわ]番号[ばんごう]は何[なん]ですか。
 私[わたし]の番号[ばんごう]は◯◯[まるまる]です。
+408[よんまるはち]
