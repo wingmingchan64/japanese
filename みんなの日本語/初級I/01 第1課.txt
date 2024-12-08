@@ -281,25 +281,30 @@
 
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:1-1/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:20
 Pitch Accent:
+漢字[かんじ]⓪
+ローマ字➁
 文型[ぶんけい]⓪
 例文[れいぶん]⓪
 会話[かいわ]⓪
 練習[れんしゅう]⓪
 問題[もんだい]⓪
 例[れい]➀
-医者[いしゃ]⓪
+仕事[しごと]⓪
+医者[いしゃ]⓪，お医者さん
 私[わたし]⓪
 学生[がくせい]⓪
 大学[だいがく]⓪
+大学[だいがく]生[せい]➁いがく➁
 病院[びょういん]⓪
 銀行[ぎんこう]⓪
 君[きみ]⓪
 会社[かいしゃ]⓪
 研究[けんきゅう]⓪
-誰[だれ]➀
+誰[だれ]➀，どなた（politer）
 教師[きょうし]➀
 社員[しゃいん]➀
 電気[でんき]➀
+何[なん]➀，なに
 何歳[なんさい]➀
 あ➁な➁た
 あ➁の➁人[ひと]
@@ -312,7 +317,42 @@ Pitch Accent:
 エ➁ンジ➁ニア
 銀行員[ぎ➁んこ➁ういん]
 あの方[かた]③
+父[ちち]③
 
 病[やまい]➀
 社会[しゃかい]➀
 社説[しゃせつ]⓪
+グーグル ➀ Google
+
+https://www.youtube.com/watch?v=1JephUxTHxg&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE
+in じゃ ありません,じゃ is the contraction of では
+じゃ ありませんか isn't it?
+あの 人[ひと]（方[かた]）は 誰[だれ]ですか。
+
+Practice:
+初[はじ]めまして。
+初[はじ]めまして。
+私[わたし]はたかしです。
+お名前[なまえ]は何[なん]ですか。
+私[わたし]は◯◯[まるまる]です。
+どうぞよろしくお願い[おねがい]。
+こちらこそ よろしくお願い[おねがい]。
+◯◯[まるまる]さんは日本人ですか。
+いいえ、アメリカ人です。
+たかしさんは？
+僕[ぼく]は日本人です。
+お仕事[しごと]は何[なん]ですか。
+私[わたし]は大学[だいがく]生[せい]です。
+たかしさんは？
+僕[ぼく]は銀行員[ぎんこういん]です。
+私[わたし]の父も銀行員[ぎんこういん]です。
+何[ど]の銀行[ぎんこう]ですか。
+アメリカの銀行[ぎんこう]です。
+
+おつかれさまでした。 Thank you for your hard work.
+
+Sentences:
+「はじめまして、ジェイムズさん。」
+「こちらこそ、あなたにお会[あ]いできて、こんなに嬉[うれ]しいことはありません。」
+"Pleased to meet you, Mr. James."
+"The pleasure is all mine. It's an honor to make your acquaintance."
