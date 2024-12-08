@@ -563,6 +563,7 @@ $romaji_kanji = array(
 'kongetsu'=>'*今月[こんげつ]', // this month
 'konichiwa'=>'*こんにちは',
 'konkai'=>'*今回[こんかい]', // this time
+'kono'=>'*この', // ⓪
 'konogoro'=>'*この頃[このごろ]', // these days, recently
 'konpuutaa'=>'*コンピューター',
 'konpyuutaa'=>'*コンピューター', // computer
