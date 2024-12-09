@@ -187,7 +187,7 @@ CD（シー・ティー），rm:shi-di-，pp:➁ーティ，kj:，mg:，vr:
 ぶんか，rm:bunka，pp:，kj:分火，mg:passing the flame;spreading (of a sentiment or movement)，vr:
 ぶんか，rm:bunka，pp:，kj:分科，mg:department;section;branch;course;school，vr:
 ぶんか，rm:bunka，pp:，kj:分荷，mg:divided delivery of cargo，vr:
-ぶんか，rm:bunka，pp:，kj:分解，mg:，vr:，ex:時計[とけい]を分解するのは組[く]み立[た]てるより簡単[かんたん]だ。Taking a watch apart is easier than putting it together.
+ぶんか，rm:bunka，pp:，kj:分解，mg:，vr:，ex:時[と]計[けい]を分解するのは組[く]み立[た]てるより簡単[かんたん]だ。Taking a watch apart is easier than putting it together.
 ぶんか，rm:bunka，pp:，kj:文化，mg:，vr:，ex:文化遺産[いさん]
 ぶんか，rm:bunka，pp:，kj:文科，mg:，vr:
 へや，rm:heya，pp:➂，kj:部屋，mg:room;apartment，vr:
