@@ -5,7 +5,13 @@ php H:\github\japanese\programs\輸入日本語.php
 // 字庫
 require_once( "H:\\github\\japanese\\programs\\四角字典.php" );
 require_once( "H:\\github\\japanese\\programs\\romaji_kanji.php" );
-$dict = array_merge( $dict, $romaji_kanji );
+
+// do not use array_merge!!!
+foreach( $romaji_kanji as $k => $v )
+{
+	$dict[ $k ] = $v;
+}
+$NL = "\r\n";
 
 $out_file = 'h:\php809\code\buffer.txt';
 $input    = "";
@@ -59,10 +65,14 @@ while( true )
 		// read the value of a key
 		elseif( array_key_exists( $input, $dict ) )
 		{
+			//echo 'here 1', $input, "\r\n";
+			//echo $dict[ $input ], "stop\r\n";
+			
 			// more than one 漢字符 in value
 			if( is_string( $dict[ $input ] ) && 
 				mb_strlen( $dict[ $input ] ) > 1 )
 			{
+				//echo 'here 2', $input, "\r\n";
 				// append entire string to buffer
 				if( str_starts_with( $dict[ $input ], "*" ) &&
 					mb_strpos( $dict[ $input ], ":" ) === false
@@ -111,6 +121,8 @@ while( true )
 			}
 			elseif( is_array( $dict[ $input ] ) )
 			{
+				//echo 'here 3', $input, "\r\n";
+
 				// output options
 				print_r( $dict[ $input ] );
 				
@@ -128,6 +140,7 @@ while( true )
 			}
 			else
 			{
+				//echo 'here 4', $input, "\r\n";
 				$buffer .= $dict[ $input ];
 				printBuffer( $buffer );
 			}
