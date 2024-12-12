@@ -1,6 +1,6 @@
 <?php
 /*
-key => : separated values
+key => : separated values // accent meaning
 */
 $romaji_kanji = array(
 'aa'=>'*ああ', // ➀ like that, that much
@@ -282,6 +282,8 @@ $romaji_kanji = array(
 'chosha'=>'*著[ちょ]者[しゃ]', // ➀ author, writer
 'chotto'=>'*ちょっと', // just a moment, just a little
 'chou'=>'*朝[ちょう]:兆[ちょう]', // ➀ dynasty, period
+'chouon'=>'*長[ちょう]音[おん]', // ➀ 
+
 'chousen'=>'*朝[ちょう]鮮[せん]', // ちょ➁うせ➁ん
 'choudo'=>'*ちょうど', // ⓪ 丁度、恰度 just, exactly
 'choujo'=>'*長[ちょう]女[じょ]', // ➀ eldest daughter
@@ -487,7 +489,7 @@ $romaji_kanji = array(
 'hajimete'=>'*初[はじ]めて', // for the first time
 'hakkiri'=>'*はっきり', // clearly
 'hakobu'=>'*運[はこ]ぶ', // carry, transport
-'haku'=>'*履[は]く', // put on shoes, wear pants, skirt
+'haku'=>'*履[は]く:拍[はく]', // ⓪ put on shoes, wear pants, skirt; ➀ mora
 'han'=>'*半[はん]',
 'hana'=>'*花[はな]:鼻[はな]', // ➂ flower; ⓪ nose
 'hanashi'=>'*話[はなし]', // ➂ talk, story
@@ -507,6 +509,7 @@ $romaji_kanji = array(
 'hashiru'=>'*走[はし]る', // run
 'hassen'=>'*八[はっ]千[せん]',
 'hataraku'=>'*働[はたら]く', // work
+'hatsuon'=>'*発[はつ]音[おん]', // ⓪
 'hatsuka'=>'*二十日[はつか]', // days, 20th of the month
 'hayai'=>'*早[はや]い:速[はや]い', // ➁ early; ➁ fast
 'hayaku'=>'*早[はや]く', // early, soon
@@ -680,6 +683,7 @@ $romaji_kanji = array(
 'kami'=>'*紙[かみ]', // paper
 'kami'=>'*髪[かみ]', // hair, hairstyle
 'kaminoke'=>'*髪の毛[かみのけ]', // hair, each single hair
+'kana'=>'*仮[か]名[な]', //  ⓪
 'kanarazu'=>'*必ず[かならず]', // without exception, always
 'kanari'=>'*かなり', // fairly, rather
 'kanashii'=>'*悲しい[かなしい]', // sad
