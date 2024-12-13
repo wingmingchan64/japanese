@@ -324,6 +324,7 @@ Pitch Accent:
 父[ちち] ③
 失[しつ]礼[れい] ➁つ➁
 名[な]前[まえ] ⓪
+お名前
 
 病[やまい]➀
 社[しゃ]会[かい]➀
@@ -351,17 +352,20 @@ Practice:
 私[わたし]は大[だい]学[がく]生[せい]です。
 たかしさんは？
 僕[ぼく]は銀[ぎん]行[こう]員[いん]です。
-私[わたし]の父も銀[ぎん]行[こう]員[いん]です。
+私[わたし]の父[ちち]も銀[ぎん]行[こう]員[いん]です。
 何[ど]の銀[ぎん]行[こう]ですか。
 アメリカの銀[ぎん]行[こう]です。
 
-おつかれさまでした。 Thank you for your hard work.
+おつかれさまでした。
+Thank you for your hard work.
 お疲[つか]れ様[さま] ⓪
-でした： です
+様： to make a word more polite, often used with お
+でした： past tense of です
 
 Sentences:
 「はじめまして、ジェイムズさん。」
-「こちらこそ
-、あなたにお会[あ]いできて、こんなに嬉[うれ]しいことはありません。」
+「こちらこそ、あなたにお会[あ]いできて、こんなに嬉[うれ]しい ことはありません。」
 "Pleased to meet you, Mr. James."
 "The pleasure is all mine. It's an honor to make your acquaintance."
+こんなに： this much
+嬉[うれ]しい： happy あなたに 再会できてうれしい。
