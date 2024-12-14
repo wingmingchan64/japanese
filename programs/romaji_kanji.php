@@ -405,16 +405,16 @@ $romaji_kanji = array(
 'douri'=>'*通[どお]り', // ➂
 'douro'=>'*道[どう]路[ろ]', // ➀ road
 'douse'=>'*どうせ', // ⓪ anyway
-'doushite'=>'*どうして', // how come
-'doushitemo'=>'*どうしても[]', // by any means, really
-'douyou'=>'*同様[]', // similar, the same as
+'doushite'=>'*どうして', // ➀ 如何して how come
+'doushitemo'=>'*どうしても', // ➁うして➁ by any means, really
+'douyou'=>'*同[どう]様[よう]', // ⓪ similar, the same as
 'douzo'=>'*どうぞ', // please, here you are
 'doyoubi'=>'*土[ど]曜[よう]日[び]', // Saturday
 'douzoyoroshiku'=>'*どうぞよろしく:どうぞよろしくお願い[おねがい]', // please to meet you; please be nice to me
-'e'=>'*絵', // picture, painting
-'eakon'=>'*エアコン', // air-conditioning, air conditioner
-'eameeru'=>'*エアメール', // airmail
-'ebi'=>'*えび', // 海老 shrimp, prawn, lobster
+'e'=>'*絵', // ➀ picture, painting
+'eakon'=>'*エアコン', // ⓪ air-conditioning, air conditioner
+'eameeru'=>'*エアメール', // ➁アメ➁ airmail
+'ebi'=>'*えび', // ⓪ 海老，蝦 shrimp, prawn, lobster
 'enoku'=>'*絵[え]の具[ぐ]', // ⓪ paint; coloring materials; colors; colours
 'ee'=>'*ええ', // ➀
 'egaku'=>'*描[えが]く', // ➁ depict, draw
@@ -446,22 +446,35 @@ $romaji_kanji = array(
 'fan'=>'*ファン', // ➀ fan, admirer
 'fasshon'=>'*ファッション', // ➀ fashion
 'fooku'=>'*フォーク', // ➀ fork
-
 'fuan'=>'*不[ふ]安[あん]', // ⓪ uneasy, worried
 'fuben'=>'*不[ふ]便[べん]', // ➀ inconvenient
 'fudan'=>'*普[ふ]段[だん]', // ➀ usual, ordinary
 'fudan'=>'*普[ふ]段[だん]着[ぎ]', // ➁ everyday clothes; ordinary clothes; casual wear; informal dress
-
-'fudousanya'=>'*不動産屋[]', // real estate agent
-
-
-'fueru'=>'*増[ふ]える', // increase, accrue
-'fuji'=>'*富[ふ]士[じ]',
+'fudousanya'=>'*不[ふ]動[どう]産[さん]]', // ➁ど➁ real estate agent, realtor
+'fudousanya'=>'*不[ふ]動[どう]産[さん]屋[や]', // ⓪ real estate agent, realtor
+'fueru'=>'*増[ふ]える', // ➁ increase, accrue
+'firumu'=>'*フィルム', // ➀ also フイルム film
+'fuji'=>'*富[ふ]士[じ]', // ➀ 
 'fujidaigaku'=>'*富[ふ]士[じ]大[だい]学[がく]',
-'fukai'=>'*深[ふか]い', // deep, profound
+'fukai'=>'*深[ふか]い', // ➁ deep, profound
 'fuku'=>'*服[ふく]', // clothes
 'fukushuu'=>'*復習[ふくしゅう]', // review
 'fukuzatsu'=>'*複雑[ふくざつ]', // complicated, intricate
+
+'fukanou'=>'*不[ふ]可[か]能[のう]', // ➁ impossible
+'fukanou'=>'*不[ふ]可[か]能[のう]性[せい]', // ⓪ impossibility
+'fukasa'=>'*深さ[]', // depth, profundity
+'fukou'=>'*不幸[]', // unhappiness, misfortune
+'fuku'=>'*吹く[]', // blow, play (a wind instrument)
+'fuku'=>'*拭く[]', // wipe, dry
+'fuku'=>'*服[]', // clothes (colloquial)
+'fukumeru'=>'*含める[]', // include
+'fukumu'=>'*含む[]', // contain, include
+'fukuro'=>'*袋[]', // bag, sack
+'fukushuu'=>'*復習[]', // review
+'fukuzatsu'=>'*複雑[]', // complicated, intricate
+
+
 'fun'=>'*分[ふん]:分[ぷん]',
 'furo'=>'*風呂[ふろ]', // bath
 'furu'=>'*振る[ふる]', // wave, shake
@@ -754,6 +767,10 @@ $romaji_kanji = array(
 'kanjiru'=>'*感じる[かんじる]', // feel, sense
 'kankokugo'=>'*韓国[かんこく]語[ご]',
 'kanojo'=>'*彼女[かのじょ]', // she, one’s girlfriend
+'kannou'=>'*可[か]能[のう]', // ⓪
+'kannousei'=>'*可[か]能[のう]性[せい]', // ⓪
+
+
 'kantan'=>'*簡単[かんたん]', // simple, easy
 'kao'=>'*顔[かお]', // face
 'kara'=>'*から', // アメリカから，これから
@@ -1479,7 +1496,7 @@ $romaji_kanji = array(
 'uketoru'=>'*受け取る[うけとる]', // receive, get
 'uketsuke'=>'*受[うけ]付[つけ]', // ⓪ reception (desk), information desk
 'uma'=>'*馬[うま]', // horse
-'umai'=>'*うまい', // good at, sweet, delicious
+'umai'=>'*うまい', // ➁ good at, sweet, delicious
 'umareru'=>'*生まれる[うまれる]', // be born, come into existence
 'umi'=>'*海[うみ]', // sea, ocean
 'un'=>'*うん', // casual yes
