@@ -477,15 +477,15 @@ $romaji_kanji = array(
 'fukuro'=>'*袋[]', // bag, sack
 'fukushuu'=>'*復習[]', // review
 'fukuzatsu'=>'*複雑[]', // complicated, intricate
-
-
+'fumi'=>'*文[ふみ]:書[ふみ]', // ➀ letter, mail, book, sentence
 'fun'=>'*分[ふん]:分[ぷん]',
+'fune'=>'*船[ふね]', // ➀
+
 'furo'=>'*風呂[ふろ]', // bath
 'furu'=>'*振る[ふる]', // wave, shake
 'furu'=>'*降る[ふる]', // fall, come down rain, snow, etc.
 'furui'=>'*古[ふる]い', // old
-'futari'=>'*二人[ふたり]',
-'futari'=>'*二人[ふたり]', // two persons
+'futari'=>'*二[ふた]人[り]', // two persons
 'futatsu'=>'*二[ふた]つ', // two things
 'futoi'=>'*太[ふと]い', // thick, fat
 'futsuka'=>'*二日[ふつか]', // two days, second of the month
@@ -503,6 +503,7 @@ $romaji_kanji = array(
 'geemu'=>'*ゲーム', // game
 'genkan'=>'*玄関[げんかん]', // entrance, door
 'genki'=>'*元[げん]気[き]', // ➀ healthy, energetic
+'getsu'=>'*月[げつ]', // ➀
 'getsumatsu'=>'*月[げつ]末[まつ]', // ⓪
 'getsuyoubi'=>'*月[げつ]曜[よう]日[び]', // Monday
 'gekkyou'=>'*月[げっ]給[きゅう]', // ⓪ monthly salary
@@ -515,7 +516,9 @@ $romaji_kanji = array(
 'gochisou'=>'*ごちそう', // feast, treat
 'gochisousuru'=>'*ごちそうする', // treat, host a meal
 'gogo'=>'*午後[ごご]', // afternoon, p.m.
-'gohan'=>'*ご飯[ごはん]', // meal, cooked rice 
+'gohan'=>'*ご飯[はん]:御[ご]飯[はん]:誤[ご]判[はん]', // ➀ meal, cooked rice; ⓪
+'gohandoki'=>'*ご飯[はん]時[どき]', // ⓪ mealtime
+'gohanya'=>'*ご飯[はん]屋[や]', // ⓪ eatery, restaurant
 'gohyaku'=>'*五[ご]百[ひゃく]',
 'gojuu'=>'*五[ご]十[じゅう]',
 
@@ -622,9 +625,6 @@ $romaji_kanji = array(
 'houhouron'=>'*方[ほう]法[ほう]論[ろん]', // ➁うほ➁
 
 'houkou'=>'*方向[ほうこう]', // direction, course
-'humi'=>'*文[ふみ]:書[ふみ]', // ➀ letter, mail, book, sentence
-'hun'=>'*分[ふん]:分[ぷん]',
-'hutari'=>'*二[ふた]人[り]',
 
 
 'hyaku'=>'*百[ひゃく]', // ➂ hundred
@@ -647,6 +647,9 @@ $romaji_kanji = array(
 'ima'=>'*今[いま]:居[い]間[ま]', // ➀ now; ⓪ sitting room (western)
 'imi'=>'*意味[いみ]', // meaning, sense
 'imouto'=>'*妹[いもうと]', // younger sister
+'infureeshon'=>'*インフレーション', // ➁ンフレ➁ inflation
+
+
 'inu'=>'*犬[いぬ]', // dog
 'ippai'=>'*いっぱい', // full
 'ippiki'=>'*一匹[いっぴき]',
@@ -676,7 +679,7 @@ $romaji_kanji = array(
 'jaarimasen'=>'*じゃありません',
 'jagaimo'=>'*ジャガイモ', // potato
 'ji'=>'*じ:字[じ]:時[じ]', // individual character, letter
-'jibun'=>'*自[じ]分[ぶん]', // ⓪ self, oneself
+'jibun'=>'*自[じ]分[ぶん]', // ⓪ self, oneself, myself
 'jidai'=>'*時[じ]代[だい]', // ⓪ age, era, oldness, antique
 'jidai'=>'*時[じ]代[だい]物[もの]', // ⓪ antique; pre-Meiji period drama; period piece
 'jidaigeki'=>'*時[じ]代[だい]劇[げき]', // ➁だ➁ historical play; period drama
@@ -705,7 +708,7 @@ $romaji_kanji = array(
 'jitaku'=>'*自宅[じたく]', // one’s house, one’s home
 'jiten'=>'*時[じ]点[てん]', // ➀ point in time; occasion
 
-'jitensha'=>'*自転車[じてんしゃ]', // bicycle
+'jitensha'=>'*自[じ]転[てん]車[しゃ]', // ⓪ bicycle
 'jiyuu'=>'*自由[じゆう]', // freedom
 'josei'=>'*女[じょ]性[せい]', // ⓪ woman, female
 'joubu'=>'*丈夫[じょうぶ]', // healthy, sturdy
@@ -774,9 +777,11 @@ $romaji_kanji = array(
 'kanji'=>'*漢字[かんじ]', // Chinese character
 'kanjiru'=>'*感じる[かんじる]', // feel, sense
 'kankokugo'=>'*韓国[かんこく]語[ご]',
-'kanojo'=>'*彼女[かのじょ]', // she, one’s girlfriend
 'kannou'=>'*可[か]能[のう]', // ⓪
 'kannousei'=>'*可[か]能[のう]性[せい]', // ⓪
+'kanojo'=>'*彼[かの]女[じょ]', // ➀ she, one’s girlfriend
+'kanojora'=>'*彼[かの]女[じょ]自[じ]身[しん]', // herself, she herself
+'kanojora'=>'*彼[かの]女[じょ]ら', // they, them
 
 
 'kantan'=>'*簡単[かんたん]', // simple, easy
@@ -807,7 +812,10 @@ $romaji_kanji = array(
 'kaze'=>'*風[かぜ]', // wind
 'kaze'=>'*風邪[かぜ]', // cold illness
 'kazegusuri'=>'*風邪薬[かぜぐすり]', // cold medicine
-'kazoku'=>'*家族[かぞく]', // family, household
+'kazoku'=>'*家[か]族[ぞく]', // ➀ family, household
+'kazokukeikaku'=>'*家[か]族[ぞく]計[けい]画[かく]', // ➁ぞくけ➁ family planning
+
+'kazoku'=>'*家[か]族[ぞく]旅[りょ]行[こう]', // family vacation; family trip
 'kei'=>'*兄[けい]', // ➀
 'keiken'=>'*経験[けいけん]', // experience, knowledge
 'keisatsu'=>'*警察[けいさつ]', // police
@@ -943,7 +951,7 @@ $romaji_kanji = array(
 'kyou'=>'*教[きょう]育[いく]', // ⓪
 
 'kyoku'=>'*曲[きょく]', // piece of music
-'kyonen'=>'*去年[きょねん]', // last year
+'kyonen'=>'*去[きょ]年[ねん]', // ➀ last year
 'kyoushitsu'=>'*教室[きょうしつ]',
 'kyou'=>'*今日[きょう]', // today
 'kyoudai'=>'*兄弟[きょうだい]', // sibling
@@ -952,6 +960,12 @@ $romaji_kanji = array(
 'kyoushi'=>'*教師[きょうし]', // ➀ teacher, instructor
 'kyoushitsu'=>'*教[きょう]室[しつ]', // ⓪ classroom, class
 'kyuu'=>'*九[きゅう]', // nine used before counter words
+
+'kyuukou'=>'*急[きゅう]行[こう]', // ⓪ hurrying; express
+'kyuukou'=>'*急[きゅう]行[こう]便[びん]', // express mail
+'kyuukouressha'=>'*急[きゅう]行[こう]列[れっ]車[しゃ]', // ➁うこうれ➁
+'kyuukouteishaeki'=>'*急[きゅう]行[こう]停[てい]車[しゃ]駅[えき]', // 
+
 'kyuuhyaku'=>'*九[きゅう]百[ひゃく]',
 'kyuuni'=>'*急に[きゅうに]', // suddenly, unexpectedly
 'kyuuryou'=>'*給料[きゅうりょう]', // salary, pay
@@ -1091,6 +1105,7 @@ $romaji_kanji = array(
 'nema'=>'*寝[ね]間[ま]', // ➂
 'nemuru'=>'*眠[ねむ]る', // sleep, lie idle
 'nendo'=>'*年[ねん]度[ど]', // year, school year
+'nenkan'=>'*年[ねん]', // ➀
 'nenkan'=>'*年[ねん]間[かん]', // period of one year
 'neru'=>'*寝[ね]る', // ⓪ lie down and sleep, go to sleep
 'netsu'=>'*熱[ねつ]', // heat, fever
@@ -1289,7 +1304,7 @@ $romaji_kanji = array(
 'sen'=>'*千[せん]:線[せん]', // ⓪ thousand,line
 'sensei'=>'*先[せん]生[せい]', // teacher
 'senshu'=>'*選[せん]手[しゅ]', // athlete, sports player
-'senshuu'=>'*先[せん]週[しゅう]', // last week
+'senshuu'=>'*先[せん]週[しゅう]', // ⓪ last week
 'sentaku'=>'*洗[せん]濯[たく]', // laundry, washing
 'setsu'=>'*説[せつ]', // ➀ theory, opinion, rumour
 'setsumei'=>'*説[せつ]明[めい]', // ⓪ explanation, description
@@ -1317,6 +1332,7 @@ $romaji_kanji = array(
 'shinbun'=>'*新[しん]聞[ぶん]', // newspaper
 'shingou'=>'*信[しん]号[ごう]', // signal, traffic light
 'shinjiru'=>'*信[しん]じる', // believe, trust
+'shinkansen'=>'*新[しん]幹[かん]線[せん]', // ➁んか➁
 'shinoosaka'=>'*新[しん]大[おお]阪[さか]', // ➁んお➁
 'shinpai'=>'*心[しん]配[ぱい]', // anxiety, worry
 'shinu'=>'*死[し]ぬ', // die
@@ -1393,6 +1409,7 @@ $romaji_kanji = array(
 'suu'=>'*数[すう]', // ➀ number
 'suugaku'=>'*数[すう]学[がく]', // ⓪ mathematics
 'suuji'=>'*数[すう]字[じ]', // ⓪ numeric characters
+
 'suwaru'=>'*座[すわ]る', // ⓪ sit, sit down
 'suzushii'=>'*涼[すず]しい', // ➁ cool of temperature
 'tabako'=>'*煙草[たばこ]', // ⓪ tobacco, cigarette
@@ -1414,6 +1431,8 @@ $romaji_kanji = array(
 'takusan'=>'*たくさん', // a lot, in large quantity
 'takushii'=>'*タクシー', // taxi
 'tame'=>'*ため', // sake, purpose
+'tanjoubi'=>'*誕[たん]生[じょう]日[び]', // ➁んじょ➁
+
 'tanomu'=>'*頼む[たのむ]', // order, ask for
 'tanoshii'=>'*楽しい[たのしい]', // fun, enjoyable
 'tanoshimu'=>'*楽しむ[たのしむ]', // enjoy
@@ -1451,16 +1470,18 @@ $romaji_kanji = array(
 'tokidoki'=>'*時[とき]々[とき]', // sometimes
 'tokitoshite'=>'*時[とき]として',// ➁き➁ in some cases; sometimes; on occasions
 
+'tokkyuu'=>'*特[とっ]急[きゅう]', // limited express
 
 'tokoro'=>'*所[ところ]', // place
-'tokubetsu'=>'*特別[とくべつ]', // special
-'tokuni'=>'*特に[とくに]', // specially, particularly
-'tomaru'=>'*止まる[とまる]', // come to a stop, cease
-'tomaru'=>'*泊まる[とまる]', // stay overnight
-'tomeru'=>'*止める[とめる]', // stop a car…. 止める yameru give up
-'tomodachi'=>'*友達[ともだち]', // friend, companion
-'tonari'=>'*隣[となり]', // next to, next door
-'tooi'=>'*遠い[とおい]', // far, distant
+'tokubetsu'=>'*特[とく]別[べつ]', // ⓪ special
+
+'tokuni'=>'*特[とく]に', // specially, particularly
+'tomaru'=>'*止[と]まる', // come to a stop, cease
+'tomaru'=>'*泊[と]まる', // stay overnight
+'tomeru'=>'*止[と]める', // stop a car…. 止める yameru give up
+'tomodachi'=>'*友[とも]達[だち]', // ⓪ friend, companion
+'tonari'=>'*隣[となり]', // ⓪ next to, next door
+'tooi'=>'*遠[とお]い', // far, distant
 'tooka'=>'*十日[とおか]', // ten days, tenth of the month
 'tooku'=>'*遠く[とおく]', // far away, at a distance
 'toori'=>'*通り[とおり]', // street, road
@@ -1496,6 +1517,19 @@ $romaji_kanji = array(
 'tsuretekuru'=>'*連れて来る[つれてくる]', // bring a person
 'tsutaeru'=>'*伝える[つたえる]', // convey, transmit
 'tsutomeru'=>'*勤める[つとめる]', // serve, hold a job
+
+'tsuu'=>'*通[つう]', // ➀ authority, expert; letters, notes; understanding
+'tsuukin'=>'*通[つう]勤[きん]客[きゃく]', // ➁うき➁
+'tsuukinsha'=>'*通[つう]勤[きん]者[しゃ]', // ⓪
+'tsuuka'=>'*通[つう]貨[か]', // ➀
+'tsuukashuushuku'=>'*通[つう]貨[か]収[しゅう]縮[しゅく]', // ➀
+'tsuugaku'=>'*通[つう]学[がく]', // ⓪
+'tsuuro'=>'*通[つう]路[ろ]', // ➀
+
+'tsuuyaku'=>'*通[つう]訳[やく]', // ➀
+''=>'*', // ⓪➀➁➂
+
+
 'tsuyoi'=>'*強い[つよい]', // strong
 'tsuzukeru'=>'*続ける[つずける]', // continue, keep up
 'tsuzuku'=>'*続く[つずく]', // continue, follow
