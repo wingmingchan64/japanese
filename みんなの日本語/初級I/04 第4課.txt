@@ -35,6 +35,9 @@ Pitch Accent:
 昼[ひる] ➂
 夜[よる] ➀
 晩[ばん] ⓪
+午[ご]前[ぜん] ➀ AM
+午[ご]後[ご] ➀ PM
+夕[ゆう]方[がた] ⓪
 
 おととい
 昨日[きのう] ➁⓪
@@ -61,9 +64,6 @@ Pitch Accent:
 明[あ]後日[さって]の晩[ばん]
 
 今朝[けさ] ➀
-午[ご]前[ぜん] ➀ AM
-午[ご]後[ご] ➀ PM
-夕[ゆう]方[がた] ⓪
 昨[さく]夜[や] ➁
 今[こん]晩[ばん] ➀
 
@@ -94,6 +94,8 @@ Pitch Accent:
 104 いちれいよん ➁ちれ➁
 
 寝[ね]間[ま] ➂
+休み ➂
+試[し]験[けん] ➁
 
 https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=4
 
@@ -101,6 +103,7 @@ https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1w
 ６時ごろ起きた。
 寝[ね]ます，寝る ⓪ 磨く ⓪
 寝る前に 歯[は]を磨[みが]きなさい。
+彼女[かのじょ]は普[ふ]通[つう]９時に寝る。
 働[はたら]きます，働く
 休[やす]みます，休む
 勉[べん]強[きょう]します，勉強する ⓪
