@@ -284,6 +284,10 @@ $dict = array(
 'uks'=>'ゥ',
 'eks'=>'ェ',
 'oks'=>'ォ',
+'yaks'=>'ャ',
+'yuks'=>'ュ',
+'yoks'=>'ョ',
+
 
 // numbers
 '1'=>'*いち',
@@ -2521,6 +2525,7 @@ $dict = array(
 'Bangkok'=>'*バンコク',
 'Berlin'=>'*ベルリン',
 'Brazil'=>'*ブラジル', // ⓪
+'California'=>'*カリフォルニア',
 'chuuonamerika'=>'*中[ちゅう]央[おう]アメリカ', // ➁うおう'ア➁
 'chuubei'=>'*中[ちゅう]米[べい]', // ⓪
 'England'=>'*イギリス', // ⓪
