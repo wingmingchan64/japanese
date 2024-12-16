@@ -999,6 +999,7 @@ $romaji_kanji = array(
 'magaru'=>'*曲がる[まがる]', // make a turn, turn
 'mago'=>'*孫[まご]', // grandchild
 'mai'=>'*毎[まい]:枚[まい]',
+'maiasa'=>'*毎[まい]朝[あさ]', // 
 'maiban'=>'*毎[まい]晩[ばん]', // 
 
 'maitonen'=>'*毎[まい]年[ねん]', // every year
