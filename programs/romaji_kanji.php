@@ -988,6 +988,8 @@ $romaji_kanji = array(
 'machi'=>'*町[まち]', // town, city
 'machigaeru'=>'*間違える[まちがえる]', // make a mistake, fail at
 'mada'=>'*まだ', // not yet, still
+'made'=>'*まで', // ⓪ 迄
+
 'mado'=>'*窓[まど]', // window
 'mae'=>'*前[まえ]', // ➀ front, before
 'magarikado'=>'*曲がり角[まがりかど]', // corner to turn
