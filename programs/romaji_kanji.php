@@ -1569,6 +1569,8 @@ $romaji_kanji = array(
 'tsuchi'=>'*土[つち]', // ➂
 'tsugi'=>'*次[つぎ]', // next
 'tsuitachi'=>'*一[つい]日[たち]:一[いっ]日[ぴ]', // ➂:➀ first of the month
+'tsukau'=>'*使[つか]う', // ⓪ to use, to make use
+
 'tsukare'=>'*疲[つか]れ', // ➂ tiredness
 'tsukareru'=>'*疲[つか]れる', // ➁ to get tired
 'tsukau'=>'*使[つか]う', // ⓪ use, make use of
