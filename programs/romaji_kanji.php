@@ -891,13 +891,13 @@ $romaji_kanji = array(
 'komakai'=>'*細かい[こまかい]', // minute, fine
 'komaru'=>'*困る[こまる]', // be in trouble, not know what to do
 'kome'=>'*米[こめ]', // rice grain
-'konban'=>'*今晩[こんばん]', // this evening, tonight
+'konban'=>'*今[こん]晩[ばん]', // this evening, tonight
 'konbanwa'=>'*こんばんは', // this evening, tonight
 
-'kondo'=>'*今度[こんど]', // this time, next time
-'kongetsu'=>'*今月[こんげつ]', // this month
+'kondo'=>'*今[こん]度[ど]', // this time, next time
+'kongetsu'=>'*今[こん]月[げつ]', // this month
 'konichiwa'=>'*こんにちは',
-'konkai'=>'*今回[こんかい]', // this time
+'konkai'=>'*今[こん]回[かい]', // this time
 'konna'=>'*こんな', // ⓪ this sort of; this kind of; like this; such
 'konnani'=>'*こんなに', // ⓪ so, like this, in this way, this much, to this extent
 'konnen'=>'*今[こん]年[ねん]', // ➀
@@ -1019,8 +1019,11 @@ $romaji_kanji = array(
 'masen'=>'*ません', // 
 'masendeshita'=>'*ませんでした', // 
 
+'masen'=>'*ません', // 
+'masendeshita'=>'*ませんでした', // 
 'mashita'=>'*ました', // 
 'masu'=>'*ます', // 
+
 'mata'=>'*また', // again, also, or
 'matomeru'=>'*まとめる', // gather together, put in order
 'matsu'=>'*待つ[まつ]', // wait, wait for
