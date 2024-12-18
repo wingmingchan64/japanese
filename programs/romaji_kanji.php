@@ -420,6 +420,8 @@ $romaji_kanji = array(
 
 'doushite'=>'*どうして', // ➀ 如何して how come
 'doushitemo'=>'*どうしても', // ➁うして➁ by any means, really
+'douyatte'=>'*どうやって', // how
+
 'douyou'=>'*同[どう]様[よう]', // ⓪ similar, the same as
 'douzo'=>'*どうぞ', // please, here you are
 'doyoubi'=>'*土[ど]曜[よう]日[び]', // Saturday
@@ -1135,6 +1137,7 @@ $romaji_kanji = array(
 'nanasen'=>'*七[なな]千[せん]',
 'nanatsu'=>'*七つ[なんあつ]', // seven things
 'nanban'=>'*何[なん]番[ばん]',
+'nande'=>'*何[なん]で', // ➀ why
 'nangai'=>'*何[なん]階[がい]', // ⓪
 'nani'=>'*何[なに]', // what
 'nanika'=>'*何か[なにか]', // something, some
