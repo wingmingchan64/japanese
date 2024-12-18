@@ -476,39 +476,34 @@ $romaji_kanji = array(
 'fujidaigaku'=>'*富[ふ]士[じ]大[だい]学[がく]',
 'fukai'=>'*深[ふか]い', // ➁ deep, profound
 'fukasa'=>'*深[ふか]さ', // ➁ depth, profundity
-'fuku'=>'*服[ふく]', // ➂ clothes
 'fukushuu'=>'*復[ふく]習[しゅう]', // ⓪ review
 'fukuzatsu'=>'*複[ふく]雑[ざつ]', // ⓪ complicated, intricate
 'fukanou'=>'*不[ふ]可[か]能[のう]', // ➁ impossible
 'fukanou'=>'*不[ふ]可[か]能[のう]性[せい]', // ⓪ impossibility
-
-'fukou'=>'*不幸[]', // unhappiness, misfortune
-'fuku'=>'*吹く[]', // blow, play (a wind instrument)
-'fuku'=>'*拭く[]', // wipe, dry
-'fuku'=>'*服[]', // clothes (colloquial)
-'fukumeru'=>'*含める[]', // include
-'fukumu'=>'*含む[]', // contain, include
-'fukuro'=>'*袋[]', // bag, sack
+'fukou'=>'*不[ふ]幸[こう]', // ➁ unhappiness, misfortune
+'fuku'=>'*吹[ふ]く:拭[ふ]く:服[ふく]', // ➀:⓪:➂ blow, play (a wind instrument); to wipe, to dry; clothes
+'fukumeru'=>'*含[ふく]める', // ➁ include
+'fukumu'=>'*含[ふく]む', // ➁ contain, include
+'fukuro'=>'*袋[ふくろ]', // ➂ bag, sack
 'fukushi'=>'*副[ふく]詞[し]', // ⓪
-'fukushuu'=>'*復習[]', // review
-'fukuzatsu'=>'*複雑[]', // complicated, intricate
 'fumi'=>'*文[ふみ]:書[ふみ]', // ➀ letter, mail, book, sentence
-'fun'=>'*分[ふん]:分[ぷん]',
+'fun'=>'*分[ふん]:分[ぷん]', // ➀
 'fune'=>'*船[ふね]', // ➀
-
-'furo'=>'*風呂[ふろ]', // bath
-'furu'=>'*振る[ふる]', // wave, shake
-'furu'=>'*降る[ふる]', // fall, come down rain, snow, etc.
-'furui'=>'*古[ふる]い', // old
-'futari'=>'*二[ふた]人[り]', // two persons
-'futatsu'=>'*二[ふた]つ', // two things
-'futoi'=>'*太[ふと]い', // thick, fat
-'futsuka'=>'*二日[ふつか]', // two days, second of the month
+'furo'=>'*風[ふ]呂[ろ]', // ➂ bath
+'furu'=>'*振[ふ]る:降[ふ]る', // ➀:➀ wave, shake; fall, come down rain, snow, etc.
+'furui'=>'*古[ふる]い', // ➂ old
+'futari'=>'*二[ふた]人[り]', // ➂ two persons
+'futatsu'=>'*二[ふた]つ', // ➂ two things
+'futoi'=>'*太[ふと]い', // ➁ thick, fat
+'futsuka'=>'*二日[ふつか]', // ⓪ two days, second of the month
 'futsuu'=>'*普[ふ]通[つう]', // ⓪ normal, regular, ordinary
-'fuufu'=>'*夫[ふう]婦[ふ]', // husband and wife, married couple
-'fuyasu'=>'*増[ふ]やす', // increase
-'fuyu'=>'*冬[ふゆ]', // winter
-'gaikoku'=>'*外[がい]国[こく]', // foreign country
+'fuufu'=>'*夫[ふう]婦[ふ]', // ➀ husband and wife, married couple
+'fuyasu'=>'*増[ふ]やす', // ➁ increase
+'fuyu'=>'*冬[ふゆ]', // ➂ winter
+'gaikoku'=>'*外[がい]国[こく]', // ⓪ foreign country
+
+
+
 'gaikokujin'=>'*外[がい]国[こく]人[じん]', // foreigner
 'gakkou'=>'*学[がっ]校[こう]', // school
 'gakusei'=>'*学[がく]生[せい]', // student
@@ -516,6 +511,7 @@ $romaji_kanji = array(
 'garasu'=>'*ガラス', // glass material
 'gasu'=>'*ガス', // gas loan word
 'gatsu'=>'*月[がつ]',
+
 'geemu'=>'*ゲーム', // game
 'genkan'=>'*玄関[げんかん]', // entrance, door
 'genki'=>'*元[げん]気[き]', // ➀ healthy, energetic
