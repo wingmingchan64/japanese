@@ -26,7 +26,7 @@
    せ、すな 命令形
    してください、さないでください
    
-   
+
 Present
 positive
 plain:探す
