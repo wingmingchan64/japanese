@@ -803,10 +803,16 @@ $romaji_kanji = array(
 'kanojora'=>'*彼[かの]女[じょ]自[じ]身[しん]', // herself, she herself
 'kanojora'=>'*彼[かの]女[じょ]ら', // they, them
 
-
+'kanrensuru'=>'*関[かん]連[れん]する', // ⓪ zusammenhängen
+'kanrisuru'=>'*管[かん]理[り]する', // ➀
 'kantan'=>'*簡[かん]単[たん]', // ⓪ simple, easy
 'kantoushi'=>'*間[かん]投[とう]詞[し]', // ➁ interjection
-'kao'=>'*顔[かお]', // face
+'kao'=>'*顔[かお]', // ⓪ face
+'kasuru'=>'*化[か]する', // ➁
+
+
+
+
 'kara'=>'*から', // アメリカから，これから
 'karada'=>'*体[からだ]', // body, physique
 'karai'=>'*辛[から]い', // spicy, hot
@@ -883,6 +889,10 @@ $romaji_kanji = array(
 'kirei'=>'*綺[き]麗[れい]', // ➀ pretty, clean
 'kireru'=>'*切れる[きれる]', // cut well, be sharp
 'kimasu'=>'*来[き]ます', // ➀:➀ cut
+
+'kiokusuru'=>'*記[き]憶[おく]する', // ⓪
+
+
 'kiru'=>'*来[き]る:切る[きる]', // ➀:➀ cut
 'kiru'=>'*着る[きる]', // wear, put on
 'kisetsu'=>'*季節[きせつ]', // season
@@ -936,18 +946,25 @@ $romaji_kanji = array(
 'kotae'=>'*答え[こたえ]', // answer, solution
 'kotaeru'=>'*答える[こたえる]', // give an answer
 'kotoba'=>'*言葉[ことば]', // word, language
-'kotoshi'=>'*今年[ことし]', // this year
-'kou'=>'*こう:行[こう]', // like this, such
+
+'kotonaru'=>'*異[こと]なる', // ➁とな➁ differ
+
+
+
+'kotoshi'=>'*今年[ことし]', // ⓪ this year
+'kou'=>'*こう', //  ⓪ 斯う like this, such
 'koudou'=>'*行[こう]動[どう]', // ⓪ action; Behavior
 
-'kouen'=>'*公園[こうえん]', // park, public garden
-'koukou'=>'*高校[こうこう]', // high school for short
+'kouen'=>'*公[こう]園[えん]', // ⓪ park, public garden
+'koukou'=>'*高[こう]校[こう]', // ⓪ high school for short
 'koukyuu'=>'*高[こう]級[きゅう]', // ⓪ high-class, high-quality, high-ranking
 'koukyuusha'=>'*高[こう]級[きゅう]車[しゃ]', // ➁うきゅ➁
 'koukyuujuutakuchi'=>'*高[こう]級[きゅう]住[じゅう]宅[たく]地[ち]',
-'koukyuuhin'=>'*高[こう]級[きゅう]品[ひん]',
+'koukyuuhin'=>'*高[こう]級[きゅう]品[ひん]', // ⓪
 'koukyuugango'=>'*高[こう]級[きゅう]言[げん]語[ご]', // (computing) high-level language
-'koukyuutan'=>'*高[こう]級[きゅう]店[てん]',
+'koukyuutan'=>'*高[こう]級[きゅう]店[てん]', // 店➂
+'koushinsuru'=>'*更[こう]新[しん]する', // ⓪
+
 
 'kowareru'=>'*壊れる[こわれる]', // break, break down
 'ku'=>'*く:九[く]',
@@ -967,7 +984,7 @@ $romaji_kanji = array(
 
 'kuroi'=>'*黒[くろ]い', // ➁ black, dark
 'kumasu'=>'*来[く]ます', // come
-'kuru'=>'*来[く]る', // come
+'kuru'=>'*来[く]る', // ➀ come
 'kuruma'=>'*車[くるま]', // car, automobile
 'kurushii'=>'*苦[くる]しい', // painful, agonizing
 'kushi'=>'*くし', // comb
@@ -975,12 +992,13 @@ $romaji_kanji = array(
 'kutsu'=>'*靴[くつ]', // ➂
 'kutsushita'=>'*靴[くつ]下[した]', // socks
 'kuuki'=>'*空気[くうき]', // air, atmosphere
+
 'kuukou'=>'*空[くう]港[こう]', // ⓪ airport for public transportation
 'kuunin'=>'*九[きゅう]人[にん]',
-'kuwashii'=>'*詳[くわ]しい', // detailed
-'kyaku'=>'*客[きゃく]:脚[きゃく]', // visitor, customer;脚 used for chairs and seats
-'kyakuhon'=>'*脚[きゃく]本[ほん]', // 
-'kyakushoku'=>'*脚[きゃく]色[しょく]', // 
+'kuwashii'=>'*詳[くわ]しい', // ➁わし➁ detailed
+'kyaku'=>'*客[きゃく]:脚[きゃく]', // ⓪:➀ visitor, customer;脚 used for chairs and seats
+'kyakuhon'=>'*脚[きゃく]本[ほん]', // ⓪
+'kyakushoku'=>'*脚[きゃく]色[しょく]', // ⓪
 'kyou'=>'*教[きょ]う', // ⓪
 'kyou'=>'*教[きょう]育[いく]', // ⓪
 'kyoku'=>'*曲[きょく]', // ⓪ piece of music
@@ -993,12 +1011,14 @@ $romaji_kanji = array(
 'kyoushi'=>'*教[きょう]師[し]', // ➀ teacher, instructor
 'kyoushitsu'=>'*教[きょう]室[しつ]', // ⓪ classroom, class
 'kyuu'=>'*九[きゅう]', // ➀ nine used before counter words
+'kyuuhyaku'=>'*九[きゅう]百[ひゃく]',
 'kyuukou'=>'*急[きゅう]行[こう]', // ⓪ hurrying; express
 'kyuukou'=>'*急[きゅう]行[こう]便[びん]', // express mail
 'kyuukouressha'=>'*急[きゅう]行[こう]列[れっ]車[しゃ]', // ➁うこうれ➁
 'kyuukouteishaeki'=>'*急[きゅう]行[こう]停[てい]車[しゃ]駅[えき]', // 
-'kyuuhyaku'=>'*九[きゅう]百[ひゃく]',
+'kyoukyuusuru'=>'*供[きょう]給[きゅう]する', // ⓪
 'kyuuni'=>'*急[きゅう]に', // ⓪ suddenly, unexpectedly
+
 'kyuuryou'=>'*給[きゅう]料[りょう]', // salary, pay
 'kyuuman'=>'*九[きゅう]万[まん]',
 'kyuusen'=>'*九[きゅう]千[せん]',
@@ -1247,6 +1267,7 @@ $romaji_kanji = array(
 'okeru'=>'*於[お]ける', // ➁ on, at, in, for
 'oki'=>'*大[お]きい', // big
 'okimasu'=>'*起[お]きます', // ➁ get up, get out of bed; occur, happen
+'okonau'=>'*行[おこな]う', // ⓪
 'okiru'=>'*起[お]きる', // ➁ get up, get out of bed; occur, happen
 'okoru'=>'*起[お]こる', // happen
 'okosu'=>'*起[お]こす', // wake someone up
