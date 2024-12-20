@@ -262,12 +262,12 @@ Pitch Accent:
 休[やす]み ➂
 試[し]験[けん] ➁
 
-車が欲しい
+車が欲[ほ]しい
 
 https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=4
 
 起[お]きます，起[お]きる ➁
-６時ごろ起きた。
+６時ごろ起きた。 （起きた： past plain）
 寝[ね]ます，寝[ね]る ⓪ 磨く ⓪
 寝る前に 歯[は]を磨[みが]きなさい。
 彼女[かのじょ]は普[ふ]通[つう]９時に寝る。
