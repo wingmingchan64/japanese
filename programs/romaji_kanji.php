@@ -165,6 +165,8 @@ $romaji_kanji = array(
 'Bara'=>'*薔[ば]薇[ら]:輩[ばら]', // ⓪ rose
 'barabara'=>'*ばらばら:バラバラ', // ➀ scattered, disperse; separately, discretely
 'baransu'=>'*バランス', // ⓪ balance
+'barasu'=>'*殺[ばら]す', // ➁
+
 'bareehooru'=>'*バレーボール', // ➁レーボ➁ volleyball
 'basho'=>'*場[ば]所[しょ]', // ⓪ place, space
 'basu'=>'*バス', // ➀ bus
@@ -330,6 +332,8 @@ $romaji_kanji = array(
 'chuushin'=>'*中[ちゅう]心[しん]', // ⓪ center (of a circle, etc.), core
 'chuushoku'=>'*昼[ちゅう]食[しょく]', // ⓪ lunch
 'chuushouteki'=>'*抽[ちゅう]象[しょう]的[てき]', // ⓪ abstract
+'chuushutsusuru'=>'*抽[ちゅう]出[しゅつ]する', // ⓪
+
 'dabudabu'=>'*だぶだぶ', // ⓪ baggy, too big
 'da'=>'*だ', // ⓪
 'dai'=>'*大[だい]:第[だい]:台[だい]',
@@ -383,7 +387,7 @@ $romaji_kanji = array(
 'denwachou'=>'*電[でん]話[わ]帳[ちょう]', // ⓪ telephone book
 'depaato'=>'*デパート', // ➁パ➁ department store
 'dekiru'=>'*出[で]来[き]る', // ➁
-'deru'=>'*出[で]る', // go out, leave
+'deru'=>'*出[で]る', // ➀ go out, leave
 'deshita'=>'*でした',
 'desu'=>'*です',
 'desuka'=>'*ですか',
@@ -481,6 +485,8 @@ $romaji_kanji = array(
 'fujidaigaku'=>'*富[ふ]士[じ]大[だい]学[がく]',
 'fukai'=>'*深[ふか]い', // ➁ deep, profound
 'fukasa'=>'*深[ふか]さ', // ➁ depth, profundity
+'fukumeru'=>'*含[ふく]める', // ➁くめ➁
+
 'fukushuu'=>'*復[ふく]習[しゅう]', // ⓪ review
 'fukuzatsu'=>'*複[ふく]雑[ざつ]', // ⓪ complicated, intricate
 'fukanou'=>'*不[ふ]可[か]能[のう]', // ➁ impossible
@@ -563,6 +569,8 @@ $romaji_kanji = array(
 'hagemasu'=>'*励[はげ]ます', // encourage, cheer up
 'haha'=>'*母[はは]', // ➀ speaker’s mother
 'hai'=>'*はい:杯[はい]',
+'haichisuru'=>'*配[はい]置[ち]する', // ⓪
+
 'hairu'=>'*入[はい]る', // enter
 'hajimaru'=>'*始[はじ]まる', // begin
 'hajime'=>'*初[はじ]め', // beginning

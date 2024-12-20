@@ -2,6 +2,17 @@
 /*
 php H:\github\japanese\programs\輸入日本語.php
 */
+$cleanup = false;
+$furikana_regex = '/\[\X+?]/';
+//preg_replace( 夾注regex, '', $帶夾注詩文 );
+
+if( sizeof( $argv ) > 1 )
+{
+	$cleanup = 
+		( intval( $argv[1] ) == 0 ) ?  
+		true : false;
+}
+
 // 字庫
 require_once( "H:\\github\\japanese\\programs\\四角字典.php" );
 require_once( "H:\\github\\japanese\\programs\\romaji_kanji.php" );
@@ -78,7 +89,14 @@ while( true )
 					mb_strpos( $dict[ $input ], ":" ) === false
 				)
 				{
-					$buffer .= trim( $dict[ $input ], "*" );
+					$option_str = trim( $dict[ $input ] );
+					if( $cleanup )
+					{
+						$option_str = preg_replace( 
+							$furikana_regex, '', $dict[ $input ] );
+					}
+
+					$buffer .= trim( $option_str, "*" );
 					printBuffer( $buffer );
 				}
 				// provide options
@@ -87,13 +105,26 @@ while( true )
 					if( mb_strpos( $dict[ $input ], ":" ) !== false )
 					{
 						$options = array( '' );
+
+						if( $cleanup )
+						{
+							$option_str = preg_replace( 
+								$furikana_regex, '', $dict[ $input ] );
+						}
+						
 						$options = array_merge( $options,
 							explode(
-								':', trim( $dict[ $input ], "*" ) ) );
+								':', trim( $option_str, "*" ) ) );
 					}
 					else
 					{
 						$option_str = $dict[ $input ];
+						if( $cleanup )
+						{
+							$option_str = preg_replace( 
+								$furikana_regex, '', option_str );
+						}
+
 						$options = array( '' );
 				
 						// create option array
@@ -159,6 +190,11 @@ while( true )
 					continue;
 				}
 				$option_str = $dict[ $key ];
+				if( $cleanup )
+				{
+					$option_str = preg_replace( 
+						$furikana_regex, '', $option_str );
+				}
 				$options = array_merge( $options,
 					explode(
 						':', trim( $dict[ $key ], "*" ) ) );
