@@ -24,6 +24,10 @@
 
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:5-5/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:100
 Pitch Accent:
+月[がつ]： used only in January, February, etc.
+月[つき]： used only for a period of 30 days 一個月，月球
+月[げつ]： Monday, 先月
+
 人[ひと] ⓪
 一日[ついたち] ➂
 二日[ふつか] ⓪
@@ -93,13 +97,15 @@ Pitch Accent:
 彼女[かのじょ] ➀
 同[どう]僚[りょう] ⓪
 
-ご飯[ごはん]
+ご飯[はん]
 
 次[つぎ] ➂
 次の日[ひ]
 前[まえ] ➀
 前の日
-一[ひと]人[り]で
+
+歩[ある]いて
+一人[ひとり]で
 
 ようこそ ➀
 
@@ -204,9 +210,9 @@ Practice:
 行[い]く ⓪	五段			行[い]きます
 来[き]る ➀五段			来[き]ます
 帰[かえ]る ➀五段		帰[かえ]ります
+する ⓪サ變				します
 会[あ]う ➀五段			会[あ]います
 買[か]う ⓪五段			買[か]います
 食[た]べる ➁下一段		食[た]べます
 
 来[く]る ➀カ變			来[く]ます
-する ⓪サ變				します

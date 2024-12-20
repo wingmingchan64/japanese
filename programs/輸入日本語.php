@@ -1,5 +1,8 @@
 <?php
 /*
+// without furigana
+php H:\github\japanese\programs\輸入日本語.php 0
+// with furigana
 php H:\github\japanese\programs\輸入日本語.php
 */
 $cleanup = false;
@@ -105,6 +108,7 @@ while( true )
 					if( mb_strpos( $dict[ $input ], ":" ) !== false )
 					{
 						$options = array( '' );
+						$option_str = $dict[ $input ];
 
 						if( $cleanup )
 						{
