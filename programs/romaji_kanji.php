@@ -1143,42 +1143,41 @@ $romaji_kanji = array(
 'nagasa'=>'*長[なが]さ', // ➀ length
 'nagori'=>'*名[な]残[ごり]', // ➂ remains, traces, vestiges, relics, 離愁
 'nahuda'=>'*名[な]札[ふだ]', // ⓪ name plate, name tag
-
-
-
 'nai'=>'*無[な]い', // ➀ to not be
 'naka'=>'*中[なか]', // ➀ inside, middle
 'nakanaka'=>'*なかなか', // ⓪ rather, pretty
-'nakunaru'=>'*亡くなる[なくんある]', // die, pass away
-'nakusu'=>'*無くす[なくす]', // lose, get rid of
+'nakunaru'=>'*亡[な]くなる', // ⓪ die, pass away
+'nakusu'=>'*無[な]くす', // ⓪ lose, get rid of
 'namae'=>'*名[な]前[まえ]', // ⓪ name
-'namida'=>'*涙[なみだ]', // tear
-'nan'=>'*何[なん]',
-'nana'=>'*七[なな]', // ➀ seven Chinese origin
+'namida'=>'*涙[なみだ]', // ➀ tear
+'nan'=>'*何[なん]', // ➀
+'nana'=>'*七[なな]', // ➀ seven
 'nanahyaku'=>'*七[なな]百[ひゃく]',
 'rokuman'=>'*七[なな]万[まん]',
 'nanasen'=>'*七[なな]千[せん]',
-'nanatsu'=>'*七つ[なんあつ]', // seven things
-'nanban'=>'*何[なん]番[ばん]',
+'nanatsu'=>'*七[なな]つ', // ➁ seven things
+'nanban'=>'*何[なん]番[ばん]', // ➀
 'nande'=>'*何[なん]で', // ➀ why
-'nangai'=>'*何[なん]階[がい]', // ⓪
-'nani'=>'*何[なに]', // what
-'nanika'=>'*何か[なにか]', // something, some
+'nangai'=>'*何[なん]階[がい]', // 
+'nani'=>'*何[なに]', // ➀ what
+'nanika'=>'*何か[なにか]', // ➀ something, some
 'nanji'=>'*何[なん]時[じ]', // ➀
-'nanoka'=>'*七日[なのか]', // seven days, seventh of the month
+'nanoka'=>'*七日[なのか]', // ⓪ seven days, seventh of the month
 'nanpun'=>'*何[なん]分[ぷん]',
 'nansai'=>'*何[なん]歳[さい]',
 'nanyoubi'=>'*何[なん]曜[よう]日[び]',
-'naoru'=>'*治[なお]る', // be cured, get well
-'naoru'=>'*直[なお]る', // be repaired, get fixed
-'naosu'=>'*直[なお]す', // repair, fix
+'naoru'=>'*治[なお]る:直[なお]る', //  ➁:➁  be cured, get well; be repaired, get fixed
+'naosu'=>'*直[なお]す', // ➁ repair, fix
 'nara'=>'*なら', // ➀ if, in case; as for; if possible
-'naraberu'=>'*並[なら]べる', // line up, arrange
-'narabu'=>'*並[なら]ぶ', // line up, be parallel
-'narau'=>'*習[なら]う', // な➁ら➁う to take lessons in, to study
-'nareru'=>'*慣[な]れる', // grow accustomed to, get used to
+'naraberu'=>'*並[なら]べる', // ⓪ line up, arrange
+'narabu'=>'*並[なら]ぶ', // ⓪ line up, be parallel
+'narau'=>'*習[なら]う', // ➁ら➁ to take lessons in, to study
+'nareru'=>'*慣[な]れる', // ➁れ➁ grow accustomed to, get used to
 'narimasu'=>'*成[な]ります', // become
-'naru'=>'*成[な]る', // become
+'naru'=>'*成[な]る', // ➀ become
+
+
+
 'naruhodo'=>'*なるほど', // I see, really
 'nasu'=>'*ナス', // eggplant
 'natsu'=>'*夏[なつ]', // ➂ summer
