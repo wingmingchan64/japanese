@@ -1175,31 +1175,29 @@ $romaji_kanji = array(
 'nareru'=>'*慣[な]れる', // ➁れ➁ grow accustomed to, get used to
 'narimasu'=>'*成[な]ります', // become
 'naru'=>'*成[な]る', // ➀ become
-
-
-
-'naruhodo'=>'*なるほど', // I see, really
-'nasu'=>'*ナス', // eggplant
+'naruhodo'=>'*なるほど', // ⓪ 成る程 I see, really
+'nasu'=>'*ナス', // ➀ 茄子 eggplant
 'natsu'=>'*夏[なつ]', // ➂ summer
-'naze'=>'*なぜ', // why
+'naze'=>'*なぜ', // ➀ 何故 why
 'nazukeru'=>'*名[な]付[づ]ける', // ➂ name, call, christen, term
-'nedan'=>'*値[ね]段[だん]', // price
-'neesan'=>'*姉[ねえ]さん', // one’s own older sister
-'nemui'=>'*眠[ねむ]い', // sleepy
+'nedan'=>'*値[ね]段[だん]', // ⓪ price
+'neesan'=>'*姉さん[ねえさん]', // ➀ one’s own older sister
+'nemui'=>'*眠[ねむ]い', // ➁ sleepy
 'nekutai'=>'*ネクタイ', // ➀
 'nema'=>'*寝[ね]間[ま]', // ➂
-'nemuru'=>'*眠[ねむ]る', // sleep, lie idle
+'nemuru'=>'*眠[ねむ]る', // ⓪ sleep, lie idle
 'nemasu'=>'*寝[ね]ます',
-'nen'=>'*年[ねん]',
-'nendo'=>'*年[ねん]度[ど]', // year, school year
-'nenkan'=>'*年[ねん]', // ➀
-'nenkan'=>'*年[ねん]間[かん]', // period of one year
+'nen'=>'*年[ねん]', // ➀
+'nendo'=>'*年[ねん]度[ど]', // ➀ year, school year
+'nenkan'=>'*年[ねん]間[かん]', // ➀ period of one year
 'neru'=>'*寝[ね]る', // ⓪ lie down and sleep, go to sleep
-'netsu'=>'*熱[ねつ]', // heat, fever
-'ni'=>'*に:二[に]',
-'nichi'=>'*二[にち]', // two
+'netsu'=>'*熱[ねつ]', // ➂ heat, fever
+'ni'=>'*に:二[に]', // ➀
 'nichi'=>'*日[にち]', // counter for days
-'nichiji'=>'*日[にち]時[じ]', // date and time
+'nichiji'=>'*日[にち]時[じ]', // ➀ date and time
+
+
+
 'nichiyoubi'=>'*日[にち]曜[よう]日[び]', // Sunday
 'nigeru'=>'*逃げる[にげる]', // escape, run away
 'nigiyaka'=>'*賑[にぎ]やか', // ➁ぎ➁ lively, exciting
