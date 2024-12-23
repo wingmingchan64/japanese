@@ -2531,6 +2531,7 @@ $dict = array(
 'Jakarta'=>'*ジャカルタ',
 'kitaamerika'=>'*北[きた]アメリカ', // ➁た'ア➁
 'Korea'=>'*韓[かん]国[こく]',
+'Kyoto'=>'*京[きょう]都[と]',
 'London'=>'*ロンドン',
 'Malasia'=>'*マレーシア', // ➁レ➁
 'minimiamerika'=>'*南[みなみ]アメリカ',
