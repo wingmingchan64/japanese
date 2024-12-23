@@ -1,4 +1,4 @@
-第[だい][]課[か] PDF
+第[だい]6[]課[か] PDF
 
 文[ぶん]型[けい]
 
@@ -22,7 +22,8 @@
 1) 
 
 
-https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:5-5/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:100
+https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:6-6/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:100
+
 Pitch Accent:
 お茶[ちゃ] ⓪
 酒[さけ] ⓪
@@ -60,7 +61,6 @@ CD ➁ーでぃ➁
 
 
 
-https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=5
-
+https://www.youtube.com/watch?v=bF8pOPGOav4&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=6
 
 Practice:
