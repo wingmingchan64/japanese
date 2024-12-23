@@ -24,7 +24,7 @@
 
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:9-9/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:100
 
-Pitch Accent:⓪➀➁➂
+Pitch Accent:
 夫[おっと] ⓪
 歌[か]舞[ぶ]伎[き] ⓪
 漢[かん]字[じ] ⓪
@@ -47,6 +47,16 @@ Pitch Accent:⓪➀➁➂
 少[すこ]し ➁こ➁
 ご主[しゅ]人[じん] ➁しゅ➁
 飲[の]み物[もの] ➁み➁
+スポーツ ➁ポ➁
+チケット ➁ケ➁ ➀
+クラシック ➁ラ➁ ➁ラシ➁
+片[かた]仮[か]名[な] ➁たか➁
+たくさん ➁くさ➁ ⓪
+平[ひら]仮[が]名[な] ➁らが➁ ⓪
+ローマ字 ➁ーマ➁ ⓪
+絵[え] ➀
+字[じ] ➀
+歌[うた] ➂
 
 https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=5
 
