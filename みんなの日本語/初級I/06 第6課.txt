@@ -24,8 +24,39 @@
 
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:5-5/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:100
 Pitch Accent:
-
-
+お茶[ちゃ] ⓪
+酒[さけ] ⓪
+庭[にわ] ⓪
+水[みず] ⓪
+お酒[さけ] ⓪
+紅[こう]茶[ちゃ] ⓪
+魚[さかな] ⓪
+写[しゃ]真[しん] ⓪
+手[て]紙[がみ] ⓪
+野[や]菜[さい] ⓪
+お花[はな]見[み] ⓪
+牛[ぎゅう]乳[にゅう] ⓪
+宿[しゅく]題[だい] ⓪
+何[なに] ➀
+パン ➀
+映[えい]画[が] ➀
+ジュース ➀
+テニス ➀
+ビデオ ➀
+ビール ➀
+ミルク ➀
+サッカー ➀
+レストラン ➀
+卵[たまご] ➁
+果[くだ]物[もの] ➁だ➁
+レポート ➁ポ➁ ⓪
+CD ➁ーでぃ➁
+朝[あさ]御[ご]飯[はん] ➁さご➁
+晩[ばん]御[ご]飯[はん] ➁んご➁
+昼[ひる]御[ご]飯[はん] ➁るご➁
+肉[にく] ➂
+店[みせ] ➂
+花[はな]見[み] ➂
 
 
 
