@@ -1347,6 +1347,7 @@ $romaji_kanji = array(
 'osake'=>'*お酒[さけ]', // ⓪
 'osenwaninarimasu'=>'*お世話[せわ]になります', // Vielen Dank für Ihre Unterstützung.
 'oshieru'=>'*教[おし]える', // ⓪ teach, tell
+'oshigoto'=>'*お仕[し]事[ごと]', // ➁し➁
 'osoi'=>'*遅い[おそい]', // slow, late
 'osu'=>'*押す[おす]', // push, press down
 'otearai'=>'*お手[て]洗[あ]い', // toilet, bathroom
@@ -1405,6 +1406,7 @@ $romaji_kanji = array(
 'rokusen'=>'*六[ろく]千[せん]',
 'roppyaku'=>'*六[ろっ]百[ぴゃく]',
 'ryokou'=>'*旅[りょ]行[こう]', // ⓪ travel, trip
+'ryou'=>'*寮[りょう]', // ➀ hostel, dorm
 'ryouhou'=>'*両[りょう]方[ほう]', // ➁ both
 'ryoukin'=>'*料[りょう]金[きん]', // ➀ fee; charge; fare
 'ryoukinbako'=>'*料[りょう]金[きん]箱[ばこ]', // ➀ fare box (in a bus, etc.)
@@ -1446,7 +1448,6 @@ $romaji_kanji = array(
 'sara'=>'*皿[さら]', // plate, counter for plates or helpings
 'saraishuu'=>'*再来週[さらいしゅう]', // the week after next
 'sarariiman'=>'*サラリーマン', // office worker, company employee
-'zasshi'=>'*雑[ざっ]誌[し]', // ⓪
 'satou'=>'*砂糖[さとう]', // sugar
 'satsu'=>'*冊[さつ]',
 'sawaru'=>'*触る[さわる]', // touch, feel
@@ -1660,7 +1661,7 @@ $romaji_kanji = array(
 
 'tokkyuu'=>'*特[とっ]急[きゅう]', // limited express
 
-'tokoro'=>'*所[ところ]', // place
+'tokoro'=>'*所[ところ]', // ➂ place, spot, scene, site
 'tokubetsu'=>'*特[とく]別[べつ]', // ⓪ special
 
 'tokuni'=>'*特[とく]に', // specially, particularly
@@ -1843,7 +1844,7 @@ $romaji_kanji = array(
 'yuumei'=>'*有[ゆう]名[めい]', // ⓪ famous
 'yuushoku'=>'*夕[ゆう]食[しょく]', // ⓪ supper, dinner
 'zannen'=>'*残[ざん]念[ねん]', // regretful, disappointing
-'zasshi'=>'*雑[ざっ]誌[し]', // magazine, journal
+'zasshi'=>'*雑[ざっ]誌[し]', // ⓪ magazine, journal
 'zen'=>'*前[ぜん]', // ➀ former, last, pre-
 
 'zenbu'=>'*全[ぜん]部[ぶ]', // all, whole
