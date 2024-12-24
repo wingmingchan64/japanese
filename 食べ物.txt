@@ -19,6 +19,7 @@
 
 赤[あか]身[み] ⓪ red-fleshed fish (e.g. tuna)
 白[しろ]身[み] ⓪ white-fleshed fish
+黄[き]身[み]鮨[ずし] sushi with egg yolk instead of rice
 
 鮪[まぐろ] ⓪
 黒[くろ]鮪 Pacific bluefin tuna

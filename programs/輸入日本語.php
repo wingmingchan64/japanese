@@ -18,9 +18,14 @@ if( sizeof( $argv ) > 1 )
 
 // 字庫
 require_once( "H:\\github\\japanese\\programs\\四角字典.php" );
+require_once( "H:\\github\\japanese\\programs\\日本語の固有名詞.php" );
 require_once( "H:\\github\\japanese\\programs\\romaji_kanji.php" );
 
 // do not use array_merge!!!
+foreach( $固有名詞 as $k => $v )
+{
+	$dict[ $k ] = $v;
+}
 foreach( $romaji_kanji as $k => $v )
 {
 	$dict[ $k ] = $v;

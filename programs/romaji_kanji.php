@@ -1303,6 +1303,8 @@ $romaji_kanji = array(
 'nihon'=>'*日[に]本[ほん]',
 'nihongo'=>'*日[に]本[ほん]語[ご]',
 'nihonjin'=>'*日[に]本[ほん]人[じん]',
+'nihonshu'=>'*日[に]本[ほん]酒[しゅ]',
+
 'nihyaku'=>'*二[に]百[ひゃく]',
 'niisan'=>'*兄[にい]さん', // one’s own older brother
 'nijuu'=>'*二[に]十[じゅう]', // 
@@ -1390,6 +1392,7 @@ $romaji_kanji = array(
 'oneesan'=>'*お姉[ねえ]さん', // ➁ね➁ older sister, woman
 'ongaku'=>'*音[おん]楽[がく]', // ➀ music
 'oniisan'=>'*お兄[にい]さん', // ➁ older brother
+'oniku'=>'*お肉[にく]', // ➁
 'onna'=>'*女[おんな]', // woman
 'onnanohito'=>'*女[おんな]の人[ひと]', // woman ➂
 
@@ -1582,6 +1585,8 @@ $romaji_kanji = array(
 'shiraberu'=>'*調[しら]べる', // investigate, check
 'shiro'=>'*白[しろ]', // white
 'shiroi'=>'*白[しろ]い', // white, blank
+'shiromi'=>'*白[しろ]身[み]', // ⓪ white-fleshed fish, egg white
+
 'shiru'=>'*知[し]る', // know
 'shisen'=>'*四[し]千[せん]',
 
@@ -1666,7 +1671,7 @@ $romaji_kanji = array(
 'suushi'=>'*数[すう]詞[し]', // ⓪
 'suwaru'=>'*座[すわ]る', // ⓪ sit, sit down
 'suzushii'=>'*涼[すず]しい', // ➁ cool of temperature
-'tabako'=>'*煙草[たばこ]', // ⓪ tobacco, cigarette
+'tabako'=>'*タバコ:煙草[たばこ]', // ⓪ tobacco, cigarette
 'tabemono'=>'*食[た]べ物[もの]', // ➁べも➁  food
 'tabemasu'=>'*食[た]べます', // ➁ eat
 'taberu'=>'*食[た]べる', // ➁ eat
@@ -1712,7 +1717,8 @@ $romaji_kanji = array(
 'teepu'=>'*テープ',
 'tegami'=>'*手[て]紙[がみ]', // ⓪ letter
 'teian'=>'*提[てい]案[あん]', // proposition, proposal
-'tempura'=>'*天[て]ぷら', // Japanese deep-fried food
+'teiin'=>'*店[てい]員[いん]', // ⓪
+'tenpura'=>'*天[て]ぷら', // Japanese deep-fried food
 'tenin'=>'*店[てん]員[いん]', // ⓪
 'tenisu'=>'*テニス', // ➀
 'tenjoubi'=>'*誕[たん]生[じょう]日[び]', // ➁
