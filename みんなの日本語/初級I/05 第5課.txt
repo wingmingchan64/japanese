@@ -270,12 +270,36 @@ Practice:
 楽[たの]しんください。
 
 動詞：
+る ending: drop る，add ます
+う ending: drop う，add います to preceding consonant
 行[い]く ⓪	五段			行[い]きます
-来[き]る ➀五段			来[き]ます
-帰[かえ]る ➀五段		帰[かえ]ります
-する ⓪サ變				します
 会[あ]う ➀五段			会[あ]います
 買[か]う ⓪五段			買[か]います
 食[た]べる ➁下一段		食[た]べます
 
-来[く]る ➀カ變			来[く]ます
+special cases: り exception
+帰[かえ]る ➀五段		帰[かえ]ります
+入[はい]る ➀五段		入[はい]ります
+知[し]る ⓪五段			知[し]ります
+しゃべる ➁五段			しゃべります
+要[い]る ⓪五段			要[い]ります
+撮[と]る ➀五段			撮[と]ります
+
+する ⓪サ變				します
+来[く]る ➀カ變			来[き]ます
+
+https://storylearning.com/learn/japanese/japanese-tips/japanese-verb-conjugation#:~:text=However%2C%20Japanese%20has%202%20types,with%20either%20RU%20or%20U.
+“I want to”: -たい (RU verbs) or -いたい (U verbs)
+Example: 食[た]べたい (I want to eat) and 歌[うた]いたい (I want to sing)
+“I don’t want to”: -たくない or -いたくない
+Example: 食[た]べたくない (I don’t want to eat) and 歌[うた]いたくない (I don’t want to sing)
+“I can”: -られます or -えます
+Example: 見[み]られます (I can see) and 読[よ]めます (I can read)
+“I can’t”: -られません or -えません
+Example: 見[み]られません (I can’t see) or 読[よ]めません (I can’t read)
+
+-て form for progressive
+食[た]べて
+読[よ]んで
+見[み]て
+歌[うたっ]て
