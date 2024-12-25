@@ -10,3 +10,11 @@ hanasu	話[はな]す	➁	話します
 tobu	飛[と]ぶ	⓪	飛びます
 oyogu	泳[およ]ぐ	➁	泳ぎます
 sawaru	触[さわ]る	⓪	触ります
+odoru	踊[おど]る	⓪	踊ります
+suberu	滑[すべ]る	➁	滑ります
+sagasu	探[さが]す	⓪	探します
+tsukau	使[つか]う	⓪	使います
+kesu	消[け]す	⓪	消します
+tsukeru	付[つ]ける	➁	付けます
+tsukuru	作[つく]る	➁	作ります
+suwaru	座[すわ]る	⓪	座ります
