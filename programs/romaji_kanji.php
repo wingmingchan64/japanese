@@ -516,6 +516,7 @@ $romaji_kanji = array(
 'furo'=>'*風[ふ]呂[ろ]', // ➂ bath, bathtub
 'furu'=>'*振[ふ]る:降[ふ]る', // ➀:➀ wave, shake; fall, come down rain, snow, etc.
 'furui'=>'*古[ふる]い', // ➂ old
+'furuutsu'=>'*フルーツ', // ➁ル➁
 'futari'=>'*二[ふた]人[り]', // ➂ two persons
 'futatsu'=>'*二[ふた]つ', // ➂ two things
 'futoi'=>'*太[ふと]い', // ➁ thick, fat
