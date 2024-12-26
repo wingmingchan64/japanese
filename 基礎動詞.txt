@@ -31,3 +31,13 @@ tataku		叩く	➁	叩きます
 uru		売る	⓪	売ります
 kau		買う	⓪	買います
 wasureru	忘れる	⓪	忘れます
+atsumeru	集める	➁	集めます
+oboeru		覚える	➁	覚えます
+semeru		攻める	➁	攻めます
+mamoru		守る		➁	守ります
+ageru		上げる	⓪	上げます
+sageru		下げる	➁	下げます
+suteru		捨てる	⓪	捨てます
+manabu		学ぶ		⓪	学びます
+toru		取る		➀	取ります
+kimeru		決める	⓪	決めます
