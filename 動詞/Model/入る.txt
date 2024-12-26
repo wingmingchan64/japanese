@@ -11,11 +11,9 @@ Conditional:	れば,れなければ
 Conditional
 (-tara):		ったら,らなかったら
 
-This is the list of verbs of り exception
+This is the list of verbs of り exception; just add the suffixes to the roots
 しゃべる ➁ 喋る
-なる
-やがる
-やる
+やがる to have the nerve to
 上る
 下がる
 乗り切る
@@ -76,6 +74,7 @@ This is the list of verbs of り exception
 滑[すべ]る
 潜る
 燃え盛る
+生[な]る
 生まれ変わる
 異なる
 登る
@@ -116,6 +115,7 @@ This is the list of verbs of り exception
 送る
 通る
 遡る
+遣[や]る perform, send, move, give, etc.
 配る
 重なる
 関わる
@@ -123,4 +123,5 @@ This is the list of verbs of り exception
 飾る
 高ぶる
 高まる
+鳴[な]る
 黙る

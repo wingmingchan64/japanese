@@ -128,10 +128,11 @@ while( true )
 					else
 					{
 						$option_str = $dict[ $input ];
+						
 						if( $cleanup )
 						{
 							$option_str = preg_replace( 
-								$furikana_regex, '', option_str );
+								$furikana_regex, '', $option_str );
 						}
 
 						$options = array( '' );
