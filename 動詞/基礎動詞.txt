@@ -1,4 +1,4 @@
-abiru		浴びる	⓪	浴びます	
+abiru		浴びる	⓪	浴びます
 ageru		上げる	⓪	上げます
 aisuru	➁	
 ajiwau	➁	
