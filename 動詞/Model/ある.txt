@@ -11,6 +11,6 @@ Conditional:	あれば,なければ
 Conditional
 (-tara):		あったら,なかったら
 
-在[あ]る
-散[あ]る
-有[あ]る
+This is the conjugation of these two verbs
+在る,在ります,無い,無かった
+有る,有ります,無い,無かった
