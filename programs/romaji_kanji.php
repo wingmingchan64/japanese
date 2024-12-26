@@ -1061,6 +1061,7 @@ $romaji_kanji = array(
 'kurushii'=>'*苦[くる]しい', // ➁るし➁ painful, agonizing
 'kushi'=>'*くし', // ➂ 櫛 comb
 'kusuri'=>'*薬[くすり]', // ⓪ drug, medicine
+'kudamono'=>'*果物[くだもの]', // ➁だ➁
 'kutsu'=>'*靴[くつ]', // ➂
 'kutsushita'=>'*靴[くつ]下[した]', // ➁つ➁ socks
 'kuuki'=>'*空[くう]気[き]', // ➀ air, atmosphere

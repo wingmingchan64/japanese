@@ -1,5 +1,7 @@
 食べ物➁べも➁
 
+ingredient
+==========
 米[こめ] ➂
 油[あぶら] ⓪
 砂[さ]糖[とう] ➁と➁
@@ -8,6 +10,7 @@
 酢[さく]酸[さん] ⓪
 
 寿[す]司[し] ➂
+=========
 握[にぎ]り ⓪、 握[にぎ]り寿[ず]司[し] ➁ぎり➁
 巻[まき]、裏[うら]巻[ま]き ⓪、巻[ま]き寿[ず]司[し] ⓪
 手[て]巻（き） ⓪
@@ -21,13 +24,14 @@
 白[しろ]身[み] ⓪ white-fleshed fish
 黄[き]身[み]鮨[ずし] sushi with egg yolk instead of rice
 
+魚
+==
 鮪[まぐろ] ⓪
 黒[くろ]鮪 Pacific bluefin tuna
 とろ ➀ fatty cut (esp. of tuna belly)
 中[ちゅう]トロ ⓪ medium-fatty tuna
 大[おお]トロ fat under-belly of tuna
 葱[ねぎ]トロ ⓪ tuna minced with Welsh onion leaves
-⓪➀➁➂
 鮭[さけ] ➀
 ハラス belly meat (from a fish, esp. salmon)
 海老[えび] ⓪
@@ -45,7 +49,30 @@
 ほたて 帆立 ほたてがい 帆立貝 海扇  ➁たて➁ Japanese scallop, Yesso scallop
 あなご 穴子 海鰻 ⓪ Conger eel
 えんがわ 縁側 ⓪ a rare, chewy, fatty, and flavorful cut of meat from the upper and lower fin muscles of a olive flounder or halibut
-甘[あま]えび 甘海老 ➁ま➁ sweet shrimp 
+甘[あま]えび 甘海老 ➁ま➁ sweet shrimp
+
+野菜 ⓪
+===
+
+果物[くだもの] ➁だ➁
+=========
+フルーツ ➁ル➁
+
+
+肉[にく] ➂
+=====
+鶏[けい]肉 ⓪
+牛[ぎゅう]肉 ⓪
+和[わ]牛[ぎゅう] ⓪
+猪[いのしし]肉
+豚[ぶた]肉 ⓪
+羊[よう]肉 ⓪
+
+ways of cooking
+===============
+揚[あ]げる ⓪ deep-fry
+この鶏[とり]肉はよく揚げられている。
+This chicken is fried well.
 
 
 京都 萬[まん]亀[かめ]楼[ろう]
