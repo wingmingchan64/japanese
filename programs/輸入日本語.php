@@ -1,18 +1,24 @@
 <?php
 /*
-// without furigana
+// remove all pronunciation information
 php H:\github\japanese\programs\輸入日本語.php 0
-// with furigana
+// keep furigana
+php H:\github\japanese\programs\輸入日本語.php 1
+// show all pronunciation information
 php H:\github\japanese\programs\輸入日本語.php
 */
 $cleanup = false;
+$show_furi = false;
 $furikana_regex = '/\[\X+?]/';
-//preg_replace( 夾注regex, '', $帶夾注詩文 );
+$pitch_regex = '/\[\[\X+?]]/';
 
 if( sizeof( $argv ) > 1 )
 {
 	$cleanup = 
 		( intval( $argv[1] ) == 0 ) ?  
+		true : false;
+	$show_furi =
+		( intval( $argv[1] ) == 1 ) ?  
 		true : false;
 }
 
@@ -98,10 +104,25 @@ while( true )
 				)
 				{
 					$option_str = trim( $dict[ $input ] );
+					
 					if( $cleanup )
 					{
 						$option_str = preg_replace( 
-							$furikana_regex, '', $dict[ $input ] );
+							$furikana_regex, '', $option_str );
+					}
+					elseif( $show_furi )
+					{
+						$option_str = preg_replace( 
+							$pitch_regex, '', $option_str );
+						// remove all accent markers
+						$option_str = str_replace( '[⓪]', '',
+							str_replace( '[➀]', '',
+								str_replace( '[➁]', '',
+									str_replace( '[➂]', '', $option_str ) ) ) );
+						$option_str = str_replace( '⓪', '',
+							str_replace( '➀', '',
+								str_replace( '➁', '',
+									str_replace( '➂', '', $option_str ) ) ) );
 					}
 
 					$buffer .= trim( $option_str, "*" );
@@ -118,8 +139,23 @@ while( true )
 						if( $cleanup )
 						{
 							$option_str = preg_replace( 
-								$furikana_regex, '', $dict[ $input ] );
+								$furikana_regex, '', $option_str );
 						}
+						elseif( $show_furi )
+						{
+							$option_str = preg_replace( 
+								$pitch_regex, '', $option_str );
+							// remove all accent markers
+							$option_str = str_replace( '[⓪]', '',
+								str_replace( '[➀]', '',
+									str_replace( '[➁]', '',
+										str_replace( '[➂]', '', $option_str ) ) ) );
+								$option_str = str_replace( '⓪', '',
+									str_replace( '➀', '',
+										str_replace( '➁', '',
+											str_replace( '➂', '', $option_str ) ) ) );
+						}
+
 						
 						$options = array_merge( $options,
 							explode(
@@ -134,6 +170,22 @@ while( true )
 							$option_str = preg_replace( 
 								$furikana_regex, '', $option_str );
 						}
+						elseif( $show_furi )
+						{
+							$option_str = preg_replace( 
+								$pitch_regex, '', $option_str );
+							// remove all accent markers
+							$option_str = str_replace( '[⓪]', '',
+								str_replace( '[➀]', '',
+									str_replace( '[➁]', '',
+										str_replace( '[➂]', '', $option_str ) ) ) );
+								$option_str = str_replace( '⓪', '',
+									str_replace( '➀', '',
+										str_replace( '➁', '',
+											str_replace( '➂', '', $option_str ) ) ) );
+
+						}
+
 
 						$options = array( '' );
 				
@@ -205,6 +257,21 @@ while( true )
 					$option_str = preg_replace( 
 						$furikana_regex, '', $option_str );
 				}
+				elseif( $show_furi )
+				{
+					$option_str = preg_replace( 
+						$pitch_regex, '', $option_str );
+					// remove all accent markers
+					$option_str = str_replace( '[⓪]', '',
+						str_replace( '[➀]', '',
+							str_replace( '[➁]', '',
+								str_replace( '[➂]', '', $option_str ) ) ) );
+						$option_str = str_replace( '⓪', '',
+							str_replace( '➀', '',
+								str_replace( '➁', '',
+									str_replace( '➂', '', $option_str ) ) ) );
+				}
+
 				$options = array_merge( $options,
 					explode(
 						':', trim( $dict[ $key ], "*" ) ) );
