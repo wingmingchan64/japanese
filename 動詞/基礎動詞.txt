@@ -248,4 +248,4 @@ yomu		読む	➀	読みます
 yoyakusuru	⓪	
 yurusu	➁	
 
-https://www.youtube.com/watch?v=H_6xEMWkYSE&t=277s
+// https://www.youtube.com/watch?v=H_6xEMWkYSE&t=277s
