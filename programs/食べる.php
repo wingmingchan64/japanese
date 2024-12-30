@@ -1,4 +1,8 @@
 <?php
+/*
+一段
+食べたい
+*/
 $食べる=array(
 'Present'=>"${stem}る,${stem}ます,${stem}ない,${stem}ません",
 'Past'=>"${stem}た,${stem}ました,${stem}なかった,${stem}ませんでした",

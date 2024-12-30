@@ -1,6 +1,7 @@
 <?php
 /*
 read from https://tangorin.com/
+todo: combine repeated keys
 */
 $tangorin_dict=array(
 "-ko.mu / ko.mu / ko.mi / -ko.mi / ko.meru"=>array("","~こ.む・こ.む・こ.み・~こ.み・こ.める","crowded; mixture; in bulk; included; (kokuji)"),
