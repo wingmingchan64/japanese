@@ -1,31 +1,19 @@
 <?php
 /*
-// remove all pronunciation information
-php H:\github\japanese\programs\羅馬字→漢字、假名.php 0
-// keep furigana
-php H:\github\japanese\programs\羅馬字→漢字、假名.php 1
-// show all pronunciation information
-php H:\github\japanese\programs\羅馬字→漢字、假名.php
+php h:\github\japanese\programs\search.php 
 */
-$cleanup = false;
-$show_furi = false;
-$furikana_regex = '/\[\[\X+?]]|\[\X+?]/';
-$pitch_regex = '/\[\[\X+?]]/';
-
-if( sizeof( $argv ) > 1 )
-{
-	$cleanup = 
-		( intval( $argv[1] ) == 0 ) ?  
-		true : false;
-	$show_furi =
-		( intval( $argv[1] ) == 1 ) ?  
-		true : false;
-}
-
-// 字庫
+require_once( "h:\\github\\japanese\\programs\\常數.php" );
+require_once( "h:\\github\\japanese\\programs\\函式.php" );
 require_once( "H:\\github\\japanese\\programs\\四角字典.php" );
 require_once( "H:\\github\\japanese\\programs\\日本語の固有名詞.php" );
 require_once( "H:\\github\\japanese\\programs\\romaji_kanji.php" );
+
+$input  = "";
+$buffer = '';
+$cleanup = false;
+$show_furi = false;
+$furikana_regex = '/\[\X+?]/';
+$pitch_regex = '/\[\[\X+?]]/';
 
 // do not use array_merge!!!
 foreach( $固有名詞 as $k => $v )
@@ -36,59 +24,70 @@ foreach( $romaji_kanji as $k => $v )
 {
 	$dict[ $k ] = $v;
 }
-$NL = "\r\n";
-
-$out_file = 'h:\php809\code\buffer.txt';
-$input    = "";
-$buffer   = "";
 
 while( true )
 {
-	// load: load the content of buffer.txt to memory
-	// save: save the content in memory to buffer.txt
-	// clr: clear the buffer in memory
-	// del: remove the last unicode char from memory
-	// show: show the content in memory
-	// exit: terminate the program
-	// key: a key in the dictionary
-	echo "Enter a command (load, save, clr, del, show, exit) or a key\n";
-	$input = readline();
+	echo 選項指令;
+	$程式名 = array_keys( 搜索程式 );
+	print_r( $程式名 );
+	$cleanup = false;
+	$show_furi = false;
+
+	$option = readline();
 	
-	// command or key
-	if( isAscii( $input ) )
-	{
-		if( $input == "exit" )
+	//{// read the value of a key
+	//else
+	//{
+		if( $option == "exit" )
 		{
 			echo "Bye!\n";
 			exit;
 		}
-		elseif( $input == "save" )
+		
+		$num = intval( $option );
+		
+		while( true ) 
 		{
-			file_put_contents( $out_file, $buffer );
-			printBuffer( $buffer );
-		}
-		elseif( $input == "del" )
-		{
-			$buffer = mb_substr( 
-				$buffer, 0, mb_strlen( $buffer ) - 1 );
-			printBuffer( $buffer );
-		}
-		elseif( $input == "load" )
-		{
-			$buffer = file_get_contents( $out_file );
-			printBuffer( $buffer );
-		}
-		elseif( $input == "show" )
-		{
-			printBuffer( $buffer );
-		}
-		elseif( $input == "clr" )
-		{
-			$buffer = "";
-			printBuffer( $buffer );
-		}
-		// read the value of a key
-		elseif( array_key_exists( $input, $dict ) )
+			// clr: clear the buffer in memory
+			// del: remove the last unicode char from memory
+			// show: show the content in memory
+			// quit: exit program
+			// key: Romaji
+			echo "Enter a command (clr, del, show, quit) or a Romaji\n";
+			$input = readline();
+			
+			// command or key
+			if( $input == "quit" )
+			{
+				echo "Bye!\n";
+				break;
+			}
+			elseif( $input == "del" )
+			{
+				$buffer = mb_substr( 
+					$buffer, 0, mb_strlen( $buffer ) - 1 );
+				printBuffer( $buffer );
+			}
+			elseif( $input == "show" )
+			{
+				printBuffer( $buffer );
+			}
+			elseif( $input == "clr" )
+			{
+				$buffer = "";
+				printBuffer( $buffer );
+			}
+			elseif( $num == 0 || $num == 1 || $num == 2 )
+			{
+				if( $num == 0 )
+				{
+					$cleanup = true;
+				}
+				elseif( $num == 1 )
+				{
+					$show_furi = true;
+				}
+		if( array_key_exists( $input, $dict ) )
 		{
 			//echo 'here 1', $input, "\r\n";
 			//echo $dict[ $input ], "stop\r\n";
@@ -300,14 +299,44 @@ while( true )
 		{
 			echo "Not a valid key. Try again.\n";
 		}
-	}
-	else // 漢字符
-	{
-		$buffer .= $input;
-		printBuffer( $buffer );
-	}
-}
+			}
+		} // inner while
+		
+		/*
+			if( 搜索程式[ $程式 ] != '' )
+			{
+				$程式 = $程式名[ $num ];
+				echo 搜索程式[ $程式 ];
+				$參數 = readline();
+			}
+			else
+			{
+				$參數 = '';
+			}
+			
+			$executable = "php " . 搜索程式文件夾 . $程式 . 程式後綴 . ' ' . $參數;
+			$output = null;
+			$retval = null;
+			echo NL;
 
+			exec( $executable, $output, $retval );
+			*/
+			//printOutput( $output );
+		//}
+		//else
+		//{
+			//echo "Not a valid option. Try again.\n";
+		//}
+	//}
+}
+function printOutput( array $output )
+{
+	foreach( $output as $i => $l )
+	{
+		echo $l, "\n";
+	}
+	echo "\n";
+}
 function isAscii( string $str ) : bool
 {
 	return ( mb_detect_encoding( $str, 'ASCII' ) == 'ASCII' );
@@ -321,4 +350,5 @@ function printBuffer( string $buffer )
 	// display
 	echo "=>", $buffer, "\n";
 }
+
 ?>
