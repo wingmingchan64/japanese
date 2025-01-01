@@ -1,5 +1,5 @@
-Model: 
-Present:		
+Model: 行く
+Present:		く,きます,
 Past:			
 -te Form:		
 Volitional:		
