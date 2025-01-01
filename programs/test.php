@@ -2,7 +2,7 @@
 /*
 php H:\github\japanese\programs\test.php
 */
-require_once( 'H:\github\japanese\programs\kanji_kana.php' );
+require_once( 'H:\github\japanese\programs\kana_kanji.php' );
 
-print_r( $kanji_kana[ '問題' ] );
+print_r( $kana_kanji[ 'あいえんきえん' ] );
 ?>
