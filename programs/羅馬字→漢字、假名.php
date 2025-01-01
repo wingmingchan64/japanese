@@ -1,11 +1,11 @@
 <?php
 /*
 // remove all pronunciation information
-php H:\github\japanese\programs\輸入日本語.php 0
+php H:\github\japanese\programs\羅馬字→漢字、假名.php 0
 // keep furigana
-php H:\github\japanese\programs\輸入日本語.php 1
+php H:\github\japanese\programs\羅馬字→漢字、假名.php 1
 // show all pronunciation information
-php H:\github\japanese\programs\輸入日本語.php
+php H:\github\japanese\programs\羅馬字→漢字、假名.php
 */
 $cleanup = false;
 $show_furi = false;
