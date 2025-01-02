@@ -12,7 +12,7 @@ $input  = "";
 $buffer = '';
 $cleanup = false;
 $show_furi = false;
-$furikana_regex = '/\[\X+?]/';
+$furikana_regex = '/\[\[\X+?]]|\[\X+?]/';
 $pitch_regex = '/\[\[\X+?]]/';
 
 // do not use array_merge!!!
@@ -46,63 +46,124 @@ while( true )
 		
 		$num = intval( $option );
 		
-		while( true ) 
+		if( $num == 0 || $num == 1 || $num == 2 )
 		{
-			// clr: clear the buffer in memory
-			// del: remove the last unicode char from memory
-			// show: show the content in memory
-			// quit: exit program
-			// key: Romaji
-			echo "Enter a command (clr, del, show, quit) or a Romaji\n";
-			$input = readline();
-			
-			// command or key
-			if( $input == "quit" )
-			{
-				echo "Bye!\n";
-				break;
-			}
-			elseif( $input == "del" )
-			{
-				$buffer = mb_substr( 
-					$buffer, 0, mb_strlen( $buffer ) - 1 );
-				printBuffer( $buffer );
-			}
-			elseif( $input == "show" )
-			{
-				printBuffer( $buffer );
-			}
-			elseif( $input == "clr" )
-			{
-				$buffer = "";
-				printBuffer( $buffer );
-			}
-			elseif( $num == 0 || $num == 1 || $num == 2 )
-			{
-				if( $num == 0 )
-				{
-					$cleanup = true;
-				}
-				elseif( $num == 1 )
-				{
-					$show_furi = true;
-				}
-		if( array_key_exists( $input, $dict ) )
+// inner while for inputting kanji
+while( true ) 
+{
+// clr: clear the buffer in memory
+// del: remove the last unicode char from memory
+// show: show the content in memory
+// quit: exit program
+// key: Romaji
+echo "Enter a command (clr, del, show, quit) or a Romaji\n";
+$input = readline();
+
+// command or key
+if( $input == "quit" )
+{
+	echo "Bye!\n";
+	break;
+}
+elseif( $input == "del" )
+{
+	$buffer = mb_substr( 
+		$buffer, 0, mb_strlen( $buffer ) - 1 );
+	printBuffer( $buffer );
+}
+elseif( $input == "show" )
+{
+	printBuffer( $buffer );
+}
+elseif( $input == "clr" )
+{
+	$buffer = "";
+	printBuffer( $buffer );
+}
+	if( $num == 0 )
+	{
+		$cleanup = true;
+	}
+	elseif( $num == 1 )
+	{
+		$show_furi = true;
+	}
+	if( array_key_exists( $input, $dict ) )
+	{
+		//echo 'here 1', $input, "\r\n";
+		//echo $dict[ $input ], "stop\r\n";
+		
+		// more than one 漢字符 in value
+		if( is_string( $dict[ $input ] ) && 
+			mb_strlen( $dict[ $input ] ) > 1 )
 		{
-			//echo 'here 1', $input, "\r\n";
-			//echo $dict[ $input ], "stop\r\n";
-			
-			// more than one 漢字符 in value
-			if( is_string( $dict[ $input ] ) && 
-				mb_strlen( $dict[ $input ] ) > 1 )
+			//echo 'here 2', $input, "\r\n";
+			// append entire string to buffer
+			if( str_starts_with( $dict[ $input ], "*" ) &&
+				mb_strpos( $dict[ $input ], ":" ) === false
+			)
 			{
-				//echo 'here 2', $input, "\r\n";
-				// append entire string to buffer
-				if( str_starts_with( $dict[ $input ], "*" ) &&
-					mb_strpos( $dict[ $input ], ":" ) === false
-				)
+				$option_str = trim( $dict[ $input ] );
+				
+				if( $cleanup )
 				{
-					$option_str = trim( $dict[ $input ] );
+					$option_str = preg_replace( 
+						$furikana_regex, '', $option_str );
+				}
+				elseif( $show_furi )
+				{
+					$option_str = preg_replace( 
+						$pitch_regex, '', $option_str );
+					// remove all accent markers
+					$option_str = str_replace( '[⓪]', '',
+						str_replace( '[➀]', '',
+							str_replace( '[➁]', '',
+								str_replace( '[➂]', '', $option_str ) ) ) );
+					$option_str = str_replace( '⓪', '',
+						str_replace( '➀', '',
+							str_replace( '➁', '',
+								str_replace( '➂', '', $option_str ) ) ) );
+				}
+
+				$buffer .= trim( $option_str, "*" );
+				printBuffer( $buffer );
+			}
+			// provide options
+			else
+			{
+				if( mb_strpos( $dict[ $input ], ":" ) !== false )
+				{
+					$options = array( '' );
+					$option_str = $dict[ $input ];
+
+					if( $cleanup )
+					{
+						$option_str = preg_replace( 
+							$furikana_regex, '', $option_str );
+					}
+					elseif( $show_furi )
+					{
+						$option_str = preg_replace( 
+							$pitch_regex, '', $option_str );
+						// remove all accent markers
+						$option_str = str_replace( '[⓪]', '',
+							str_replace( '[➀]', '',
+								str_replace( '[➁]', '',
+									str_replace( '[➂]', '', $option_str ) ) ) );
+							$option_str = str_replace( '⓪', '',
+								str_replace( '➀', '',
+									str_replace( '➁', '',
+										str_replace( '➂', '', $option_str ) ) ) );
+					}
+
+					
+					$options = array_merge( $options,
+						explode(
+							':', trim( $option_str, "*" ) ) );
+				}
+				else
+				{
+					$option_str = $dict[ $input ];
 					
 					if( $cleanup )
 					{
@@ -118,167 +179,23 @@ while( true )
 							str_replace( '[➀]', '',
 								str_replace( '[➁]', '',
 									str_replace( '[➂]', '', $option_str ) ) ) );
-						$option_str = str_replace( '⓪', '',
-							str_replace( '➀', '',
-								str_replace( '➁', '',
-									str_replace( '➂', '', $option_str ) ) ) );
+							$option_str = str_replace( '⓪', '',
+								str_replace( '➀', '',
+									str_replace( '➁', '',
+										str_replace( '➂', '', $option_str ) ) ) );
+
 					}
 
-					$buffer .= trim( $option_str, "*" );
-					printBuffer( $buffer );
-				}
-				// provide options
-				else
-				{
-					if( mb_strpos( $dict[ $input ], ":" ) !== false )
-					{
-						$options = array( '' );
-						$option_str = $dict[ $input ];
 
-						if( $cleanup )
-						{
-							$option_str = preg_replace( 
-								$furikana_regex, '', $option_str );
-						}
-						elseif( $show_furi )
-						{
-							$option_str = preg_replace( 
-								$pitch_regex, '', $option_str );
-							// remove all accent markers
-							$option_str = str_replace( '[⓪]', '',
-								str_replace( '[➀]', '',
-									str_replace( '[➁]', '',
-										str_replace( '[➂]', '', $option_str ) ) ) );
-								$option_str = str_replace( '⓪', '',
-									str_replace( '➀', '',
-										str_replace( '➁', '',
-											str_replace( '➂', '', $option_str ) ) ) );
-						}
-
-						
-						$options = array_merge( $options,
-							explode(
-								':', trim( $option_str, "*" ) ) );
-					}
-					else
-					{
-						$option_str = $dict[ $input ];
-						
-						if( $cleanup )
-						{
-							$option_str = preg_replace( 
-								$furikana_regex, '', $option_str );
-						}
-						elseif( $show_furi )
-						{
-							$option_str = preg_replace( 
-								$pitch_regex, '', $option_str );
-							// remove all accent markers
-							$option_str = str_replace( '[⓪]', '',
-								str_replace( '[➀]', '',
-									str_replace( '[➁]', '',
-										str_replace( '[➂]', '', $option_str ) ) ) );
-								$option_str = str_replace( '⓪', '',
-									str_replace( '➀', '',
-										str_replace( '➁', '',
-											str_replace( '➂', '', $option_str ) ) ) );
-
-						}
-
-
-						$options = array( '' );
-				
-						// create option array
-						for( $i=1; $i<=mb_strlen( $option_str ); $i++ )
-						{
-							array_push( $options, 
-								mb_substr( $option_str, $i-1, 1 ) );
-						}
-					}
-					// output options
-					print_r( $options );
-					// wait for user option choice
-					$num = intval( readline() );
-				
-					if( $num >= 0 && $num < sizeof( $options ) )
-					{
-						$buffer .= $options[ $num ];
-						printBuffer( $buffer );
-					}
-					else
-					{
-						echo "Not a valid option. Try again.\n";
-					}
-				}
-			}
-			elseif( is_array( $dict[ $input ] ) )
-			{
-				//echo 'here 3', $input, "\r\n";
-
-				// output options
-				print_r( $dict[ $input ] );
-				
-				$num = intval( readline() );
-				
-				if( $num >= 0 && $num < sizeof( $dict[ $input ] ) )
-				{
-					$buffer .= $dict[ $input ][ $num ];
-					printBuffer( $buffer );
-				}
-				else
-				{
-					echo "Not a valid option. Try again.\n";
-				}
-			}
-			else
-			{
-				//echo 'here 4', $input, "\r\n";
-				$buffer .= $dict[ $input ];
-				printBuffer( $buffer );
-			}
-		}
-		elseif( str_ends_with( $input, '..' ) )
-		{
-			// remove marker
-			$input = str_replace( '..', '', $input );
-			$options = array( '' );
+					$options = array( '' );
 			
-			foreach( array_keys( $dict ) as $key )
-			{
-				// use the first key
-				if( !str_starts_with( $key, $input ) )
-				{
-					continue;
+					// create option array
+					for( $i=1; $i<=mb_strlen( $option_str ); $i++ )
+					{
+						array_push( $options, 
+							mb_substr( $option_str, $i-1, 1 ) );
+					}
 				}
-				$option_str = $dict[ $key ];
-				if( $cleanup )
-				{
-					$option_str = preg_replace( 
-						$furikana_regex, '', $option_str );
-				}
-				elseif( $show_furi )
-				{
-					$option_str = preg_replace( 
-						$pitch_regex, '', $option_str );
-					// remove all accent markers
-					$option_str = str_replace( '[⓪]', '',
-						str_replace( '[➀]', '',
-							str_replace( '[➁]', '',
-								str_replace( '[➂]', '', $option_str ) ) ) );
-						$option_str = str_replace( '⓪', '',
-							str_replace( '➀', '',
-								str_replace( '➁', '',
-									str_replace( '➂', '', $option_str ) ) ) );
-				}
-
-				$options = array_merge( $options,
-					explode(
-						':', trim( $dict[ $key ], "*" ) ) );
-				break;
-			}
-			
-			if( sizeof( $options ) > 1 )
-			{
 				// output options
 				print_r( $options );
 				// wait for user option choice
@@ -295,14 +212,100 @@ while( true )
 				}
 			}
 		}
+		elseif( is_array( $dict[ $input ] ) )
+		{
+			//echo 'here 3', $input, "\r\n";
+
+			// output options
+			print_r( $dict[ $input ] );
+			
+			$num = intval( readline() );
+			
+			if( $num >= 0 && $num < sizeof( $dict[ $input ] ) )
+			{
+				$buffer .= $dict[ $input ][ $num ];
+				printBuffer( $buffer );
+			}
+			else
+			{
+				echo "Not a valid option. Try again.\n";
+			}
+		}
 		else
 		{
-			echo "Not a valid key. Try again.\n";
+			//echo 'here 4', $input, "\r\n";
+			$buffer .= $dict[ $input ];
+			printBuffer( $buffer );
 		}
-			}
-		} // inner while
+	}
+	elseif( str_ends_with( $input, '..' ) )
+	{
+		// remove marker
+		$input = str_replace( '..', '', $input );
+		$options = array( '' );
 		
-		/*
+		foreach( array_keys( $dict ) as $key )
+		{
+			// use the first key
+			if( !str_starts_with( $key, $input ) )
+			{
+				continue;
+			}
+			$option_str = $dict[ $key ];
+			if( $cleanup )
+			{
+				$option_str = preg_replace( 
+					$furikana_regex, '', $option_str );
+			}
+			elseif( $show_furi )
+			{
+				$option_str = preg_replace( 
+					$pitch_regex, '', $option_str );
+				// remove all accent markers
+				$option_str = str_replace( '[⓪]', '',
+					str_replace( '[➀]', '',
+						str_replace( '[➁]', '',
+							str_replace( '[➂]', '', $option_str ) ) ) );
+					$option_str = str_replace( '⓪', '',
+						str_replace( '➀', '',
+							str_replace( '➁', '',
+								str_replace( '➂', '', $option_str ) ) ) );
+			}
+
+			$options = array_merge( $options,
+				explode(
+					':', trim( $dict[ $key ], "*" ) ) );
+			break;
+		}
+		
+		if( sizeof( $options ) > 1 )
+		{
+			// output options
+			print_r( $options );
+			// wait for user option choice
+			$num = intval( readline() );
+		
+			if( $num >= 0 && $num < sizeof( $options ) )
+			{
+				$buffer .= $options[ $num ];
+				printBuffer( $buffer );
+			}
+			else
+			{
+				echo "Not a valid option. Try again.\n";
+			}
+		}
+	}
+	else
+	{
+		echo "Not a valid key. Try again.\n";
+	}
+}// inner while
+	} 
+	elseif( $num > 2 && $num < sizeof( $程式名 ) )
+	{
+			$程式 = $程式名[ $num ];
+			
 			if( 搜索程式[ $程式 ] != '' )
 			{
 				$程式 = $程式名[ $num ];
@@ -314,21 +317,21 @@ while( true )
 				$參數 = '';
 			}
 			
-			$executable = "php " . 搜索程式文件夾 . $程式 . 程式後綴 . ' ' . $參數;
+			$executable = "php " . 程式文件夾 . $程式 . 程式後綴 . ' ' . $參數;
 			$output = null;
 			$retval = null;
 			echo NL;
 
 			exec( $executable, $output, $retval );
-			*/
-			//printOutput( $output );
-		//}
-		//else
-		//{
-			//echo "Not a valid option. Try again.\n";
-		//}
-	//}
+			printOutput( $output );
+
+		}
+	else
+	{
+			echo "Not a valid option. Try again.\n";
+	}
 }
+
 function printOutput( array $output )
 {
 	foreach( $output as $i => $l )
