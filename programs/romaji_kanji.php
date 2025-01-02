@@ -3,6 +3,8 @@
 php H:\github\japanese\programs\輸入日本語.php
 php H:\github\japanese\programs\輸入日本語.php 0
 key => : separated values // accent meaning
+
+my own compilation
 */
 $romaji_kanji = array(
 'aa'=>'*ああ[➀]', // like that, that much

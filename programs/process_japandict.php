@@ -1,5 +1,6 @@
 <?php
 /*
+get the meaning of words from japandict
 php H:\github\japanese\programs\process_japandict.php
 php H:\github\japanese\programs\process_japandict.php 四千
 */

@@ -23,19 +23,6 @@ foreach( $組名s as $組名 )
 		break;
 		//$stem = str_replace( 'る', '', $動詞 );
 	}
-/*
-if( in_array( $動詞, $動詞表[ '食べる' ] ) )
-{
-	$model = '食べる';
-	$動詞陣列名 = '食べる';
-	$stem = str_replace( 'る', '', $動詞 );
-}
-elseif( in_array( $動詞, $動詞表[ '飲む' ] ) )
-{
-	$model = '飲む';
-	$動詞陣列名 = '飲む';
-	$stem = str_replace( 'む', '', $動詞 );
-}*/
 	else
 	{
 		$model = 'する';
