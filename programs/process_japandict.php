@@ -2,14 +2,13 @@
 /*
 get the meaning of words from japandict
 php H:\github\japanese\programs\process_japandict.php
-php H:\github\japanese\programs\process_japandict.php 四千
 */
 error_reporting(E_ALL & ~E_WARNING & ~E_NOTICE);
 
 //checkARGV( $argv, 2, "必須提供詞： " );
 const NL = "\r\n";
 
-$contents = file_get_contents( 'H:\github\japanese\programs\44998_wordlist.txt' );
+$contents = file_get_contents( 'H:\github\japanese\programs\difference.txt' );
 $terms = explode( "\r\n", $contents );
 $div_regex = '/<div lang="en">([^<]+)<\/div>/';
 $rj_regex = '/<div class="xxsmall text-muted text-center mt-2">([^<]+)<\/div>/';
