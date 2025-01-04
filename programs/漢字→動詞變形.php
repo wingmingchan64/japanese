@@ -20,11 +20,23 @@ foreach( $組名s as $組名 )
 		// 禁ずる
 		if( mb_strpos( $組名, 'ずる' ) !== false ||
 			in_array( $組名,
-				array( '愛する','接する', )
-		)
+				array( '愛する','接する' ) ) )
 		{
 			$stem = str_replace(
 				mb_substr( $組名, mb_strlen( $組名 ) - 2 ), '', $動詞 );
+		}
+		elseif( $組名 == 'ある' || $組名 == '有る' || $組名 == '在る' )
+		{
+			$stem = str_replace(
+				mb_substr( $組名, mb_strlen( $組名 ) - 1 ), '', $動詞 );
+			if( $stem == 'あ' )
+			{
+				$stemn = 'な';
+			}
+			else
+			{
+				$stemn = '無';
+			}
 		}
 		else
 		{
