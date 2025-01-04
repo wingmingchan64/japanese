@@ -1,5 +1,6 @@
 <?php
 /*
+
 php h:\github\japanese\programs\search.php 
 */
 require_once( "h:\\github\\japanese\\programs\\常數.php" );
@@ -25,6 +26,7 @@ foreach( $romaji_kanji as $k => $v )
 	$dict[ $k ] = $v;
 }
 
+// outer while
 while( true )
 {
 	echo 選項指令;
@@ -35,60 +37,58 @@ while( true )
 
 	$option = readline();
 	
-	//{// read the value of a key
-	//else
-	//{
-		if( $option == "exit" )
+	if( $option == "exit" )
+	{
+		echo "Bye!\n";
+		exit;
+	}
+	
+	$num = intval( $option );
+	
+	if( $num == 0 || $num == 1 || $num == 2 )
+	{
+		if( $num == 0 )
 		{
-			echo "Bye!\n";
-			exit;
+			$cleanup = true;
 		}
-		
-		$num = intval( $option );
-		
-		if( $num == 0 || $num == 1 || $num == 2 )
+		elseif( $num == 1 )
 		{
+			$show_furi = true;
+		}
+
 // inner while for inputting kanji
 while( true ) 
 {
-// clr: clear the buffer in memory
-// del: remove the last unicode char from memory
-// show: show the content in memory
-// quit: exit program
-// key: Romaji
-echo "Enter a command (clr, del, show, quit) or a Romaji\n";
-$input = readline();
+	// clr: clear the buffer in memory
+	// del: remove the last unicode char from memory
+	// show: show the content in memory
+	// quit: exit program
+	// key: Romaji
+	echo "Enter a command (clr, del, show, quit) or a Romaji\n";
+	$input = readline();
 
-// command or key
-if( $input == "quit" )
-{
-	echo "Bye!\n";
-	break;
-}
-elseif( $input == "del" )
-{
-	$buffer = mb_substr( 
-		$buffer, 0, mb_strlen( $buffer ) - 1 );
-	printBuffer( $buffer );
-}
-elseif( $input == "show" )
-{
-	printBuffer( $buffer );
-}
-elseif( $input == "clr" )
-{
-	$buffer = "";
-	printBuffer( $buffer );
-}
-	if( $num == 0 )
+	// command or key
+	if( $input == "quit" )
 	{
-		$cleanup = true;
+		echo "Bye!\n";
+		break;
 	}
-	elseif( $num == 1 )
+	elseif( $input == "del" )
 	{
-		$show_furi = true;
+		$buffer = mb_substr( 
+			$buffer, 0, mb_strlen( $buffer ) - 1 );
+		printBuffer( $buffer );
 	}
-	if( array_key_exists( $input, $dict ) )
+	elseif( $input == "show" )
+	{
+		printBuffer( $buffer );
+	}
+	elseif( $input == "clr" )
+	{
+		$buffer = "";
+		printBuffer( $buffer );
+	}
+	elseif( array_key_exists( $input, $dict ) )
 	{
 		//echo 'here 1', $input, "\r\n";
 		//echo $dict[ $input ], "stop\r\n";
@@ -304,31 +304,31 @@ elseif( $input == "clr" )
 	} 
 	elseif( $num > 2 && $num < sizeof( $程式名 ) )
 	{
+		$程式 = $程式名[ $num ];
+		
+		if( 搜索程式[ $程式 ] != '' )
+		{
 			$程式 = $程式名[ $num ];
-			
-			if( 搜索程式[ $程式 ] != '' )
-			{
-				$程式 = $程式名[ $num ];
-				echo 搜索程式[ $程式 ];
-				$參數 = readline();
-			}
-			else
-			{
-				$參數 = '';
-			}
-			
-			$executable = "php " . 程式文件夾 . $程式 . 程式後綴 . ' ' . $參數;
-			$output = null;
-			$retval = null;
-			echo NL;
-
-			exec( $executable, $output, $retval );
-			printOutput( $output );
-
+			echo 搜索程式[ $程式 ];
+			$參數 = readline();
 		}
+		else
+		{
+			$參數 = '';
+		}
+		
+		$executable = "php " . 程式文件夾 . $程式 . 程式後綴 . ' ' . $參數;
+		$output = null;
+		$retval = null;
+		echo NL;
+
+		exec( $executable, $output, $retval );
+		printOutput( $output );
+
+	}
 	else
 	{
-			echo "Not a valid option. Try again.\n";
+		echo "Not a valid option. Try again.\n";
 	}
 }
 
@@ -353,5 +353,5 @@ function printBuffer( string $buffer )
 	// display
 	echo "=>", $buffer, "\n";
 }
-
+飲む
 ?>

@@ -17,8 +17,20 @@ foreach( $組名s as $組名 )
 		$model = $組名;
 		$動詞陣列名 = $組名;
 		// get the stem
-		$stem = str_replace(
-			mb_substr( $組名, mb_strlen( $組名 ) - 1 ), '', $動詞 );
+		// 禁ずる
+		if( mb_strpos( $組名, 'ずる' ) !== false ||
+			in_array( $組名,
+				array( '愛する','接する', )
+		)
+		{
+			$stem = str_replace(
+				mb_substr( $組名, mb_strlen( $組名 ) - 2 ), '', $動詞 );
+		}
+		else
+		{
+			$stem = str_replace(
+				mb_substr( $組名, mb_strlen( $組名 ) - 1 ), '', $動詞 );
+		}
 		// when found, get out of the loop
 		break;
 		//$stem = str_replace( 'る', '', $動詞 );

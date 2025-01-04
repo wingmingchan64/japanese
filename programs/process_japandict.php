@@ -56,7 +56,7 @@ foreach( $terms as $詞 )
 			FILE_APPEND | LOCK_EX );
 		echo $詞, "\r\n";
 	}
-	if( $counter > 999 )
+	if( $counter > 9999 )
 	{
 		exit;
 	}
