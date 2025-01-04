@@ -298,6 +298,43 @@ while( true )
 	}
 	else
 	{
+		require_once( 'H:\github\japanese\programs\tangorin_dict.php' );
+		
+		if( array_key_exists( $input, $tangorin_dict ) )
+		{
+			$陣列 = $tangorin_dict[ $input ];
+			
+			$t = '';
+			
+			if( is_string( $陣列[ 0 ] ) )
+			{
+				if( $陣列[ 0 ] != '' )
+				{
+					$t = $陣列[ 0 ] . '[' . $陣列[ 1 ] . ']';
+				}
+				else
+				{
+					$t = $陣列[ 1 ];
+				}
+			}
+			elseif( is_array( $陣列[ 0 ] ) )
+			{
+				foreach( $陣列 as $strings )
+				{
+					if( $strings[ 0 ] != '' )
+					{
+						$t .= $strings[ 0 ] . '[' . $strings[ 1 ] . ']';
+					}
+					else
+					{
+						$t .= $strings[ 1 ];
+					}
+				}
+			}
+			$buffer .= $t;
+			printBuffer( $buffer );
+		}
+		
 		echo "Not a valid key. Try again.\n";
 	}
 }// inner while

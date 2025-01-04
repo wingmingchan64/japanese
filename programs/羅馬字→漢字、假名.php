@@ -298,6 +298,9 @@ while( true )
 		}
 		else
 		{
+			// find something useful in other dictionaries
+			require_once( 'H:\github\japanese\programs\tangorin_dict.php' );
+			
 			echo "Not a valid key. Try again.\n";
 		}
 	}
