@@ -97,7 +97,7 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 '生かす',
 '表す',
 '見直す',
-'起こす',
+'起こす', // to cause, to lead to
 '足す',
 '逃す',
 '飛ばす',
@@ -270,7 +270,7 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 '守る',
 '実る',
 '寄る',
-'居る',
+// '居る', // おる, see いる
 '巡る',
 '帰る',
 '座る',
