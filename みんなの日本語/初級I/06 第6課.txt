@@ -123,7 +123,7 @@ Practice:
 動詞：
 る ending: drop る，add ます
 う ending: drop う，add います to preceding (possibly zero) consonant
-、食[た]べます
+食[た]べる、食[た]べます
 飲[の]む、飲[の]みます
 吸[す]う、吸[す]います
 タバコを 吸[す]います
