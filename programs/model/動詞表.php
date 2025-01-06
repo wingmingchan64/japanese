@@ -63,6 +63,8 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 '頂く',
 '驚く',
 '鳴く',
+'好く',
+'泣く',
 ),
 
 '行く'=>array(
@@ -109,6 +111,7 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 '断つ',
 '保つ',
 '立つ',
+'持つ',
 ),
 
 // 五段 ぬ

@@ -9,6 +9,6 @@ $待つ=array(
 'Causative'=>"${stem}たせる,${stem}たせます,${stem}たせない,${stem}たせません",
 'Imperative'=>"${stem}て,${stem}ってください,${stem}つな,${stem}たないでください",
 'Condition'=>"${stem}てば,${stem}てなければ",
-'Condition (-tara)'=>"${stem}ったら,${stem}たなかったら"
+'Condition (-tara)'=>"${stem}ったら,${stem}たなかったら",
 );
 ?>
