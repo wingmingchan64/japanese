@@ -1,13 +1,14 @@
 <?php
 /*
+my own compilation
+
 php H:\github\japanese\programs\輸入日本語.php
 php H:\github\japanese\programs\輸入日本語.php 0
-key => : separated values // accent meaning
+key => : separated values
 
-my own compilation
 Accent markers: ⓪➀➁➂➃➄➅➆ (from wakoku)
-always in the last pair of []
-⓪ low in the first mora, then high throughout
+always in the last pair of [] so that they can be removed programmatically
+⓪ low in the first mora （モーラ、拍）, then high throughout
 ➀➁➂➃➄➅➆ the position of the last high-pitched mora
 */
 $romaji_kanji = array(
@@ -932,6 +933,9 @@ $romaji_kanji = array(
 'kata'=>'*方[かた➁]:肩[かた➀]', // direction, person, shoulder
 'katai'=>'*固[かた⓪]い', // stiff, tight
 'katakana'=>'*カタカナ[➁]:片[かた]仮[か]名[な➁]', // katakana
+'kataru'=>'*語[かた⓪]る', // 
+'kataruniochiru'=>'*語[かた]るに落[おち⓪]ちる', // let slip a secret
+'katarunitaru'=>'*語[かた]るに足[た⓪]る', // be worth telling
 'katei'=>'*家[か]庭[てい⓪]', // home, family
 'katsu'=>'*勝[か➀]つ', // win
 'kau'=>'*買[か⓪]う', // buy
@@ -1388,6 +1392,10 @@ $romaji_kanji = array(
 'nishi'=>'*西[にし⓪]', // west, western
 'niteiru'=>'*似ている[にている]', // look like, resemble
 'niwa'=>'*庭[にわ⓪]', //  garden, yard
+'niwaijiri'=>'*庭[にわ]弄[いじ➂]り', // 
+'niwaki'=>'*庭[にわ]木[き⓪]', // 
+'niwasaki'=>'*庭[にわ]先[さき⓪]', // 
+'niwashi'=>'*庭[にわ]師[し➁]', // 
 'nobiru'=>'*伸[の➁]びる', // stretch, grow
 'noboru'=>'*上[のぼ⓪]る', // go up, climb
 'nokoru'=>'*残[のこ➁]る', // remain, be left over
@@ -1875,6 +1883,7 @@ $romaji_kanji = array(
 'touru'=>'*通[とお➀]る', // entlanggehen, vorbeigehen
 'tsuchi'=>'*土[つち➁]', // 
 'tsugi'=>'*次[つぎ➁]', // next
+'tsugu'=>'*次[つ⓪]ぐ', // follow, als Nächstes kommen
 'tsuitachi'=>'*一[つい]日[たち➃]', // first of the month
 'tsukare'=>'*疲[つか➂]れ', //  tiredness
 'tsukareru'=>'*疲[つか➂]れる', // to get tired
