@@ -161,7 +161,7 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 
 // 五段 ぶ
 '呼ぶ'=>array(
-'呼ぶ',
+'呼ぶ', // よぶ
 'もてあそぶ',
 '並ぶ',
 '及ぶ',
@@ -231,6 +231,7 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 // 五段 り exception
 // 入走要帰限切 喋知蹴滑焦減 like 五段
 '入る'=>array(
+'異なる',
 '入る', // 
 'しゃべる',
 'なる',
