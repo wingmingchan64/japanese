@@ -1,5 +1,6 @@
 <?php
 require_once( 'H:\github\japanese\programs\model\来る動詞.php' );
+require_once( 'H:\github\japanese\programs\model\だ動詞.php' );
 require_once( 'H:\github\japanese\programs\model\問う動詞.php' );
 require_once( 'H:\github\japanese\programs\model\買う動詞.php' );
 require_once( 'H:\github\japanese\programs\model\書く動詞.php' );
@@ -8,7 +9,15 @@ require_once( 'H:\github\japanese\programs\model\泳ぐ動詞.php' );
 require_once( 'H:\github\japanese\programs\model\指す動詞.php' );
 require_once( 'H:\github\japanese\programs\model\待つ動詞.php' );
 require_once( 'H:\github\japanese\programs\model\死ぬ動詞.php' );
+require_once( 'H:\github\japanese\programs\model\飲む動詞.php' );
+require_once( 'H:\github\japanese\programs\model\呼ぶ動詞.php' );
+require_once( 'H:\github\japanese\programs\model\ある動詞.php' );
+require_once( 'H:\github\japanese\programs\model\くれる動詞.php' );
+require_once( 'H:\github\japanese\programs\model\なさる動詞.php' );
 /*
+require_once( 'H:\github\japanese\programs\model\動詞.php' );
+require_once( 'H:\github\japanese\programs\model\動詞.php' );
+require_once( 'H:\github\japanese\programs\model\動詞.php' );
 require_once( 'H:\github\japanese\programs\model\動詞.php' );
 require_once( 'H:\github\japanese\programs\model\動詞.php' );
 require_once( 'H:\github\japanese\programs\model\動詞.php' );
@@ -18,6 +27,7 @@ require_once( 'H:\github\japanese\programs\model\動詞.php' );
 
 $動詞表=array(
 '来る'=>$来る動詞,
+'だ'=>$だ動詞,
 // 五段 う
 '問う'=>$問う動詞,
 '買う'=>$買う動詞,
@@ -32,6 +42,14 @@ $動詞表=array(
 '待つ'=>$待つ動詞,
 // 五段 ぬ
 '死ぬ'=>$死ぬ動詞,
+// 五段 む
+'飲む'=>$飲む動詞,
+// 五段 ぶ
+'呼ぶ'=>$呼ぶ動詞,
+// 五段 る
+'ある'=>$ある動詞,
+'くれる'=>$くれる動詞,
+'なさる'=>$なさる動詞,
 /*
 五段
 https://www.youtube.com/watch?v=UHo3qUb79No
@@ -45,115 +63,6 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 可能形[かのうけい]： け
 意向形[いこうけい]： こ + う
 */
-
-
-
-
-// 五段 む
-'飲む'=>array(
-'休む',
-'住む',
-'入り込む',
-'凹む',
-'刻む',
-'包む',
-'取り囲む',
-'噛む',
-'囲む',
-'好む',
-'富む',
-'巻き込む',
-'悲しむ',
-'憎む',
-'折り畳む',
-'挑む',
-'挟む',
-'掴む',
-'書き込む',
-'望む',
-'楽しむ',
-'沈む',
-'済む',
-'産む',
-'痛む',
-'盗む',
-'絞り込む',
-'詠む',
-'読む',
-'込む',
-'追い込む',
-'進む',
-'飲む',
-),
-
-// 五段 ぶ
-'呼ぶ'=>array(
-'呼ぶ', // よぶ
-'もてあそぶ',
-'並ぶ',
-'及ぶ',
-'及ぶ',
-'叫ぶ',
-'吹き飛ぶ',
-'吹っ飛ぶ',
-'咽ぶ',
-'喜ぶ',
-'噎ぶ',
-'堪え忍ぶ',
-'学ぶ',
-'寝転ぶ',
-'尊ぶ',
-'忍ぶ',
-'思い浮かぶ',
-'悦ぶ',
-'慶ぶ',
-'持ち運ぶ',
-'欣ぶ',
-'歓ぶ',
-'歓ぶ',
-'浮かぶ',
-'浮ぶ',
-'空飛ぶ',
-'結ぶ',
-'結ぶ',
-'耐え忍ぶ',
-'誥ぶ',
-'跳ぶ',
-'転ぶ',
-'遊ぶ',
-'運ぶ',
-'選ぶ',
-'飛ぶ',
-),
-
-// 五段 る
-'ある'=>array(
-'ある',
-'有る',
-'在る',
-),
-
-'くれる'=>array(
-'くれる',
-'呉れる'
-),
-
-'だ'=>array(
-'だ'
-),
-
-'なさる'=>array( // 為さる
-'いらっしゃる',
-'おっしゃる',
-'ござる',
-'ご座る',
-'なさる',
-'下さる',
-'仰る',
-'仰有る',
-'御座る',
-'為さる',
-),
 
 // 五段 り exception
 // 入走要帰限切 喋知蹴滑焦減 like 五段
