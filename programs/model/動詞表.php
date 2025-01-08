@@ -1,4 +1,6 @@
 <?php
+require_once( 'H:\github\japanese\programs\model\来る動詞.php' );
+
 $動詞表=array(
 /*
 五段
@@ -13,12 +15,6 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 可能形[かのうけい]： け
 意向形[いこうけい]： こ + う
 */
-'来る'=>array(
-'来る',
-'連れて来る',
-'持って来る',
-'連れ来る',
-),
 // 五段 う
 '問う'=>array(
 '問う', // とう
@@ -371,6 +367,8 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 下一段： える
 */
 '食べる'=>array(
+'使える',
+'禁じる',
 '下りる',
 '与える',
 '並べる',
@@ -577,4 +575,5 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 
 // skip all other する verbs like 生成する
 );
+$動詞表[ '来る' ] = $来る動詞;
 ?>
