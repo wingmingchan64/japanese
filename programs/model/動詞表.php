@@ -2,8 +2,31 @@
 require_once( 'H:\github\japanese\programs\model\来る動詞.php' );
 require_once( 'H:\github\japanese\programs\model\問う動詞.php' );
 require_once( 'H:\github\japanese\programs\model\買う動詞.php' );
+require_once( 'H:\github\japanese\programs\model\書く動詞.php' );
+require_once( 'H:\github\japanese\programs\model\行く動詞.php' );
+require_once( 'H:\github\japanese\programs\model\泳ぐ動詞.php' );
+/*
+require_once( 'H:\github\japanese\programs\model\動詞.php' );
+require_once( 'H:\github\japanese\programs\model\動詞.php' );
+require_once( 'H:\github\japanese\programs\model\動詞.php' );
+require_once( 'H:\github\japanese\programs\model\動詞.php' );
+require_once( 'H:\github\japanese\programs\model\動詞.php' );
+require_once( 'H:\github\japanese\programs\model\動詞.php' );
+require_once( 'H:\github\japanese\programs\model\動詞.php' );
+require_once( 'H:\github\japanese\programs\model\動詞.php' );
+*/
 
 $動詞表=array(
+'来る' => $来る動詞,
+// 五段 う
+'問う' => $問う動詞,
+'買う' => $買う動詞,
+// 五段 く
+'書く' => $書く動詞,
+'行く' => $行く動詞,
+// 五段 ぐ
+'泳ぐ' => $行く動詞,
+
 /*
 五段
 https://www.youtube.com/watch?v=UHo3qUb79No
@@ -17,60 +40,6 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 可能形[かのうけい]： け
 意向形[いこうけい]： こ + う
 */
-// 五段 う
-// 問う
-// 買う
-
-// 五段 く
-'書く'=>array(
-'付く',
-'傾く',
-'効く',
-'動く',
-'向く',
-'咲く',
-'履く',
-'差し引く',
-'思いつく',
-'抱く',
-'描く',
-'敷く',
-'書く',
-'欠く',
-'欺く',
-'気づく',
-'生き抜く',
-'着く',
-'砕く',
-'磨く',
-'落ち着く',
-'裂く',
-'解く',
-'貫く',
-'近付く',
-'退く',
-'開く',
-'頂く',
-'驚く',
-'鳴く',
-'好く',
-'泣く',
-),
-
-'行く'=>array(
-'行く', // いく
-'持って行く',
-'イく',
-'往く',
-),
-
-// 五段 ぐ
-'泳ぐ'=>array(
-'泳ぐ', // およぐ
-'告ぐ',
-'相次ぐ',
-'次ぐ',
-),
 
 // 五段 す
 '指す'=>array(
@@ -569,7 +538,4 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 
 // skip all other する verbs like 生成する
 );
-$動詞表[ '来る' ] = $来る動詞;
-$動詞表[ '問う' ] = $問う動詞;
-$動詞表[ '買う' ] = $買う動詞
 ?>
