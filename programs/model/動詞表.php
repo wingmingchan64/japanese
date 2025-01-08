@@ -1,5 +1,7 @@
 <?php
 require_once( 'H:\github\japanese\programs\model\来る動詞.php' );
+require_once( 'H:\github\japanese\programs\model\問う動詞.php' );
+require_once( 'H:\github\japanese\programs\model\買う動詞.php' );
 
 $動詞表=array(
 /*
@@ -16,16 +18,8 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 意向形[いこうけい]： こ + う
 */
 // 五段 う
-'問う'=>array(
-'問う', // とう
-'請う',
-),
-
-'買う'=>array(
-'買う', // かう
-'歌う',
-'洗う',
-),
+// 問う
+// 買う
 
 // 五段 く
 '書く'=>array(
@@ -576,4 +570,6 @@ https://www.youtube.com/watch?v=UHo3qUb79No
 // skip all other する verbs like 生成する
 );
 $動詞表[ '来る' ] = $来る動詞;
+$動詞表[ '問う' ] = $問う動詞;
+$動詞表[ '買う' ] = $買う動詞
 ?>
