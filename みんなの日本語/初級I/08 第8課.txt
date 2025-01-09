@@ -25,18 +25,18 @@
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:8-8/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:100
 
 Pitch Accent:
-車[くるま] ⓪
-桜[さくら] ⓪
-仕[し]事[ごと] ⓪
-生[せい]活[かつ] ⓪
-勉[べん]強[きょう] ⓪
-寮[りょう] ➀
-日[に]本[ほん] ➁
-お仕[し]事[ごと] ➁し➁
-食[た]べ物[もの] ➁べも➁ ➁べ➁
-町[まち] ➂
-山[やま] ➂
-所[ところ] ➂
+車[くるま⓪]
+桜[さくら⓪]
+仕[し]事[ごと⓪]
+生[せい]活[かつ⓪]
+勉[べん]強[きょう⓪]
+寮[りょう➀]
+日[に]本[ほん➁]
+お仕[し]事[ごと➁]
+食[た]べ物[もの➂➁]
+町[まち➂]
+山[やま➂]
+所[ところ➂]
 
 
 https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=5
