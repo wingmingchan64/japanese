@@ -3,6 +3,8 @@ $来る=array(
 'Present'=>"${stem}る,${stem}ます,${stem}ない,${stem}ません",
 'Past'=>"${stem}た,${stem}ました,${stem}なかった,${stem}ませんでした",
 '-te Form'=>"${stem}て,${stem}なくて",
+'-te Form Rule'=>"stem + て",
+
 'Volitional'=>"${stem}よう,${stem}ましょう",
 'Potential'=>"${stem}られる,${stem}られます,${stem}られない,${stem}られません",
 'Passive'=>"${stem}られる,${stem}られます,${stem}られない,${stem}られません",

@@ -3,6 +3,7 @@ $入る=array(
 'Present'=>"${stem}る,${stem}ります,${stem}らない,${stem}りません",
 'Past'=>"${stem}った,${stem}りました,${stem}らなかった,${stem}りませんでした",
 '-te Form'=>"${stem}って,${stem}らなくて",
+'-te Form Rule'=>"stem + って",
 'Volitional'=>"${stem}ろう,${stem}りましょう",
 'Potential'=>"${stem}れる,${stem}れます,${stem}れない,${stem}れません",
 'Passive'=>"${stem}られる,${stem}られます,${stem}られない,${stem}られません",
