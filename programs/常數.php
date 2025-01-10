@@ -15,6 +15,7 @@ const 搜索程式 = array(
 );
 const 程式文件夾 = "H:\\github\\japanese\\programs\\";
 const 程式後綴 = '.php';
+const 輸入詞條 = "必須輸入詞條";
 const 輸入漢字詞 = "必須輸入漢字詞";
 const 輸入假名詞 = "必須輸入假名詞";
 const 輸入羅馬字詞 = "必須輸入羅馬字詞";
