@@ -1,6 +1,8 @@
 <?php
 /*
 php H:\github\japanese\programs\查詢辭書.php kawaii
+php H:\github\japanese\programs\查詢辭書.php かわいい
+php H:\github\japanese\programs\查詢辭書.php 可愛い
 php H:\github\japanese\programs\查詢辭書.php taberu
 php H:\github\japanese\programs\查詢辭書.php たべる
 php H:\github\japanese\programs\查詢辭書.php 食べる
@@ -29,6 +31,7 @@ if( url_check( $jisho_url ) )
 	$org = '';
 	$hit = '';
 	$search = '';
+	$kanji = '';
 	
 	preg_match_all( $kana_regex, $source, $matches );
 	if( $matches[ 1 ] )
@@ -43,6 +46,7 @@ if( url_check( $jisho_url ) )
 	{
 		$hit = trim( $matches[ 1 ][ 0 ] );
 		//echo "hit: ", $hit, NL;
+		$kanji = $hit;
 	}
 	
 	//print_r( $matches );
@@ -54,11 +58,21 @@ if( url_check( $jisho_url ) )
 		$org = trim( $titles[ 1 ] ) . ':' . NL;
 		$search = trim( $titles[ 0 ] );
 		//echo "search: ", $search, NL;
+		if( $kanji == '' )
+		{
+			$kanji = $search;
+		}
 		
 		if( $search != '' )
 		{
 			$search .= ' ';
 		}
+		
+		if( mb_detect_encoding($kanji, ['ASCII'], false) == 'ASCII' )
+		{
+			$kanji = trim( $search );
+		}
+		
 		if( $kana != '' )
 		{
 			$kana .= ' ';
@@ -77,24 +91,29 @@ if( url_check( $jisho_url ) )
 		{
 			$sentence = trim( $matches[ 1 ][ 1 ] );
 		}
+		if( mb_detect_encoding($kanji, ['ASCII'], false) == 'ASCII' )
+		{
+			$kanji = trim( $sentence );
+		}
+
 		$sentence .= ' ';
 		//print_r( $matches );
 		//echo "sentence: ", $sentence, NL;
 	}
 	if( trim( $hit ) == trim( $sentence ) )
 	{
-		$hit = '';
+		$sentence = '';
 	}
 	if( trim( $hit ) == trim( $search ) )
 	{
-		$hit = '';
+		$search = '';
 	}
 	if( trim( $sentence ) == trim( $search ) )
 	{
 		$search = '';
 	}
 
-	echo $org, $sentence, $hit, $search, $kana, NL;
+	echo NL, $org, $sentence, $search, $kana, $hit, NL, NL;
 
 	preg_match_all( $span_text_regex, $source, $matches );
 
@@ -131,6 +150,34 @@ else
 	echo "$詞條 Not found", NL;
 }
 
-$wadoku_url = "";
+//echo "kanji: $kanji", NL;
+$詞條 = urlencode( trim( $kanji ) );
+$wadoku_url = "https://wadoku.de/search/${詞條}";
+$id  = '';
 
+$view_regex = '/href="\/entry\/view\/(\d+)"/';
+if( url_check( $wadoku_url ) )
+{
+	$source = file_get_contents( $wadoku_url );
+	preg_match_all( $view_regex, $source, $matches );
+	//print_r( $matches );
+	if( $matches[ 1 ] )
+	{
+		$id = $matches[ 1 ][ 0 ];
+		$wadoku_url = "https://wadoku.de/entry/view/${id}";
+		
+		if( url_check( $wadoku_url ) )
+		{
+			$source = file_get_contents( $wadoku_url );
+			$accent_regex = '/data-accent-id="1">([^<])+<\/small>/';
+			preg_match_all( $accent_regex, $source, $matches );
+			
+			if( $matches[ 0 ] )
+			{
+				echo NL, "wadoku.de:", NL;
+				echo "Pitch accent: " . $matches[ 1 ][ 0 ] . NL;
+			}
+		}
+	}
+}
 ?>
