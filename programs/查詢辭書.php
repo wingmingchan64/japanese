@@ -9,6 +9,9 @@ php H:\github\japanese\programs\查詢辭書.php 食べる
 php H:\github\japanese\programs\查詢辭書.php atarashii
 php H:\github\japanese\programs\查詢辭書.php あたらしい
 php H:\github\japanese\programs\查詢辭書.php 新しい
+php H:\github\japanese\programs\查詢辭書.php ドイツ人
+php H:\github\japanese\programs\查詢辭書.php モーラ
+php H:\github\japanese\programs\查詢辭書.php パーソナル･コンピューター
 
 Hiragana Range: 3040–309F
 Katakana Range: 30A0–30FF
@@ -18,17 +21,22 @@ require_once( "h:\\github\\japanese\\programs\\函式.php" );
 
 checkARGV( $argv, 2, 輸入詞條 );
 $詞條 = trim( $argv[ 1 ] );
+$js詞條 = $詞條;
 $詞條屬性 = ( isRomaji( $詞條 ) ? 'Romaji' : 
 	( isKana( $詞條 ) ? 'Kana' : 'Kanji' )
 );
-
-echo $詞條屬性, NL;
+if( $詞條屬性 == 'Kana' )
+{
+	$js詞條 = str_replace( '･', '', $詞條 );
+	//echo $js詞條, NL;
+}
 
 $詞條 = urlencode( $詞條 );
-$jisho_url = "https://jisho.org/search/${詞條}";
+$js詞條 = urlencode( $js詞條 );
+
+$jisho_url = "https://jisho.org/search/${js詞條}";
 $title_regex = '/<title>([^<]+)<\/title>/';
 $kana_regex = '/<span class="hilite_1">([^<]+)<\/span>/';
-//$span_hit_regex = '/<span class="hit">([^<]+)<\/span>/';
 $span_text_regex = '/<span class="text">([^<]+)<span>([^<]+)<\/span>/';
 $sentence_search_regex = '/Sentence search for ([^<]+)/';
 $meaning_regex = '/<span class="meaning-definition-section_divider">(\d\. )<\/span><span class="meaning-meaning">([^<]+)<\/span>/';
@@ -53,18 +61,7 @@ if( url_check( $jisho_url ) )
 			//echo "kana: ", $kana, NL;
 		}
 	}
-	
-	/*
-	preg_match_all( $span_hit_regex, $source, $matches );
-	if( $matches[ 1 ] )
-	{
-		//$hit = trim( $matches[ 1 ][ 0 ] );
-		//echo "hit: ", $hit, NL;
-		//$kanji = $hit;
-	}
-	//print_r( $matches );
-	*/
-	
+		
 	preg_match_all( $title_regex, $source, $matches );
 	if( $matches[ 1 ] )
 	{
@@ -90,11 +87,6 @@ if( url_check( $jisho_url ) )
 		{
 			$search .= ' ';
 		}
-				
-		if( $kana != '' )
-		{
-			//$kana .= ' ';
-		}
 	}
 	
 	preg_match_all( $sentence_search_regex, $source, $matches );
@@ -110,15 +102,8 @@ if( url_check( $jisho_url ) )
 				$kana = $sentence;
 			}
 		}
-		/*
-		if( mb_detect_encoding( $kanji, ['ASCII'], false) == 'ASCII' )
-		{
-			//$kanji = trim( $sentence );
-		}
-		*/
 
 		$sentence .= ' ';
-		//print_r( $matches );
 		//echo "sentence: ", $sentence, NL;
 	}
 	
@@ -128,37 +113,11 @@ if( url_check( $jisho_url ) )
 	{
 		$kanji = trim( $sentence );
 	}
-	/*
-	// input kana or kanji
-	else
-	{
-		if( $kanji == '' )
-		$kanji = ( ( mb_strlen( trim( $search ) ) >= mb_strlen( trim( $sentence ) ) ) ? $sentence : $search );
-	}
-	*/
-/*
-	if( trim( $hit ) == trim( $sentence ) )
-	{
-		$sentence = '';
-	}
-	if( trim( $hit ) == trim( $search ) )
-	{
-		$search = '';
-	}
-*/	
+
 	if( trim( $sentence ) == trim( $search ) )
 	{
 		$search = '';
 	}
-	// $hit can be totally unrelated
-	/*
-	if( trim( $hit ) != trim( $sentence ) && 
-		trim( $hit ) != trim( $search ) &&
-		trim( $hit ) != trim( $kana ) )
-		{
-			$hit = '';
-		}
-	*/
 
 	echo NL, $org, $kanji, '[', $kana, '] ', $romaji, NL, NL;
 
@@ -172,14 +131,6 @@ if( url_check( $jisho_url ) )
 	{
 		echo "$詞條 Not found", NL;
 	}
-	/*
-	else
-	{
-		$search = trim( $matches[ 1 ][ 0 ] ) 
-			. trim( $matches[ 2 ][ 0 ] );
-		//echo $search, NL;
-	}
-	*/
 
 	preg_match_all( $meaning_regex, $source, $matches );
 	echo $matches[ 1 ][ 0 ] . ' ' . $matches[ 2 ][ 0 ] . NL;
@@ -200,11 +151,15 @@ else
 }
 
 //echo "kanji: $kanji", NL;
-$詞條 = urlencode( trim( $kanji ) );
+if( $kanji != '' )
+{
+	$詞條 = urlencode( trim( $kanji ) );
+}
 $wadoku_url = "https://wadoku.de/search/${詞條}";
 $id  = '';
-
 $view_regex = '/href="\/entry\/view\/(\d+)"/';
+//$meaning_regex = '/<section class="senses">(.)+?<\/section>/';
+
 if( url_check( $wadoku_url ) )
 {
 	$source = file_get_contents( $wadoku_url );
@@ -237,11 +192,15 @@ if( url_check( $wadoku_url ) )
 					echo "Romaji: " . $matches[ 1 ][ 0 ] . NL . NL;
 				}
 			}
+			
+			preg_match_all( $meaning_regex, $source, $matches );
+			print_r( $matches );
+
 		}
 	}
 }
 
-$japandict_url = "https://www.japandict.com/${詞條}?lang=eng";
+$japandict_url = "https://www.japandict.com/${js詞條}?lang=eng";
 $ja_regex = '/<span lang="ja">([^<]+)<\/span>/';
 $eng_regex = '/role="tabpanel">([^<]+)<\/div>/';
 $analysis_regex = '/btn-word">([^<]+)<|mdshadow-0">([^<]+)<|btn-word disabled">([^<]+)</';

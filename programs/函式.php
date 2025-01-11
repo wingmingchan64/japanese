@@ -56,7 +56,9 @@ function isKana( string $str ) : bool
 		if( ! in_array( mb_ord( mb_substr( $str, $i, 1 ) ),
 			range( hexdec( '3040' ), hexdec( '309F' ) ) ) &&
 			! in_array( mb_ord( mb_substr( $str, $i, 1 ) ),
-			range( hexdec( '30A0' ), hexdec( '30FF' ) ) ) )
+			range( hexdec( '30A0' ), hexdec( '30FF' ) ) ) &&
+			mb_substr( $str, $i, 1 ) != '･' &&
+			mb_substr( $str, $i, 1 ) != 'ー' )
 		{
 			return false;
 		}
@@ -64,6 +66,37 @@ function isKana( string $str ) : bool
 	return true;
 }
 
+function isKitakana( string $str ) : bool
+{
+	$strlen = mb_strlen( $str );
+
+	for( $i = 0; $i < $strlen; $i++ )
+	{
+		if( ! in_array( mb_ord( mb_substr( $str, $i, 1 ) ),
+			range( hexdec( '30A0' ), hexdec( '30FF' ) ) ) &&
+			mb_substr( $str, $i, 1 ) != '･' &&
+			mb_substr( $str, $i, 1 ) != 'ー' )
+		{
+			return false;
+		}
+	}
+	return true;
+}
+
+function isHiragana( string $str ) : bool
+{
+	$strlen = mb_strlen( $str );
+	
+	for( $i = 0; $i < $strlen; $i++ )
+	{
+		if( ! in_array( mb_ord( mb_substr( $str, $i, 1 ) ),
+			range( hexdec( '3040' ), hexdec( '309F' ) ) ) )
+		{
+			return false;
+		}
+	}
+	return true;
+}
 
 function isRomaji( string $str ) : bool
 {
