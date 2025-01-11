@@ -61,7 +61,7 @@ if( url_check( $jisho_url ) )
 		$org = trim( $titles[ 1 ] ) . ':' . NL;
 		$org .= '=================================' . NL;
 		$search = trim( $titles[ 0 ] );
-		echo "search: ", $search, NL;
+		//echo "search: ", $search, NL;
 		
 		if( $kanji == '' )
 		{
@@ -103,7 +103,7 @@ if( url_check( $jisho_url ) )
 
 		$sentence .= ' ';
 		//print_r( $matches );
-		echo "sentence: ", $sentence, NL;
+		//echo "sentence: ", $sentence, NL;
 	}
 	
 	// input romaji, $search is romaji
