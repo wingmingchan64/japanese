@@ -158,7 +158,7 @@ if( $kanji != '' )
 $wadoku_url = "https://wadoku.de/search/${詞條}";
 $id  = '';
 $view_regex = '/href="\/entry\/view\/(\d+)"/';
-//$meaning_regex = '/<section class="senses">(.)+?<\/section>/';
+$meaning_regex = '/<section class="senses">(.)+?<\/section>/';
 
 if( url_check( $wadoku_url ) )
 {
@@ -194,7 +194,16 @@ if( url_check( $wadoku_url ) )
 			}
 			
 			preg_match_all( $meaning_regex, $source, $matches );
-			print_r( $matches );
+			
+			if( $matches[ 0 ] )
+			{
+				$str = strip_tags( $matches[ 0 ][ 0 ] );
+				$str = str_replace( '&nbsp;', ' ', $str );
+				$str = preg_replace( '/(\d)/', "\r\n\${1}. ", $str );
+				//print_r( $str_array );
+				echo $str, NL, NL;
+			}
+			//print_r( $matches );
 
 		}
 	}
