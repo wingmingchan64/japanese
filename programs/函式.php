@@ -1,4 +1,6 @@
 <?php
+require_once( 'H:\github\japanese\programs\常數.php' );
+
 set_error_handler( function ( 
 	$severity, $message, $file, $line )
 {
@@ -24,6 +26,50 @@ function checkARGV( array $argv, int $num, string $msg )
 		exit;
 	}
 }
+function getPitchAccentString( string $str ) : string
+{
+	$pa_str = '';
+	$pa_array = array( '⓪','➀','➁','➂','➃','➄','➅','➆' );
+	
+	for( $i = 0; $i < strlen( $str ); $i++ )
+	{
+		$cur_char = substr( $str, $i, 1 );
+		
+		if( is_numeric( $cur_char ) && $cur_char >= 0 && $cur_char <= 7 )
+		{
+			$pa_str .= $pa_array[ $cur_char ];
+		}
+		else
+		{
+			$pa_str .= $cur_char;
+		}
+	}
+	return $pa_str;
+}
+
+function isKana( string $str ) : bool
+{
+	$strlen = mb_strlen( $str );
+	
+	for( $i = 0; $i < $strlen; $i++ )
+	{
+		if( ! in_array( mb_ord( mb_substr( $str, $i, 1 ) ),
+			range( hexdec( '3040' ), hexdec( '309F' ) ) ) &&
+			! in_array( mb_ord( mb_substr( $str, $i, 1 ) ),
+			range( hexdec( '30A0' ), hexdec( '30FF' ) ) ) )
+		{
+			return false;
+		}
+	}
+	return true;
+}
+
+
+function isRomaji( string $str ) : bool
+{
+	return mb_detect_encoding( $str, [ 'ASCII' ], false );
+}
+
 function removeAllAccentMarker( string $str ) : string
 {
 	$new_str = removeBracketedAccentMarker( $str );

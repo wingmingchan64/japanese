@@ -23,4 +23,7 @@ const 輸入羅馬字詞 = "必須輸入羅馬字詞";
 const 無此漢字詞 = "沒找到此漢字詞" . NL;
 const 無此假名詞 = "沒找到此假名詞" . NL;
 
+$HIRAGANA_RANGE = range( hexdec( '3040' ), hexdec( '309F' ) );
+$KATAKANA_RANGE = range( hexdec( '30A0' ), hexdec( '30FF' ) );
+
 ?>

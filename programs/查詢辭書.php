@@ -9,18 +9,26 @@ php H:\github\japanese\programs\查詢辭書.php 食べる
 php H:\github\japanese\programs\查詢辭書.php atarashii
 php H:\github\japanese\programs\查詢辭書.php あたらしい
 php H:\github\japanese\programs\查詢辭書.php 新しい
-私にとって子供たちは目の中に入れてもいたくないほどかわいいのです。
+
+Hiragana Range: 3040–309F
+Katakana Range: 30A0–30FF
 */
 require_once( "h:\\github\\japanese\\programs\\常數.php" );
 require_once( "h:\\github\\japanese\\programs\\函式.php" );
 
 checkARGV( $argv, 2, 輸入詞條 );
-$詞條 = urlencode( trim( $argv[ 1 ] ) );
+$詞條 = trim( $argv[ 1 ] );
+$詞條屬性 = ( isRomaji( $詞條 ) ? 'Romaji' : 
+	( isKana( $詞條 ) ? 'Kana' : 'Kanji' )
+);
 
+echo $詞條屬性, NL;
+
+$詞條 = urlencode( $詞條 );
 $jisho_url = "https://jisho.org/search/${詞條}";
 $title_regex = '/<title>([^<]+)<\/title>/';
 $kana_regex = '/<span class="hilite_1">([^<]+)<\/span>/';
-$span_hit_regex = '/<span class="hit">([^<]+)<\/span>/';
+//$span_hit_regex = '/<span class="hit">([^<]+)<\/span>/';
 $span_text_regex = '/<span class="text">([^<]+)<span>([^<]+)<\/span>/';
 $sentence_search_regex = '/Sentence search for ([^<]+)/';
 $meaning_regex = '/<span class="meaning-definition-section_divider">(\d\. )<\/span><span class="meaning-meaning">([^<]+)<\/span>/';
@@ -31,28 +39,31 @@ if( url_check( $jisho_url ) )
 	$source = file_get_contents( $jisho_url );
 	$sentence = '';
 	$kana = '';
-	$org = '';
-	$hit = '';
-	$search = '';
 	$kanji = '';
+	$romaji = '';
+	$org = '';
+	$search = '';
 	
-	preg_match_all( $kana_regex, $source, $matches );
-	if( $matches[ 1 ] )
+	if( $詞條屬性 == 'Romaji' )
 	{
-		$kana = trim( $matches[ 1 ][ 0 ] );
-		//echo "kana: ", $kana, NL;
-		//print_r( $matches );
+		preg_match_all( $kana_regex, $source, $matches );
+		if( $matches[ 1 ] )
+		{
+			$kana = trim( $matches[ 1 ][ 0 ] );
+			//echo "kana: ", $kana, NL;
+		}
 	}
 	
+	/*
 	preg_match_all( $span_hit_regex, $source, $matches );
 	if( $matches[ 1 ] )
 	{
-		$hit = trim( $matches[ 1 ][ 0 ] );
+		//$hit = trim( $matches[ 1 ][ 0 ] );
 		//echo "hit: ", $hit, NL;
 		//$kanji = $hit;
 	}
-	
 	//print_r( $matches );
+	*/
 	
 	preg_match_all( $title_regex, $source, $matches );
 	if( $matches[ 1 ] )
@@ -62,31 +73,30 @@ if( url_check( $jisho_url ) )
 		$org .= '=================================' . NL;
 		$search = trim( $titles[ 0 ] );
 		//echo "search: ", $search, NL;
-		
-		if( $kanji == '' )
+		if( isRomaji( $search ) && $romaji == '' )
 		{
-			//$kanji = $search;
+			$romaji = $search;
+		}
+		elseif( isKana( $search ) )
+		{
+			$kana = $search;
+		}
+		elseif( $search != '' )
+		{
+			$kanji = $search;
 		}
 		
 		if( $search != '' )
 		{
 			$search .= ' ';
 		}
-		
-		if( mb_detect_encoding($kanji, ['ASCII'], false) == 'ASCII' )
-		{
-			//$kanji = trim( $search );
-		}
-		
+				
 		if( $kana != '' )
 		{
-			$kana .= ' ';
-		}
-		if( $hit != '' )
-		{
-			$hit .= ' ';
+			//$kana .= ' ';
 		}
 	}
+	
 	preg_match_all( $sentence_search_regex, $source, $matches );
 	if( $matches[ 1 ] )
 	{
@@ -95,11 +105,17 @@ if( url_check( $jisho_url ) )
 		if( $matches[ 1 ][ 0 ] == trim( $search ) )
 		{
 			$sentence = trim( $matches[ 1 ][ 1 ] );
+			if( isKana( $sentence ) && $kana == '' )
+			{
+				$kana = $sentence;
+			}
 		}
+		/*
 		if( mb_detect_encoding( $kanji, ['ASCII'], false) == 'ASCII' )
 		{
 			//$kanji = trim( $sentence );
 		}
+		*/
 
 		$sentence .= ' ';
 		//print_r( $matches );
@@ -107,15 +123,19 @@ if( url_check( $jisho_url ) )
 	}
 	
 	// input romaji, $search is romaji
-	if( $kana != '' )
+	if( $kana != '' && $kanji == '' &&
+		!isKana( trim( $sentence ) ) && !isRomaji( trim( $sentence ) ) ) 
 	{
 		$kanji = trim( $sentence );
 	}
+	/*
 	// input kana or kanji
 	else
 	{
+		if( $kanji == '' )
 		$kanji = ( ( mb_strlen( trim( $search ) ) >= mb_strlen( trim( $sentence ) ) ) ? $sentence : $search );
 	}
+	*/
 /*
 	if( trim( $hit ) == trim( $sentence ) )
 	{
@@ -131,14 +151,16 @@ if( url_check( $jisho_url ) )
 		$search = '';
 	}
 	// $hit can be totally unrelated
+	/*
 	if( trim( $hit ) != trim( $sentence ) && 
 		trim( $hit ) != trim( $search ) &&
 		trim( $hit ) != trim( $kana ) )
 		{
 			$hit = '';
 		}
+	*/
 
-	echo NL, $org, $sentence, $search, $kana, /* $hit, */ NL, NL;
+	echo NL, $org, $kanji, '[', $kana, '] ', $romaji, NL, NL;
 
 	preg_match_all( $span_text_regex, $source, $matches );
 
@@ -150,12 +172,14 @@ if( url_check( $jisho_url ) )
 	{
 		echo "$詞條 Not found", NL;
 	}
+	/*
 	else
 	{
 		$search = trim( $matches[ 1 ][ 0 ] ) 
 			. trim( $matches[ 2 ][ 0 ] );
 		//echo $search, NL;
 	}
+	*/
 
 	preg_match_all( $meaning_regex, $source, $matches );
 	echo $matches[ 1 ][ 0 ] . ' ' . $matches[ 2 ][ 0 ] . NL;
@@ -202,7 +226,9 @@ if( url_check( $wadoku_url ) )
 				echo NL, "wadoku.de:", NL;
 				echo '=================================' . NL;
 
-				echo "Pitch accent: " . $matches[ 1 ][ 0 ] . NL;
+				echo "Pitch accent: " . 
+					getPitchAccentString( 
+						trim( $matches[ 1 ][ 0 ] ) ) . NL;
 				
 				$romaji_regex = '/"ja-latn">([^<]+)<\/small>/';
 				preg_match_all( $romaji_regex, $source, $matches );
