@@ -52,6 +52,7 @@ while( true )
 	// exit: terminate the program
 	// key: a key in the dictionary
 	echo "Enter a command (load, save, clr, del, show, exit) or a key\n";
+	echo $show_furi ? "furi" . NL : "no furi" . NL;
 	$input = readline();
 	
 	// command or key
@@ -108,13 +109,16 @@ while( true )
 					if( $cleanup )
 					{
 						$option_str = preg_replace( 
-							$furikana_regex, '', $option_str );
+							$pitch_regex, '', $option_str );
 					}
 					elseif( $show_furi )
 					{
-						$option_str = preg_replace( 
-							$pitch_regex, '', $option_str );
+						//$option_str = preg_replace( 
+							//$pitch_regex, '', $option_str );
+							
 						// remove all accent markers
+						$option_str = removeAllAccentMarker( $option_str );
+			/*
 						$option_str = str_replace( '[⓪]', '',
 							str_replace( '[➀]', '',
 								str_replace( '[➁]', '',
@@ -123,6 +127,7 @@ while( true )
 							str_replace( '➀', '',
 								str_replace( '➁', '',
 									str_replace( '➂', '', $option_str ) ) ) );
+			*/
 					}
 
 					$buffer .= trim( $option_str, "*" );
@@ -139,13 +144,16 @@ while( true )
 						if( $cleanup )
 						{
 							$option_str = preg_replace( 
-								$furikana_regex, '', $option_str );
+								$pitch_regex, '', $option_str );
 						}
 						elseif( $show_furi )
 						{
-							$option_str = preg_replace( 
-								$pitch_regex, '', $option_str );
+							//$option_str = preg_replace( 
+								//$pitch_regex, '', $option_str );
 							// remove all accent markers
+							$option_str = 
+								removeAllAccentMarker( $option_str);
+							/*
 							$option_str = str_replace( '[⓪]', '',
 								str_replace( '[➀]', '',
 									str_replace( '[➁]', '',
@@ -154,6 +162,7 @@ while( true )
 									str_replace( '➀', '',
 										str_replace( '➁', '',
 											str_replace( '➂', '', $option_str ) ) ) );
+							*/
 						}
 
 						
@@ -168,13 +177,16 @@ while( true )
 						if( $cleanup )
 						{
 							$option_str = preg_replace( 
-								$furikana_regex, '', $option_str );
+								$pitch_regex, '', $option_str );
 						}
 						elseif( $show_furi )
 						{
-							$option_str = preg_replace( 
-								$pitch_regex, '', $option_str );
+							//$option_str = preg_replace( 
+								//$pitch_regex, '', $option_str );
 							// remove all accent markers
+							$option_str = 
+								removeAllAccentMarker( $option_str);
+/*
 							$option_str = str_replace( '[⓪]', '',
 								str_replace( '[➀]', '',
 									str_replace( '[➁]', '',
@@ -183,7 +195,7 @@ while( true )
 									str_replace( '➀', '',
 										str_replace( '➁', '',
 											str_replace( '➂', '', $option_str ) ) ) );
-
+*/
 						}
 
 
@@ -255,13 +267,16 @@ while( true )
 				if( $cleanup )
 				{
 					$option_str = preg_replace( 
-						$furikana_regex, '', $option_str );
+						$pitch_regex, '', $option_str );
 				}
 				elseif( $show_furi )
 				{
-					$option_str = preg_replace( 
-						$pitch_regex, '', $option_str );
+					//$option_str = preg_replace( 
+						//$pitch_regex, '', $option_str );
 					// remove all accent markers
+					$option_str = 
+						removeAllAccentMarker( $option_str);
+/*
 					$option_str = str_replace( '[⓪]', '',
 						str_replace( '[➀]', '',
 							str_replace( '[➁]', '',
@@ -270,6 +285,7 @@ while( true )
 							str_replace( '➀', '',
 								str_replace( '➁', '',
 									str_replace( '➂', '', $option_str ) ) ) );
+*/
 				}
 
 				$options = array_merge( $options,
@@ -323,5 +339,45 @@ function printBuffer( string $buffer )
 	$buffer = str_replace( ' ', '', $buffer );
 	// display
 	echo "=>", $buffer, "\n";
+}
+function removeAllAccentMarker( string $str ) : string
+{
+	$newstr = removeBracketedAccentMarker( $str );
+
+	$newstr = str_replace( '⓪', '',
+		str_replace( '➀', '',
+			str_replace( '➁', '',
+				str_replace( '➂', '', 
+					str_replace( '➃', '', 
+						str_replace( '➄', '', 
+							str_replace( '➅', '', 
+								str_replace( '➆', '', $newstr )
+							)
+						)
+					)
+				) 
+			)
+		) 
+	);
+	return $newstr;
+}
+function removeBracketedAccentMarker( string $str ) : string
+	$newstr = str_replace( '[⓪]', '',
+		str_replace( '[➀]', '',
+			str_replace( '[➁]', '',
+				str_replace( '[➂]', '', 
+					str_replace( '[➃]', '', 
+						str_replace( '[➄]', '', 
+							str_replace( '[➅]', '', 
+								str_replace( '[➆]', '', $str )
+							)
+						)
+					)
+				) 
+			)
+		) 
+	);
+
+	return $newstr;
 }
 ?>

@@ -13,8 +13,8 @@ $input  = "";
 $buffer = '';
 $cleanup = false;
 $show_furi = false;
-$furikana_regex = '/\[\[\X+?]]|\[\X+?]/';
-$pitch_regex = '/\[\[\X+?]]/';
+//$furikana_regex = '/\[\[\X+?]]|\[\X+?]/';
+$pitch_regex = '/\[\X+?]/';
 
 // do not use array_merge!!!
 foreach( $固有名詞 as $k => $v )
@@ -65,6 +65,24 @@ while( true )
 	// quit: exit program
 	// key: Romaji
 	echo "Enter a command (clr, del, show, quit) or a Romaji\n";
+/*
+	if( $cleanup )
+	{
+		echo "cleanup" . NL;
+	}
+	else
+	{
+		echo "no cleanup" . NL;
+	}
+	if( $show_furi )
+	{
+		echo "furi" . NL;
+	}
+	else
+	{
+		echo "no furi" . NL;
+	}
+*/
 	$input = readline();
 
 	// command or key
@@ -108,13 +126,15 @@ while( true )
 				if( $cleanup )
 				{
 					$option_str = preg_replace( 
-						$furikana_regex, '', $option_str );
+						$pitch_regex, '', $option_str );
 				}
 				elseif( $show_furi )
 				{
-					$option_str = preg_replace( 
-						$pitch_regex, '', $option_str );
+					//$option_str = preg_replace( 
+						//$pitch_regex, '', $option_str );
 					// remove all accent markers
+					$option_str = removeAllAccentMarker( $option_str );
+					/*
 					$option_str = str_replace( '[⓪]', '',
 						str_replace( '[➀]', '',
 							str_replace( '[➁]', '',
@@ -123,6 +143,7 @@ while( true )
 						str_replace( '➀', '',
 							str_replace( '➁', '',
 								str_replace( '➂', '', $option_str ) ) ) );
+								*/
 				}
 
 				$buffer .= trim( $option_str, "*" );
@@ -139,13 +160,15 @@ while( true )
 					if( $cleanup )
 					{
 						$option_str = preg_replace( 
-							$furikana_regex, '', $option_str );
+							$pitch_regex, '', $option_str );
 					}
 					elseif( $show_furi )
 					{
-						$option_str = preg_replace( 
-							$pitch_regex, '', $option_str );
+						//$option_str = preg_replace( 
+							//$pitch_regex, '', $option_str );
 						// remove all accent markers
+						$option_str = removeAllAccentMarker( $option_str );
+						/*
 						$option_str = str_replace( '[⓪]', '',
 							str_replace( '[➀]', '',
 								str_replace( '[➁]', '',
@@ -154,6 +177,7 @@ while( true )
 								str_replace( '➀', '',
 									str_replace( '➁', '',
 										str_replace( '➂', '', $option_str ) ) ) );
+						*/
 					}
 
 					
@@ -168,13 +192,15 @@ while( true )
 					if( $cleanup )
 					{
 						$option_str = preg_replace( 
-							$furikana_regex, '', $option_str );
+							$pitch_regex, '', $option_str );
 					}
 					elseif( $show_furi )
 					{
-						$option_str = preg_replace( 
-							$pitch_regex, '', $option_str );
+						//$option_str = preg_replace( 
+							//$pitch_regex, '', $option_str );
 						// remove all accent markers
+						$option_str = removeAllAccentMarker( $option_str );
+						/*
 						$option_str = str_replace( '[⓪]', '',
 							str_replace( '[➀]', '',
 								str_replace( '[➁]', '',
@@ -183,6 +209,7 @@ while( true )
 								str_replace( '➀', '',
 									str_replace( '➁', '',
 										str_replace( '➂', '', $option_str ) ) ) );
+						*/
 
 					}
 
@@ -255,13 +282,15 @@ while( true )
 			if( $cleanup )
 			{
 				$option_str = preg_replace( 
-					$furikana_regex, '', $option_str );
+					$pitch_regex, '', $option_str );
 			}
 			elseif( $show_furi )
 			{
-				$option_str = preg_replace( 
-					$pitch_regex, '', $option_str );
+				//$option_str = preg_replace( 
+					//$pitch_regex, '', $option_str );
 				// remove all accent markers
+				$option_str = removeAllAccentMarker( $option_str );
+				/*
 				$option_str = str_replace( '[⓪]', '',
 					str_replace( '[➀]', '',
 						str_replace( '[➁]', '',
@@ -270,6 +299,7 @@ while( true )
 						str_replace( '➀', '',
 							str_replace( '➁', '',
 								str_replace( '➂', '', $option_str ) ) ) );
+				*/
 			}
 
 			$options = array_merge( $options,

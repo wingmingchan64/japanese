@@ -24,5 +24,43 @@ function checkARGV( array $argv, int $num, string $msg )
 		exit;
 	}
 }
-
+function removeAllAccentMarker( string $str ) : string
+{
+	$new_str = removeBracketedAccentMarker( $str );
+	$new_str = str_replace( '⓪', '',
+		str_replace( '➀', '',
+			str_replace( '➁', '',
+				str_replace( '➂', '', 
+					str_replace( '➃', '', 
+						str_replace( '➄', '', 
+							str_replace( '➅', '', 
+								str_replace( '➆', '', $str )
+							)
+						)
+					)
+				)
+			)
+		)
+	);
+	return $new_str;
+}
+function removeBracketedAccentMarker( string $str ) : string
+{
+	$new_str = str_replace( '[⓪]', '',
+		str_replace( '[➀]', '',
+			str_replace( '[➁]', '',
+				str_replace( '[➂]', '', 
+					str_replace( '[➃]', '', 
+						str_replace( '[➄]', '', 
+							str_replace( '[➅]', '', 
+								str_replace( '[➆]', '', $str )
+							)
+						)
+					)
+				)
+			)
+		)
+	);
+	return $new_str;
+}
 ?>
