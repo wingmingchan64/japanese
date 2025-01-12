@@ -22,6 +22,7 @@ require_once( "h:\\github\\japanese\\programs\\函式.php" );
 checkARGV( $argv, 2, 輸入詞條 );
 $詞條 = trim( $argv[ 1 ] );
 $js詞條 = $詞條;
+$wd詞條 = $詞條;
 $詞條屬性 = ( isRomaji( $詞條 ) ? 'Romaji' : 
 	( isKana( $詞條 ) ? 'Kana' : 'Kanji' )
 );
@@ -173,11 +174,27 @@ if( url_check( $wadoku_url ) )
 		if( url_check( $wadoku_url ) )
 		{
 			$source = file_get_contents( $wadoku_url );
+			//echo $source;
+			//$entry_regex = '/【([^】])+】/';
 			$accent_regex = '/data-accent-id="1">([^<])+<\/small>/';
+			//$entry = '';
+			$kana = '';
+			/*
+			preg_match_all( $entry_regex, $source, $matches );
+			print_r( $matches );
+			
+			if( $matches[ 0 ] )
+			{
+				$entry = strip_tags( $matches[ 1 ][ 0 ] );
+				echo $entry, NL;
+			}
+			*/
+
 			preg_match_all( $accent_regex, $source, $matches );
 			
 			if( $matches[ 0 ] )
 			{
+
 				echo NL, "wadoku.de:", NL;
 				echo '=================================' . NL;
 
@@ -204,8 +221,32 @@ if( url_check( $wadoku_url ) )
 				echo $str, NL, NL;
 			}
 			//print_r( $matches );
-
 		}
+		
+		if( $kanji != '' )
+		{
+			$log_content = $kanji;
+		}
+		elseif( $kana != '' )
+		{
+			$log_content = $kana;
+		}
+		elseif( $romaji != '' )
+		{
+			$log_content = $romaji;
+		}
+		else
+		{
+			$log_content = $wd詞條;
+		}
+		
+		$log_content .= ',' . $id;
+		echo "Log: " . $log_content, NL, NL;
+			
+		file_put_contents(
+			'H:\github\japanese\programs\entry_id_log.txt', 
+			$log_content.PHP_EOL, 
+			FILE_APPEND | LOCK_EX );
 	}
 }
 

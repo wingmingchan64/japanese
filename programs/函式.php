@@ -29,13 +29,13 @@ function checkARGV( array $argv, int $num, string $msg )
 function getPitchAccentString( string $str ) : string
 {
 	$pa_str = '';
-	$pa_array = array( '⓪','➀','➁','➂','➃','➄','➅','➆' );
+	$pa_array = array( '⓪','➀','➁','➂','➃','➄','➅','➆','➇' );
 	
 	for( $i = 0; $i < strlen( $str ); $i++ )
 	{
 		$cur_char = substr( $str, $i, 1 );
 		
-		if( is_numeric( $cur_char ) && $cur_char >= 0 && $cur_char <= 7 )
+		if( is_numeric( $cur_char ) && $cur_char >= 0 && $cur_char <= 8 )
 		{
 			$pa_str .= $pa_array[ $cur_char ];
 		}
@@ -113,7 +113,9 @@ function removeAllAccentMarker( string $str ) : string
 					str_replace( '➃', '', 
 						str_replace( '➄', '', 
 							str_replace( '➅', '', 
-								str_replace( '➆', '', $str )
+								str_replace( '➆', '', 
+									str_replace( '➇', '', $str )
+								)
 							)
 						)
 					)
@@ -132,7 +134,9 @@ function removeBracketedAccentMarker( string $str ) : string
 					str_replace( '[➃]', '', 
 						str_replace( '[➄]', '', 
 							str_replace( '[➅]', '', 
-								str_replace( '[➆]', '', $str )
+								str_replace( '[➆]', '', 
+									str_replace( '[➇]', '', $str )
+								)
 							)
 						)
 					)
