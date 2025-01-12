@@ -103,6 +103,14 @@ function isRomaji( string $str ) : bool
 	return mb_detect_encoding( $str, [ 'ASCII' ], false );
 }
 
+function logToFile( string $file, string $content )
+{
+	file_put_contents(
+		$file, 
+		$content.PHP_EOL, 
+		FILE_APPEND | LOCK_EX );
+}
+
 function removeAllAccentMarker( string $str ) : string
 {
 	$new_str = removeBracketedAccentMarker( $str );

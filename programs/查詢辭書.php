@@ -144,7 +144,6 @@ if( url_check( $jisho_url ) )
 		}
 		echo $matches[ 1 ][ $i ] . ' ' . $matches[ 2 ][ $i ] . NL;
 	}
-	//print_r( $matches );
 }
 else
 {
@@ -175,26 +174,26 @@ if( url_check( $wadoku_url ) )
 		{
 			$source = file_get_contents( $wadoku_url );
 			//echo $source;
-			//$entry_regex = '/【([^】])+】/';
+			$entry_regex = '/<h1 class="middle"><span class="midashigo">(.)+<\/span><\/h1>/';
 			$accent_regex = '/data-accent-id="1">([^<])+<\/small>/';
-			//$entry = '';
+			$entry = '';
 			$kana = '';
-			/*
+			
 			preg_match_all( $entry_regex, $source, $matches );
-			print_r( $matches );
+			//print_r( $matches );
 			
 			if( $matches[ 0 ] )
 			{
-				$entry = strip_tags( $matches[ 1 ][ 0 ] );
-				echo $entry, NL;
+				$entry = strip_tags( $matches[ 0 ][ 0 ] );
+				$entry = str_replace( '【', '',
+					str_replace( '】', '', $entry ) );
+				echo $entry;
 			}
-			*/
 
 			preg_match_all( $accent_regex, $source, $matches );
 			
 			if( $matches[ 0 ] )
 			{
-
 				echo NL, "wadoku.de:", NL;
 				echo '=================================' . NL;
 
@@ -222,7 +221,7 @@ if( url_check( $wadoku_url ) )
 			}
 			//print_r( $matches );
 		}
-		
+		/*
 		if( $kanji != '' )
 		{
 			$log_content = $kanji;
@@ -239,14 +238,13 @@ if( url_check( $wadoku_url ) )
 		{
 			$log_content = $wd詞條;
 		}
+		*/
 		
-		$log_content .= ',' . $id;
+		$log_content = $entry . ',' . $id;
 		echo "Log: " . $log_content, NL, NL;
-			
-		file_put_contents(
-			'H:\github\japanese\programs\entry_id_log.txt', 
-			$log_content.PHP_EOL, 
-			FILE_APPEND | LOCK_EX );
+		logToFile(
+			'H:\github\japanese\programs\entry_id_log.txt',
+			$log_content );
 	}
 }
 

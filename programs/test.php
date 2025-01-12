@@ -15,9 +15,23 @@ require_once( 'H:\github\japanese\programs\函式.php' );
 //echo hexdec( '309F' );
 //echo( isRomaji( '食べるru' ) ? "Romaji" : "Not Romaji" ), NL;
 //echo( isKana( '食べるru' ) ? "Kana" : "Not Kana" ), NL;
-echo( isKana( 'ru' ) ? "Kana" : "Not Kana" ), NL;
-echo( isKana( 'べる' ) ? "Kana" : "Not Kana" ), NL;
-echo( isKana( '食べる' ) ? "Kana" : "Not Kana" ), NL;
+//echo( isKana( 'ru' ) ? "Kana" : "Not Kana" ), NL;
+//echo( isKana( 'べる' ) ? "Kana" : "Not Kana" ), NL;
+//echo( isKana( '食べる' ) ? "Kana" : "Not Kana" ), NL;
 
 
+$source = file_get_contents( 'https://wadoku.de/entry/view/3772255' );
+
+
+$entry_regex = '/<h1 class="middle"><span class="midashigo">(.)+<\/span><\/h1>/';
+$matches = array();
+preg_match_all( $entry_regex, $source, $matches );
+//print_r( $matches );
+if( $matches[ 0 ] )
+{
+	$result = strip_tags( $matches[ 0 ][ 0 ] );
+	$result = str_replace( '【', '',
+		str_replace( '】', '', $result ) );
+	echo $result;
+}
 ?>
