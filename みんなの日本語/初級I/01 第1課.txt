@@ -281,8 +281,10 @@
 どうぞ よろしく。
 
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:1-1/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:20
-Pitch Accent:
-漢[かん]字[じ⓪] 
+
+Vocabulary:
+漢[かん]字[じ⓪]
+
 ローマ字[じ➁] 
 平[ひら]仮[が]名[な➂]
 片[かた]仮[か]名[な➁]
