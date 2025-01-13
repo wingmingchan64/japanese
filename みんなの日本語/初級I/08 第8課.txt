@@ -73,6 +73,7 @@ The desk is too small for Meg.
 
 新[あたら➃]しい
 
+
 若[わか➁]い
 「彼女は若いですか」「はい」
 彼[かれ]は若[わか]くないです。
@@ -100,13 +101,17 @@ The graffiti-covered building is ugly to look at.
 冷たいお茶
 
 難[むずか➃]しい
+私は 彼女に 難しい 質問をした。
+
 易[やさ⓪]しい
+この仕事は 決[けっ⓪]して やさしくない。 （決[けっ⓪]して by no means）
 
 優[やさ⓪]しい
 彼の 優しい 言[こと]葉[ば➂]で 彼女の 気[き]持[も⓪]ち が 和らいだ。 （気[き]持[も⓪]ち attitude； 和[やわ➂]らぐ to soften）
 She melted at his kind words.
 
 高[たか➁]い
+
 安[やす➁]い
 低[ひく➁]い
 おもしろい[➃] 面白い
