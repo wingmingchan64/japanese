@@ -134,7 +134,8 @@ if( url_check( $jisho_url ) )
 	}
 
 	preg_match_all( $meaning_regex, $source, $matches );
-	echo $matches[ 1 ][ 0 ] . ' ' . $matches[ 2 ][ 0 ] . NL;
+	echo $matches[ 1 ][ 0 ] . ' ' . 
+		str_replace( '&#39;',"'", $matches[ 2 ][ 0 ] ) . NL;
 	
 	for( $i = 1; $i < sizeof( $matches[ 1 ] ); $i++ )
 	{
@@ -142,7 +143,8 @@ if( url_check( $jisho_url ) )
 		{
 			break;
 		}
-		echo $matches[ 1 ][ $i ] . ' ' . $matches[ 2 ][ $i ] . NL;
+		echo $matches[ 1 ][ $i ] . ' ' . 
+			str_replace( '&#39;',"'", $matches[ 2 ][ $i ] ) . NL;
 	}
 }
 else

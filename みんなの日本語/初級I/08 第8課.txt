@@ -24,26 +24,66 @@
 
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:8-8/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:100
 
-Pitch Accent:
+Vocabulary:
+
 ハンサム[➀]（な）
+あの ハンサムな 男[おとこ]の子 を 見て。
+
 きれい[➀]（な）
+この辺[あた]り は 空[くう]気[き➀] が きれい だ よ。
+The air is pure around here.
+
 静[しず➀]か（な）
+キャプテンは 静か に する ように 命じた。
+The captain commanded silence.
+
 にぎやか[➁]（な） （賑やか）
+私の 家 は にぎやかな 通[とお➂]りに 面[めん]しています。 （面する[➂]）
+
 有[ゆう]名[めい⓪]（な）
+これは 芭蕉の 非[ひ]常[じょう⓪]に 有名な 俳[はい]句[く⓪]です。
+芭蕉は もっとも[➂] 偉[い]大[だい⓪]な 詩[し]人[じん⓪] だった。 （もっとも 最も）
+
 親[しん]切[せつ➀]（な）
+あなたの 家族は きっと[⓪] 親切 でしょう。
+Your family must be very nice.
+
 元[げん]気[き➀]（な）
+
 暇[ひま⓪]（な）
+今晩暇かな？
+
 便[べん]利[り➀]（な）
+電話は 便利な ものである。 （ものである is something that; is that which）
+
 すてき[⓪]（な） （素敵）
+あなた達 は 本[ほん]当[とう⓪]に 素敵な お客[きゃく] だ。
+You're such a lovely audience.
+
 大[おお➂]きい
+もっと 大きい 声[こえ➀] で 言[い]って ください。
+Louder please.
+
 小[ちい➂]さい
+その 机は メグ には 小さ すぎる。 （過[す]ぎる to be too）
+The desk is too small for Meg.
+
 新[あたら➃]しい
+
 若[わか➁]い
+「彼女は若いですか」「はい」
 彼[かれ]は若[わか]くないです。
+
 古[ふる➁]い
+古い 革[かわ]袋[ぶくろ➂]に 新しい酒を 盛[も⓪]る
+
 良[い➀]い
 良[よ➀]い
+
 悪[わる➁]い
+建[たて]物[もの➁]は 落[らく]書[が⓪]き だらけで[➀] 見た目[⓪] が 悪い。 （だらけで covered all over with）
+The graffiti-covered building is ugly to look at.
+
 暑[あつ➁]い
 今日は暑い。
 熱[あつ➁]い
@@ -100,15 +140,18 @@ Xは何色ですか。
 レストラン[➀]
 生[せい]活[かつ⓪]
 
-
-
-
 車[くるま⓪]
 仕[し]事[ごと⓪]
 勉[べん]強[きょう⓪]
 日[に]本[ほん➁]
 お仕[し]事[ごと➁]
 
+どう 如何 (compare to 如何 いかが how about)
+あなたは あの車を どう処理したのですか？
+What did you do with that car?
+
+「これはとてもおもしろそうだね」とひろしが言います。
+"This looks pretty interesting," Hiroshi says.
 
 https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=5
 

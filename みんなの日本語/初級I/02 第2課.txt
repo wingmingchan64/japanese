@@ -375,7 +375,7 @@ Practice:
 誰の車ですか。
 私の父の（車）です。
 
-使[つか]う
+使[つか⓪]う
 「あなたの辞書を使ってもいいですか」
 「はい、どうぞ」
 
@@ -433,4 +433,4 @@ https://www.youtube.com/watch?v=94F5sTXhhjg
 https://www.youtube.com/watch?v=szKxbPmiYZA&list=PLCqUNVHp9xb7TSw6iFUl-GPH5lEqXHS9H&index=24
 
 これ/それ/あれは N です。
-そう usually not used in negative sentences
+そう usually not used in negative sentences, but see above L.351
