@@ -30,12 +30,14 @@ Vocabulary:
 あの ハンサムな 男[おとこ]の子 を 見て。
 
 きれい[➀]（な）
-この辺[あた]り は 空[くう]気[き➀] が きれい だ よ。
+この辺[あた➀]り は 空[くう]気[き➀] が きれい だ よ。
 The air is pure around here.
 
 静[しず➀]か（な）
 キャプテンは 静か に する ように 命じた。
 The captain commanded silence.
+シンと 静まった 部[ぶ]室[しつ⓪]。 （しんと、シンと deadly silent; 静まる）
+The club room returned to quiet.
 
 にぎやか[➁]（な） （賑やか）
 私の 家 は にぎやかな 通[とお➂]りに 面[めん]しています。 （面する[➂]）
@@ -49,9 +51,10 @@ The captain commanded silence.
 Your family must be very nice.
 
 元[げん]気[き➀]（な）
+とっても 元気よ。 （とても、とっても）
 
 暇[ひま⓪]（な）
-今晩暇かな？
+今晩暇かな？ （かな I wonder, at sentence end）
 
 便[べん]利[り➀]（な）
 電話は 便利な ものである。 （ものである is something that; is that which）
@@ -85,13 +88,13 @@ The desk is too small for Meg.
 The graffiti-covered building is ugly to look at.
 
 暑[あつ➁]い
-今日は暑い。
+今日は暑いです。
 
 熱[あつ➁]い
 熱いお茶
 
 寒[さむ➁]い
-北海道は寒い。
+北海道は寒いです。
 
 冷[つめ⓪]たい
 冷たいお茶
@@ -158,7 +161,7 @@ Xは何色ですか。
 あなたは あの車を どう処理したのですか？
 What did you do with that car?
 
-「これはとてもおもしろそうだね」とひろしが言います。
+「これは とても おもしろそうだね」とひろしが 言います。
 "This looks pretty interesting," Hiroshi says.
 
 https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=5
