@@ -111,26 +111,51 @@ The graffiti-covered building is ugly to look at.
 She melted at his kind words.
 
 高[たか➁]い
+富士山は 日本で 一番 高い 山 です。
 
 安[やす➁]い
+これは バーゲン 商品 なので 定[てい]価[か] より やすく なっているん じゃない ですか。（なので as；より rather than；なっているん 成る become；じゃない だ）
+Aren't you selling this at a discount price?
+
 低[ひく➁]い
+この机は 私 には ちょっと 低い。（には for）
+
+長[なが➁]い
+これは日本で２番[ばん]目[め]に長い川だ。（信濃川、利根川、石狩川）
+
+短[みじか➂]い
+あの犬は 尻尾[しっぽ➂] が 短い。
+
 おもしろい[➃] 面白い
+面白い話[はなし➂]
+
 おいしい[⓪] 美味しい
+
 忙[いそが➃]しい
+あいつ は のらりくらり[➁] の 仕事 に お 忙しい 事 だ。（あいつ that guy；のらりくらり lazily）
+He is busy loafing on the job.
+
 楽[たの➂]しい
 かわいい[➂] 可愛い
 
 味[あじ⓪]
 甘[あま⓪]い
+  砂[さ]糖[とう➁]
 辛[から⓪]い
 苦[にが➁]い
-塩[しお]辛[から➃]い
+苦い薬[くすり⓪]
+塩[しお]辛[から➃]い 鹹い 塩[しょ➂]っぱい 
+  塩[しお➁]
+  醤[しょう]油[ゆ⓪]
+酸[す]っぱい
+  酢[す➀]
 濃[こ➀]い
 濃いコーヒー
 濃い緑
 薄[うす⓪]い
 薄いコーヒー
 薄い緑
+
 色[いろ➁]
 何[なに]色
 Xは何色ですか。
@@ -139,13 +164,25 @@ Xは何色ですか。
 赤[あか➀]
 青[あお➀]
 黄[き]色[いろ⓪]
+秋 になると 葉[よう⓪] は 黄色く なる。（になると when it comes to）
 茶[ちゃ]色[いろ⓪]
+この辺[へん]で 茶色い 財[さい]布[ふ⓪] を 見ませんでしたか。
 緑[みどり➀]
+緑[みどり]の黒[くろ]髪[かみ➁] glossy black hair
 紫[むらさき➁]
+その 色は ピンク と言[い]うより 紫 だ。（と言[い]うより rather than）
+The color is purple rather than pink.
 グレー[➁]
 ピンク[➀]
 オレンジ[➁]
-ベージュ⓪
+ベージュ[⓪]
+朱[しゅ]色[いろ⓪]
+黄緑[➁]
+水色[⓪] light blue
+肌[はだ]色[⓪]
+紺[こん➀] navy blue
+えんじ色[⓪] 臙脂色 dark red
+
 
 桜[さくら⓪]
 山[やま➁]
@@ -168,6 +205,8 @@ What did you do with that car?
 
 「これは とても おもしろそうだね」とひろしが 言います。
 "This looks pretty interesting," Hiroshi says.
+
+こんな[⓪]、そんな[➀]、あんな[⓪]、どんな[➀]
 
 https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=5
 
