@@ -47,6 +47,13 @@ function getPitchAccentString( string $str ) : string
 	return $pa_str;
 }
 
+function getJapanDictExample( string $source ) : string
+{
+	$ex_str = '';
+	
+	return $ex_str;
+}
+
 function isKana( string $str ) : bool
 {
 	$strlen = mb_strlen( $str );

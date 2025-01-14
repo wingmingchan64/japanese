@@ -29,7 +29,7 @@ Vocabulary:
 ハンサム[➀]（な）
 あの ハンサムな 男[おとこ]の子 を 見て。
 
-きれい[➀]（な）
+きれい[➀]（な） 綺麗
 この辺[あた➀]り は 空[くう]気[き➀] が きれい だ よ。
 The air is pure around here.
 
@@ -72,7 +72,6 @@ Louder please.
 The desk is too small for Meg.
 
 新[あたら➃]しい
-
 
 若[わか➁]い
 「彼女は若いですか」「はい」
@@ -173,6 +172,7 @@ Xは何色ですか。
 その 色は ピンク と言[い]うより 紫 だ。（と言[い]うより rather than）
 The color is purple rather than pink.
 グレー[➁]
+私の 事務所は あの グレーの ６階建[だ]て の ビル の ４階だ。（ビル multi-storey building）
 ピンク[➀]
 オレンジ[➁]
 ベージュ[⓪]
@@ -183,11 +183,10 @@ The color is purple rather than pink.
 紺[こん➀] navy blue
 えんじ色[⓪] 臙脂色 dark red
 
-
 桜[さくら⓪]
 山[やま➁]
-町[まち➀]
-食[た]べ物[もの➂➁]
+町[まち➁]
+食[た]べ物[もの➂]
 所[ところ➂]
 寮[りょう➀]
 レストラン[➀]
@@ -199,14 +198,43 @@ The color is purple rather than pink.
 日[に]本[ほん➁]
 お仕[し]事[ごと➁]
 
-どう 如何 (compare to 如何 いかが how about)
-あなたは あの車を どう処理したのですか？
+どう[➀] 如何 (compare to 如何 いかが how about)
+あなたは あの車を どう 処理したのですか？
 What did you do with that car?
 
+こんな[⓪]、そんな[➀]、あんな[⓪]、どんな[➀]
+
+とても[⓪]
 「これは とても おもしろそうだね」とひろしが 言います。
 "This looks pretty interesting," Hiroshi says.
 
-こんな[⓪]、そんな[➀]、あんな[⓪]、どんな[➀]
+あまり[➂] 余り
+そして[⓪] 而して
+S1 が S2
+お元[げん]気[き➀]ですか。
+そうですね
+結[けっ]構[こう➀]
+1. splendid, nice
+2. sufficient, satisfactory
+3. not needing, No, thank you
+
+Grammar:
+
+な adjective
+- 綺[き]麗[れい]
+- 有[ゆう]名[めい]
+- 嫌[きら⓪]い
+日本は静かです。
+日本は静かじゃありません。
+日本は静かじゃないです。  じゃ
+
+い adjective
+日本は暑いです。
+日本は暑くありません。
+日本は暑くないです。     く
+日本は良[い]いです。
+日本は良[よ]くないです。
+
 
 https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=5
 
