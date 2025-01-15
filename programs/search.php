@@ -1,6 +1,5 @@
 <?php
 /*
-
 php h:\github\japanese\programs\search.php 
 */
 require_once( "h:\\github\\japanese\\programs\\常數.php" );
@@ -65,24 +64,6 @@ while( true )
 	// quit: exit program
 	// key: Romaji
 	echo "Enter a command (clr, del, show, quit) or a Romaji\n";
-/*
-	if( $cleanup )
-	{
-		echo "cleanup" . NL;
-	}
-	else
-	{
-		echo "no cleanup" . NL;
-	}
-	if( $show_furi )
-	{
-		echo "furi" . NL;
-	}
-	else
-	{
-		echo "no furi" . NL;
-	}
-*/
 	$input = readline();
 
 	// command or key
@@ -108,31 +89,24 @@ while( true )
 	}
 	elseif( array_key_exists( $input, $dict ) )
 	{
-		//echo 'here 1', $input, "\r\n";
 		//echo $dict[ $input ], "stop\r\n";
 		
 		// more than one 漢字符 in value
 		if( is_string( $dict[ $input ] ) && 
-			mb_strlen( $dict[ $input ] ) > 1 )
+			mb_strlen( $dict[ $input ] ) > 0 )
 		{
-			//echo 'here 2', $input, "\r\n";
-			// append entire string to buffer
-
-			// only one option
+			// only one option, append entire string to buffer
 			if( mb_strpos( $dict[ $input ], ":" ) === false )
 			{
 				$option_str = trim( $dict[ $input ] );
 				
-				if( $cleanup )
+				if( $cleanup ) // clear up everything in []
 				{
 					$option_str = preg_replace( 
 						$pitch_regex, '', $option_str );
 				}
-				elseif( $show_furi )
+				elseif( $show_furi ) // remove accent markers
 				{
-					//$option_str = preg_replace( 
-						//$pitch_regex, '', $option_str );
-					// remove all accent markers
 					$option_str = removeAllAccentMarker( $option_str );
 				}
 
@@ -154,22 +128,9 @@ while( true )
 					}
 					elseif( $show_furi )
 					{
-						//$option_str = preg_replace( 
-							//$pitch_regex, '', $option_str );
 						// remove all accent markers
 						$option_str = removeAllAccentMarker( $option_str );
-						/*
-						$option_str = str_replace( '[⓪]', '',
-							str_replace( '[➀]', '',
-								str_replace( '[➁]', '',
-									str_replace( '[➂]', '', $option_str ) ) ) );
-							$option_str = str_replace( '⓪', '',
-								str_replace( '➀', '',
-									str_replace( '➁', '',
-										str_replace( '➂', '', $option_str ) ) ) );
-						*/
 					}
-
 					
 					$options = array_merge( $options,
 						explode(
@@ -186,12 +147,9 @@ while( true )
 					}
 					elseif( $show_furi )
 					{
-						//$option_str = preg_replace( 
-							//$pitch_regex, '', $option_str );
 						// remove all accent markers
 						$option_str = removeAllAccentMarker( $option_str );
 					}
-
 
 					$options = array( '' );
 			
@@ -220,8 +178,6 @@ while( true )
 		}
 		elseif( is_array( $dict[ $input ] ) )
 		{
-			//echo 'here 3', $input, "\r\n";
-
 			// output options
 			print_r( $dict[ $input ] );
 			
@@ -239,7 +195,6 @@ while( true )
 		}
 		else
 		{
-			//echo 'here 4', $input, "\r\n";
 			$buffer .= $dict[ $input ];
 			printBuffer( $buffer );
 		}
@@ -265,20 +220,8 @@ while( true )
 			}
 			elseif( $show_furi )
 			{
-				//$option_str = preg_replace( 
-					//$pitch_regex, '', $option_str );
 				// remove all accent markers
 				$option_str = removeAllAccentMarker( $option_str );
-				/*
-				$option_str = str_replace( '[⓪]', '',
-					str_replace( '[➀]', '',
-						str_replace( '[➁]', '',
-							str_replace( '[➂]', '', $option_str ) ) ) );
-					$option_str = str_replace( '⓪', '',
-						str_replace( '➀', '',
-							str_replace( '➁', '',
-								str_replace( '➂', '', $option_str ) ) ) );
-				*/
 			}
 
 			$options = array_merge( $options,
@@ -399,5 +342,4 @@ function printBuffer( string $buffer )
 	// display
 	echo "=>", $buffer, "\n";
 }
-飲む
 ?>

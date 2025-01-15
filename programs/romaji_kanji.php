@@ -2284,7 +2284,7 @@ $romaji_kanji = array(
 'zettaini'=>'絶[ぜっ]対[たい]に', // absolutely, definitely
 'zu'=>'ず:づ',
 'zubon'=>'ズボン[➀]', // pants
-'zurasu'=>'',
+'zurasu'=>'ずらす[➁]', // move, shift
 'zutto'=>'ずっと[⓪]', // all the time, all through
 );
 ?>

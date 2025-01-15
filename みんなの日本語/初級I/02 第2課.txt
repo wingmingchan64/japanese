@@ -302,12 +302,18 @@ https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:2-2/sortpr
 Vocabulary:
 
 椅[い]子[す⓪]
+    ちょっと 椅子を ずらして くれない？ （ずらす[➁] to move）
 英[えい]語[ご⓪]
 かばん[⓪]，バッグ[➀]
 雑[ざっ]誌[し⓪]
 机[つくえ⓪]
 手[て]帳[ちょう⓪]
+    腰を下ろし、手帳を 開きました。
+	腰[こし]を下[お]ろす to sit down
+	腰[こし⓪] lower back, waist, hips
+	下[お➁]ろし to lower
 時計[とけい⓪] 土圭
+    腕[うで➁]時計
 
 名[めい]刺[し⓪]
 鉛[えん]筆[ぴつ⓪]
