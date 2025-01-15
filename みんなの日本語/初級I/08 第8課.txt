@@ -107,6 +107,7 @@ Vocabulary:
 かわいい[➂] 可愛い
 
 味[あじ⓪]
+=======
 甘[あま⓪]い
     砂[さ]糖[とう➁]
 辛[から⓪]い
@@ -125,6 +126,7 @@ Vocabulary:
     薄い緑
 
 色[いろ➁]
+=======
 何[なに]色
     Xは何色ですか。
 白[しろ➀]
@@ -249,7 +251,29 @@ Grammar:
 ====
 
 
-https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=5
-
+https://www.youtube.com/watch?v=MlBZrOmq88c&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=8
 
 Practice:
+
+
+Personal Notes:
+
+It is much easier to just use じゃないです for な adjectives and くないです for い adjectives.
+綺麗じゃないです
+暇じゃないです
+親切じゃないです
+元気じゃないです
+
+悪くないです
+高くないです
+白くないです
+忙しくないです
+
+この近[ちか➁]く（に）
+辺[あた➀]り、辺[わた]り、ほとり[⓪]
+    川のほとりの家
+	辺[あた➀]りを歩[ある]く in der Gegend herumlaufen
+	辺りを 見[み]回[まわ⓪]す herumschauen
+	ポストを 探[さが]して 辺りを 見回した。 I looked about for the mailbox.
+近い
+    クリスマスが 近く 成[な]って 来[き]た。 （成る、来る） Christmas is fast approaching.
