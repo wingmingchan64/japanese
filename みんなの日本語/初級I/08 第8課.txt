@@ -27,152 +27,121 @@ https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:8-8/sortpr
 Vocabulary:
 
 ハンサム[➀]（な）
-あの ハンサムな 男[おとこ]の子 を 見て。
-
+    あの ハンサムな 男[おとこ➂]の子 を 見て。
 きれい[➀]（な） 綺麗
-この辺[あた➀]り は 空[くう]気[き➀] が きれい だ よ。
-The air is pure around here.
-
+    この辺[あた➀]り は 空[くう]気[き➀] が きれい だ よ。
+    The air is pure around here.
 静[しず➀]か（な）
-キャプテンは 静か に する ように 命じた。
-The captain commanded silence.
-シンと 静まった 部[ぶ]室[しつ⓪]。 （しんと、シンと deadly silent; 静まる）
-The club room returned to quiet.
-
+    キャプテンは 静か に する ように 命[めい⓪]じた。
+    The captain commanded silence.
+    シンと 静まった 部[ぶ]室[しつ⓪]。 （しんと、シンと deadly silent; 静まる）
+    The club room returned to quiet.
 にぎやか[➁]（な） （賑やか）
-私の 家 は にぎやかな 通[とお➂]りに 面[めん]しています。 （面する[➂]）
-
+    私の 家 は にぎやかな 通[とお➂]りに 面[めん]しています。 （面する[➂]）
 有[ゆう]名[めい⓪]（な）
-これは 芭蕉の 非[ひ]常[じょう⓪]に 有名な 俳[はい]句[く⓪]です。
-芭蕉は もっとも[➂] 偉[い]大[だい⓪]な 詩[し]人[じん⓪] だった。 （もっとも 最も）
-
+    これは 芭蕉の 非[ひ]常[じょう⓪]に 有名な 俳[はい]句[く⓪]です。
+    芭蕉は もっとも[➂] 偉[い]大[だい⓪]な 詩[し]人[じん⓪] だった。 （もっとも 最も）
 親[しん]切[せつ➀]（な）
-あなたの 家族は きっと[⓪] 親切 でしょう。
-Your family must be very nice.
-
+    あなたの 家族は きっと[⓪] 親切 でしょう。
+    Your family must be very nice.
 元[げん]気[き➀]（な）
-とっても 元気よ。 （とても、とっても）
-
+    とっても 元気よ。 （とても、とっても）
 暇[ひま⓪]（な）
-今晩暇かな？ （かな I wonder, at sentence end）
-
+    今晩暇かな？ （かな I wonder, at sentence end）
 便[べん]利[り➀]（な）
-電話は 便利な ものである。 （ものである is something that; is that which）
-
+    電話は 便利な ものである。 （ものである is something that; is that which）
 すてき[⓪]（な） （素敵）
-あなた達 は 本[ほん]当[とう⓪]に 素敵な お客[きゃく] だ。
-You're such a lovely audience.
-
+    あなた達 は 本[ほん]当[とう⓪]に 素敵な お客[きゃく] だ。
+    You're such a lovely audience.
 大[おお➂]きい
-もっと 大きい 声[こえ➀] で 言[い]って ください。
-Louder please.
-
+    もっと 大きい 声[こえ➀] で 言[い]って ください。
+    Louder please.
 小[ちい➂]さい
-その 机は メグ には 小さ すぎる。 （過[す]ぎる to be too）
-The desk is too small for Meg.
-
+    その 机は メグ には 小さ すぎる。 （過[す]ぎる to be too）
+    The desk is too small for Meg.
 新[あたら➃]しい
-
+    古い 革[かわ]袋[ぶくろ➂]に 新しい酒を 盛[も⓪]る
 若[わか➁]い
-「彼女は若いですか」「はい」
-彼[かれ]は若[わか]くないです。
-
+    「彼女は若いですか」「はい」
+    彼[かれ]は若[わか]くないです。
 古[ふる➁]い
-古い 革[かわ]袋[ぶくろ➂]に 新しい酒を 盛[も⓪]る
-
+    古い 革[かわ]袋[ぶくろ➂]に 新しい酒を 盛[も⓪]る
 良[い➀]い
 良[よ➀]い
-
 悪[わる➁]い
-建[たて]物[もの➁]は 落[らく]書[が⓪]き だらけで[➀] 見[み]た目[め⓪] が 悪い。 （だらけで covered all over with）
-The graffiti-covered building is ugly to look at.
-
+    建[たて]物[もの➁]は 落[らく]書[が⓪]き だらけで[➀] 見[み]た目[め⓪] が 悪い。 （だらけで covered all over with）
+    The graffiti-covered building is ugly to look at.
 暑[あつ➁]い
-今日は暑いです。
-
+    今日は暑いです。
 熱[あつ➁]い
-熱いお茶
-
+    熱いお茶
 寒[さむ➁]い
-北海道は寒いです。
-
+    北海道は寒いです。
 冷[つめ⓪]たい
-冷たいお茶
-
+    冷たいお茶
 難[むずか➃]しい
-私は 彼女に 難しい 質問をした。
-
+    私は 彼女に 難しい 質問をした。
 易[やさ⓪]しい
-この仕事は 決[けっ⓪]して やさしくない。 （決[けっ⓪]して by no means）
-
+    この仕事は 決[けっ⓪]して やさしくない。 （決[けっ⓪]して by no means）
 優[やさ⓪]しい
-彼の 優しい 言[こと]葉[ば➂]で 彼女の 気[き]持[も⓪]ち が 和らいだ。 （気[き]持[も⓪]ち attitude； 和[やわ➂]らぐ to soften）
-She melted at his kind words.
-
+    彼の 優しい 言[こと]葉[ば➂]で 彼女の 気[き]持[も⓪]ち が 和らいだ。 （気[き]持[も⓪]ち attitude； 和[やわ➂]らぐ to soften）
+    She melted at his kind words.
 高[たか➁]い
-富士山は 日本で 一番 高い 山 です。
-
+    富士山は 日本で 一番 高い 山 です。
 安[やす➁]い
-これは バーゲン 商品 なので 定[てい]価[か] より やすく なっているん じゃない ですか。（なので as；より rather than；なっているん 成る become；じゃない だ）
-Aren't you selling this at a discount price?
-
+    これは バーゲン 商品 なので 定[てい]価[か] より やすく なっているん じゃない ですか。（なので as；より rather than；なっているん 成る become；じゃない だ）
+    Aren't you selling this at a discount price?
 低[ひく➁]い
-この机は 私 には ちょっと 低い。（には for）
-
+    この机は 私 には ちょっと 低い。（私 には for me）
 長[なが➁]い
-これは日本で２番[ばん]目[め]に長い川だ。（信濃川、利根川、石狩川）
-
+    これは日本で２番[ばん]目[め]に長い川だ。（信濃川、利根川、石狩川）
 短[みじか➂]い
-あの犬は 尻尾[しっぽ➂] が 短い。
-
+    あの犬は 尻尾[しっぽ➂] が 短い。
 おもしろい[➃] 面白い
-面白い話[はなし➂]
-
+    面白い話[はなし➂] funny story
 おいしい[⓪] 美味しい
-
 忙[いそが➃]しい
-あいつ は のらりくらり[➁] の 仕事 に お 忙しい 事 だ。（あいつ that guy；のらりくらり lazily）
-He is busy loafing on the job.
-
+    あいつ は のらりくらり[➁] の 仕事 に お 忙しい 事 だ。（あいつ that guy；のらりくらり lazily）
+    He is busy loafing on the job.
 楽[たの➂]しい
 かわいい[➂] 可愛い
 
 味[あじ⓪]
 甘[あま⓪]い
-  砂[さ]糖[とう➁]
+    砂[さ]糖[とう➁]
 辛[から⓪]い
 苦[にが➁]い
 苦い薬[くすり⓪]
 塩[しお]辛[から➃]い 鹹い 塩[しょ➂]っぱい 
-  塩[しお➁]
-  醤[しょう]油[ゆ⓪]
+    塩[しお➁]
+    醤[しょう]油[ゆ⓪]
 酸[す]っぱい
-  酢[す➀]
+    酢[す➀]
 濃[こ➀]い
-濃いコーヒー
-濃い緑
+    濃いコーヒー
+    濃い緑
 薄[うす⓪]い
-薄いコーヒー
-薄い緑
+    薄いコーヒー
+    薄い緑
 
 色[いろ➁]
 何[なに]色
-Xは何色ですか。
+    Xは何色ですか。
 白[しろ➀]
 黒[くろ➀]
 赤[あか➀]
 青[あお➀]
 黄[き]色[いろ⓪]
-秋 になると 葉[よう⓪] は 黄色く なる。（になると when it comes to）
+    秋 になると 葉[よう⓪] は 黄色く なる。（になると when it comes to）
 茶[ちゃ]色[いろ⓪]
-この辺[へん]で 茶色い 財[さい]布[ふ⓪] を 見ませんでしたか。
+    この辺[へん]で 茶色い 財[さい]布[ふ⓪] を 見ませんでしたか。
 緑[みどり➀]
-緑[みどり]の黒[くろ]髪[かみ➁] glossy black hair
+    緑[みどり]の黒[くろ]髪[かみ➁] glossy black hair
 紫[むらさき➁]
-その 色は ピンク と言[い]うより 紫 だ。（と言[い]うより rather than）
-The color is purple rather than pink.
+    その 色は ピンク と言[い]うより 紫 だ。（と言[い]うより rather than）
+    The color is purple rather than pink.
 グレー[➁]
-私の 事務所は あの グレーの ６階建[だ]て の ビル の ４階だ。（ビル multi-storey building）
+    私の 事務所は あの グレーの ６階建[だ]て の ビル の ４階だ。（ビル multi-storey building）
 ピンク[➀]
 オレンジ[➁]
 ベージュ[⓪]
@@ -199,15 +168,12 @@ The color is purple rather than pink.
 お仕[し]事[ごと➁]
 
 どう[➀] 如何 (compare to 如何 いかが how about)
-あなたは あの車を どう 処理したのですか？
-What did you do with that car?
-
+    あなたは あの車を どう 処理したのですか？
+    What did you do with that car?
 こんな[⓪]、そんな[➀]、あんな[⓪]、どんな[➀]
-
 とても[⓪]
-「これは とても おもしろそうだね」とひろしが 言います。
-"This looks pretty interesting," Hiroshi says.
-
+    「これは とても おもしろそうだね」とひろしが 言います。
+    "This looks pretty interesting," Hiroshi says.
 あまり[➂] 余り
 そして[⓪] 而して
 S1 が S2
@@ -262,8 +228,25 @@ Grammar:
 白い、黑い、赤い、青い、黄色い、茶色い
 好[す➁]き（な adjective）
 白が好きです。 赤が嫌[きら]いです。
+このシャツは白いです。
+白いシャツ
+緑が好きです。
+このシャツは緑です。
+緑のシャツ
 
+どう
+==
+東京の生活は楽しいです。
+東京の生活はどうですか。
+新しい先生はどうですか。
+面白いです。
+大学の寮はどうですか。
+便利です。
+最[さい]近[きん⓪]どうですか。
+悪くないです。
 
+どんな
+====
 
 
 https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=5
