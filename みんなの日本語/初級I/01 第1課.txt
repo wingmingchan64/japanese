@@ -466,3 +466,19 @@ Personal Notes:
 それでは as for that
 では short form of それでは，compare with には
 ありません，from 有る，it is not the case that …
+
+From Practice:
+T: Nice to meet you.
+M: Nice to meet you.
+T: I'm Takashi. What's your name?
+M: I'm [your name]. Please to meet you.
+T: Please to meet you too. Are you Japanese?
+M: No, I'm American. You?
+T: I'm Japanese. What's your job?
+M: I'm a university student. You?
+T: I'm a bank employee.
+M: My dad is also a bank employee.
+T: Which bank does he work for?
+M: It's an American bank.
+
+
