@@ -117,9 +117,9 @@ while( true )
 		{
 			//echo 'here 2', $input, "\r\n";
 			// append entire string to buffer
-			if( str_starts_with( $dict[ $input ], "*" ) &&
-				mb_strpos( $dict[ $input ], ":" ) === false
-			)
+
+			// only one option
+			if( mb_strpos( $dict[ $input ], ":" ) === false )
 			{
 				$option_str = trim( $dict[ $input ] );
 				
@@ -134,16 +134,6 @@ while( true )
 						//$pitch_regex, '', $option_str );
 					// remove all accent markers
 					$option_str = removeAllAccentMarker( $option_str );
-					/*
-					$option_str = str_replace( '[⓪]', '',
-						str_replace( '[➀]', '',
-							str_replace( '[➁]', '',
-								str_replace( '[➂]', '', $option_str ) ) ) );
-					$option_str = str_replace( '⓪', '',
-						str_replace( '➀', '',
-							str_replace( '➁', '',
-								str_replace( '➂', '', $option_str ) ) ) );
-								*/
 				}
 
 				$buffer .= trim( $option_str, "*" );
@@ -200,17 +190,6 @@ while( true )
 							//$pitch_regex, '', $option_str );
 						// remove all accent markers
 						$option_str = removeAllAccentMarker( $option_str );
-						/*
-						$option_str = str_replace( '[⓪]', '',
-							str_replace( '[➀]', '',
-								str_replace( '[➁]', '',
-									str_replace( '[➂]', '', $option_str ) ) ) );
-							$option_str = str_replace( '⓪', '',
-								str_replace( '➀', '',
-									str_replace( '➁', '',
-										str_replace( '➂', '', $option_str ) ) ) );
-						*/
-
 					}
 
 

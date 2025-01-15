@@ -298,7 +298,8 @@
 山[やま]田[だ]： どうも ありがとうございます。
 
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:2-2/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:100
-Pitch Accent:
+
+Vocabulary:
 
 椅[い]子[す⓪]
 英[えい]語[ご⓪]
@@ -306,7 +307,7 @@ Pitch Accent:
 雑[ざっ]誌[し⓪]
 机[つくえ⓪]
 手[て]帳[ちょう⓪]
-時計[とけい⓪]
+時計[とけい⓪] 土圭
 
 名[めい]刺[し⓪]
 鉛[えん]筆[ぴつ⓪]
@@ -380,6 +381,7 @@ Practice:
 「はい、どうぞ」
 
 https://www.youtube.com/watch?v=qZ8Q5hL-ws8
+
 これは鉛[えん]筆[ぴつ]です。
 これは本[ほん]ですか。
 はい、そうです。
@@ -425,6 +427,7 @@ https://www.youtube.com/watch?v=qZ8Q5hL-ws8
 コーヒーです。
 
 https://www.youtube.com/watch?v=94F5sTXhhjg
+
 電話番号
 あなたの電話番号は何ですか。
 私の番号は◯◯です。
