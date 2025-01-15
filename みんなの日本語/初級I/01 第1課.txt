@@ -467,7 +467,8 @@ Personal Notes:
 では short form of それでは，compare with には
 ありません，from 有る，it is not the case that …
 
-From Practice:
+From Takashi's Practice:
+
 T: Nice to meet you.
 M: Nice to meet you.
 T: I'm Takashi. What's your name?
@@ -480,5 +481,3 @@ T: I'm a bank employee.
 M: My dad is also a bank employee.
 T: Which bank does he work for?
 M: It's an American bank.
-
-
