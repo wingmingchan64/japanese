@@ -28,6 +28,7 @@ function checkARGV( array $argv, int $num, string $msg )
 }
 function getPitchAccentString( string $str ) : string
 {
+	//global PA_ARRAY;
 	$pa_str = '';
 	$pa_array = array( '⓪','➀','➁','➂','➃','➄','➅','➆','➇' );
 	
