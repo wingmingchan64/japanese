@@ -4,9 +4,23 @@
 <li>The best thing about this site is that Romaji can be used to query the dictionary</li>
 <li>There is no easy way to extract the available entries from the site</li>
 <li>I decide to query the site directly, one entry at a time</li>
-<li>Command: <quote>H:\php809>php H:\github\japanese\programs\查詢辭書.php kaeru</quote></li>
 </ul>
 <pre>
+H:\php809>php h:\github\japanese\programs\search.php
+要搜索甚麼？請輸入選項數字；用 exit 來結束。
+Array
+(
+    [0] => 輸入日語：羅馬字→漢字、假名
+    [1] => 輸入日語：羅馬字→漢字、假名（含振假名）
+    [2] => 輸入日語：羅馬字→漢字、假名（含振假名、高低音調）
+    [3] => 查詢辭書
+    [4] => 漢字→動詞變形
+    [5] => 漢字、假名→音調標記
+)
+3
+請輸入詞條：
+帰る
+<br />
 Jisho.org:
 =================================
 帰る[かえる] kaeru
