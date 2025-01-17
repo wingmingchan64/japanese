@@ -42,3 +42,21 @@ Meaning:
 5.  nach Hause gehen
 6.  nach Hause kommen
 </pre>
+<hr />
+<h2>JapanDict</h2>
+<ul>
+<li>After querying jisho.org, the kanji version of the entry is passed onto JapanDict</li>
+<li>Example sentences are extracted and displayed</li>
+</ul>
+<pre>
+JapanDict:
+=================================
+Examples:
+恋人よ、我に帰れ。
+恋人  よ  、  我  に  帰れ  。
+Lover, come back to me.
+
+１１時を過ぎると、お客たちは三々五々帰り始めた。
+１１  時  を  過ぎる  と  、  お  客  たち  は  三々五々  帰り  始めた  。
+After 11 o'clock the guests began to leave by twos and threes.
+</pre>

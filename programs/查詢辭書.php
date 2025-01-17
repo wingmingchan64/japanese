@@ -179,6 +179,7 @@ if( $entry_xml != '' )
 			$meaning = str_replace( '</text>', NL, $meaning );
 		}
 		$meaning_array = explode( NL, strip_tags( $meaning ) );
+		
 		foreach( $meaning_array as $index => $m_string )
 		{
 			if( $m_string != '' )
@@ -189,76 +190,46 @@ if( $entry_xml != '' )
 	}
 }
 
-/*
-$japandict_url = "https://www.japandict.com/${js詞條}?lang=eng";
-$ja_regex = '/<span lang="ja">([^<]+)<\/span>/';
-$eng_regex = '/role="tabpanel">([^<]+)<\/div>/';
-$analysis_regex = '/btn-word">([^<]+)<|mdshadow-0">([^<]+)<|btn-word disabled">([^<]+)</';
-$analysis_array = array();
+$jd詞條 = urlencode( $kanji );
+$japandict_url = "https://www.japandict.com/${jd詞條}?lang=eng";
+$ana_matches = array();
+$eng_matches = array();
+
+$sentence_regex = '/<div class="btn-group d-flex text-nowrap flex-wrap" role="group" aria-label="Sentence analysis"><a.+?<\/a><\/div>/';
+$eng_regex = '/<div class="tab-pane p-3 active" id="eng-\d+" role="tabpanel">([^<]+)<\/div>/';
 
 if( url_check( $japandict_url ) )
 {
-	$source = file_get_contents( $japandict_url );
-	preg_match_all( $ja_regex, $source, $matches );
-	//print_r( $matches );
-	
-	if( $matches[ 0 ] )
-	{
-		//print_r( $matches );
-		
-		$ja = "文例： " . trim( $matches[ 1 ][ 0 ] );
-	
-		preg_match_all( $eng_regex, $source, $matches );
-		
-		if( $matches[ 0 ] )
-		{
-			$eng = "英語： " . trim( $matches[ 1 ][ 0 ] );
-			echo "JapanDict:", NL;
-			echo '=================================' . NL;
-			
-			preg_match_all( $analysis_regex, $source, $matches );
-			
-			$analysis_array = $matches[ 1 ];
-			//print_r( $matches );
-			
-			for( $i = 0; $i < sizeof( $analysis_array ); $i++ )
-			{
-				if( $analysis_array[ $i ] == '' )
-				{
-					if( $matches[ 2 ][ $i ] != '' )
-						$analysis_array[ $i ] = $matches[ 2 ][ $i ];
-					elseif( $matches[ 3 ][ $i ] != '' )
-						$analysis_array[ $i ] = $matches[ 3 ][ $i ];
-				}
-			}
-			
-			$analysis = '';
-			
-			for( $i = 0; $i < sizeof( $analysis_array ); $i++ )
-			{
-				if( $analysis_array[ $i ] == '' )
-				{
-					$analysis_array[ $i ] = $matches[ 2 ][ $i ];
-				}
-				
-				$analysis .= $analysis_array[ $i ] . '  ';
-				$current = str_replace( '  ', '', $analysis );
-				
-				if( mb_strpos( $ja, $current ) === false )
-				{
-					$analysis = str_replace( 
-						$analysis_array[ $i ], '', $analysis );
-					break;
-				}
-			}
+	echo NL, "JapanDict:", NL;
+	echo '=================================' . NL;
+	echo 'Examples:', NL;
 
-			
-			$analysis = "分析： " . $analysis;
-			
-			echo $ja, NL, $analysis, NL, $eng, NL;
+	$source = file_get_contents( $japandict_url );
+	$source = str_replace( NL, '', $source );
+	preg_match_all( $sentence_regex, $source, $ana_matches );
+	preg_match_all( $eng_regex, $source, $eng_matches );
+	
+	// print_r( $matches );
+	if( $ana_matches[ 0 ] && $eng_matches[ 0 ] )
+	{
+		for( $i = 0; $i < sizeof( $ana_matches[ 0 ] ); $i++ )
+		{
+			echo strip_tags( $ana_matches[ 0 ][ $i ] ), NL;
+			$ana_sentence = 
+				str_replace( '</a>', '  ', 
+				$ana_matches[ 0 ][ $i ] );
+			echo strip_tags( $ana_sentence ), NL;
+			echo str_replace(
+				'&#39;', "'",
+				trim( $eng_matches[ 1 ][ $i ] ) ), NL, NL;
+				
 		}
 	}
- 
+	preg_match_all( $eng_regex, $source, $matches );
 }
-*/
+else
+{
+	echo "The site cannot be reached" . NL;
+}
+
 ?>
