@@ -74,3 +74,31 @@ After 11 o'clock the guests began to leave by twos and threes.
 </li>
 <li>Any keys can be used, and currently I am compiling a dictionary using Cantonese pinyin as keys; example: saam1gaai1 as the key and [さん]階[がい⓪] as the output</li>
 </ul>
+<pre>
+H:\php809>php h:\github\japanese\programs\search.php
+要搜索甚麼？請輸入選項數字；用 exit 來結束。
+Array
+(
+    [0] => 輸入日語：羅馬字→漢字、假名
+    [1] => 輸入日語：羅馬字→漢字、假名（含振假名）
+    [2] => 輸入日語：羅馬字→漢字、假名（含振假名、高低音調）
+    [3] => 查詢辭書
+    [4] => 漢字→動詞變形
+    [5] => 漢字、假名→音調標記
+)
+2
+Enter a command (clr, del, show, quit) or a Romaji
+mouichido..
+Array
+(
+    [0] =>
+    [1] => もう[➀]一[いち]度[ど➂]
+    [2] => もう[➀]一[いち]度[ど➂]お願[ねが⓪]いします
+)
+2
+=>もう[➀]一[いち]度[ど➂]お願[ねが⓪]いします
+Enter a command (clr, del, show, quit) or a Romaji
+saam1gaai1
+=>もう[➀]一[いち]度[ど➂]お願[ねが⓪]いします[さん]階[がい⓪]
+Enter a command (clr, del, show, quit) or a Romaji
+</pre>
