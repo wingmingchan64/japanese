@@ -7,7 +7,7 @@
 <li>Create a PHP file containing an array mapping entry id to entry XML (too big, 237MB, to upload to github)</li>
 <li>Create a map, containing 漢字-ID pairs for easy lookup</li>
 <li>Create a map, containing 仮名-ID pairs for easy lookup</li>
-<li>I only provide the programs used to create these files</li>
+<li>I only provide the <a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">programs</a> used to create these files</li>
 <li>With an ID, the XML content can be retrieved, processed and displayed</li>
 <li>Information contained in the XML: ID, 漢字, 仮名, pitch accent, meanings (in German)</li>
 </ul>
