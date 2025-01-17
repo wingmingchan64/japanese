@@ -60,3 +60,17 @@ Lover, come back to me.
 １１  時  を  過ぎる  と  、  お  客  たち  は  三々五々  帰り  始めた  。
 After 11 o'clock the guests began to leave by twos and threes.
 </pre>
+<h2>Inputting Japanese</h2>
+<ul>
+<li>I write my own program to enable easy input of Japanese</li>
+<li>The program works with my own dictionaries</li>
+<li>Since I compile my own dictionaries, the program can output different versions of Japanese texts:
+<ul>
+<li>漢字、仮名 only</li>
+<li>漢字、仮名 with 振仮名</li>
+<li>漢字、仮名 with 振仮名 and pitch accent markers</li>
+<li>Any text can be put into various dictionaries for output; for example, the program can output もう[➀]一[いち]度[ど➂]お願[ねが⓪]いします as a single entry with the key mouichido..</li>
+</ul>
+</li>
+<li>Any keys can be used, and currently I am compiling a dictionary using Cantonese pinyin as keys; example: saam1gaai1 as the key and [さん]階[がい⓪] as the output</li>
+</ul>
