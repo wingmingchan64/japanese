@@ -1,5 +1,8 @@
 # japanese
 <h1>Using PHP to Facilitate the Learning of Japanese</h1>
+<h2>jisho.org</h2>
+
+<hr />
 <h2>和独辞典</h2>
 <ul>
 <li>As of January 5, 2025, the <a href="https://wadoku.de/wiki/display/WAD/Downloads+und+Links">XML dump</a> contains 433,218 entries</li>
