@@ -5,10 +5,9 @@
 <li>The best thing about this site is that Romaji can be used to query the dictionary</li>
 <li>There is no easy way to extract the available entries from the site</li>
 <li>I decide to query the site directly, one entry at a time</li>
+<li>Command: <quote>H:\php809>php H:\github\japanese\programs\查詢辭書.php kaeru</quote></li>
 </ul>
 <pre>
-H:\php809>php H:\github\japanese\programs\查詢辭書.php kaeru
-
 Jisho.org:
 =================================
 帰る[かえる] kaeru
