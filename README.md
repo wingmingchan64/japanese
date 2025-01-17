@@ -55,7 +55,7 @@ Examples:
 恋人よ、我に帰れ。
 恋人  よ  、  我  に  帰れ  。
 Lover, come back to me.
-
+<br />
 １１時を過ぎると、お客たちは三々五々帰り始めた。
 １１  時  を  過ぎる  と  、  お  客  たち  は  三々五々  帰り  始めた  。
 After 11 o'clock the guests began to leave by twos and threes.
