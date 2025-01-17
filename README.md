@@ -10,4 +10,5 @@
 <li>I only provide the <a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">programs</a> used to create these files</li>
 <li>With an ID, the XML content can be retrieved, processed and displayed</li>
 <li>Information contained in the XML: ID, 漢字, 仮名, pitch accent, meanings (in German)</li>
+<li>I create these files locally to avoid querying the website directly</li>
 </ul>
