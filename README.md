@@ -1,4 +1,3 @@
-# japanese
 <h1>Using PHP to Facilitate Japanese Learning</h1>
 <h2>jisho.org</h2>
 <ul>
@@ -47,6 +46,7 @@ Meaning:
 <ul>
 <li>After querying jisho.org, the kanji version of the entry is passed onto JapanDict</li>
 <li>Example sentences are extracted and displayed</li>
+<li>I was able to extract more than 210,000 entries with IDs, but have not decided what to do with the information yet</li>
 </ul>
 <pre>
 JapanDict:
