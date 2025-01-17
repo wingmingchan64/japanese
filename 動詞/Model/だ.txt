@@ -1,0 +1,13 @@
+Model: だ
+Present:		だ,です,ではない/じゃない,ではありません/じゃありません
+Past:			だった,でした,ではなかった/じゃなかった,ではありませんでした/じゃありませんでした
+-te Form:		で,ではなくて/じゃなくて
+Volitional:		だろう,でしょう
+Potential:		
+Passive:		
+Causative:		
+Imperative:		
+Conditional:	であれば,でなければ
+Conditional
+(-tara):		だったら,ではなかったら/じゃなかったら
+

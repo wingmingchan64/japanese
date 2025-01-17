@@ -1,0 +1,251 @@
+abiru		浴びる	⓪	浴びます
+ageru		上げる	⓪	上げます
+aisuru	➁	
+ajiwau	➁	
+akeru		開ける	⓪	開けます
+amu	➀	
+arau	⓪	
+aruku		歩く	➁	歩きます
+aseru	➁	
+asobu		遊ぶ	⓪	遊びます
+atatameru	➁	
+atsumaru	➁	
+atsumeru	集める	➁	集めます
+benkyosuru	⓪	
+butsukaru	⓪	
+erabu	➁	
+fakkusuru	ファックする
+fueru	➁	
+fuku	➀	
+fumu	⓪	
+furu	⓪	
+futoru	➁	
+gamansuru	⓪	
+gomakasu	誤魔化す	➁	
+hakaru	➁	
+hakaru	➁	
+hakobu		運ぶ	⓪	運びます
+haku	⓪	
+hanahiru	嚔ひる	➁	
+hanasu		話す	➁	話します
+hannousuru	⓪	
+hantaisuru	⓪	
+harau	➁	
+haru	⓪	
+hashiru		走る	➁	走ります
+hataraku	⓪	
+hazusu	⓪	
+heru	⓪	
+hiku		引く	⓪	引きます
+hiraku	➁	
+hiyasu	➁	
+homeru	➁	
+horu	➀	
+idomu	➁	
+inoru	➁	
+itameru	炒める	➁	
+iwau	➁	
+kaburu	➁	
+kaeru		帰る	➀	帰ります
+kaesu
+kagu	⓪	
+kakeru	⓪	
+kakeru	➁	
+kaku		書く	➀	書きます
+kaku	➀	
+kakureru	➁	
+kamu	➀	
+kanjiru	⓪	
+kariru	⓪	
+karu	➀	
+kassegu	➁	
+kasu	⓪	
+katazukeru	➁	
+kau		買う	⓪	買います
+kau	➀	
+kawakasu	➁	
+kawaru	⓪	
+kayou	⓪	
+kegasuru	➁	
+keikakusuru	⓪	
+keisansuru	⓪	
+kekkonsuru	⓪	
+kenkyuusuru	⓪	
+keru	➀	
+kesu		消す	⓪	消します
+kimeru		決める	⓪	決めます
+kinchosuru	⓪	
+kiru	⓪	
+kiru	➀	
+kitaeru	➁	
+kitaisuru	⓪	
+kizutsuku	➁	
+koeru	⓪	
+konomu	➁	
+koshousuru	⓪	
+kotaeru	➁	
+kotowaru	➁	
+koufunsuru	⓪	
+koukansuru	⓪	
+kowasu	➁	
+kubaru	➁	
+kumitateru	➁	
+kuraberu	➀	
+kusaru	➁	
+machigaeru	➁	
+magaru	⓪	
+maku	➀	
+mamoru		守る	➁	守ります
+manabu		学ぶ	⓪	学びます
+marumeru	⓪	
+matsu		待つ	➀	待ちます
+mawaru	⓪	
+mawasu	⓪	
+mazeru	➁	
+migaku	⓪	
+miramu	➁	
+miseru	➁	
+mitsukeru	⓪	
+modoru	➁	
+morau	⓪	
+motsu	➀	
+moushikimu	➁	
+nageru	➁	
+nagusameru	➁	
+naku	⓪	
+naosu	➁	
+naraberu	⓪	
+narabu	⓪	
+nattokusuru	⓪	
+nayamu	➁	
+nebousuru	⓪	
+neru		寝る	⓪	寝ます
+nieru	煮える	⓪	
+nigeru	➁	
+nigiru	⓪	
+nobasu	➁	
+noboru	⓪	
+nomu		飲む	➀	飲みます
+noru	⓪	
+nozoku	⓪	
+nugu	➀	
+nuguu	➁	
+nuku	⓪	
+nureru	⓪	
+nuru	⓪	
+oboeru		覚える	➁	覚えます
+oboreru	⓪	
+odoroku	➁	
+odoru		踊る	⓪	踊ります
+okiru		起きる	➁	起きます
+okoru	➁	
+okureru	⓪	
+okuru	⓪	
+omou	➁	
+oou	⓪	
+oriru	➁	
+oshieru	⓪	
+osu		押す	⓪	押します
+otosu	➁	
+ou	⓪	
+ouensuru	⓪	
+oyogu		泳ぐ	➁	泳ぎます
+renrakusuru	⓪	
+rikaisuru	⓪	
+rikonsuru	⓪	
+ryourisuru	⓪	
+sagasu		探す	⓪	探します
+sageru		下げる	➁	下げます
+sakebu	➁	
+sakeru	➁	
+saku	⓪	
+sankasuru	⓪	
+sanseisuru	⓪	
+sasu	➀	
+sawagu	➁	
+sawaru		触る	⓪	触ります
+seku	咳く	➀	
+semeru		攻める	➁	攻めます
+sentakusuru	⓪	
+setsumeisuru	⓪	
+shaberu	➁	
+shikaru	⓪	
+shimeru		閉める	➁	閉めます
+shinjiru	➁	
+shiraberu	➁	
+shitagau	⓪	
+shizumu	⓪	
+shoukaisuru	⓪	
+shuppatsusuru	⓪	
+shuuchuusuru	⓪	
+shuurisuru	⓪	
+sodatsu	➁	
+soru	➀	
+sosogu	⓪	
+suberu		滑る	➁	滑ります
+sumasu	➁	
+sumu	➀	
+suteru		捨てる	⓪	捨てます
+suu	⓪	
+suwaru		座る	⓪	座ります
+taberu		食べる	➁	食べます
+tagayasu	➁	
+taisousuru	体操する	⓪	
+taku	炊く	⓪	
+tameru	⓪	
+tanomu	➁	
+taosu	➁	
+tasukeru	➁	
+tatakau	⓪	
+tataku		叩く	➁	叩きます
+tatamu	⓪	
+tateru	➁	
+tatsu		立つ	➀	立ちます
+tazuneru	➁	
+terasu	⓪	
+tetsudau	➁	
+tobu		飛ぶ	⓪	飛びます
+tojiru	➁	
+tokeru	➁	
+toku	➀	
+tomaru	⓪	
+torikesu	➁	
+toru		取る	➀	取ります
+touchakusuru	⓪	
+tsubusu	⓪	
+tsukamaeru	⓪	
+tsukamu	➁	
+tsukau		使う	⓪	使います
+tsukeru		付ける	➁	付けます
+tsukeru	➁	
+tsukuru		作る	➁	作ります
+tsumeru	➁	
+tsumu	⓪	
+tsunagu	⓪	
+tsutaeru	⓪	
+tsutsumu	➁	
+ueru	⓪	
+ukeru	➁	
+uku	⓪	
+untensuru	⓪	
+uru		売る	⓪	売ります
+ushinau	⓪	
+utagau	⓪	
+utsu	➀	
+uttaeru	➁	
+wakasu	沸かす	⓪	
+wakeru	➁	
+warau	⓪	
+waru	⓪	
+wasureru	忘れる	⓪	忘れます
+wataru	⓪	
+watasu	⓪	
+yaseru	⓪	
+yasumu	➁	
+yobu	⓪	
+yogoreru	⓪	
+yomu		読む	➀	読みます
+yoyakusuru	⓪	
+yurusu	➁	
+
+// https://www.youtube.com/watch?v=H_6xEMWkYSE&t=277s

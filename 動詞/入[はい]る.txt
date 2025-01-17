@@ -1,0 +1,91 @@
+入[はい]る
+
+Present
+入る
+-te Form
+入って
+Negative
+入らない
+
+Present り
+=========
+positive
+plain:入る
+polite:入ります
+negative
+plain:入らない
+polite:入りません
+
+Past り
+======
+positive
+plain:入った
+polite:入りました
+negative
+plain:入らなかった
+polite:入りませんでした
+
+-te Form
+========
+positive
+入って
+negative
+入らなくて
+
+Volitional ろ り
+==============
+plain:入ろう
+polite:入りましょう
+
+Potential れ
+===========
+positive
+plain:入れる
+polite:入れます
+negative
+plain:入れない
+polite:入れません
+
+Passive られ
+==========
+positive
+plain:入られる
+hairareru
+polite:入られます
+negative
+plain:入られない
+polite:入られません
+
+Causative らせ
+============
+positive
+plain:入らせる
+polite:入らせます
+negative
+plain:入らせない
+polite:入らせません
+
+命令形
+Imperative
+==========
+positive
+plain:入れ
+polite:入ってください
+negative
+plain:入るな
+polite:入らないでください
+
+假定形
+Conditional れ ば
+=============
+positive
+入れば
+negative
+入れなければ
+
+Conditional (-tara) たら
+======================
+positive
+入ったら
+negative
+入らなかったら

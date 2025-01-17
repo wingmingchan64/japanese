@@ -1,0 +1,16 @@
+Model: 待[ま]つ ➀
+Present:		つ,ちます,たない,ちません
+Past:			った,ちました,たなかった,ちませんでした
+-te Form:		って,たなくて
+Volitional:		とう,ちましょう
+Potential:		てる,てます,てない,てません
+Passive:		たれる,たれます,たれない,たれません
+Causative:		たせる,たせます,たせない,たせません
+Imperative:		て,ってください,つな,たないでください
+Conditional:	てば,てなければ
+Conditional
+(-tara):		ったら,たなかったら
+
+断つ
+保つ
+立つ

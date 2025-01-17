@@ -1,0 +1,98 @@
+探[さが]す
+
+1. 未然形（尚未發生） ない、れる、せる、う…
+   さない 否定形：不找(普通形)
+   される、されない 受身形（passive）：被找
+   されます、されません
+   させる、さない 使役形（causative）
+   させます、させません
+   そう 意向形（volitional）
+   すだろう、さないだろう
+   しましょう すでしょう、さないでしょう
+2. 連用形（連接用言） ます、て、た…
+   します 丁寧形
+   て テ形
+   して
+   た タ形
+   した、さなかった
+   しました、しませんでした
+3. 終止形（表示終止）
+   す 辭書形
+4. 連體形（連接體言） とき…
+   すとき 辭書形
+5. 假定形（表示假定） ば
+   せば、さなければ バ形
+6. 命令形（表示命令）
+   せ、すな 命令形
+   してください、さないでください
+   
+
+Present
+positive
+plain:探す
+polite:探します
+negative
+plain:探さない
+polite:探しません
+
+Past
+positive
+plain:探した
+polite:探しました
+negative
+plain:探さなかった
+polite:探しませんでした
+
+-te Form
+positive
+探して
+negative
+探さなくて
+
+Volitional
+plain:探そう
+polite:探しましょう
+
+Potential
+positive
+plain:探せる
+polite:探せます
+negative
+plain:探せない
+polite:探せません
+
+Passive
+positive
+plain:探される
+polite:探されます
+negative
+plain:探されない
+polite:探されません
+
+Causative
+positive
+plain:探させる
+polite:探させます
+negative
+plain:探させない
+polite:探させません
+
+Imperative
+positive
+plain:探せ
+polite:探してください
+negative
+plain:探すな
+polite:探さないでください
+
+Conditional
+positive
+探せば
+negative
+探せなければ
+
+Conditional (-tara)
+positive
+探したら
+negative
+探さなかったら

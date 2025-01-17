@@ -1,0 +1,12 @@
+Model: 行く
+Present:		く,きます,
+Past:			
+-te Form:		
+Volitional:		
+Potential:		
+Passive:		
+Causative:		
+Imperative:		
+Conditional:	
+Conditional
+(-tara):		

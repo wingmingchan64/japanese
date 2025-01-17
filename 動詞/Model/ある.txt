@@ -1,0 +1,16 @@
+Model: ある
+Present:		ある,あります,ない,ありません
+Past:			あった,ありました,なかった,ありませんでした
+-te Form:		あって,なくて
+Volitional:		あろう,ありましょう
+Potential:		あれる,あれます,あれない,あれません
+Passive:		あられる,あられます,あられない,あられません
+Causative:		あらせる,あらせます,あらせない,あらせません
+Imperative:		あれ,あってください,あるな,ないでください
+Conditional:	あれば,なければ
+Conditional
+(-tara):		あったら,なかったら
+
+This is the conjugation of these two verbs
+在る,在ります,無い,無かった
+有る,有ります,無い,無かった

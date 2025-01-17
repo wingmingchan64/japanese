@@ -1,0 +1,13 @@
+Model: 暮[く]れる⓪
+Present:		る,ます,ない,ません
+Past:			た,ました,なかった,ませんでした
+-te Form:		て,なくて
+Volitional:		よう,ましょう
+Potential:		られる,られます,られない,られません
+Passive:		られる,られます,られない,られません
+Causative:		させる,させます,させない,させません
+Imperative:		よ/ろ,てください,るな,ないでください
+Conditional:	れば,なければ
+Conditional
+(-tara):		たら,なかったら
+

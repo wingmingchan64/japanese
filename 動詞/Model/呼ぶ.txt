@@ -1,0 +1,17 @@
+Model: 呼[よ]ぶ
+
+Present:		ぶ,びます,ばない,びません
+Past:			んだ,びました,ばなかった,びませんでした
+-te Form:		んで,ばなくて
+Volitional:		ぼう,びましょう
+Potential:		べる,べます,べない,べません
+Passive:		ばれる,ばれます,ばれない,ばれません
+Causative:		ばせる,ばせます,ばせない,ばせません
+Imperative:		べ,んでください,ぶな,ばないでください
+Conditional:	べば,べなければ
+Conditional
+(-tara):		んだら,ばなかったら
+
+転ぶ
+耐え忍ぶ
+叫ぶ

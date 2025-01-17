@@ -1,0 +1,14 @@
+Model: 問う
+Present:		う,います,わない,いません
+Past:			うた,いました,わなかった,いませんでした
+-te Form:		うて,わなくて
+Volitional:		おう,いましょう
+Potential:		える,えます,えない,えません
+Passive:		われる,われます,われない,われません
+Causative:		わせる,わせます,わせない,わせません
+Imperative:		え,うてください,うな,わないでください
+Conditional:	えば,えなければ
+Conditional
+(-tara):		うたら,わなかったら
+
+請う

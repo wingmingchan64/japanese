@@ -1,0 +1,140 @@
+H:\php809>php h:\github\japanese\programs\search.php
+要搜索甚麼？請輸入選項數字；用 exit 來結束。
+Array
+(
+    [0] => 輸入日語：羅馬字→漢字、假名
+    [1] => 輸入日語：羅馬字→漢字、假名（含振假名）
+    [2] => 輸入日語：羅馬字→漢字、假名（含振假名、高低音調）
+    [3] => 查詢辭書
+    [4] => 漢字→動詞變形
+    [5] => 漢字→詞義
+    [6] => 漢字→假名
+    [7] => 漢字、假名→羅馬字
+    [8] => 羅馬字→詞義
+    [9] => 羅馬字→音調標記
+    [10] => 假名→漢字
+)
+0
+Enter a command (clr, del, show, quit) or a Romaji
+watashi
+=>私
+Enter a command (clr, del, show, quit) or a Romaji
+wa
+Array
+(
+    [0] =>
+    [1] => わ
+    [2] => は
+)
+2
+=>私は
+Enter a command (clr, del, show, quit) or a Romaji
+nihonjin
+=>私は日本人
+Enter a command (clr, del, show, quit) or a Romaji
+jaarimasen
+=>私は日本人じゃありません。
+Enter a command (clr, del, show, quit) or a Romaji
+clr
+=>
+Enter a command (clr, del, show, quit) or a Romaji
+quit
+Bye!
+要搜索甚麼？請輸入選項數字；用 exit 來結束。
+Array
+(
+    [0] => 輸入日語：羅馬字→漢字、假名
+    [1] => 輸入日語：羅馬字→漢字、假名（含振假名）
+    [2] => 輸入日語：羅馬字→漢字、假名（含振假名、高低音調）
+    [3] => 查詢辭書
+    [4] => 漢字→動詞變形
+    [5] => 漢字→詞義
+    [6] => 漢字→假名
+    [7] => 漢字、假名→羅馬字
+    [8] => 羅馬字→詞義
+    [9] => 羅馬字→音調標記
+    [10] => 假名→漢字
+)
+1
+Enter a command (clr, del, show, quit) or a Romaji
+watashi
+=>私[わたし]
+Enter a command (clr, del, show, quit) or a Romaji
+wa
+Array
+(
+    [0] =>
+    [1] => わ
+    [2] => は
+)
+2
+=>私[わたし]は
+Enter a command (clr, del, show, quit) or a Romaji
+nihonjin
+=>私[わたし]は日[に]本[ほん]人[じん]
+Enter a command (clr, del, show, quit) or a Romaji
+jaarimasen
+=>私[わたし]は日[に]本[ほん]人[じん]じゃありません。
+Enter a command (clr, del, show, quit) or a Romaji
+clr
+=>
+Enter a command (clr, del, show, quit) or a Romaji
+quit
+Bye!
+要搜索甚麼？請輸入選項數字；用 exit 來結束。
+Array
+(
+    [0] => 輸入日語：羅馬字→漢字、假名
+    [1] => 輸入日語：羅馬字→漢字、假名（含振假名）
+    [2] => 輸入日語：羅馬字→漢字、假名（含振假名、高低音調）
+    [3] => 查詢辭書
+    [4] => 漢字→動詞變形
+    [5] => 漢字→詞義
+    [6] => 漢字→假名
+    [7] => 漢字、假名→羅馬字
+    [8] => 羅馬字→詞義
+    [9] => 羅馬字→音調標記
+    [10] => 假名→漢字
+)
+2
+Enter a command (clr, del, show, quit) or a Romaji
+watashi
+=>私[わたし⓪]
+Enter a command (clr, del, show, quit) or a Romaji
+wa
+Array
+(
+    [0] =>
+    [1] => わ
+    [2] => は
+)
+2
+=>私[わたし⓪]は
+Enter a command (clr, del, show, quit) or a Romaji
+nihonjin
+=>私[わたし⓪]は日[に]本[ほん]人[じん➃]
+Enter a command (clr, del, show, quit) or a Romaji
+jaarimasen
+=>私[わたし⓪]は日[に]本[ほん]人[じん➃]じゃありません。
+Enter a command (clr, del, show, quit) or a Romaji
+quit
+Bye!
+要搜索甚麼？請輸入選項數字；用 exit 來結束。
+Array
+(
+    [0] => 輸入日語：羅馬字→漢字、假名
+    [1] => 輸入日語：羅馬字→漢字、假名（含振假名）
+    [2] => 輸入日語：羅馬字→漢字、假名（含振假名、高低音調）
+    [3] => 查詢辭書
+    [4] => 漢字→動詞變形
+    [5] => 漢字→詞義
+    [6] => 漢字→假名
+    [7] => 漢字、假名→羅馬字
+    [8] => 羅馬字→詞義
+    [9] => 羅馬字→音調標記
+    [10] => 假名→漢字
+)
+exit
+Bye!
+
+H:\php809>

@@ -1,0 +1,15 @@
+In Japanese, the basic stroke types in Kanji are called: 点[てん], 横[よこ], 縦[たて], 鉤[かぎ], 跳[は]ね (diagonal stroke rising from left to right), 左[ひだり]払[はら]い (diagonal stroke falling from right to left), 右[みぎ]払[はら]い (horizontal stroke falling from left to right), and sometimes 短[みじか]い左[ひだり]払[はら]い (short diagonal stroke falling from right to left). 
+
+点[てん]（the 1st stroke of 永）
+横[よこ]：始[はじ]め、横[おう/よこ]線[せん]、鱗[うろこ](serif)
+縦[たて]：頭[あたま]、たてかく、留め
+鉤[かぎ]（the last part of the 2nd stroke of 永）、跳[は]ね
+払[はら]い上[あ]げ （the 8th stroke of 泰）
+跳[は]ね上[あ]げ （the 3th stroke of 池）
+左[ひだり]払[はら]い （the second part of the 3rd stroke of 永）
+右[みぎ]払[はら]い （the last stroke of 永）
+短[みじか]い左[ひだり]払[はら]い（the 4th stroke of 永）
+跳[は]ね is the last part of a 鉤[かぎ]
+鉤[かぎ] can also be the joint of a 横 and a 縦
+
+http://www.fukudakogei.co.jp/setubi.html

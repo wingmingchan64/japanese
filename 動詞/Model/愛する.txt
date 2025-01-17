@@ -1,0 +1,12 @@
+Model: 愛する➁
+Present:		する,します,しない,しません
+Past:			した,しました,しなかった,しませんでした
+-te Form:		して,しなくて
+Volitional:		しよう,しましょう
+Potential:		せる,せます,せない,せません
+Passive:		される,されます,されない,されません
+Causative:		させる,させます,させない,させません
+Imperative:		して,してください,するな,しないでください
+Conditional:	すれば,しなければ
+Conditional
+(-tara):		しなければ,しなかったら
