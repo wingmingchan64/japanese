@@ -102,3 +102,44 @@ saam1gaai1
 =>もう[➀]一[いち]度[ど➂]お願[ねが⓪]いします[さん]階[がい⓪]
 Enter a command (clr, del, show, quit) or a Romaji
 </pre>
+<hr />
+<h2>Verb Conjugation</h2>
+<ul>
+<li>I follow the <a href="https://conjugator.reverso.net/conjugation-rules-model-japanese.html">model</a> approach of Reverso</li>
+<li>I start from the <a href="https://conjugator.reverso.net/index-japanese-1-250.html">2000 common verbs</a></li>
+<li>I associate each verb with its associated model verb</li>
+<li>Each model verb is associated with a template</li>
+<li>A verb is reduced to its stem and the stem is plugged into the template</li>
+</ul>
+<pre>
+H:\php809>php h:\github\japanese\programs\search.php
+要搜索甚麼？請輸入選項數字；用 exit 來結束。
+Array
+(
+    [0] => 輸入日語：羅馬字→漢字、假名
+    [1] => 輸入日語：羅馬字→漢字、假名（含振假名）
+    [2] => 輸入日語：羅馬字→漢字、假名（含振假名、高低音調）
+    [3] => 查詢辭書
+    [4] => 漢字→動詞變形
+    [5] => 漢字、假名→音調標記
+)
+4
+請輸入漢字動詞：
+
+
+
+Array
+(
+    [Present] => 帰る,帰ります,帰らない,帰りません
+    [Past] => 帰った,帰りました,帰らなかった,帰りませんでした
+    [-te Form] => 帰って,帰らなくて
+    [-te Form Rule] => stem + って
+    [Volitional] => 帰ろう,帰りましょう
+    [Potential] => 帰れる,帰れます,帰れない,帰れません
+    [Passive] => 帰られる,帰られます,帰られない,帰られません
+    [Causative] => 帰らせる,帰らせます,帰らせない,帰らせません
+    [Imperative] => 帰れ,帰ってください,帰るな,帰らないでください
+    [Condition] => 帰れば,帰れなければ
+    [Condition (-tara)] => 帰ったら,帰らなかったら
+)
+</pre>
