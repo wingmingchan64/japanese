@@ -16,7 +16,9 @@ php H:\github\japanese\programs\查詢辭書.php パーソナル･コンピュ�
 Hiragana Range: 3040–309F
 Katakana Range: 30A0–30FF
 */
-require_once( "h:\\github\\japanese\\programs\\常數.php" );
+//require_once( "h:\\github\\japanese\\programs\\常數.php" );
+ini_set('memory_limit', '-1');
+
 require_once( "h:\\github\\japanese\\programs\\函式.php" );
 
 checkARGV( $argv, 2, 輸入詞條 );
@@ -152,104 +154,42 @@ else
 	echo "$詞條 Not found", NL;
 }
 
-//echo "kanji: $kanji", NL;
-if( $kanji != '' )
-{
-	$詞條 = urlencode( trim( $kanji ) );
-}
-$wadoku_url = "https://wadoku.de/search/${詞條}";
-$id  = '';
-$view_regex = '/href="\/entry\/view\/(\d+)"/';
-$meaning_regex = '/<section class="senses">(.)+?<\/section>/';
+echo NL, "wadoku.de:", NL;
+echo '=================================' . NL;
 
-if( url_check( $wadoku_url ) )
+require_once( 'H:\japanese\programs\wadoku\id_xml_entry.php' );
+require_once( 'H:\japanese\programs\wadoku\kana_id.php' );
+require_once( 'H:\japanese\programs\wadoku\kanji_id.php' );
+
+$entry_xml = '';
+$entry_xml = $id_xml_entry[ $kanji_id[ $kanji ] ];
+if( $entry_xml != '' )
 {
-	$source = file_get_contents( $wadoku_url );
-	preg_match_all( $view_regex, $source, $matches );
-	//print_r( $matches );
-	if( $matches[ 1 ] )
+	$entry_element = new SimpleXMLElement( $entry_xml );
+	echo "Pitch accent: " . 
+		$entry_element->form->reading->accent . NL;
+	$meaning = '';
+	$meaning = $entry_element->sense->saveXML();
+	if( $meaning != '' )
 	{
-		$id = $matches[ 1 ][ 0 ];
-		$wadoku_url = "https://wadoku.de/entry/view/${id}";
-		
-		if( url_check( $wadoku_url ) )
+		echo NL . "Meaning:" . NL;
+		//echo $meaning;
+		if( strpos( $meaning, '</text>' ) !== false )
 		{
-			$source = file_get_contents( $wadoku_url );
-			//echo $source;
-			$entry_regex = '/<h1 class="middle"><span class="midashigo">(.)+<\/span><\/h1>/';
-			$accent_regex = '/data-accent-id="1">([^<])+<\/small>/';
-			$entry = '';
-			$kana = '';
-			
-			preg_match_all( $entry_regex, $source, $matches );
-			//print_r( $matches );
-			
-			if( $matches[ 0 ] )
+			$meaning = str_replace( '</text>', NL, $meaning );
+		}
+		$meaning_array = explode( NL, strip_tags( $meaning ) );
+		foreach( $meaning_array as $index => $m_string )
+		{
+			if( $m_string != '' )
 			{
-				$entry = strip_tags( $matches[ 0 ][ 0 ] );
-				$entry = str_replace( '【', '',
-					str_replace( '】', '', $entry ) );
-				echo $entry;
+				echo intval( $index )+1 . ".  " . $m_string . NL;
 			}
-
-			preg_match_all( $accent_regex, $source, $matches );
-			
-			if( $matches[ 0 ] )
-			{
-				echo NL, "wadoku.de:", NL;
-				echo '=================================' . NL;
-
-				echo "Pitch accent: " . 
-					getPitchAccentString( 
-						trim( $matches[ 1 ][ 0 ] ) ) . NL;
-				
-				$romaji_regex = '/"ja-latn">([^<]+)<\/small>/';
-				preg_match_all( $romaji_regex, $source, $matches );
-				if( $matches[ 0 ] )
-				{
-					echo "Romaji: " . $matches[ 1 ][ 0 ] . NL . NL;
-				}
-			}
-			
-			preg_match_all( $meaning_regex, $source, $matches );
-			
-			if( $matches[ 0 ] )
-			{
-				$str = strip_tags( $matches[ 0 ][ 0 ] );
-				$str = str_replace( '&nbsp;', ' ', $str );
-				$str = preg_replace( '/(\d)/', "\r\n\${1}. ", $str );
-				//print_r( $str_array );
-				echo $str, NL, NL;
-			}
-			//print_r( $matches );
 		}
-		/*
-		if( $kanji != '' )
-		{
-			$log_content = $kanji;
-		}
-		elseif( $kana != '' )
-		{
-			$log_content = $kana;
-		}
-		elseif( $romaji != '' )
-		{
-			$log_content = $romaji;
-		}
-		else
-		{
-			$log_content = $wd詞條;
-		}
-		*/
-		
-		$log_content = $entry . ',' . $id;
-		echo "Log: " . $log_content, NL, NL;
-		logToFile(
-			'H:\github\japanese\programs\entry_id_log.txt',
-			$log_content );
 	}
 }
 
+/*
 $japandict_url = "https://www.japandict.com/${js詞條}?lang=eng";
 $ja_regex = '/<span lang="ja">([^<]+)<\/span>/';
 $eng_regex = '/role="tabpanel">([^<]+)<\/div>/';
@@ -320,4 +260,5 @@ if( url_check( $japandict_url ) )
 	}
  
 }
+*/
 ?>

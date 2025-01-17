@@ -1,6 +1,20 @@
 # japanese
 <h1>Using PHP to Facilitate the Learning of Japanese</h1>
 <h2>jisho.org</h2>
+<ul>
+<li>The best thing about this site is that Romaji can be used to query the dictionary</li>
+<li>There is no easy way to extract the available entries from the site</li>
+<li>I decide to query the site directly, one entry at a time</li>
+</ul>
+<pre>
+Jisho.org:
+=================================
+帰る[かえる]
+
+1.  to return; to come home; to go home; to go back
+2.  to leave (of a guest, customer, etc.)
+3.  to get home; to get to home plate
+</pre>
 
 <hr />
 <h2>和独辞典</h2>
