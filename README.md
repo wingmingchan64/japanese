@@ -106,8 +106,8 @@ Enter a command (clr, del, show, quit) or a Romaji
 <h2>Verb Conjugation</h2>
 <ul>
 <li>I follow the <a href="https://conjugator.reverso.net/conjugation-rules-model-japanese.html">model</a> approach of Reverso</li>
-<li>I start from the <a href="https://conjugator.reverso.net/index-japanese-1-250.html">2000 common verbs</a></li>
-<li>I associate each verb with its associated model verb</li>
+<li>I start with the <a href="https://conjugator.reverso.net/index-japanese-1-250.html">2000 common verbs</a></li>
+<li>I associate each verb with its corresponding model verb</li>
 <li>Each model verb is associated with a template</li>
 <li>A verb is reduced to its stem and the stem is plugged into the template</li>
 </ul>
@@ -125,7 +125,7 @@ Array
 )
 4
 請輸入漢字動詞：
-
+帰る
 
 
 Array
