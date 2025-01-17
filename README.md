@@ -61,6 +61,7 @@ Meaning:
 <li>After querying jisho.org, the kanji version of the entry is passed onto JapanDict</li>
 <li>Example sentences are extracted and displayed</li>
 <li>I was able to extract more than 210,000 entries with IDs, but have not decided what to do with the information yet</li>
+<li>The IDs can be used to extract information associated with individual entries like the following: <a href="https://www.japandict.com/a/word/1558920/%E6%81%8B%E4%BA%BA">恋人</a>
 </ul>
 <pre>
 JapanDict:
