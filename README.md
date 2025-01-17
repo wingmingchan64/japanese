@@ -1,5 +1,5 @@
 # japanese
-<h1>Using PHP to Facilitate the Japanese Learning</h1>
+<h1>Using PHP to Facilitate Japanese Learning</h1>
 <h2>jisho.org</h2>
 <ul>
 <li>The best thing about this site is that Romaji can be used to query the dictionary</li>
