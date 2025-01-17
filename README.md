@@ -27,4 +27,18 @@ Jisho.org:
 <li>With an ID, the XML content can be retrieved, processed and displayed</li>
 <li>Information contained in the XML: ID, 漢字, 仮名, pitch accent, meanings (in German)</li>
 <li>I create these files locally to avoid querying the website directly</li>
+<li>After querying jisho.org, the kanji version of the entry is passed onto 和独辞典</li>
 </ul>
+<pre>
+wadoku.de:
+=================================
+Pitch accent: 1
+
+Meaning:
+1.  zurückgehen
+2.  zurückkommen
+3.  heimkehren
+4.  heimkommen
+5.  nach Hause gehen
+6.  nach Hause kommen
+</pre>
