@@ -422,9 +422,9 @@ https://www.youtube.com/watch?v=qZ8Q5hL-ws8
 あれは何[なん]ですか。
 あれは時計[とけい]です。
 これは何[なん]ですか。
-それはファッションの雑[ざっ]誌[し]です。
+それはファッションの雑[ざっ]誌[し]です。(fashion)
 それ/その本[ほん]は何[なん]の本[ほん]ですか。
-これは、英[えい]語[ご]の文[ぶん]法[ぽう]の本[ほん]です。
+これは、英[えい]語[ご]の文[ぶん]法[ぽう⓪]の本[ほん]です。
 あれは◯◯さんのカメラですか。 
 （い）いえ、あれは私[わたし]のじゃありません。
 あの人[ひと]は誰[だれ]ですか。
@@ -432,7 +432,7 @@ https://www.youtube.com/watch?v=qZ8Q5hL-ws8
 私[わたし]の日[に]本[ほん]語[ご]の先[せん]生[せい]です。
 これは誰[だれ]の傘[かさ]ですか。
 この傘[かさ]は誰[だれ]のですか。
-小[こ]林[ばやし]さんの傘[かさ]です。
+小[こ]林[ばやし⓪]さんの傘[かさ]です。
 そのカードはクレジットカードですか。
 （い）いえ、デビットカードです。
 このノートは誰[だれ]のですか。
@@ -457,7 +457,7 @@ https://www.youtube.com/watch?v=94F5sTXhhjg
 https://www.youtube.com/watch?v=szKxbPmiYZA&list=PLCqUNVHp9xb7TSw6iFUl-GPH5lEqXHS9H&index=24
 
 これ/それ/あれは N です。
-そう usually not used in negative sentences, but see above L.369
+そう usually not used in negative sentences, but see above L.373
 
 From Takashi's Practice:
 
