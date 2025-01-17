@@ -7,15 +7,15 @@
 <li>I decide to query the site directly, one entry at a time</li>
 </ul>
 <pre>
+H:\php809>php H:\github\japanese\programs\查詢辭書.php kaeru
+
 Jisho.org:
 =================================
-帰る[かえる]
+帰る[かえる] kaeru
 
 1.  to return; to come home; to go home; to go back
 2.  to leave (of a guest, customer, etc.)
-3.  to get home; to get to home plate
-</pre>
-
+3.  to get home; to get to home plate</pre>
 <hr />
 <h2>和独辞典</h2>
 <ul>
