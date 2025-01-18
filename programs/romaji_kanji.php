@@ -828,6 +828,7 @@ $romaji_kanji = array(
 'ii'=>'いい[➀]:良[い➀]い', // good in/spoken form
 'iidesune'=>'いいですね。', // that's good, that sounds good
 'iidesuyo'=>'いいですよ。', // that's good, that sounds good
+'iidesuyo'=>'いいですよ。', // sure, certainly
 'iie'=>'いいえ[➂]', // good in/spoken form
 'ijisuru'=>'維[い]持[じ➀]する', // 
 'ijou'=>'以[い]上[じょう➀]', // more than, not less than
