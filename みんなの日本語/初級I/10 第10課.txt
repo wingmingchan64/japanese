@@ -24,7 +24,17 @@
 
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:10-10/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:100
 
-Pitch Accent:
+Vocabulary:
+
+あります、います
+色[いろ]々[いろ⓪]（な）、様[さま]々[ざま➁]（な）
+女[おんな]の人[ひと➅]
+男[おとこ]の人[ひと➅]
+女[おんな]の子[こ➂]
+男[おとこ]の子[こ➂]
+犬[いぬ➁]
+猫[ねこ➀]
+
 上[うえ] ⓪
 下[した] ⓪ ➂
 棚[たな] ⓪
@@ -42,7 +52,7 @@ Pitch Accent:
 県[けん] ➀
 外[そと] ➀
 中[なか] ➀
-猫[ねこ] ➀
+ 
 前[まえ] ➀
 窓[まど] ➀
 ドア ➀
@@ -60,10 +70,7 @@ Pitch Accent:
 冷[れい]蔵[ぞう]庫[こ] ➁いぞ➁
 チリソース ➁リソ➁
 木[き] ➀
-犬[いぬ] ➂
 物[もの] ➂
-男[おとこ]の人[ひと] ➂
-女[おんな]の人[ひと] ➂
 
 https://www.youtube.com/watch?v=Y2cAUmUN1oU&list=PL1l62G4pGqfQjcIS1VdspVuCm1Zi1wBPE&index=5
 
