@@ -167,7 +167,7 @@
    A： リーさんですか。
    B： いいえ、イーです。
    
-1） A： 失[しつ]礼[れい]ですが、お名[な]前[まえ]は?
+1） A： 失[しつ]礼[れい]ですが、お名[な]前[まえ]は？
    B： サントスです。
    A： サンタスさんですか。
    B： いいえ、サントスです。
@@ -491,6 +491,9 @@ Personal Notes:
 それでは as for that
 では short form of それでは，compare with には
 ありません，from 有る，it is not the case that …
+
+S1 が S2: S1 but S2
+失[しつ]礼[れい]ですが、お名[な]前[まえ]は？
 
 From Takashi's Practice:
 
