@@ -1,5 +1,7 @@
 <?php
 require_once( 'H:\github\japanese\programs\常數.php' );
+require_once( 'H:\github\japanese\programs\kanji_kana.php' );
+
 
 set_error_handler( function ( 
 	$severity, $message, $file, $line )
@@ -202,5 +204,42 @@ function removeBracketedAccentMarker( string $str ) : string
 		)
 	);
 	return $new_str;
+}
+
+function moveFurigana( string $str ) : string
+{
+	global $kanji_kana;
+	// no brackets
+	if( strpos( $str, '[' ) === false )
+	{
+		return $str;
+	}
+	$kanji = preg_replace( BRACKET_REGEX, '', $str );
+	if( array_key_exists( $kanji, $kanji_kana ) )
+	{
+		foreach( $kanji_kana[ $kanji ] as $kana )
+		{
+			$kanji = $kanji . '[' . $kana . ']';
+		}
+		return $kanji;
+	}
+	/*
+	// remove markers
+	foreach( MARKER_ARRAY as $marker )
+	{
+		$str = str_replace( $marker, '', $str );
+	}
+	$matches = array();
+	preg_match_all( BRACKET_REGEX, $str, $matches );
+	$kana = '';
+	
+	if( $matches[ 0 ] )
+	{
+		$kana = implode( $matches[ 0 ] );
+	}
+	
+	$kana = str_replace( '][', '', $kana ); 
+	*/
+	return $str;
 }
 ?>

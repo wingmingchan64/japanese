@@ -8,7 +8,6 @@ $tangorin_dict=array(
 "A / O / omone.ru / kuma"=>array("","ア・オ・おもね.る・くま","Africa; flatter; fawn upon; corner; nook; recess"),
 "A / tsu.gu"=>array("","ア・つ.ぐ","Asia; rank next; come after; -ous"),
 
-
 "a"=>array("","あっ","ah; oh / hey!"),
 "aa"=>array(
 array("","ああ","like that (used for something or someone distant from both speaker and listener); so"),

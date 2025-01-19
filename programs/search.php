@@ -14,7 +14,7 @@ $buffer = '';
 $cleanup = false;
 $show_furi = false;
 //$furikana_regex = '/\[\[\X+?]]|\[\X+?]/';
-$pitch_regex = '/\[\X+?]/';
+//$pitch_regex = '/\[\X+?]/'; // BRACKET_REGEX
 // $dict is from 四角字典, the starting point
 // do not use array_merge!!!
 foreach( $固有名詞 as $k => $v )
@@ -49,7 +49,7 @@ while( true )
 	
 	$num = intval( $option );
 	
-	if( $num == 0 || $num == 1 || $num == 2 )
+	if( $num == 0 || $num == 1 || $num == 2 || $num == 3 )
 	{
 		if( $num == 0 )
 		{
@@ -108,39 +108,59 @@ while( true )
 				if( $cleanup ) // clear up everything in []
 				{
 					$option_str = preg_replace( 
-						$pitch_regex, '', $option_str );
+						BRACKET_REGEX, '', $option_str );
 				}
 				elseif( $show_furi ) // remove accent markers
 				{
 					$option_str = removeAllAccentMarker( $option_str );
+				}
+				elseif( $num == 3 )
+				{
+					$option_str = moveFurigana( $option_str );
 				}
 
 				$buffer .= trim( $option_str, "*" );
 				printBuffer( $buffer );
 			}
 			// provide options
-			else
+			elseif( mb_strpos( $dict[ $input ], ":" ) !== false )
 			{
-				if( mb_strpos( $dict[ $input ], ":" ) !== false )
-				{
+				// :-separated string
+				
+				//{
 					$options = array( '' );
 					$option_str = $dict[ $input ];
+					$parts = explode( ':', $option_str );
+					
+					for( $i = 0; $i < sizeof( $parts ); $i++ )
+					{
+						if( $cleanup )
+						{
+							$parts[ $i ] = 
+								preg_replace( BRACKET_REGEX, '', 
+								$parts[ $i ] );
+							//$option_str = preg_replace( 
+								//BRACKET_REGEX, '', $option_str );
+						}
+						elseif( $show_furi )
+						{
+							// remove all accent markers
+							$parts[ $i ] = 
+								preg_replace( BRACKET_REGEX, '',
+								$parts[ $i ] );
 
-					if( $cleanup )
-					{
-						$option_str = preg_replace( 
-							$pitch_regex, '', $option_str );
-					}
-					elseif( $show_furi )
-					{
-						// remove all accent markers
-						$option_str = removeAllAccentMarker( $option_str );
+						//$option_str = removeAllAccentMarker( $option_str );
+						}
+						elseif( $num == 3 )
+						{
+							$parts[ $i ] = moveFurigana( $parts[ $i ] );
+						}
 					}
 					
-					$options = array_merge( $options,
-						explode(
-							':', trim( $option_str, "*" ) ) );
-				}
+					$options = array_merge( $options, $parts );
+				//}
+				/*
+				// no :
 				else
 				{
 					$option_str = $dict[ $input ];
@@ -148,23 +168,30 @@ while( true )
 					if( $cleanup )
 					{
 						$option_str = preg_replace( 
-							$pitch_regex, '', $option_str );
+							BRACKET_REGEX, '', $option_str );
 					}
 					elseif( $show_furi )
 					{
 						// remove all accent markers
 						$option_str = removeAllAccentMarker( $option_str );
 					}
-
-					$options = array( '' );
-			
-					// create option array
-					for( $i=1; $i<=mb_strlen( $option_str ); $i++ )
+					elseif( $num == 3 )
 					{
-						array_push( $options, 
-							mb_substr( $option_str, $i-1, 1 ) );
+						$option_str = moveFurigana( $option_str );
 					}
+
+					
+					//$options = array( '' );
+			
+					
+					// create option array
+					//for( $i=1; $i<=mb_strlen( $option_str ); $i++ )
+					/{
+						//array_push( $options, 
+							//mb_substr( $option_str, $i-1, 1 ) );
+					//}
 				}
+				*/
 				// output options
 				print_r( $options );
 				// wait for user option choice
@@ -218,23 +245,32 @@ while( true )
 				continue;
 			}
 			$option_str = $dict[ $key ];
-			if( $cleanup )
+			$parts = explode( ':', $option_str );
+			
+			for( $i = 0; $i < sizeof( $parts ); $i++ )
 			{
-				$option_str = preg_replace( 
-					$pitch_regex, '', $option_str );
-			}
-			elseif( $show_furi )
-			{
-				// remove all accent markers
-				$option_str = removeAllAccentMarker( $option_str );
+				if( $cleanup )
+				{
+					$parts[ $i ] = 
+					preg_replace( 
+					BRACKET_REGEX, '', $parts[ $i ] );
+				}
+				elseif( $show_furi )
+				{
+					// remove all accent markers
+					$parts[ $i ] = 
+					removeAllAccentMarker( $parts[ $i ] );
+				}
+				elseif( $num == 3 )
+				{
+					$parts[ $i ] = moveFurigana( $parts[ $i ] );
+				}
 			}
 
-			$options = array_merge( $options,
-				explode(
-					':', trim( $dict[ $key ], "*" ) ) );
+			$options = array_merge( $options, $parts );
 			break;
 		}
-		
+
 		if( sizeof( $options ) > 1 )
 		{
 			// output options

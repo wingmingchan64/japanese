@@ -280,6 +280,15 @@
 アメリカから 来[き]ました。
 どうぞ よろしく。
 
+Grammar Notes:
+
+N1 は N2 です
+N1 は N2 じゃ（では） ありません
+N1 は N2 ですか
+N も
+N1 の N2
+～さん
+
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/textbook:1/section:1-1/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:20
 
 Vocabulary:
@@ -344,6 +353,13 @@ Vocabulary:
 70 ななじゅう[➁]
 90 きゅうじゅう[➀]
 
+言[こと]葉[ば➂]
+    言葉 が 出[で]て こなかった。
+	Words failed me.
+	「言葉 の 一[いち]面[めん⓪] は、伝[でん]達[たつ⓪] しようとする 意[い]志[し➀] である」 と 彼 は 言う。
+	"One aspect of language is an intent to communicate," he says.
+	しようとする： to attempt to do
+	来[く]る、来[き]ます、来[こ]なかった
 学[がく]生[せい⓪]
 漢[かん]字[じ⓪]
     漢字を 書く 時[とき] は 点 や はらい に 気を付[つ]けて、なるべく早[はや]く 丁[てい]寧[ねい➀]に 書きましょう。
