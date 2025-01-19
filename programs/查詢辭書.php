@@ -166,8 +166,12 @@ $entry_xml = $id_xml_entry[ $kanji_id[ $kanji ] ];
 if( $entry_xml != '' )
 {
 	$entry_element = new SimpleXMLElement( $entry_xml );
-	echo "Pitch accent: " . 
-		$entry_element->form->reading->accent . NL;
+	$marker = 
+		getPitchAccentString( 
+			$entry_element->form->reading->accent );
+	echo "Pitch accent: " . $kanji, '[', $kana, $marker, '] '
+		 . NL;
+
 	$meaning = '';
 	$meaning = $entry_element->sense->saveXML();
 	if( $meaning != '' )
@@ -222,10 +226,9 @@ if( url_check( $japandict_url ) )
 			echo str_replace(
 				'&#39;', "'",
 				trim( $eng_matches[ 1 ][ $i ] ) ), NL, NL;
-				
 		}
 	}
-	preg_match_all( $eng_regex, $source, $matches );
+	//preg_match_all( $eng_regex, $source, $matches );
 }
 else
 {
