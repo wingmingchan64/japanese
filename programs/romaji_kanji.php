@@ -19,6 +19,8 @@ $romaji_kanji = array(
 'szh'=>'…',
 'dh'=>'、',
 'jh'=>'「」',
+'slash'=>'/',
+'tilda'=>'〜',
 
 'a'=>'あ:亜[あ⓪]',
 'aa'=>'ああ[➀]', // like that, that much
@@ -1806,7 +1808,7 @@ $romaji_kanji = array(
 'sasemasen'=>'させません',
 'sasemasu'=>'させます',
 'sasenai'=>'させない',
-'saseru'=>'させる',
+'saseru'=>'させる[⓪]', // to make sb do sth
 'sassuu'=>'冊[さっ]数[すう➂]', //
 'satou'=>'砂[さ]糖[とう➁]', // sugar
 'satsu'=>'冊[さつ⓪]', // counter, suffix

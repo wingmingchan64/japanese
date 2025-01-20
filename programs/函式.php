@@ -1,7 +1,7 @@
 <?php
 require_once( 'H:\github\japanese\programs\常數.php' );
 require_once( 'H:\github\japanese\programs\kanji_kana.php' );
-
+require_once( "h:\\github\\japanese\\programs\\wadoku_entry_accent.php" );
 
 set_error_handler( function ( 
 	$severity, $message, $file, $line )
@@ -66,9 +66,12 @@ function cleanUpWadokuOutputString( string $str ) : string
 	}
 	return $str;
 }
-
-
-
+/*
+function getWadokuAccentMarker( string $kanji )
+{
+	
+}
+*/
 function getPitchAccentString( string $str ) : string
 {
 	//global PA_ARRAY;
@@ -209,17 +212,20 @@ function removeBracketedAccentMarker( string $str ) : string
 function moveFurigana( string $str ) : string
 {
 	global $kanji_kana;
+	global $wadoku_entry_accent;
 	// no brackets
 	if( strpos( $str, '[' ) === false )
 	{
 		return $str;
 	}
 	$kanji = preg_replace( BRACKET_REGEX, '', $str );
+	$marker = getPitchAccentString( $wadoku_entry_accent[ $kanji ] );
+
 	if( array_key_exists( $kanji, $kanji_kana ) )
 	{
 		foreach( $kanji_kana[ $kanji ] as $kana )
 		{
-			$kanji = $kanji . '[' . $kana . ']';
+			$kanji = $kanji . '[' . $kana . $marker . ']';
 		}
 		return $kanji;
 	}
