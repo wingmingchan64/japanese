@@ -141,6 +141,7 @@ $romaji_kanji = array(
 'aru'=>'ある[➀]:有[あ➀]る:在[あ➀]る', // exist, there is
 'arubaito'=>'アルバイト[➂]', // part-time job
 'arubamu'=>'アルバム[⓪]', // album
+'arugoto'=>'あること:或る事', // etwas
 'aruite'=>'歩[ある➁]いて', // 
 'aruki'=>'歩[ある➂]き',
 'arukimasu'=>'歩[ある]きます', // walk, go on foot
