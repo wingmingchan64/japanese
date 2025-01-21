@@ -19,7 +19,7 @@ $romaji_kanji = array(
 'szh'=>'…',
 'dh'=>'、',
 'jh'=>'「」',
-'slash'=>'/',
+'slash'=>'／',
 'tilda'=>'〜',
 
 'a'=>'あ:亜[あ⓪]',

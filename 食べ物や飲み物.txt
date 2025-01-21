@@ -1,21 +1,21 @@
-食べ物[➁べも➁]
+食べ物[➂]や飲み物[➁]
 
 ingredient
 ==========
-米[こめ➂] 
-油[あぶら⓪] 
-砂[さ]糖[➁と➁う]
+米[こめ➁] 
+油[あぶら⓪]
+砂[さ]糖[とう➁]
 塩[しお➂] 
 酢[す➀] 
 酢[さく]酸[さん⓪] 
 
-寿[す]司[し➂] 
+寿[す]司[し➁] 
 =========
-握[にぎ⓪]り 、 握[にぎ]り寿[ず]司[し][➁ぎり➁]
+握[にぎ⓪]り 、 握[にぎ]り寿[ず]司[し➂]
 巻[まき➀]、裏[うら]巻[ま⓪]き 、巻[ま]き寿[ず]司[し⓪] 
-手[て]巻（き）[⓪]
+手[て⓪]巻（き）
 箱[はこ]寿司
-散[ち]らし[⓪]
+散[ち⓪]らし
 稲[いな]荷[り]寿司 sushi wrapped in fried tofu
 
 イクラ[⓪] salted salmon roe (Russian Ikra)
@@ -29,34 +29,43 @@ ingredient
 鮪[まぐろ⓪] 
 黒[くろ]鮪 Pacific bluefin tuna
 とろ[➀] fatty cut (esp. of tuna belly)
-中[ちゅう]トロ ⓪ medium-fatty tuna
+中[ちゅう]トロ[⓪] medium-fatty tuna
 大[おお]トロ fat under-belly of tuna
-葱[ねぎ]トロ ⓪ tuna minced with Welsh onion leaves
+葱[ねぎ]トロ[⓪] tuna minced with Welsh onion leaves
 鮭[さけ➀]
 ハラス belly meat (from a fish, esp. salmon)
-海老[えび] ⓪
+海老[えび⓪] 
 もんごういか、紋甲いか cuttlefish
-魬[はまち] ⓪ yellowtail
-かんぱち 間八 ⓪ greater yellowtail
-ひらまさ 平政 ⓪ yellowtail amberjack
+魬[はまち⓪]  yellowtail
+かんぱち 間八[⓪] greater yellowtail
+ひらまさ 平政[⓪] yellowtail amberjack
 つばす young Japanese amberjack
-ブリ 鰤 ➀ Japanese amberjack
-うに 海胆 ➀
+ブリ 鰤[➀] Japanese amberjack
+うに 海胆[➀]
 平[ひら]目[め⓪]  flounder, halibut
 鱸[すずき⓪]  sea bass
 タイ[➀] 鯛  sea bream
 アジ[⓪] 鰺  horse mackerel
-ほたて 帆立 ほたてがい 帆立貝 海扇  ➁たて➁ Japanese scallop, Yesso scallop
+ほたて[➂] 帆立 ほたてがい 帆立貝 海扇  Japanese scallop, Yesso scallop
 あなご[⓪] 穴子 海鰻  Conger eel
-えんがわ 縁側 ⓪ a rare, chewy, fatty, and flavorful cut of meat from the upper and lower fin muscles of a olive flounder or halibut
-甘[あ➁ま➁]えび 甘海老 sweet shrimp
+えんがわ[⓪] 縁側  a rare, chewy, fatty, and flavorful cut of meat from the upper and lower fin muscles of a olive flounder or halibut
+甘[あま➁]えび 甘海老 sweet shrimp
 
 野菜[⓪]
-===
+======
+大根[だいこん⓪]
 
-果物[く➁だ➁もの]
-============
-フルーツ[➁ル➁]
+果物[くだもの➁]、フルーツ[➁]
+====================
+葡萄[ぶどう⓪]
+苺[いちご⓪]
+マンゴー／芒果[➀]
+パイナップル➂／パイン[➀]／鳳梨
+りんご[⓪]／林檎
+オレンジ[➁]
+茘枝[れいし➀]
+梨[なし➁]
+西瓜[すいか⓪]
 
 
 肉[にく➂] 
@@ -68,6 +77,17 @@ ingredient
 豚[ぶた⓪]肉
 羊[よう⓪]肉
 
+パン
+===
+ジャム
+アプリコットジャム apricot jam
+ジュレ gelée
+
+ワイン・お酒
+========
+カクテル[➀]
+
+
 ways of cooking
 ===============
 揚[あ⓪]げる  deep-fry
@@ -77,7 +97,7 @@ This chicken is fried well.
 すき焼き[⓪]
 焼[や⓪]く
 煎[い➀]る 炒[い➀]る 熬[い➀]る
-蒸[む]らす[➁ら➁] 蒸[む➀]す
+蒸[む➁]らす 蒸[む➀]す
 
 
 京都 萬[まん]亀[かめ]楼[ろう]
