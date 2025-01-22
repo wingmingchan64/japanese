@@ -83,9 +83,9 @@ Adjectives/verbs:
 6. 車を 買います。
 7. すしが 好きです。
 
-Masahiro Tanimori, Handbook of Japanese Grammar PDF52
+Masahiro Tanimori, Handbook of Japanese Grammar 
 
-が(1)
+が(1) PDF52
 1. After subject just introduced/recognized
 この人が鈴木さんです。彼は高校の先生です。
 信号の 向[む⓪]こう に ガソリンスタンドが あります。
@@ -104,7 +104,7 @@ Masahiro Tanimori, Handbook of Japanese Grammar PDF52
 教える: to teach, to tell
 雨が 降れば 行くのを 止[や]めます。
 止める: to give up
-6. After object of verb/adjective expressing possession, existence, ability, necessity, desire, emotion, or sensation (i.e. non-eventual state)
+6. After object of verb/adjective expressing possession, existence, ability, necessity, desire, emotion, or sensation (i.e. non-event state)
 今お金が 全然ありません。
 日本語が できますか。
 出来る: to be able to do
@@ -112,5 +112,7 @@ Masahiro Tanimori, Handbook of Japanese Grammar PDF52
 本当の こと が 知[し]りたい。
 知[し]る
 日本の 食べ物の 中 では 寿司が 一番 好きです。
+
+が(2) PDF53
 
 ⓪➀➁➂➃➄➅➆➇➈➉
