@@ -291,6 +291,36 @@ while( true )
 	}
 	else
 	{
+		require_once( 'H:\github\japanese\programs\japandict\romaji_kanji_kana.php' );
+		if( array_key_exists( $input, $romaji_kanji_kana ) )
+		{
+			$kanji_kana = $romaji_kanji_kana[ $input ];
+			
+			if( strpos( $kanji_kana, ';' ) !== false )
+			{
+				$options = explode( ';', $kanji_kana );
+				print_r( $options );
+				// wait for user option choice
+				$num = intval( readline() );
+		
+				if( $num >= 0 && $num < sizeof( $options ) )
+				{
+					$buffer .= $options[ $num ];
+					printBuffer( $buffer );
+				}
+				else
+				{
+					echo "Not a valid option. Try again.\n";
+				}
+			}
+			else
+			{
+				$buffer .= $kanji_kana;
+				printBuffer( $buffer );
+			}
+		}
+
+/*
 		require_once( 'H:\github\japanese\programs\tangorin_dict.php' );
 		
 		if( array_key_exists( $input, $tangorin_dict ) )
@@ -327,8 +357,9 @@ while( true )
 			$buffer .= $t;
 			printBuffer( $buffer );
 		}
+*/
 		
-		echo "Not a valid key. Try again.\n";
+		//echo "Not a valid key. Try again.\n";
 	}
 }// inner while
 	} 

@@ -66,12 +66,26 @@ function cleanUpWadokuOutputString( string $str ) : string
 	}
 	return $str;
 }
-/*
-function getWadokuAccentMarker( string $kanji )
+
+function getWadokuAccentMarker( string $kanji ) : string
 {
-	
+	global $wadoku_entry_accent;
+	if( array_key_exists( $kanji, $wadoku_entry_accent ) )
+	{
+		$marker = $wadoku_entry_accent[ $kanji ];
+		// just get the first one
+		if( mb_strlen( $marker ) > 1 )
+		{
+			$marker = mb_substr( $marker, 0, 1 );
+		}
+		return getPitchAccentString( $marker );
+	}
+	else
+	{
+		return '';
+	}
 }
-*/
+
 function getPitchAccentString( string $str ) : string
 {
 	//global PA_ARRAY;
