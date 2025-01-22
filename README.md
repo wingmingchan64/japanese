@@ -10,17 +10,18 @@ H:\php809>php h:\github\japanese\programs\search.php
 要搜索甚麼？請輸入選項數字；用 exit 來結束。
 Array
 (
-    [0] => 輸入日語：羅馬字→漢字、假名
-    [1] => 輸入日語：羅馬字→漢字、假名（含振假名）
-    [2] => 輸入日語：羅馬字→漢字、假名（含振假名、高低音調）
-    [3] => 查詢辭書
-    [4] => 漢字→動詞變形
-    [5] => 漢字、假名→音調標記
+    [0] => 輸入日本語
+    [1] => 輸入日[に]本[ほん]語[ご]
+    [2] => 輸入日[に]本[ほん]語[ご⓪]
+    [3] => 輸入日本語[にほんご⓪]
+    [4] => 查詢辭書
+    [5] => 漢字→動詞變形
 )
-3
+4
 請輸入詞條：
 kaeru
-<br />
+
+
 Jisho.org:
 =================================
 帰る[かえる] kaeru
@@ -45,7 +46,7 @@ Jisho.org:
 <pre>
 wadoku.de:
 =================================
-Pitch accent: 1
+Pitch accent: 帰る[かえる➀]
 
 Meaning:
 1.  zurückgehen
@@ -60,8 +61,6 @@ Meaning:
 <ul>
 <li>After querying jisho.org, the kanji version of the entry is passed onto JapanDict</li>
 <li>Example sentences are extracted and displayed</li>
-<li>I was able to extract more than 210,000 entries with IDs, but have not decided what to do with the information yet</li>
-<li>The IDs can be used to extract information associated with individual entries like the following: <a href="https://www.japandict.com/a/word/1558920/%E6%81%8B%E4%BA%BA">恋人</a>
 </ul>
 <pre>
 JapanDict:
@@ -70,20 +69,27 @@ Examples:
 恋人よ、我に帰れ。
 恋人  よ  、  我  に  帰れ  。
 Lover, come back to me.
-<br />
+
 １１時を過ぎると、お客たちは三々五々帰り始めた。
 １１  時  を  過ぎる  と  、  お  客  たち  は  三々五々  帰り  始めた  。
 After 11 o'clock the guests began to leave by twos and threes.
 </pre>
+<ul>
+<li>I extract more than 210,000 entries with IDs from the site</li>
+<li>The file <a href="https://github.com/wingmingchan64/japanese/blob/main/programs/japandict/romaji_kanji_kana.php">romaji_kanji_kana.php</a> is created</li>
+</ul>
+
+
 <h2>Inputting Japanese</h2>
 <ul>
 <li>I write my own program to enable easy input of Japanese</li>
-<li>The program works with my own dictionaries</li>
-<li>Since I compile my own dictionaries, the program can output different versions of Japanese texts:
+<li>The program works with my own dictionaries as well as <a href="https://github.com/wingmingchan64/japanese/blob/main/programs/japandict/romaji_kanji_kana.php">romaji_kanji_kana.php</a></li>
+<li>Since I can compile my own dictionaries, the program can output different versions of Japanese texts:
 <ul>
 <li>漢字、仮名 only</li>
 <li>漢字、仮名 with 振仮名</li>
 <li>漢字、仮名 with 振仮名 and pitch accent markers</li>
+
 <li>Any text can be put into various dictionaries for output; for example, the program can output もう[➀]一[いち]度[ど➂]お願[ねが⓪]いします as a single entry with the key mouichido..</li>
 </ul>
 </li>
@@ -94,12 +100,12 @@ H:\php809>php h:\github\japanese\programs\search.php
 要搜索甚麼？請輸入選項數字；用 exit 來結束。
 Array
 (
-    [0] => 輸入日語：羅馬字→漢字、假名
-    [1] => 輸入日語：羅馬字→漢字、假名（含振假名）
-    [2] => 輸入日語：羅馬字→漢字、假名（含振假名、高低音調）
-    [3] => 查詢辭書
-    [4] => 漢字→動詞變形
-    [5] => 漢字、假名→音調標記
+    [0] => 輸入日本語
+    [1] => 輸入日[に]本[ほん]語[ご]
+    [2] => 輸入日[に]本[ほん]語[ご⓪]
+    [3] => 輸入日本語[にほんご⓪]
+    [4] => 查詢辭書
+    [5] => 漢字→動詞變形
 )
 2
 Enter a command (clr, del, show, quit) or a Romaji
@@ -117,6 +123,22 @@ saam1gaai1
 =>もう[➀]一[いち]度[ど➂]お願[ねが⓪]いします[さん]階[がい⓪]
 Enter a command (clr, del, show, quit) or a Romaji
 </pre>
+<ul>
+<li>When an entry does not exist in any of my own dictionaries, the program will look at <a href="https://github.com/wingmingchan64/japanese/blob/main/programs/japandict/romaji_kanji_kana.php">romaji_kanji_kana.php</a></li>
+<li>This file contains more than 180,000 entries</li>
+<li>Each entry is a 漢字[仮名] string (or an array of such strings), possibly with an accent marker pulled from wadoku</li>
+</ul>
+<pre>
+Enter a command (clr, del, show, quit) or a Romaji
+oohashi
+Array
+(
+    [0] => 大嘴[おおはし⓪]
+    [1] => 大橋[おおはし➀]
+)
+1
+=>大橋[おおはし➀]
+</pre>
 <hr />
 <h2>Verb Conjugation</h2>
 <ul>
@@ -131,14 +153,14 @@ H:\php809>php h:\github\japanese\programs\search.php
 要搜索甚麼？請輸入選項數字；用 exit 來結束。
 Array
 (
-    [0] => 輸入日語：羅馬字→漢字、假名
-    [1] => 輸入日語：羅馬字→漢字、假名（含振假名）
-    [2] => 輸入日語：羅馬字→漢字、假名（含振假名、高低音調）
-    [3] => 查詢辭書
-    [4] => 漢字→動詞變形
-    [5] => 漢字、假名→音調標記
+    [0] => 輸入日本語
+    [1] => 輸入日[に]本[ほん]語[ご]
+    [2] => 輸入日[に]本[ほん]語[ご⓪]
+    [3] => 輸入日本語[にほんご⓪]
+    [4] => 查詢辭書
+    [5] => 漢字→動詞變形
 )
-4
+5
 請輸入漢字動詞：
 帰る
 
