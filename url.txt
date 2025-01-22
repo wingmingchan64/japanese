@@ -1,11 +1,12 @@
 Learn Japanese
+みんなの日本語
+https://www.youtube.com/@Takashi_teaches_Japanese
 Tae Kim's Guide to Learning Japanese
 https://guidetojapanese.org/learn/
 http://japanese-lesson.com/index.html
 https://www.youtube.com/@kanamenaito
 https://www.youtube.com/@SpeakJapaneseNaturally
 https://www.youtube.com/@Talksensei
-https://www.youtube.com/@Takashi_teaches_Japanese
 https://www.gavo.t.u-tokyo.ac.jp/ojad/eng/pages/home
 https://jlptsensei.com/
 https://www.mlcjapanese.co.jp/n5.html
@@ -32,7 +33,9 @@ https://en.wikipedia.org/wiki/List_of_Japanese_typographic_symbols
 
 Dictionaries
 https://jisho.org/
+https://wadoku.de/
 https://www.japandict.com/
+https://weblio.jp/
 https://apps.apple.com/us/app/%E5%A4%A7%E8%BE%9E%E6%9E%97/id299029654
 https://www.nihongomaster.com/japanese/dictionary
 https://takoboto.jp/
@@ -40,11 +43,12 @@ https://kotobank.jp/
 
 Dictionaries with pitch accent:
 https://www.gavo.t.u-tokyo.ac.jp/ojad/search/index/sortprefix:accent/narabi1:kata_asc/narabi2:accent_asc/narabi3:mola_asc/yure:visible/curve:invisible/details:invisible/limit:20/word:%E6%96%87%E5%9E%8B
-https://wadoku.de/search/%E6%96%87%E5%9E%8B
-
-Examples
+https://wadoku.de/
 https://www.japandict.com/
 
+Examples
+https://jisho.org/
+https://www.japandict.com/
 
 Conjugation
 https://www.japaneseverbconjugator.com/
