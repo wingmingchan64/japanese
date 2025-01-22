@@ -48,3 +48,69 @@
 「あしひきの山はなくも—月見れば同じき里を心隔(へだ)てつ」〈万・四〇七六〉
 
 [補説] 1は接続助詞「が」でとめ、下を省略した形から生じた用法。3は「てしか」（てしが）「にしか」（にしが）の「か」「が」と関係づける説もある。
+
+Erike Sato, Complete Japanese Grammar PDF88
+Subject marker:
+田中さん が 来た。
+クラス が ある。
+雨[あめ➀] が 降った。 (降[ふ➀]る)
+何 が 難[むずか➃]しい ですか。
+
+7.3
+を is the object marker
+トム が マイクを 叩[たた]いた。 (叩く: to hit)
+犬を 猫が からかった。 (揶揄[からか➂]う)
+安子を リチャードが 批判した。 (批判[ひはん⓪]する)
+
+7.4
+1. ハンバーガーを 食べました。
+2. ハンバーガーが あります。
+3. 傘を 買いました。
+4. 犬が 好きです。
+5. 林さんが 来ました。
+
+Adjectives/verbs:
+私は犬が 好きです。
+私は車が ほしいです。
+マイクさんは 漢字が 書けます。 (potential of 書く)
+
+7.5
+1. 映画を 見ます。
+2. 漢字を 書きます。
+3. 漢字が 書きます。
+4. 交差点を 曲がってください。
+5. 車が ほしいです。
+6. 車を 買います。
+7. すしが 好きです。
+
+Masahiro Tanimori, Handbook of Japanese Grammar PDF52
+
+が(1)
+1. After subject just introduced/recognized
+この人が鈴木さんです。彼は高校の先生です。
+信号の 向[む⓪]こう に ガソリンスタンドが あります。
+向[む⓪]こう: the other side
+とても おいしい 匂[にお]いが します。
+匂[にお➁]い: n. smell
+2. After stressed subject
+私が それを します。
+3. After interrogative
+何が そんな に 面白い の ですか。
+そんな: such, that sort of
+4. After subject in a relative clause
+私が 買った カメラは 日本 製 です。
+5. After subject in a subordinate clause
+洋子が 来たら 教[おし]えて ください。
+教える: to teach, to tell
+雨が 降れば 行くのを 止[や]めます。
+止める: to give up
+6. After object of verb/adjective expressing possession, existence, ability, necessity, desire, emotion, or sensation (i.e. non-eventual state)
+今お金が 全然ありません。
+日本語が できますか。
+出来る: to be able to do
+もっと 自由 時間 が ほしい。
+本当の こと が 知[し]りたい。
+知[し]る
+日本の 食べ物の 中 では 寿司が 一番 好きです。
+
+⓪➀➁➂➃➄➅➆➇➈➉
