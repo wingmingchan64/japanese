@@ -77,4 +77,20 @@ Did you buy the same shoes as me on purpose?
 靴が 同じなのに、僕の方が似合ってるよ(な required before のに)
 Our shoes might be the same, but they look better on me.
 
-嫌い
+嫌[きら]い
+
+
+https://guidetojapanese.org/learn/grammar/adjectives
+
+魚が好きな人。
+Person that likes fish.
+魚が好きじゃない人。
+Person that does not like fish.
+魚が好きだった人。
+Person that liked fish.
+魚が好きじゃなかった人。
+Person that did not like fish.
+魚が好きじゃない人は、肉が好きだ。
+Person who does not like fish like meat.
+魚が好きな人は、野菜も好きだ。
+Person who likes fish also likes vegetables.
