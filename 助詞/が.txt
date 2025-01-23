@@ -86,6 +86,7 @@ Adjectives/verbs:
 Masahiro Tanimori, Handbook of Japanese Grammar 
 
 が(1) PDF52
+Particle indicating the subject or object for specific verb or adjective
 1. After subject just introduced/recognized
 この人が鈴木さんです。彼は高校の先生です。
 信号の 向[む⓪]こう に ガソリンスタンドが あります。
