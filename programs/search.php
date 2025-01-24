@@ -8,6 +8,7 @@ require_once( "H:\\github\\japanese\\programs\\四角字典.php" );
 require_once( "H:\\github\\japanese\\programs\\日本語の固有名詞.php" );
 require_once( "H:\\github\\japanese\\programs\\粵和詞典.php" );
 require_once( "H:\\github\\japanese\\programs\\romaji_kanji.php" );
+require_once( "h:\\github\\japanese\\programs\\wadoku_entry_accent.php" );
 
 $input  = "";
 $buffer = '';
@@ -123,7 +124,8 @@ while( true )
 				}
 				elseif( $move_furi ) // only one option
 				{
-					$option_str = moveFurigana( $option_str );
+					$option_str = moveFurigana( 
+						$option_str, $wadoku_entry_accent );
 				}
 
 				$buffer .= trim( $option_str, "*" );
@@ -160,7 +162,8 @@ while( true )
 						}
 						elseif( $move_furi )
 						{
-							$parts[ $i ] = moveFurigana( $parts[ $i ] );
+							$parts[ $i ] = moveFurigana(
+								$parts[ $i ], $wadoku_entry_accent );
 						}
 					}
 					
@@ -270,7 +273,8 @@ while( true )
 				}
 				elseif( $move_furi )
 				{
-					$parts[ $i ] = moveFurigana( $parts[ $i ] );
+					$parts[ $i ] = moveFurigana(
+						$parts[ $i ], $wadoku_entry_accent );
 				}
 			}
 
