@@ -233,8 +233,13 @@ function moveFurigana( string $str ) : string
 		return $str;
 	}
 	$kanji = preg_replace( BRACKET_REGEX, '', $str );
-	$marker = getPitchAccentString( $wadoku_entry_accent[ $kanji ] );
-
+	$marker = '';
+	
+	if( array_key_exists( $kanji, $wadoku_entry_accent ) )
+	{
+		$marker = getPitchAccentString( $wadoku_entry_accent[ $kanji ] );
+	}
+		
 	if( array_key_exists( $kanji, $kanji_kana ) )
 	{
 		foreach( $kanji_kana[ $kanji ] as $kana )

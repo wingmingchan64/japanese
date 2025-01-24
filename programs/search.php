@@ -11,8 +11,10 @@ require_once( "H:\\github\\japanese\\programs\\romaji_kanji.php" );
 
 $input  = "";
 $buffer = '';
-$cleanup = false;
-$show_furi = false;
+$cleanup = false; // 0
+$show_furi = false; // 1
+// 2 default
+$move_furi = false; // 3
 //$furikana_regex = '/\[\[\X+?]]|\[\X+?]/';
 //$pitch_regex = '/\[\X+?]/'; // BRACKET_REGEX
 // $dict is from 四角字典, the starting point
@@ -38,6 +40,7 @@ while( true )
 	print_r( $程式名 );
 	$cleanup = false;
 	$show_furi = false;
+	$move_furi = false;
 
 	$option = readline();
 	
@@ -58,6 +61,10 @@ while( true )
 		elseif( $num == 1 )
 		{
 			$show_furi = true;
+		}
+		elseif( $num = 3 )
+		{
+			$move_furi = true;
 		}
 
 // inner while for inputting kanji
@@ -114,7 +121,7 @@ while( true )
 				{
 					$option_str = removeAllAccentMarker( $option_str );
 				}
-				elseif( $num == 3 )
+				elseif( $move_furi ) // only one option
 				{
 					$option_str = moveFurigana( $option_str );
 				}
@@ -151,7 +158,7 @@ while( true )
 
 						//$option_str = removeAllAccentMarker( $option_str );
 						}
-						elseif( $num == 3 )
+						elseif( $move_furi )
 						{
 							$parts[ $i ] = moveFurigana( $parts[ $i ] );
 						}
@@ -261,7 +268,7 @@ while( true )
 					$parts[ $i ] = 
 					removeAllAccentMarker( $parts[ $i ] );
 				}
-				elseif( $num == 3 )
+				elseif( $move_furi )
 				{
 					$parts[ $i ] = moveFurigana( $parts[ $i ] );
 				}
@@ -359,7 +366,7 @@ while( true )
 		}
 */
 		
-		//echo "Not a valid key. Try again.\n";
+		echo "Not a valid key. Try again.\n";
 	}
 }// inner while
 	} 
