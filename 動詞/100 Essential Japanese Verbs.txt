@@ -10,7 +10,7 @@ I drank wine at a bar last night.
 昨日先生[せんせい➂]が 家[うち⓪]に 来[き]ました。
 A teacher came to my home yesterday.
 
-今朝5時に 起き[おき]ました。
+今朝5時に 起[お]きました。
 I got up at 5:00 this morning.
 
 今日[きょう➀]は 早[はや➀]く 寝[ね]ません。
@@ -34,7 +34,7 @@ I worked until 10:00 again yesterday.
 昨日映画[えいが➀]を 見[み]ました。
 I saw a movie yesterday.
 
-今晩[こんばん➀]漫画[まんが⓪]を 読み[よみ]ます。
+今晩[こんばん➀]漫画[まんが⓪]を 読[よ]みます。
 I'm going to read a manga tonight.
 
 友達[ともだち⓪]に クリスマスカード[➅]を 書[か]きました。
@@ -43,13 +43,13 @@ I wrote a Christmas card for my friend.
 今晩この音楽[おんがく➀]を 聞[き]きます。
 I'll listen to this music tonight.
 
-コンビニ[⓪]で お茶[おちゃ]を 買い[かい]ます。
+コンビニ[⓪]で お茶[おちゃ]を 買[か]います。
 I'll buy tea at a convenience store.
 
 富士山[ふじさん➀]の写真[しゃしん⓪]を 撮[と]りました。
 I took a picture of Mt. Fuji.
 
-にんじん[⓪]を 切り[きり]ます。
+にんじん[⓪]を 切[き]ります。
 I'll cut the carrot.
 
 メール[➀]を 送[おく]ります。
@@ -61,6 +61,28 @@ I lent a manga to my friend.
 友達に 漫画を 借[か]りました。
 I borrowed a manga from my friend.
 
+わたしは 日本語を 教[おし]えています。
+I am teaching Japanese.
 
+子供[こども⓪]の時[とき➁]、ピアノ[⓪]を 習[なら]っていました。
+When I was a kid, I was learning how to play the piano.
+
+中国語[ちゅうごくご⓪]が 分[わ]かります。
+I understand Chinese.
+
+昨日友達と 遊[あそ]びました。
+I hung out with my friend yesterday.
+
+リカと 結婚[けっこん]します。
+I'm going to get married to Rika.
+
+マリカと 離婚[りこん]します。
+I am going to get divorced with Marika.
+
+電気[でんき➀]を 消[け]します。
+I'll turn off the light.
+
+電気を 付[つ]けます。
+I'll turn on the light.
 
 https://www.youtube.com/watch?v=itccOS1_LSk
