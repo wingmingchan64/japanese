@@ -1,6 +1,5 @@
 <?php
 require_once( 'H:\github\japanese\programs\常數.php' );
-require_once( 'H:\github\japanese\programs\kanji_kana.php' );
 
 set_error_handler( function ( 
 	$severity, $message, $file, $line )
@@ -222,9 +221,8 @@ function removeBracketedAccentMarker( string $str ) : string
 	return $new_str;
 }
 
-function moveFurigana( string $str, array $wadoku_entry_accent ) : string
+function moveFurigana( string $str, array $kanji_kana, array $wadoku_entry_accent ) : string
 {
-	global $kanji_kana;
 	// no brackets
 	if( strpos( $str, '[' ) === false )
 	{

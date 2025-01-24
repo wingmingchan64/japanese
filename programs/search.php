@@ -8,6 +8,7 @@ require_once( "H:\\github\\japanese\\programs\\四角字典.php" );
 require_once( "H:\\github\\japanese\\programs\\日本語の固有名詞.php" );
 require_once( "H:\\github\\japanese\\programs\\粵和詞典.php" );
 require_once( "H:\\github\\japanese\\programs\\romaji_kanji.php" );
+require_once( "h:\\github\\japanese\\programs\\kanji_kana.php" );
 require_once( "h:\\github\\japanese\\programs\\wadoku_entry_accent.php" );
 
 $input  = "";
@@ -125,7 +126,7 @@ while( true )
 				elseif( $move_furi ) // only one option
 				{
 					$option_str = moveFurigana( 
-						$option_str, $wadoku_entry_accent );
+						$option_str, $kanji_kana, $wadoku_entry_accent );
 				}
 
 				$buffer .= trim( $option_str, "*" );
@@ -163,7 +164,7 @@ while( true )
 						elseif( $move_furi )
 						{
 							$parts[ $i ] = moveFurigana(
-								$parts[ $i ], $wadoku_entry_accent );
+								$parts[ $i ], $kanji_kana, $wadoku_entry_accent );
 						}
 					}
 					
@@ -274,7 +275,7 @@ while( true )
 				elseif( $move_furi )
 				{
 					$parts[ $i ] = moveFurigana(
-						$parts[ $i ], $wadoku_entry_accent );
+						$parts[ $i ], $kanji_kana, $wadoku_entry_accent );
 				}
 			}
 
@@ -305,11 +306,11 @@ while( true )
 		require_once( 'H:\github\japanese\programs\japandict\romaji_kanji_kana.php' );
 		if( array_key_exists( $input, $romaji_kanji_kana ) )
 		{
-			$kanji_kana = $romaji_kanji_kana[ $input ];
+			$k_k = $romaji_kanji_kana[ $input ];
 			
-			if( strpos( $kanji_kana, ';' ) !== false )
+			if( strpos( $k_k, ';' ) !== false )
 			{
-				$options = explode( ';', $kanji_kana );
+				$options = explode( ';', $k_k );
 				print_r( $options );
 				// wait for user option choice
 				$num = intval( readline() );
@@ -326,7 +327,7 @@ while( true )
 			}
 			else
 			{
-				$buffer .= $kanji_kana;
+				$buffer .= $k_k;
 				printBuffer( $buffer );
 			}
 		}
