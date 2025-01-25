@@ -106,11 +106,32 @@ I couldn't make myself heard above the noise.
 電気を 付[つ]けます。（付ける）
 I'll turn on the light.
 
-ドア[➀]を 開[あ]けてください。（開ける）
+テレビが つきません。（付く）
+The TV won't turn on.
+お風呂は ついてますか。
+Does it have a bathroom?
+
+庭の バラの 木の つぼみ が 少しずつ 開[ひら]き 始める。（開く）
+Little by little, the buds on the rosebush in my garden begin to open.
+先週、私達は 舞踏会を 開きました。
+We gave a ball last week.
+
+ドア[➀]を 開[あ]けてください。（開ける・明ける・空ける）
 Please open the door.
+夜が明ける。
+Day is breaking.
+次の 土曜日の 午後 は 空けておいてください。
+Please leave next Saturday afternoon free.
+財布[さい￨ふ⓪]の 中身[なか･み➁]を この袋[ふくろ➂]に 空けなさい。
+Empty the purse into this bag.
 
 急[いそ]いでください。（ぎて->いで）（急ぐ）
 Hurry up!
+ニックは バスに 間に合う ように 急いだ。
+Nick hurried to catch the bus.
+間に合う[ま･に･あ~う➂] to be in time
+ように so that
+「この様に」などという具合に、比較して、同じ類のもののであることを示したりする際に使われる表現。「ように」は助動詞「ようだ」の連用形。
 
 彼女[かのじょ➀]を 待[ま]っています。（待つ）
 I'm waiting for my girlfriend.
@@ -120,27 +141,45 @@ Can I use these scissors?
 
 見[み]せてください。（見せる）
 Please show me.
+取り繕う ように、笑って みせる。
+I smile, as if to mend the situation.
+取り繕う to smooth over a mistake
 
 妻[つま➀]は 今[いま➀] 電話で 友達と 話[はな]しています。（話す）
 My wife is talking to her friend on the phone right now.
+あなたの 趣味[しゅ￨み➀] について 話して ください。
+Please tell me about your hobbies.
+に就[つ]いて about
 
 座[すわ]ってください。（座る）
 Please sit down.
+数人の 学生が ベンチに 座り、昼食を 食べていた。
+Some students were sitting on the bench and having lunch.
 
 立[た]ってください。（立つ）
 Please stand up.
+次々[つぎつぎ➁]に 立って 出ていった。（出[で]る）
+One after another they stood up and went out.
+煙突[えん￨とつ⓪] から 煙[けむり⓪]が 立っていた。
+Smoke was rising from the chimney.
 
 ここに 入[はい]らないでください。（入る）
 Please don't enter here.
 
 ここに かばん[⓪]を 置[お]いてください。（置く）
 Please put your bag here.
+彼女は いつも 自分の 部屋を きれいに しておく。
+She always keeps her room clean.
 
 晩[ばん⓪]ご飯[はん➀]を 作[つく]ります。（作る）
 I'll make dinner.
+どこ へ 行って も、彼は 必ず 友達を 作る。
+Wherever he may go, he is sure to make friends.
 
 この本[ほん➀]を 売[う]ります。（売る）
 I'll sell this book.
+ガソリンは リットル 単位で 売られる。
+Gasoline is sold by the liter.
 
 東京に 住[す]んでいます。（住む）
 I live in Tokyo.
@@ -162,6 +201,9 @@ I'll take a shower.
 
 覚[おぼ]えています。（覚える）
 I remember.
+日本語の 便利な フレーズを 覚えてみましょう。
+Let's learn some useful Japanese phrases.
+
 
 家に 携帯[けいたい⓪]を 忘[わす]れました。
 I forgot my mobile phone at home.
