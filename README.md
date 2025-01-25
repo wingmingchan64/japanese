@@ -77,6 +77,7 @@ After 11 o'clock the guests began to leave by twos and threes.
 <ul>
 <li>I extract more than 200,000 entries with IDs from the site</li>
 <li>The file <a href="https://github.com/wingmingchan64/japanese/blob/main/programs/japandict/romaji_kanji_kana.php">romaji_kanji_kana.php</a> is created</li>
+<li>I also create a local copy of the dictionary, containing only the words/phrases and meanings, so that I can access it locally</li>
 </ul>
 
 
