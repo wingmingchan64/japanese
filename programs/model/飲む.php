@@ -15,7 +15,9 @@ negative：ない、ず、ぬ
 $飲む=array(
 'Present'=>"${stem}む,${stem}みます,${stem}まない,${stem}みません",
 'Past'=>"${stem}んだ,${stem}みました,${stem}まなかった,${stem}みませんでした",
+'Past Rule'=>"stem + んだ; み+た becomes んだ (voice assimilation)",
 '-te Form'=>"${stem}んで,${stem}まなくて",
+'-te Form Rule'=>"stem + んで; み+て becomes んで (voice assimilation)",
 'Volitional'=>"${stem}もう,${stem}みましょう",
 'Potential'=>"${stem}める,${stem}めます,${stem}めない,${stem}めません",
 'Passive'=>"${stem}まれる,${stem}まれます,${stem}まれない,${stem}まれません",

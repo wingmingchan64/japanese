@@ -2,10 +2,9 @@
 $待つ=array(
 'Present'=>"${stem}つ,${stem}ちます,${stem}たない,${stem}ちません",
 'Past'=>"${stem}った,${stem}ちました,${stem}たなかった,${stem}ちませんでした",
-'Past Rule'=>"stem + った",
+'Past Rule'=>"stem + った; ち+た becomes った",
 '-te Form'=>"${stem}って,${stem}たなくて",
-'-te Form Rule'=>"stem + って",
-
+'-te Form Rule'=>"stem + って; ち+て becomes って",
 'Volitional'=>"${stem}とう,${stem}ちましょう",
 'Potential'=>"${stem}てる,${stem}てます,${stem}てない,${stem}てません",
 'Passive'=>"${stem}たれる,${stem}たれます,${stem}たれない,${stem}たれません",

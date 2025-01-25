@@ -2,7 +2,9 @@
 $呼ぶ=array(
 'Present'=>"${stem}ぶ,${stem}びます,${stem}ばない,${stem}びません",
 'Past'=>"${stem}んだ,${stem}びました,${stem}ばなかった,${stem}びませんでした",
+'Past Rule'=>"stem + んだ; ぶ+た becomes んだ (voice assimilation)",
 '-te Form'=>"${stem}んで,${stem}ばなくて",
+'-te Form Rule'=>"stem + んで; ぶ+て becomes んで (voice assimilation)",
 'Volitional'=>"${stem}ぼう,${stem}びましょう",
 'Potential'=>"${stem}べる,${stem}べます,${stem}べない,${stem}べません",
 'Passive'=>"${stem}ばれる,${stem}ばれます,${stem}ばれない,${stem}ばれません",

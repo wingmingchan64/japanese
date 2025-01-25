@@ -2,9 +2,9 @@
 $買う=array(
 'Present'=>"${stem}う,${stem}います,${stem}わない,${stem}いません",
 'Past'=>"${stem}った,${stem}いました,${stem}わなかった,${stem}いませんでした",
-'Past Rule'=>"stem + った",
+'Past Rule'=>"stem + った; ゐ+た becomes った",
 '-te Form'=>"${stem}って,${stem}わなくて",
-'-te Form Rule'=>"stem + って",
+'-te Form Rule'=>"stem + って; ゐ+て becomes って",
 'Volitional'=>"${stem}おう,${stem}いましょう",
 'Potential'=>"${stem}える,${stem}えます,${stem}えない,${stem}えません",
 'Passive'=>"${stem}われる,${stem}われます,${stem}われない,${stem}われません",
