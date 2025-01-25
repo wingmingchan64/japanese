@@ -1,13 +1,13 @@
-明日[あした➂]東京に 行[い]きます。（行く）
+明日[あした➂] 東京に 行[い]きます。（行く）
 I'm going to Tokyo tomorrow.
 
-今朝[けさ➀]パンを 食[た]べました。（食べる）
+今朝[けさ➀] パンを 食[た]べました。（食べる）
 I ate bread this morning.
 
 昨日[きのう➁]の夜[よる➀] バーで ワインを 飲[の]みました。（飲む）
 I drank wine at a bar last night.
 
-昨日先生[せんせい➂]が 家[うち⓪]に 来[き]ました。（来[く]る）
+昨日 先生[せんせい➂]が 家[うち⓪]に 来[き]ました。（来[く]る）
 A teacher came to my home yesterday.
 
 今朝5時に 起[お]きました。（起きる）
@@ -61,17 +61,32 @@ I lent a manga to my friend.
 友達に 漫画を 借[か]りました。（借りる）
 I borrowed a manga from my friend.
 
-わたしは 日本語を 教[おし]えています。（教える）
+わたしは 日本語を 教[おし]えています。（教える） 一段
 I am teaching Japanese.
 
-子供[こども⓪]の時[とき➁]、ピアノ[⓪]を 習[なら]っていました。（習う）
+子供[こども⓪]の時[とき➁]、ピアノ[⓪]を 習[なら]っていました。（習う・習います） 五段
 When I was a kid, I was learning how to play the piano.
+車の 運転[うん￨てん⓪]を 習っています。
+I'm learning to drive.
+習うより慣[な]れろ
+「習うより慣れろ」は、物事[もの･ごと➁]に ついて人に 教[おそ]わったり本で学んだりする よりも、実際[じっ￨さい⓪]にやってみて慣れた方が身[み⓪]につくという意味[い￨み➀]の諺[ことわざ⓪]です。
+「習うより慣れろ」の例文としては、「日本語の文法を 学ぶのも 大切だが、実際に会話をすることで上達するものだ。まさに『習うより慣れろ』だね」などがあります。
+「習うより慣れろ」の背景には、かつての庶民の仕事と一体化していた教育があり、理論よりも師匠や先輩を見習って実地に繰り返すことが中心でした。
+教[おそ⓪]わる to be taught, to learn
+あなたが教わった事は間違っている。
+What you were taught is wrong.
+学[まな⓪]ぶ
+いくつ になって も 学ぶ こと は ある。
+One is never too old to learn. 
+だが but, however
 
 中国語[ちゅうごくご⓪]が 分[わ]かります。（分かる）
 I understand Chinese.
 
 昨日友達と 遊[あそ]びました。（遊ぶ）
 I hung out with my friend yesterday.
+２人の子供が 通りで 遊んでいた。
+There were two children playing on the street.
 
 リカと 結婚[けっこん]します。（結婚する）
 I'm going to get married to Rika.
