@@ -79,6 +79,26 @@ After 11 o'clock the guests began to leave by twos and threes.
 <li>The file <a href="https://github.com/wingmingchan64/japanese/blob/main/programs/japandict/romaji_kanji_kana.php">romaji_kanji_kana.php</a> is created</li>
 <li>I also create a local copy of the dictionary, containing only the words/phrases and meanings, so that I can access it locally</li>
 </ul>
+<pre>
+要搜索甚麼？請輸入選項數字；用 exit 來結束。
+Array
+(
+    [0] => 輸入日本語
+    [1] => 輸入日[に]本[ほん]語[ご]
+    [2] => 輸入日[に]本[ほん]語[ご⓪]
+    [3] => 輸入日本語[にほんご⓪]
+    [4] => 查詢辭書
+    [5] => 羅馬字→JapanDict
+    [6] => 漢字→動詞變形
+)
+5
+請輸入羅馬字：
+taberu
+
+
+1. to eat
+2. to live on (e.g. a salary), to live off, to subsist on
+</pre>
 
 
 <h2>Inputting Japanese</h2>
