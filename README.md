@@ -1,7 +1,7 @@
 <h1>Using PHP to Facilitate Japanese Learning</h1>
 <h2>jisho.org</h2>
 <ul>
-<li>The best thing about this site is that Romaji can be used to query the dictionary</li>
+<li>The best thing about this site is that Romaji can be used to query the dictionary (JapanDict can do that as well)</li>
 <li>There is no easy way to extract the available entries from the site</li>
 <li>I decide to query the site directly, one entry at a time</li>
 </ul>
@@ -34,12 +34,12 @@ Jisho.org:
 <ul>
 <li>As of January 5, 2025, the <a href="https://wadoku.de/wiki/display/WAD/Downloads+und+Links">XML dump</a> contains 433,218 entries</li>
 <li><a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">id_kanji_kana_accent.txt</a> containing 433,218 entries extracted from the XML file</li>
-<li>Create a PHP file containing an array mapping entry id to entry XML (too big, 237MB, to upload to github)</li>
-<li>Create a map, containing 漢字-ID pairs for easy lookup</li>
-<li>Create a map, containing 仮名-ID pairs for easy lookup</li>
+<li>I create a PHP file containing an array mapping entry id to entry XML (too big, 237MB, to upload to github)</li>
+<li>I create a map, containing 漢字-ID pairs for easy lookup</li>
+<li>I create a map, containing 仮名-ID pairs for easy lookup</li>
 <li>I only provide the <a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">programs</a> used to create these files</li>
 <li>With an ID, the XML content can be retrieved, processed and displayed</li>
-<li>Information contained in the XML: ID, 漢字, 仮名, pitch accent, meanings (in German)</li>
+<li>Information contained in the XML: ID, 漢字, 仮名, pitch accent, meanings (in German) and so on</li>
 <li>I create these files locally to avoid querying the website directly</li>
 <li>After querying jisho.org, the kanji version of the entry is passed onto 和独辞典</li>
 </ul>
@@ -59,7 +59,8 @@ Meaning:
 <hr />
 <h2>JapanDict</h2>
 <ul>
-<li>After querying jisho.org, the kanji version of the entry is passed onto JapanDict</li>
+<li>This site also accepts Romaji</li>
+<li>After querying jisho.org, the kanji version of the entry is passed onto the site</li>
 <li>Example sentences are extracted and displayed</li>
 </ul>
 <pre>
@@ -75,10 +76,8 @@ Lover, come back to me.
 After 11 o'clock the guests began to leave by twos and threes.
 </pre>
 <ul>
-<li>I extract more than 200,000 entries with IDs from the site</li>
+<li>I also extract more than 200,000 entries with IDs from the site</li>
 <li>The file <a href="https://github.com/wingmingchan64/japanese/blob/main/programs/japandict/romaji_kanji_kana.php">romaji_kanji_kana.php</a> is created</li>
-<li>I also create a local copy of the dictionary, containing only the words/phrases and meanings, so that I can access it locally</li>
-<li>I am manually expanding this dictionary to include more definitions</li>
 </ul>
 <pre>
 要搜索甚麼？請輸入選項數字；用 exit 來結束。

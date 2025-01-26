@@ -42,7 +42,7 @@ $title_regex = '/<title>([^<]+)<\/title>/';
 $kana_regex = '/<span class="hilite_1">([^<]+)<\/span>/';
 $span_text_regex = '/<span class="text">([^<]+)<span>([^<]+)<\/span>/';
 $sentence_search_regex = '/Sentence search for ([^<]+)/';
-$meaning_regex = '/<span class="meaning-definition-section_divider">(\d\. )<\/span><span class="meaning-meaning">([^<]+)<\/span>/';
+$meaning_regex = '/<span class="meaning-definition-section_divider">(\d+\. )<\/span><span class="meaning-meaning">([^<]+)<\/span>/';
 $matches = array();
 
 if( url_check( $jisho_url ) )
@@ -136,8 +136,13 @@ if( url_check( $jisho_url ) )
 	}
 
 	preg_match_all( $meaning_regex, $source, $matches );
+	
+	$new_contents = '';
+
 	echo $matches[ 1 ][ 0 ] . ' ' . 
-		str_replace( '&#39;',"'", $matches[ 2 ][ 0 ] ) . NL;
+		str_replace( ';', ',', str_replace( '&#39;',"'", $matches[ 2 ][ 0 ] ) ) . NL;
+		
+	$new_contents .= str_replace( ';', ',', str_replace( '&#39;',"'", $matches[ 2 ][ 0 ] ) ) . '; ';
 	
 	for( $i = 1; $i < sizeof( $matches[ 1 ] ); $i++ )
 	{
@@ -146,8 +151,13 @@ if( url_check( $jisho_url ) )
 			break;
 		}
 		echo $matches[ 1 ][ $i ] . ' ' . 
-			str_replace( '&#39;',"'", $matches[ 2 ][ $i ] ) . NL;
+			str_replace( ';', ',', str_replace( '&#39;',"'", $matches[ 2 ][ $i ] ) ) . NL;
+		$new_contents .= str_replace( ';', ',', str_replace( '&#39;',"'", $matches[ 2 ][ $i ] ) ) . '; ';
 	}
+	
+	// unicode delimiter
+	//logToFile( 'H:\japanese\programs\jisho\new_contents.txt',
+		//$kanji . '：' . $new_contents );
 }
 else
 {

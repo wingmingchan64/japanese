@@ -1,10 +1,4 @@
-abiru		浴びる	⓪	浴びます
-ageru		上げる	⓪	上げます
-aisuru	➁	
-ajiwau	➁	
-akeru		開ける	⓪	開けます
-amu	➀	
-arau	⓪	
+arau		
 aruku		歩く	➁	歩きます
 aseru	➁	
 asobu		遊ぶ	⓪	遊びます
