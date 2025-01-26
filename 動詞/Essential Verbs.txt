@@ -242,12 +242,14 @@ I'm not sure I can afford it.
 払える potential form
 かどうか whether
 ざます ざんす to be
+分からない plain negative
 
 図書館[としょかん➁]に 本を 返[かえ]しに 行[い]きます。（返す➀）
 I am going to the library to return a book.
 お前は 恩[おん➀]を 仇[あだ➁]で 返したな。
 You bit the hand that fed you.
 お前[まえ⓪] you
+な emphasis
 
 心[しん]配[ぱい⓪]しないでください。（心配する）
 Don't worry.
@@ -260,9 +262,19 @@ I'll wash my hands.
 
 ピアノを 弾[ひ]きます。（弾く⓪）
 I'll play the piano.
+弾[ひ]く
+
+彼は 私の 顔を 指先で ぽんと はじいた。（弾く➁）
+He flicked me in the face.
+この レインコートは 水を 完全に はじく。
+The raincoat sheds water perfectly.
+指先[ゆび･さき⓪] finger, fingertip
+弾[はじ]く
 
 アニソン[➀]を 歌[うた]います。（歌う⓪）
 I'll sing an anime song.
+ジョンは ステージで 何を 歌いましたか。
+What did John sing on the stage?
 
 ゴミ[➁]を 捨[す]てます。（捨てる⓪）
 I'll throw away the garbage.
