@@ -16,6 +16,7 @@ const 搜索程式 = array(
 	//'羅馬字→詞義' => '請輸入羅馬字詞：' . NL,
 	//'羅馬字→音調標記' => '請輸入羅馬字詞：' . NL,
 	//'假名→漢字' => '請輸入假名詞：' . NL,
+	'羅馬字→假名、音調標記' => '請輸入羅馬字詞：' . NL,
 );
 const 程式文件夾 = "H:\\github\\japanese\\programs\\";
 const 程式後綴 = '.php';
@@ -27,6 +28,7 @@ const 輸入羅馬字詞 = "必須輸入羅馬字詞";
 const 無此漢字詞 = "沒找到此漢字詞" . NL;
 const 無此假名詞 = "沒找到此假名詞" . NL;
 const 無此漢字、假名詞 = "沒找到此漢字、假名" . NL;
+const 無此羅馬字詞 = "沒找到此羅馬字" . NL;
 const DELIMITER = '，';
 const BRACKET_REGEX = '/\[\X+?]/';
 const MARKER_ARRAY = array( '⓪','➀','➁','➂','➃','➄','➅','➆','➇' );

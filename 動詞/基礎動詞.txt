@@ -1,12 +1,14 @@
-arau		
-aruku		歩く	➁	歩きます
-aseru	➁	
-asobu		遊ぶ	⓪	遊びます
-atatameru	➁	
-atsumaru	➁	
-atsumeru	集める	➁	集めます
-benkyosuru	⓪	
-butsukaru	⓪	
+あげる⓪,上げる
+あむ➀,編む
+あらう⓪,洗う
+あるく➁,歩く
+あせる➁,焦る,五段
+あそぶ⓪,遊ぶ
+あたためる➃,温める
+あつまる➂,集まる
+あつめる➂,集める
+べんきょうする⓪,勉強する
+ぶつかる⓪
 erabu	➁	
 fakkusuru	ファックする
 fueru	➁	
