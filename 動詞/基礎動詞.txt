@@ -9,12 +9,14 @@
 あつめる➂,集める
 べんきょうする⓪,勉強する
 ぶつかる⓪
-erabu	➁	
-fakkusuru	ファックする
-fueru	➁	
-fuku	➀	
-fumu	⓪	
-furu	⓪	
+えらぶ➁,選ぶ
+ファックする
+ふえる➁,増える
+ふく➀,吹く
+ふく⓪,拭く
+ふむ⓪,踏む
+ふる⓪,降る
+ふる➀,振る
 futoru	➁	
 gamansuru	⓪	
 gomakasu	誤魔化す	➁	

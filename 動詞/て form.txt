@@ -1,0 +1,75 @@
+て form
+
+The most basic use is to connect simultaneous or sequential actions, events, or states together.
+
+起きて トイレに 行った。
+
+五段
+会う → 会って
+立つ → 立って
+割る → 割って
+書く → 書いて
+話す → 話して
+泳ぐ → 泳いで
+死ぬ → 死んで
+遊ぶ → 遊んで
+休む → 休んで
+
+一段
+食べる → 食べて
+起きる → 起きて
+閉じる → 閉じて
+
+変格動詞
+行く → 行って
+来くる →  来て
+する → して
+
+い-adjectives
+甘くて
+よくて
+
+な-adjectives
+静かで
+頭痛で
+
+Meaning: and
+走[はし]って シャワーを する。 I run and shower.
+走って 駅に 行く。 I go to the station by running.
+あの店は 広[ひろ]くて 静かだ。 That restaurant is spacious and quiet.
+あの店は 静かで 広い。
+ここは料理の鉄人のお店で、静かで 広くて 人気が あって、おいしい。
+This is an Iron Chef's restaurant, and it's quiet, spacious, popular and delicious.
+
+Meaning: so
+この ケーキは 甘くて おいしい.
+This cake is sweet and delicious.
+This cake is sweet so (it's) delicious.
+この カフェは 居心地が よくて 好きだ。
+This cafe is comfortable, so I like it.
+居心地[いごこち⓪]
+頭痛で 眠れなかった。
+I had a headache so I couldn’t sleep.
+寝不足で フラフラだ。
+I didn’t sleep well, so I’m dizzy.
+睡眠薬を 飲んで 眠った。
+I took a sleeping pill and I fell asleep.
+I fell asleep by taking a sleeping pill.
+I took a sleeping pill so I fell asleep.
+
+Other endings
+起きて ください。
+Please wake up.
+起きて。
+Wake up.
+
+Same subject/topic
+この ベーコン(は) カリカリで おいしい。
+This bacon is crispy and (it’s) delicious.
+This bacon is crispy so (it's) delicious.
+Different subjects
+この ベーコンは カリカリで、このパンは フワフワだ。
+This bacon is crispy and this bread is fluffy.
+この ベーコンが カリカリで、このパンは フワフワだ。
+
+https://www.tofugu.com/japanese-grammar/te-form/
