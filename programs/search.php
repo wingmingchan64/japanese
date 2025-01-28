@@ -303,7 +303,7 @@ while( true )
 	}
 	else
 	{
-		require_once( 'H:\github\japanese\programs\japandict\romaji_kanji_kana.php' );
+		require_once( 'H:\japanese\programs\japandict\romaji_kanji_kana.php' );
 		if( array_key_exists( $input, $romaji_kanji_kana ) )
 		{
 			$k_k = $romaji_kanji_kana[ $input ];

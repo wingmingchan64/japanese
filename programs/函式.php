@@ -65,9 +65,9 @@ function cleanUpWadokuOutputString( string $str ) : string
 	return $str;
 }
 
-function getWadokuAccentMarker( string $kanji ) : string
+function getWadokuAccentMarker(
+	string $kanji, array $wadoku_entry_accent ) : string
 {
-	global $wadoku_entry_accent;
 	if( array_key_exists( $kanji, $wadoku_entry_accent ) )
 	{
 		$marker = $wadoku_entry_accent[ $kanji ];

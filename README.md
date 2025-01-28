@@ -56,6 +56,11 @@ Meaning:
 5.  nach Hause gehen
 6.  nach Hause kommen
 </pre>
+<ul>
+<li>Since I am learning Japanese (as a beginner), I am also interested in statistics in the language</li>
+<li>I use the wadoku xml as a resource and write programs to gather statistical information</li>
+<li>Example: <a href=""></a></li>
+</ul>
 <hr />
 <h2>JapanDict</h2>
 <ul>
