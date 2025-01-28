@@ -407,6 +407,7 @@ My teacher told us we would have a kanji test tomorrow.
 I've gained 5kg.
 彼は 太い 首を している。（する）
 He has a thick neck.
+太った男性（also 肥った）
 
 今鈴木[すずき]さんは 
 入院[にゅういん]しています。（入院する）
@@ -420,8 +421,12 @@ I'll lock.
 
 この箱[はこ⓪]を あそこ[⓪]まで 運[はこ]んでください。（運ぶ⓪）
 Please carry this box over there.
+荷物を 二階に 運んで いただけませんか。（頂ける⓪）
+Would you carry my luggage upstairs?
+仕事は すらすらと 運んだ。
+The work progressed smoothly.
 
-パソコン[⓪]の 電源[でんげん⓪]を 切[き]ります。（切る➀）
+パソコン[⓪]の 電源[でんげん⓪]を 切[き]ります。（切る➀） 五段
 I'll turn off the computer.
 
 パソコンの 電源を 入[い]れます。（入れる⓪）
@@ -429,6 +434,9 @@ I'll turn on the computer.
 
 山本さんも 誘[さそ]いましょう。（誘う⓪）
 Let's ask Mr./Ms. Yamamoto to join us as well.
+ウラウラと した 日差し に誘われて、眠りに落ちた。 （した：する）
+The soft, gentle sunlight beckoned me to sleep.
+日差し[ひ･ざし⓪] sunlight
 
 田中さんを 結婚式[けっこんしき➂]に 招待[しょうたい]しました。（招待する）
 I invited Mr./Ms. Tanaka to my wedding.
