@@ -1,5 +1,5 @@
 <?php
-$ra段動詞=array(
+$ra動詞=array(
 "然り",
 );
 ?>

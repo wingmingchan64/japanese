@@ -1,5 +1,5 @@
 <?php
-$suru段動詞=array(
+$suru動詞=array(
 "課する",
 "面する",
 "擁する",

@@ -1,5 +1,5 @@
 <?php
-$kuru段動詞=array(
+$kuru動詞=array(
 "流れ来る",
 "来る",
 "付いて来る",
