@@ -1,4 +1,8 @@
+あびる⓪,浴びる
 あげる⓪,上げる
+あいする➂,愛する
+あじわう➂,味わう
+あける⓪,開ける
 あむ➀,編む
 あらう⓪,洗う
 あるく➁,歩く
@@ -17,38 +21,38 @@
 ふむ⓪,踏む
 ふる⓪,降る
 ふる➀,振る
-futoru	➁	
-gamansuru	⓪	
-gomakasu	誤魔化す	➁	
-hakaru	➁	
-hakaru	➁	
-hakobu		運ぶ	⓪	運びます
-haku	⓪	
-hanahiru	嚔ひる	➁	
-hanasu		話す	➁	話します
-hannousuru	⓪	
-hantaisuru	⓪	
-harau	➁	
-haru	⓪	
-hashiru		走る	➁	走ります
-hataraku	⓪	
-hazusu	⓪	
-heru	⓪	
-hiku		引く	⓪	引きます
-hiraku	➁	
-hiyasu	➁	
-homeru	➁	
-horu	➀	
-idomu	➁	
-inoru	➁	
-itameru	炒める	➁	
-iwau	➁	
-kaburu	➁	
-kaeru		帰る	➀	帰ります
-kaesu
-kagu	⓪	
-kakeru	⓪	
-kakeru	➁	
+ふとる➁,太る
+がまんする➀,我慢する
+ごまかす➂,誤魔化す
+はかる➁,計る
+はこぶ⓪,運ぶ
+はく⓪,履く
+はなひる➂,嚔ひる
+はなす➁,話す
+はんのうする⓪,反応する
+はんたいする⓪,反対する
+はらう➁,払う
+はる⓪,張る
+はしる➁,走る
+はたらく⓪,働く
+はずす⓪,外す
+へる⓪,減る
+ひく⓪,引く
+ひらく⓪,開く
+ひやす➁,冷やす
+ほめる➁,褒める
+ほる➀,掘る
+いどむ➁,挑む
+いのる➁,祈る
+いためる➂,炒める
+いためる➂,痛める
+いわう➁,祝う
+かぶる➂,被る
+かえる➀,帰る
+かえす➀,返す
+かぐ⓪,嗅ぐ
+かける➁,掛ける
+かける⓪,欠ける
 kaku		書く	➀	書きます
 kaku	➀	
 kakureru	➁	
@@ -247,3 +251,5 @@ yoyakusuru	⓪
 yurusu	➁	
 
 // https://www.youtube.com/watch?v=H_6xEMWkYSE&t=277s
+
+php H:\japanese\programs\動詞\生成基礎動詞.php
