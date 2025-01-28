@@ -59,7 +59,7 @@ Meaning:
 <ul>
 <li>Since I am learning Japanese (as a beginner), I am also interested in statistics in the language</li>
 <li>I use the wadoku xml as a resource and write programs to gather statistical information</li>
-<li>Example: <a href=""></a></li>
+<li>For example, from <a href="https://github.com/wingmingchan64/japanese/blob/main/programs/wadoku/%E7%B5%B1%E8%A8%88%E6%95%B8%E5%AD%97.php">統計數字.php</a>, I found that there are 7672 verbs in wadoku</li>
 </ul>
 <hr />
 <h2>JapanDict</h2>
