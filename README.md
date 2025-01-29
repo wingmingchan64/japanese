@@ -1,5 +1,36 @@
 <h1>Using PHP to Facilitate Japanese Learning</h1>
-<h2>jisho.org</h2>
+<h2>Useful Generated Data Files</h2>
+<p>The following are files containing useful data generated from various sites.</p>
+<p>Data files generated from the wadoku database:</p>
+<ul>
+<li><a href="https://github.com/wingmingchan64/japanese/blob/main/programs/wadoku/%E4%B8%80e%E6%AE%B5%E5%8B%95%E8%A9%9E.php">一e段動詞.php</a></li>
+<li><a href="https://github.com/wingmingchan64/japanese/blob/main/programs/wadoku/%E4%B8%80i%E6%AE%B5%E5%8B%95%E8%A9%9E.php">一i段動詞.php</a></li>
+<li><a href="https://github.com/wingmingchan64/japanese/blob/main/programs/wadoku/%E4%BA%94%E6%AE%B5%E5%8B%95%E8%A9%9E.php">五段動詞.php</a></li>
+<li><a href="https://github.com/wingmingchan64/japanese/blob/main/programs/wadoku/%E4%BA%94%E6%AE%B5%E3%81%84%E3%81%88%E5%8B%95%E8%A9%9E.txt">五段いえ動詞.txt</a></li>
+<li><a href="https://github.com/wingmingchan64/japanese/blob/main/programs/wadoku/%E5%BD%A2%E5%AE%B9%E8%A9%9E.php">形容詞.php</a> （い形容詞）</li>
+<li><a href="https://github.com/wingmingchan64/japanese/blob/main/programs/wadoku/%E5%BD%A2%E5%AE%B9%E5%8B%95%E8%A9%9E.php">形容動詞.php</a> （な形容詞）</li>
+<li>A dozen of other files containing words of various parts of speech; the only one left out is nouns (more than 200,000 of them)</li>
+<li>There are more useful files, but they are too big to upload to github</li>
+</ul>
+<p>The following is a file generated from JapanDict:</p>
+<ul>
+<li><a href="https://github.com/wingmingchan64/japanese/blob/main/programs/japandict/japandict_romaji_kana.php">japandict_romaji_kana.php</a></li>
+</ul>
+<p>I am still exploring jisho.org, wadoku.de, japandict.com, weblio.jp and so on, and see what information I can gather from them.</p>
+<!--
+<ul>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+<li><a href=""></a></li>
+</ul>
+-->
+<h2>Dictionary Lookup</h2>
+<h3>jisho.org</h3>
 <ul>
 <li>The best thing about this site is that Romaji can be used to query the dictionary (JapanDict can do that as well)</li>
 <li>There is no easy way to extract the available entries from the site</li>
@@ -30,7 +61,7 @@ Jisho.org:
 2.  to leave (of a guest, customer, etc.)
 3.  to get home; to get to home plate</pre>
 <hr />
-<h2>和独辞典</h2>
+<h3>和独辞典</h3>
 <ul>
 <li>As of January 5, 2025, the <a href="https://wadoku.de/wiki/display/WAD/Downloads+und+Links">XML dump</a> contains 433,218 entries</li>
 <li><a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">id_kanji_kana_accent.txt</a> containing 433,218 entries extracted from the XML file</li>
@@ -63,7 +94,7 @@ Meaning:
 <li>For lists of verbs, see <a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">wadoku</a></li>
 </ul>
 <hr />
-<h2>JapanDict</h2>
+<h3>JapanDict</h3>
 <ul>
 <li>This site also accepts Romaji</li>
 <li>After querying jisho.org, the kanji version of the entry is passed onto the site</li>
@@ -147,6 +178,7 @@ Array
 =>大橋[おおはし➀]
 </pre>
 <hr />
+
 <h2>Verb Conjugation</h2>
 <ul>
 <li>I follow the <a href="https://conjugator.reverso.net/conjugation-rules-model-japanese.html">model</a> approach of Reverso</li>
