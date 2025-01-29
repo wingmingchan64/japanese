@@ -1,3 +1,5 @@
+These are godan verbs that may look like ichidan verbs.
+
 Array
 (
     [0] => …切る,…きる
