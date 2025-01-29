@@ -120,17 +120,17 @@ After 11 o'clock the guests began to leave by twos and threes.
 <h2>Inputting Japanese</h2>
 <ul>
 <li>I write my own program to enable easy input of Japanese</li>
-<li>The program works with my own dictionaries as well as <a href="https://github.com/wingmingchan64/japanese/blob/main/programs/japandict/romaji_kanji_kana.php">romaji_kanji_kana.php</a></li>
+<li>The program works with my own dictionaries and data files generated from sites mentioned above</li>
 <li>Since I can compile my own dictionaries, the program can output different versions of Japanese texts:
 <ul>
 <li>漢字、仮名 only</li>
 <li>漢字、仮名 with 振仮名</li>
 <li>漢字、仮名 with 振仮名 and pitch accent markers</li>
 
-<li>Any text can be put into various dictionaries for output; for example, the program can output もう[➀]一[いち]度[ど➂]お願[ねが⓪]いします as a single entry with the key mouichido..</li>
+<li>Any text can be put into various dictionaries for output; for example, the program can output <kbd>もう[➀]一[いち]度[ど➂]お願[ねが⓪]いします</kbd> as a single entry with the key mouichido..</li>
 </ul>
 </li>
-<li>Any keys can be used, and currently I am compiling a dictionary using Cantonese pinyin as keys; example: saam1gaai1 as the key and [さん]階[がい⓪] as the output</li>
+<li>Any keys can be used, and currently I am compiling a dictionary using Cantonese pinyin as keys; example: <kbd>saam1gaai1</kbd> as the key and <kbd>[さん]階[がい⓪]</kbd> as the output</li>
 </ul>
 <pre>
 H:\php809>php h:\github\japanese\programs\search.php
