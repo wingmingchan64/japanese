@@ -161,9 +161,7 @@ saam1gaai1
 Enter a command (clr, del, show, quit) or a Romaji
 </pre>
 <ul>
-<li>When an entry does not exist in any of my own dictionaries, the program will look at <a href="https://github.com/wingmingchan64/japanese/blob/main/programs/japandict/romaji_kanji_kana.php">romaji_kanji_kana.php</a></li>
-<li>This file contains more than 180,000 entries (more than 210,000 words and phrases)</li>
-<li>Each entry is a 漢字[仮名] string (or an array of such strings), possibly with an accent marker pulled from wadoku</li>
+<li>If no entries are found in my dictionaries, the program will look at the wadoku files to find the entry</li>
 </ul>
 <pre>
 Enter a command (clr, del, show, quit) or a Romaji
