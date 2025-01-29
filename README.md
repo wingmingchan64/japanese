@@ -127,7 +127,7 @@ After 11 o'clock the guests began to leave by twos and threes.
 <li>漢字、仮名 with 振仮名</li>
 <li>漢字、仮名 with 振仮名 and pitch accent markers</li>
 
-<li>Any text can be put into various dictionaries for output; for example, the program can output <kbd>もう[➀]一[いち]度[ど➂]お願[ねが⓪]いします</kbd> as a single entry with the key mouichido..</li>
+<li>Any text can be put into various dictionaries for output; for example, the program can output <kbd>もう[➀]一[いち]度[ど➂]お願[ねが⓪]いします</kbd> as a single entry with the key <kbd>mouichido..</kbd></li>
 </ul>
 </li>
 <li>Any keys can be used, and currently I am compiling a dictionary using Cantonese pinyin as keys; example: <kbd>saam1gaai1</kbd> as the key and <kbd>[さん]階[がい⓪]</kbd> as the output</li>
