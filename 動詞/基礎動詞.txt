@@ -53,18 +53,17 @@
 かぐ⓪,嗅ぐ
 かける➁,掛ける
 かける⓪,欠ける
-kaku		書く	➀	書きます
-kaku	➀	
-kakureru	➁	
-kamu	➀	
-kanjiru	⓪	
-kariru	⓪	
-karu	➀	
-kassegu	➁	
-kasu	⓪	
-katazukeru	➁	
-kau		買う	⓪	買います
-kau	➀	
+かく➀,書く
+かく➀,描く
+かくれる➂,隠れる
+かむ➀,噛む
+かんじる⓪,感じる
+かりる⓪,借りる
+かせ~ぐ➁,稼ぐ
+かす⓪,貸す
+かたづける➃,片付ける,to tidy up
+かう⓪,買う
+かう➀,飼う
 kawakasu	➁	
 kawaru	⓪	
 kayou	⓪	
