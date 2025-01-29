@@ -114,7 +114,6 @@ After 11 o'clock the guests began to leave by twos and threes.
 </pre>
 <ul>
 <li>I also extract more than 200,000 entries with IDs from the site</li>
-<li>The file <a href="https://github.com/wingmingchan64/japanese/blob/main/programs/japandict/romaji_kanji_kana.php">romaji_kanji_kana.php</a> is created</li>
 </ul>
 
 
