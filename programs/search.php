@@ -405,20 +405,6 @@ while( true )
 	}
 }
 
-function printOutput( array $output )
-{
-	foreach( $output as $i => $l )
-	{
-		echo $l, "\n";
-	}
-	echo "\n";
-}
-function isAscii( string $str ) : bool
-{
-	return ( mb_detect_encoding( $str, 'ASCII' ) == 'ASCII' );
-    //return mb_check_encoding( $str, 'ASCII' );
-}
-
 function printBuffer( string $buffer )
 {
 	// remove space

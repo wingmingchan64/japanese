@@ -19,7 +19,7 @@ function url_check( $url )
 // check argv
 function checkARGV( array $argv, int $num, string $msg )
 {
-	if( sizeof( $argv ) != $num )
+	if( sizeof( $argv ) < $num )
 	{
 		echo $msg, NL;
 		exit;
@@ -265,6 +265,11 @@ function getJapanDictExample( string $source ) : string
 	return $ex_str;
 }
 
+function isAscii( string $str ) : bool
+{
+	return ( mb_detect_encoding( $str, 'ASCII' ) == 'ASCII' );
+}
+
 function isKana( string $str ) : bool
 {
 	$strlen = mb_strlen( $str );
@@ -327,6 +332,15 @@ function logToFile( string $file, string $content )
 		$file, 
 		$content.PHP_EOL, 
 		FILE_APPEND | LOCK_EX );
+}
+
+function printOutput( array $output )
+{
+	foreach( $output as $i => $l )
+	{
+		echo $l, NL;
+	}
+	echo NL;
 }
 
 function removeAllAccentMarker( string $str ) : string

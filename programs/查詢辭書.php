@@ -20,8 +20,13 @@ Katakana Range: 30A0–30FF
 ini_set('memory_limit', '-1');
 
 require_once( "h:\\github\\japanese\\programs\\函式.php" );
+require_once( 'H:\japanese\programs\kana_romaji_lookup.php' );
 
 checkARGV( $argv, 2, 輸入詞條 );
+if( sizeof( $argv ) == 3 )
+{
+	$what = intval( $argv[ 2 ] );
+}
 $詞條 = trim( $argv[ 1 ] );
 $js詞條 = $詞條;
 $wd詞條 = $詞條;
@@ -121,6 +126,11 @@ if( url_check( $jisho_url ) )
 	{
 		$search = '';
 	}
+	
+	if( $romaji == '' )
+	{
+		$romaji = convertKanaToRomaji( $kana,$拗音,$一般假名,$促音 );
+	}
 
 	echo NL, $org, $kanji, '[', $kana, '] ', $romaji, NL, NL;
 
@@ -164,6 +174,11 @@ else
 	echo "$詞條 Not found", NL;
 }
 
+if( $what == 1 )
+{
+	exit;
+}
+
 echo NL, "wadoku.de:", NL;
 echo '=================================' . NL;
 
@@ -203,6 +218,12 @@ if( $entry_xml != '' )
 		}
 	}
 }
+
+if( $what == 2 )
+{
+	exit;
+}
+
 
 $jd詞條 = urlencode( $kanji );
 $japandict_url = "https://www.japandict.com/${jd詞條}?lang=eng";
