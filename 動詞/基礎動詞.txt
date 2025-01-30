@@ -64,38 +64,40 @@
 かたづける➃,片付ける,to tidy up
 かう⓪,買う
 かう➀,飼う
-kawakasu	➁	
-kawaru	⓪	
-kayou	⓪	
-kegasuru	➁	
-keikakusuru	⓪	
-keisansuru	⓪	
-kekkonsuru	⓪	
-kenkyuusuru	⓪	
-keru	➀	
-kesu		消す	⓪	消します
-kimeru		決める	⓪	決めます
-kinchosuru	⓪	
-kiru	⓪	
-kiru	➀	
-kitaeru	➁	
-kitaisuru	⓪	
-kizutsuku	➁	
-koeru	⓪	
-konomu	➁	
-koshousuru	⓪	
-kotaeru	➁	
-kotowaru	➁	
-koufunsuru	⓪	
-koukansuru	⓪	
-kowasu	➁	
-kubaru	➁	
-kumitateru	➁	
-kuraberu	➀	
-kusaru	➁	
-machigaeru	➁	
-magaru	⓪	
-maku	➀	
+かわかす➂,乾かす
+かわる⓪,変わる
+かわる⓪,替わる,to replace, to take the place of
+かよう⓪,通う
+けがする,怪我する,to be injured
+けいかくする⓪,計画する
+けいさんする⓪,計算する
+けっこんする⓪,結婚する
+けんきゅうする⓪,研究する
+ける➀,蹴る
+けす⓪,消す
+きめる⓪,決める
+きんちょうする⓪,緊張する
+きる⓪,着る
+きる➀,切る
+きたえる➂,鍛える
+きたいする⓪,期待する
+きずつく➂,傷つく
+こえる⓪,越える
+このむ➁,好む
+こしょうする⓪,故障する
+こたえる➂,答える/応える
+ことわる➂,断る,to refuse, to reject
+こうふんする⓪,興奮する
+こうかんする⓪,交換する
+こわす➁,毀す/壊す
+くばる➁,配る
+くみたてる➃,組み立てる
+くらべる⓪,比べる/較べる
+くさる➁,腐る
+まちがえる➃,間違える
+まがる⓪,曲がる
+まく⓪,巻く/捲く
+まく⓪,撒く/播く
 mamoru		守る	➁	守ります
 manabu		学ぶ	⓪	学びます
 marumeru	⓪	

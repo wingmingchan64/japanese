@@ -54,6 +54,158 @@ function cleanUpWadokuXML( string $xml ) : string
 	return $xml;
 }
 
+function convertKanaToRomaji(
+	string $k,
+	array $拗音,
+	array $一般假名,
+	array $促音 ) : string
+{
+	//echo "Input: ", $k, NL;
+	
+	if( $k == '' )
+	{
+		return $k;
+	}
+	
+	$假名 = trim( $k );
+	$len = mb_strlen( $假名 );
+	$result = $假名;
+
+	for( $i=0; $i < $len-1; $i++ )
+	{
+		$kana = mb_substr( $假名, $i, 2 );
+		//echo 'Kana1: ', $kana, NL;
+		
+		if( array_key_exists( $kana, $拗音 ) )
+		{
+			$result = str_replace( $kana, $拗音[ $kana ], $result );
+			//echo 'Result1: ', $result, NL;
+			$i++;
+		}
+	}
+//echo $result, NL;
+
+	for( $i=0; $i < $len; $i++ )
+	{
+		$kana = mb_substr( $假名, $i, 1 );
+		//echo 'Kana2: ' , $kana, NL;
+		if( array_key_exists( $kana, $一般假名 ) )
+		{
+			$result = str_replace( $kana, $一般假名[ $kana ], $result );
+			//echo $result, NL;
+		}
+	}
+	if( mb_strpos( $result, 'っ' ) !== false || 
+		mb_strpos( $result, 'ッ' ) !== false )
+	{
+		$pos = array();
+		for( $i = 0; $i < mb_strlen( $result ); $i++ )
+		{
+			$ch = mb_substr( $result, $i, 1 );
+			
+			if( $ch == 'っ' || $ch == 'ッ' )
+			{
+				$following_letter = mb_substr( $result, $i+1, 1 );
+				if( $following_letter == '' )
+				{
+					return $result;
+				}
+				$pos[ $i ] = $following_letter;
+			}
+		}
+		$new_result = '';
+		
+		for( $i = 0; $i < mb_strlen( $result ); $i++ )
+		{
+			$ch = mb_substr( $result, $i, 1 );
+			
+			if( $ch == 'っ' || $ch == 'ッ' )
+			{
+				$new_result .= $pos[ $i ];
+			}
+			else
+			{
+				$new_result .= $ch;
+			}
+		}
+		$result = $new_result;
+	}
+
+//echo $result, NL;
+/*
+	for( $i=0; $i < $len; $i++ )
+	{
+		$kana = mb_substr( $假名, $i, 1 );
+		
+		if( array_key_exists( $kana, $促音 ) )
+		{
+			$next = mb_substr( $假名, $i+1, 1 );
+			echo 'Next: ', $next, NL;
+			if( $next == '' )
+			{
+				break;
+			}
+			$next_letter = substr( $一般假名[ $next ], 0, 1 );
+			echo "Next letter: ", $next_letter, NL;
+			
+			$result = str_replace( $kana, $next_letter, $result );
+		}
+	}
+*/
+	
+	if( mb_strpos( $result, 'ー' ) !== false )
+	{
+		$pos = array();
+		for( $i = 0; $i < mb_strlen( $result ); $i++ )
+		{
+			$ch = mb_substr( $result, $i, 1 );
+			if( $ch == 'ー' )
+			{
+				$previous_letter = mb_substr( $result, $i-1, 1 );
+				$pos[ $i ] = $previous_letter;
+			}
+		}
+		$new_result = '';
+		
+		for( $i = 0; $i < mb_strlen( $result ); $i++ )
+		{
+			$ch = mb_substr( $result, $i, 1 );
+			
+			if( $ch == 'ー' )
+			{
+				$new_result .= $pos[ $i ];
+			}
+			else
+			{
+				$new_result .= $ch;
+			}
+		}
+		$result = $new_result;
+		
+		
+		//echo "Inside while", NL;
+		//while( mb_strpos( $result, 'ー' ) !== false )
+		//{
+			//$pos = mb_strpos( $result, 'ー' );
+			//echo 'Position: ', $pos, NL;
+			//$previous_letter = substr( $result, $pos-1, 1 );
+			//echo 'Input: ', $k, NL;
+			//echo 'Previous: ', $previous_letter, NL;
+			//echo "First: ", substr( $result, 0, $pos ), NL;
+			//echo "Second: ", substr( $result, $pos + 1 ), NL;
+			//$result = substr( $result, 0, $pos ) . $previous_letter .
+				//substr( $result, $pos + 1 );
+			//echo substr( $result, 0, $pos ) . $previous_letter .
+				//convertKanaToRomaji( substr( $result, $pos + 1 ), $拗音, $一般假名, $促音 ), NL;
+			//$result = substr( $result, 0, $pos ) . $previous_letter .
+				//convertKanaToRomaji( substr( $result, $pos + 1 ), $拗音, $一般假名, $促音 );
+			//$result = str_replace( 'ー', $previous_letter, $result );
+		//}
+	}
+	
+	return $result;
+}
+
 function cleanUpWadokuOutputString( string $str ) : string
 {
 	$replaced = array( '$'=>'\$' );
