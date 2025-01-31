@@ -27,6 +27,16 @@ function checkARGV( array $argv, int $num, string $msg )
 }
 
 // wadoku
+function cleanUpWadokuOutputString( string $str ) : string
+{
+	$replaced = array( '$'=>'\$' );
+	
+	foreach( $replaced as $s => $r )
+	{
+		$str = str_replace( $s, $r, $str );
+	}
+	return $str;
+}
 // use this to clean up text contained in xml
 function cleanUpWadokuString( string $data ) : string
 {
@@ -206,16 +216,6 @@ function convertKanaToRomaji(
 	return $result;
 }
 
-function cleanUpWadokuOutputString( string $str ) : string
-{
-	$replaced = array( '$'=>'\$' );
-	
-	foreach( $replaced as $s => $r )
-	{
-		$str = str_replace( $s, $r, $str );
-	}
-	return $str;
-}
 
 function getWadokuAccentMarker(
 	string $kanji, array $wadoku_entry_accent ) : string
