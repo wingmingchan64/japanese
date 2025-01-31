@@ -29,7 +29,7 @@ function checkARGV( array $argv, int $num, string $msg )
 // wadoku
 function cleanUpWadokuOutputString( string $str ) : string
 {
-	$replaced = array( '$'=>'\$' );
+	$replaced = array( '$'=>'\$', '"'=>'″'	);
 	
 	foreach( $replaced as $s => $r )
 	{
