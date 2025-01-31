@@ -5,11 +5,10 @@ php h:\github\japanese\programs\search.php
 require_once( "h:\\github\\japanese\\programs\\常數.php" );
 require_once( "h:\\github\\japanese\\programs\\函式.php" );
 require_once( "H:\\github\\japanese\\programs\\四角字典.php" );
-require_once( "H:\\github\\japanese\\programs\\日本語の固有名詞.php" );
 require_once( "H:\\github\\japanese\\programs\\粵和詞典.php" );
 require_once( "H:\\github\\japanese\\programs\\romaji_kanji.php" );
-require_once( "h:\\github\\japanese\\programs\\kanji_kana.php" );
-require_once( "h:\\github\\japanese\\programs\\wadoku_entry_accent.php" );
+require_once( 'H:\japanese\programs\wadoku\data\和獨漢字_假名.php' );
+require_once( 'H:\japanese\programs\wadoku\data\和獨詞條_accent.php' );
 
 $input  = "";
 $buffer = '';
@@ -21,10 +20,6 @@ $move_furi = false; // 3
 //$pitch_regex = '/\[\X+?]/'; // BRACKET_REGEX
 // $dict is from 四角字典, the starting point
 // do not use array_merge!!!
-foreach( $固有名詞 as $k => $v )
-{
-	$dict[ $k ] = $v;
-}
 foreach( $romaji_kanji as $k => $v )
 {
 	$dict[ $k ] = $v;
@@ -126,7 +121,7 @@ while( true )
 				elseif( $move_furi ) // only one option
 				{
 					$option_str = moveFurigana( 
-						$option_str, $kanji_kana, $wadoku_entry_accent );
+						$option_str, $和獨漢字_假名, $和獨詞條_accent );
 				}
 
 				$buffer .= trim( $option_str, "*" );
@@ -164,7 +159,7 @@ while( true )
 						elseif( $move_furi )
 						{
 							$parts[ $i ] = moveFurigana(
-								$parts[ $i ], $kanji_kana, $wadoku_entry_accent );
+								$parts[ $i ], $kanji_kana, $和獨詞條_accent );
 						}
 					}
 					
@@ -275,7 +270,7 @@ while( true )
 				elseif( $move_furi )
 				{
 					$parts[ $i ] = moveFurigana(
-						$parts[ $i ], $kanji_kana, $wadoku_entry_accent );
+						$parts[ $i ], $kanji_kana, $和獨詞條_accent );
 				}
 			}
 
@@ -303,14 +298,14 @@ while( true )
 	}
 	else
 	{
-		require_once( 'H:\japanese\programs\japandict\romaji_kanji_kana.php' );
-		if( array_key_exists( $input, $romaji_kanji_kana ) )
+		require_once( 'H:\japanese\programs\wadoku\data\和獨羅馬字_假名_漢字.php' );
+		if( array_key_exists( $input, $和獨羅馬字_假名_漢字 ) )
 		{
-			$k_k = $romaji_kanji_kana[ $input ];
+			$k_k = $和獨羅馬字_假名_漢字[ $input ];
 			
-			if( strpos( $k_k, ';' ) !== false )
+			if( strpos( $k_k, ',' ) !== false )
 			{
-				$options = explode( ';', $k_k );
+				$options = explode( ',', $k_k );
 				print_r( $options );
 				// wait for user option choice
 				$num = intval( readline() );

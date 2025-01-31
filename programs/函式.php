@@ -404,7 +404,9 @@ function moveFurigana( string $str, array $kanji_kana, array $wadoku_entry_accen
 	
 	if( array_key_exists( $kanji, $kanji_kana ) )
 	{
-		foreach( $kanji_kana[ $kanji ] as $kana )
+		$kanas = explode( ',', $kanji_kana[ $kanji ] );
+		
+		foreach( $kanas as $kana )
 		{
 			$kanji = $kanji . '[' . $kana . $marker . ']';
 		}
