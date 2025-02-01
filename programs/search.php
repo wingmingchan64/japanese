@@ -298,6 +298,7 @@ while( true )
 			{
 				$buffer .= $k_k;
 				printBuffer( $buffer );
+				continue;
 			}
 		}		
 		echo "Not a valid key. Try again.\n";
