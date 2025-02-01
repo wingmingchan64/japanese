@@ -277,9 +277,9 @@ while( true )
 		{
 			$k_k = $和獨羅馬字_假名_漢字[ $input ];
 			
-			if( strpos( $k_k, ',' ) !== false )
+			if( strpos( $k_k, DELIMITER ) !== false )
 			{
-				$options = explode( ',', $k_k );
+				$options = explode( DELIMITER, $k_k );
 				print_r( $options );
 				// wait for user option choice
 				$num = intval( readline() );
