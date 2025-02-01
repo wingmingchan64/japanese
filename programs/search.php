@@ -159,7 +159,7 @@ while( true )
 						elseif( $move_furi )
 						{
 							$parts[ $i ] = moveFurigana(
-								$parts[ $i ], $kanji_kana, $和獨詞條_accent );
+								$parts[ $i ], $和獨漢字_假名, $和獨詞條_accent );
 						}
 					}
 					
@@ -270,7 +270,7 @@ while( true )
 				elseif( $move_furi )
 				{
 					$parts[ $i ] = moveFurigana(
-						$parts[ $i ], $kanji_kana, $和獨詞條_accent );
+						$parts[ $i ], $和獨漢字_假名, $和獨詞條_accent );
 				}
 			}
 
