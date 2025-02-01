@@ -1,21 +1,31 @@
 <?php
 /*
-php h:\github\japanese\programs\search.php 
+php h:\github\japanese\programs\search.php
+
+This is the driver program to access Japanese data.
+The first part is for retrieving Japanese words and phrases
+by using romaji.
+The second part is to execute various program and display
+results.
+All outputs are displayed in the command window used to run programs.
+Outputs are for copying/pasting only.
 */
 require_once( "h:\\github\\japanese\\programs\\常數.php" );
 require_once( "h:\\github\\japanese\\programs\\函式.php" );
+// my own dictionaries
 require_once( "H:\\github\\japanese\\programs\\四角字典.php" );
 require_once( "H:\\github\\japanese\\programs\\粵和詞典.php" );
 require_once( "H:\\github\\japanese\\programs\\romaji_kanji.php" );
+// 和獨 database
 require_once( 'H:\japanese\programs\wadoku\data\和獨漢字_假名.php' );
 require_once( 'H:\japanese\programs\wadoku\data\和獨詞條_accent.php' );
 
 $input  = "";
 $buffer = '';
-$cleanup = false; // 0
-$show_furi = false; // 1
-// 2 default
-$move_furi = false; // 3
+$cleanup = false; // 0 just kanji and kana
+$show_furi = false; // 1 show furikana as well
+// 2 default show everything
+$move_furi = false; // 3 move furikana and accent marker to the right
 //$furikana_regex = '/\[\[\X+?]]|\[\X+?]/';
 //$pitch_regex = '/\[\X+?]/'; // BRACKET_REGEX
 // $dict is from 四角字典, the starting point
@@ -48,7 +58,7 @@ while( true )
 	}
 	
 	$num = intval( $option );
-	
+	// for inputting Japanese, whether to include pronunciation info
 	if( $num == 0 || $num == 1 || $num == 2 || $num == 3 )
 	{
 		if( $num == 0 )
@@ -99,7 +109,6 @@ while( true )
 	elseif( array_key_exists( $input, $dict ) )
 	{
 		//echo $dict[ $input ], "stop\r\n";
-		
 		// more than one 漢字符 in value
 		if( is_string( $dict[ $input ] ) && 
 			mb_strlen( $dict[ $input ] ) > 0 )
@@ -127,77 +136,41 @@ while( true )
 				$buffer .= trim( $option_str, "*" );
 				printBuffer( $buffer );
 			}
-			// provide options
+			// provide options. split :-separated string
 			elseif( mb_strpos( $dict[ $input ], ":" ) !== false )
 			{
-				// :-separated string
+				$options = array( '' );
+				$option_str = $dict[ $input ];
+				$parts = explode( ':', $option_str );
 				
-				//{
-					$options = array( '' );
-					$option_str = $dict[ $input ];
-					$parts = explode( ':', $option_str );
-					
-					for( $i = 0; $i < sizeof( $parts ); $i++ )
-					{
-						if( $cleanup )
-						{
-							$parts[ $i ] = 
-								preg_replace( BRACKET_REGEX, '', 
-								$parts[ $i ] );
-							//$option_str = preg_replace( 
-								//BRACKET_REGEX, '', $option_str );
-						}
-						elseif( $show_furi )
-						{
-							// remove all accent markers
-							$parts[ $i ] = 
-								preg_replace( BRACKET_REGEX, '',
-								$parts[ $i ] );
-
-						//$option_str = removeAllAccentMarker( $option_str );
-						}
-						elseif( $move_furi )
-						{
-							$parts[ $i ] = moveFurigana(
-								$parts[ $i ], $和獨漢字_假名, $和獨詞條_accent );
-						}
-					}
-					
-					$options = array_merge( $options, $parts );
-				//}
-				/*
-				// no :
-				else
+				for( $i = 0; $i < sizeof( $parts ); $i++ )
 				{
-					$option_str = $dict[ $input ];
-					
 					if( $cleanup )
 					{
-						$option_str = preg_replace( 
-							BRACKET_REGEX, '', $option_str );
+						$parts[ $i ] = 
+							preg_replace( BRACKET_REGEX, '', 
+							$parts[ $i ] );
+						//$option_str = preg_replace( 
+							//BRACKET_REGEX, '', $option_str );
 					}
 					elseif( $show_furi )
 					{
 						// remove all accent markers
-						$option_str = removeAllAccentMarker( $option_str );
-					}
-					elseif( $num == 3 )
-					{
-						$option_str = moveFurigana( $option_str );
-					}
+						$parts[ $i ] = 
+							preg_replace( BRACKET_REGEX, '',
+							$parts[ $i ] );
 
-					
-					//$options = array( '' );
-			
-					
-					// create option array
-					//for( $i=1; $i<=mb_strlen( $option_str ); $i++ )
-					/{
-						//array_push( $options, 
-							//mb_substr( $option_str, $i-1, 1 ) );
-					//}
+					//$option_str = removeAllAccentMarker( $option_str );
+					}
+					elseif( $move_furi )
+					{
+						$parts[ $i ] = moveFurigana(
+							$parts[ $i ], $和獨漢字_假名, $和獨詞條_accent );
+					}
 				}
-				*/
+					
+				$options = array_merge( $options, $parts );
+
 				// output options
 				print_r( $options );
 				// wait for user option choice
@@ -296,6 +269,7 @@ while( true )
 			}
 		}
 	}
+	// not in any dictionaries, then look at 和獨
 	else
 	{
 		require_once( 'H:\japanese\programs\wadoku\data\和獨羅馬字_假名_漢字.php' );
@@ -325,51 +299,14 @@ while( true )
 				$buffer .= $k_k;
 				printBuffer( $buffer );
 			}
-		}
-
-/*
-		require_once( 'H:\github\japanese\programs\tangorin_dict.php' );
-		
-		if( array_key_exists( $input, $tangorin_dict ) )
-		{
-			$陣列 = $tangorin_dict[ $input ];
-			
-			$t = '';
-			
-			if( is_string( $陣列[ 0 ] ) )
-			{
-				if( $陣列[ 0 ] != '' )
-				{
-					$t = $陣列[ 0 ] . '[' . $陣列[ 1 ] . ']';
-				}
-				else
-				{
-					$t = $陣列[ 1 ];
-				}
-			}
-			elseif( is_array( $陣列[ 0 ] ) )
-			{
-				foreach( $陣列 as $strings )
-				{
-					if( $strings[ 0 ] != '' )
-					{
-						$t .= $strings[ 0 ] . '[' . $strings[ 1 ] . ']';
-					}
-					else
-					{
-						$t .= $strings[ 1 ];
-					}
-				}
-			}
-			$buffer .= $t;
-			printBuffer( $buffer );
-		}
-*/
-		
+		}		
 		echo "Not a valid key. Try again.\n";
 	}
 }// inner while
-	} 
+	}
+	// execute other programs
+	// most programs require parameters
+	// strings with spaces must be in quotes
 	elseif( $num > 2 && $num < sizeof( $程式名 ) )
 	{
 		$程式 = $程式名[ $num ];
