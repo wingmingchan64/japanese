@@ -324,7 +324,7 @@ I'll put on a coat.
 スカート[➁]を 履[は]きます。（履く[はく⓪]着く）
 I'll put on a skirt.
 
-帽子[ぼうし⓪]を 被[かぶ]ります。（被る[かぶる➁]冠る）
+帽子[ぼうし⓪]を 被[かぶ]ります。（被る[かぶる➁] 冠る）
 I'll put on a hat.
 その 機械は ほこりを かぶっていた。
 The machine was coated with dust.
@@ -359,7 +359,7 @@ I'll introduce Mr./Ms. Yamamoto to Mr./Ms. Tanaka.
 5時ごろ[➀] 大阪に 着[つ]きます。（着く[つく➀]）
 I'll arrive in Osaka around 5:00.
 
-眼鏡を 探[さが]しています。（探す⓪捜す）
+眼鏡を 探[さが]しています。（探す[さがす⓪] 捜す）
 I'm looking for my glasses.
 警察[けい￨さつ⓪]は 行方不明[ゆくえ･ふ￨めい➃]の 少年[しょう￨ねん⓪]を 捜した。
 The police searched for the lost boy.

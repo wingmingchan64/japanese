@@ -1,27 +1,32 @@
 <?php
 /*
-php H:\japanese\programs\wadoku\create_kanji_id.php
+php H:\japanese\programs\wadoku\生成和獨漢字_id.php
 */
 require_once( 'H:\github\japanese\programs\函式.php' );
 
 $data_str = file_get_contents( 
-	'H:\japanese\programs\wadoku\id_kanji_kana_accent.txt' );
+	'H:\japanese\programs\wadoku\data\和獨id_詞條_假名_accent.txt' );
 $data = explode( NL, $data_str );
 $kanji_array = array();
 $kana_array = array();
 $kanji_contents = "<?php
-\$kanji_id=array(
+\$和獨漢字_id=array(
 ";
 $kana_contents = "<?php
-\$kana_id=array(
+\$和獨假名_id=array(
 ";
+$contents1 = '';
+$contents2 = '';
+
+$count = 0;
 
 foreach( $data as $line )
 {
-	//$count++;
+	$count++;
 	if( $line == '' )
 		continue;
 	$parts = explode( DELIMITER, $line );
+	//print_r( $parts );
 	$id    = trim( $parts[ 0 ] );
 	$kanji = trim( $parts[ 1 ] );
 	$kana  = trim( $parts[ 2 ] );
@@ -45,23 +50,30 @@ foreach( $data as $line )
 		$kana_array[ $kana ] = $kana_array[ $kana ] . 
 			DELIMITER . $id;
 	}
+/*
+	if( $count > 30 )
+		break;
+*/
 }
 foreach( $kanji_array as $kanji => $id )
 {
 	$pair = "\"$kanji\"=>\"$id\"," . NL;
-	$kanji_contents .= $pair;
+	$contents1 .= $pair;
 }
 
 foreach( $kana_array as $kana => $id )
 {
 	$pair = "\"$kana\"=>\"$id\"," . NL;
-	$kana_contents .= $pair;
+	$contents2 .= $pair;
 }
-$kanji_contents .= ");
+
+$kanji_contents .= cleanUpWadokuOutputString( $contents1 ) .
+");
 ?>";
-$kana_contents .= ");
+$kana_contents .= cleanUpWadokuOutputString( $contents2 ) .
+");
 ?>";
 
-file_put_contents( 'H:\japanese\programs\wadoku\kanji_id.php', $kanji_contents );
-file_put_contents( 'H:\japanese\programs\wadoku\kana_id.php', $kana_contents );
+file_put_contents( 'H:\japanese\programs\wadoku\data\和獨漢字_id.php',  $kanji_contents );
+file_put_contents( 'H:\japanese\programs\wadoku\data\和獨假名_id.php',  $kana_contents );
 ?>

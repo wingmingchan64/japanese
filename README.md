@@ -65,10 +65,12 @@ Jisho.org:
 <ul>
 <li>As of January 5, 2025, the <a href="https://wadoku.de/wiki/display/WAD/Downloads+und+Links">XML dump</a> contains 433,218 entries</li>
 <li><a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">id_kanji_kana_accent.txt</a> containing 433,218 entries extracted from the XML file</li>
-<li>I create a PHP file containing an array mapping entry id to entry XML (too big, 237MB, to upload to github)</li>
+<li>I find this XML dump (I call it the wadoku database) extremely useful</li>
+<li>I create a PHP file containing an array mapping entry id to entry XML</li>
 <li>I create a map, containing 漢字-ID pairs for easy lookup</li>
 <li>I create a map, containing 仮名-ID pairs for easy lookup</li>
-<li>I only provide the <a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">programs</a> used to create these files</li>
+<li>I create a map, containing 羅馬名-漢字-仮名 combinations for easy lookup</li>
+<li>Since these files are very large, I provide instead the <a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">programs</a> used to create these files</li>
 <li>With an ID, the XML content can be retrieved, processed and displayed</li>
 <li>Information contained in the XML: ID, 漢字, 仮名, pitch accent, meanings (in German) and so on</li>
 <li>I create these files locally to avoid querying the website directly</li>
@@ -89,7 +91,7 @@ Meaning:
 </pre>
 <ul>
 <li>Since I am learning Japanese (as a beginner), I am also interested in statistics in the language</li>
-<li>I use the wadoku xml as a resource and write programs to gather statistical information</li>
+<li>I use the wadoku database as a resource and write programs to gather statistical information</li>
 <li>For example, from <a href="https://github.com/wingmingchan64/japanese/blob/main/programs/wadoku/%E7%B5%B1%E8%A8%88%E6%95%B8%E5%AD%97.php">統計數字.php</a>, I found that there are 7672 verbs in wadoku</li>
 <li>For lists of verbs, see <a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">wadoku</a></li>
 </ul>
