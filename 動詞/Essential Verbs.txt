@@ -131,40 +131,55 @@ to/doke\ru
 届[とど➂]ける to deliver
 
 tsu/ke\ru
-電気を 付[つ]けます。（付ける[つける➁]）
+電気を 付[つ]けます。（付ける[つける➁]） transitive
 I'll turn on the light.
 
-テレビが つきません。（付く➀） to be attached
+tsu\ku
+テレビが つきません。（付く➀） intransitive, to be attached
 The TV won't turn on.
 お風呂は ついてますか。
 Does it have a bathroom?
 
+hi/raku
 庭の バラの 木の つぼみ が 少しずつ 開[ひら]き 始める。（開く[ひらく⓪]） transitive/intransitive
 Little by little, the buds on the rosebush in my garden begin to open.
 先週、私達は 舞踏会を 開きました。
 We gave a ball last week.
 
+a/keru
 ドア[➀]を 開[あ]けてください。（開ける[あける⓪]・明ける・空ける⓪） transitive
 Please open the door.
-夜が明ける。
+夜が 明ける。
 Day is breaking.
 次の 土曜日の 午後 は 空けておいてください。
 Please leave next Saturday afternoon free.
 財布[さい￨ふ⓪]の 中身[なか･み➁]を この袋[ふくろ➂]に 空けなさい。
 Empty the purse into this bag.
 
+hi/raku
 開く[あく⓪] intransitive
+o/to\su
 落とす[おとす➁] transitive
+o/chi\ru
 落ちる[おちる➁] intransitive
+shi/me\ru
 閉める[しめる➁] transitive
+shi/ma\ru
 閉まる[しまる➁] intransitive
+ke/su
 消す[けす⓪] transitive
+ki/eru
 消える[きえる⓪] intransitive
+i/reru
 入れる[いれる⓪] transitive
+ha\iru
 入る[はいる➀] intransitive
+da\su
 出す[だす➀] transitive
+de\ru
 出る[でる➀] intransitive
 
+i/so\gu
 急[いそ]いでください。（ぎて->いで）（急ぐ[いそぐ➁]）
 Hurry up!
 ニックは バスに 間に合う ように 急いだ。
@@ -173,17 +188,23 @@ Nick hurried to catch the bus.
 ように so that
 「この様に」などという具合に、比較して、同じ類のもののであることを示したりする際に使われる表現。「ように」は助動詞「ようだ」の連用形。
 
+ma\tsu
 彼女[かのじょ➀]を 待[ま]っています。（待つ[まつ➀]）
 I'm waiting for my girlfriend.
 
+tsu/kau
 このはさみ[➂]、使[つか]ってもいいですか。（使う[つかう⓪]）
 Can I use these scissors?
 
+mi/se\ru
 見[み]せてください。（見せる[みせる➁]）
 Please show me.
 取り繕う ように、笑って みせる。
 I smile, as if to mend the situation.
-取り繕う to smooth over a mistake
+to/ritsukuro\u
+取り繕う[とり･つくろ~う➄] to smooth over a mistake
+wa/rau
+笑[わら⓪]う
 
 妻[つま➀]は 今[いま➀] 電話で 友達と 話[はな]しています。（話す[はなす➁]）
 My wife is talking to her friend on the phone right now.
