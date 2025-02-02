@@ -89,7 +89,7 @@ function convertKanaToRomaji(
 			$i++;
 		}
 	}
-
+	//echo $result, " result 2 ", NL;
 	for( $i=0; $i < $len; $i++ )
 	{
 		$kana = mb_substr( $假名, $i, 1 );
@@ -98,7 +98,8 @@ function convertKanaToRomaji(
 			$result = str_replace( $kana, $一般假名[ $kana ], $result );
 		}
 	}
-	
+	//echo $result, " result 3 ", NL;
+
 	if( mb_strpos( $result, 'っ' ) !== false || 
 		mb_strpos( $result, 'ッ' ) !== false )
 	{
@@ -134,7 +135,8 @@ function convertKanaToRomaji(
 		}
 		$result = $new_result;
 	}
-	
+	//echo $result, " result 4 ", NL;
+
 	if( mb_strpos( $result, 'ー' ) !== false )
 	{
 		$pos = array();
@@ -164,6 +166,7 @@ function convertKanaToRomaji(
 		}
 		$result = $new_result;
 	}
+	//echo $result, ' result 5 ', NL;
 	
 	return $result;
 }
@@ -176,6 +179,7 @@ function convertKanaToVisualizedRomaji(
 	array $促音,
 	string $marker ) : string
 {
+	echo "input: ", $str, NL;
 	$store = array();
 
 	foreach( $prep as $k => $v )
@@ -200,7 +204,7 @@ function convertKanaToVisualizedRomaji(
 			$store[ $i ] = $reverse_prep[ $store[ $i ] ];
 		}
 	}
-	/*
+	
 	for( $i = 0; $i < $size_of_store; $i++ )
 	{
 		if( array_key_exists( $store[ $i ], $拗音 ) )
@@ -222,21 +226,38 @@ function convertKanaToVisualizedRomaji(
 			$store[ $i ] = substr( $store[ $i+1 ], 0, 1 );
 		}
 	}
-	*/
-	$marker_int = intval( $marker );
+	
+	for( $i = 0; $i < $size_of_store; $i++ )
+	{
+		if( $store[ $i ] == 'ー' )
+		{
+			$store[ $i ] = substr( $store[ $i-1 ], -1, 1 );
+		}
+	}
+	
+	if( $marker != '' )
+	{
+		$marker_int = intval( $marker );
+	}
+	else
+	{
+		$marker_int = -1;
+	}
 	if( $marker_int == 1 )
 	{
 		$store[ 0 ] =  $store[ 0 ] . "\\";
 	}
 	// default to 0
-	else
+	elseif( $marker_int != -1 )
 	{
 		$store[ 0 ] =  $store[ 0 ] . "/";
 	}
+	
 	if( $marker_int > 1 )
 	{
 		$store[ $marker_int - 1 ] =  $store[ $marker_int - 1 ] . "\\";
 	}
+	//echo implode( $store ), NL;
 	return convertKanaToRomaji(
 		implode( $store ), $拗音, $一般假名, $促音 );
 }

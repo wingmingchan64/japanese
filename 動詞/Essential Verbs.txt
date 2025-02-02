@@ -1,69 +1,91 @@
-明日[あした➂] 東京に 行[い]きます。（行く[いく⓪] i/ku）
+i/ku
+明日[あした➂] 東京に 行[い]きます。（行く[いく⓪]）
 I'm going to Tokyo tomorrow.
 
-今朝[けさ➀] パンを 食[た]べました。（食べる[たべる➁] ta/be\ru）
+ta/be\ru
+今朝[けさ➀] パンを 食[た]べました。（食べる[たべる➁]）
 I ate bread this morning.
 
-昨日[きのう➁]の夜[よる➀] バーで ワインを 飲[の]みました。（飲む[のむ➀] no\mu）
+no\mu
+昨日[きのう➁]の夜[よる➀] バーで ワインを 飲[の]みました。（飲む[のむ➀]）
 I drank wine at a bar last night.
 
-昨日 先生[せんせい➂]が 家[うち⓪]に 来[き]ました。（来る[くる➀] ku\ru）
+ku\ru
+昨日 先生[せんせい➂]が 家[うち⓪]に 来[き]ました。（来る[くる➀]）
 A teacher came to my home yesterday.
 
-今朝5時に 起[お]きました。（起きる[おきる➁] o/ki\ru）
+o/ki\ru
+今朝5時に 起[お]きました。（起きる[おきる➁]）
 I got up at 5:00 this morning.
 
-今日[きょう➀]は 早[はや➀]く 寝[ね]ません。（寝る[ねる⓪] ne/ru）
+ne/ru
+今日[きょう➀]は 早[はや➀]く 寝[ね]ません。（寝る[ねる⓪]）
 Today I'm not going to sleep early.
 
+ka\eru
 明日アメリカ[⓪]に 帰[かえ]ります。（帰る[かえる➀]）
 I'm going back to the US tomorrow.
 
+be/nkyousuru
 昨日図書館[としょかん➁]で 勉強[べんきょう]しました。（勉強する[べんきょうする⓪]）
 I studied at the library yesterday.
 
+a\u
 今朝駅[えき➀]で 田中[たなか⓪]さんに 会[あ]いました。（会う[あう➀]）
 I met Mr./Ms. Tanaka at the station this morning.
 
+ya/su\mu
 明日仕事[しごと⓪]を 休[やす]みます。（休む[やすむ➁]）
 I am going to take a day off from work tomorrow.
 
+ha/taraku
 昨日も10時まで[⓪] 働[はたら]きました。（働く[はたらく⓪]）
 I worked until 10:00 again yesterday.
 
+mi\ru
 昨日映画[えいが➀]を 見[み]ました。（見る[みる➀]）
 I saw a movie yesterday.
 
+yo\mu
 今晩[こんばん➀]漫画[まんが⓪]を 読[よ]みます。（読む[よむ➀]）
 I'm going to read a manga tonight.
 
+ka\ku
 友達[ともだち⓪]に クリスマスカード[➅]を 書[か]きました。（書く[かく➀]）
 I wrote a Christmas card for my friend.
 
+ki/ku
 今晩この音楽[おんがく➀]を 聞[き]きます。（聞く[きく⓪]）
 I'll listen to this music tonight.
 
+ka/u
 コンビニ[⓪]で お茶[おちゃ]を 買[か]います。（買う[かう⓪]）
 I'll buy tea at a convenience store.
 
+to\ru
 富士山[ふじさん➀]の写真[しゃしん⓪]を 撮[と]りました。（撮る[とる➀]）
 I took a picture of Mt. Fuji.
 
+ki\ru
 にんじん[⓪]を 切[き]ります。（切る[きる➀]） 五段 切符⓪切手⓪
 I'll cut the carrot.
 
+o/kuru
 メール[➀]を 送[おく]ります。（送る[おくる⓪]）
 I will send an email.
 
+ka/su
 友達に 漫画を 貸[か]しました。（貸す[かす⓪]）
 I lent a manga to my friend.
 
+ka/riru
 友達に 漫画を 借[か]りました。（借りる[かりる⓪]）
 I borrowed a manga from my friend.
 
 わたしは 日本語を 教[おし]えています。（教える[おしえる⓪]） 一段
 I am teaching Japanese.
 
+o/shieru
 子供[こども⓪]の時[とき➁]、ピアノ[⓪]を 習[なら]っていました。（習う[ならう➁]・習います） 五段
 When I was a kid, I was learning how to play the piano.
 車の 運転[うん￨てん⓪]を 習っています。
@@ -82,26 +104,33 @@ One is never too old to learn.
 本場[⓪]の フランス 菓子[か￨し➀]の 製法[せい￨ほう⓪]を 学びたくて パリに 留学[りゅう￨がく]した。（学ぶ⓪）
 I studied in Paris because I wanted to learn the process of authentic French confectionary.
 
+wa/ka\ru
 中国語[ちゅうごくご⓪]が 分[わ]かります。（分かる[わかる➁]）
 I understand Chinese.
 
+a/sobu
 昨日友達と 遊[あそ]びました。（遊ぶ[あそぶ⓪]）
 I hung out with my friend yesterday.
 ２人の子供が 通りで 遊んでいた。
 There were two children playing on the street.
 
-リカと 結婚[けっこん]します。（ 結婚する[けっこんする⓪]）
+ke/kkonsuru
+リカと 結婚[けっこん]します。（結婚する[けっこんする⓪]）
 I'm going to get married to Rika.
 
+ri/konsuru
 マリカと 離婚[りこん]します。（離婚する[りこんする⓪]）
 I am going to get divorced with Marika.
 
+ke/su
 電気[でんき➀]を 消[け]します。（消す[けす⓪]）
 I'll turn off the light.
 騒音[そう￨おん⓪]に 消されて 私の 声[こえ➀]は 人に 届[とど]かなかった。
 I couldn't make myself heard above the noise.
+to/doke\ru
 届[とど➂]ける to deliver
 
+tsu/ke\ru
 電気を 付[つ]けます。（付ける[つける➁]）
 I'll turn on the light.
 

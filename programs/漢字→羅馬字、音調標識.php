@@ -14,31 +14,32 @@ require_once( 'H:\japanese\programs\wadoku\data\和獨詞條_accent.php' );
 $term = trim( $argv [ 1 ] );
 $kana = '';
 $kanji = '';
+$marker = -1;
 // cannot be kana nor romaji
 if( !isKana( $term ) && !isAscii( $term ) )
 {
 	$kanji = $term;
 }
+elseif( isKana( $term ) )
+{
+	$kana = $term;
+}
 else
 {
-	echo 無此漢字詞;
+	echo 無此漢字詞, '1';
 	exit;
 }
 
 if( array_key_exists( $term, $和獨漢字_假名 ) )
 {
 	$kana = $和獨漢字_假名[ $term ];
-}
-else
-{
-	echo 無此漢字詞;
-	exit;
+	echo "假名: ", $kana, NL;
 }
 
 // use kanji to retrieve accent
 $marker = getWadokuAccentIntValue( $kanji, $和獨詞條_accent );
 echo $term, NL;
-echo $marker, NL;
+echo 'marker: ', $marker, NL;
 // input kana here
 echo convertKanaToVisualizedRomaji( $kana, $prep, $拗音, $一般假名, $促音, $marker );
 
