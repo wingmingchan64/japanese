@@ -70,8 +70,6 @@ function convertKanaToRomaji(
 	array $一般假名,
 	array $促音 ) : string
 {
-	//echo "Input: ", $k, NL;
-	
 	if( $k == '' )
 	{
 		return $k;
@@ -84,27 +82,23 @@ function convertKanaToRomaji(
 	for( $i=0; $i < $len-1; $i++ )
 	{
 		$kana = mb_substr( $假名, $i, 2 );
-		//echo 'Kana1: ', $kana, NL;
 		
 		if( array_key_exists( $kana, $拗音 ) )
 		{
 			$result = str_replace( $kana, $拗音[ $kana ], $result );
-			//echo 'Result1: ', $result, NL;
 			$i++;
 		}
 	}
-//echo $result, NL;
 
 	for( $i=0; $i < $len; $i++ )
 	{
 		$kana = mb_substr( $假名, $i, 1 );
-		//echo 'Kana2: ' , $kana, NL;
 		if( array_key_exists( $kana, $一般假名 ) )
 		{
 			$result = str_replace( $kana, $一般假名[ $kana ], $result );
-			//echo $result, NL;
 		}
 	}
+	
 	if( mb_strpos( $result, 'っ' ) !== false || 
 		mb_strpos( $result, 'ッ' ) !== false )
 	{
@@ -140,28 +134,6 @@ function convertKanaToRomaji(
 		}
 		$result = $new_result;
 	}
-
-//echo $result, NL;
-/*
-	for( $i=0; $i < $len; $i++ )
-	{
-		$kana = mb_substr( $假名, $i, 1 );
-		
-		if( array_key_exists( $kana, $促音 ) )
-		{
-			$next = mb_substr( $假名, $i+1, 1 );
-			echo 'Next: ', $next, NL;
-			if( $next == '' )
-			{
-				break;
-			}
-			$next_letter = substr( $一般假名[ $next ], 0, 1 );
-			echo "Next letter: ", $next_letter, NL;
-			
-			$result = str_replace( $kana, $next_letter, $result );
-		}
-	}
-*/
 	
 	if( mb_strpos( $result, 'ー' ) !== false )
 	{
@@ -191,34 +163,86 @@ function convertKanaToRomaji(
 			}
 		}
 		$result = $new_result;
-		
-		
-		//echo "Inside while", NL;
-		//while( mb_strpos( $result, 'ー' ) !== false )
-		//{
-			//$pos = mb_strpos( $result, 'ー' );
-			//echo 'Position: ', $pos, NL;
-			//$previous_letter = substr( $result, $pos-1, 1 );
-			//echo 'Input: ', $k, NL;
-			//echo 'Previous: ', $previous_letter, NL;
-			//echo "First: ", substr( $result, 0, $pos ), NL;
-			//echo "Second: ", substr( $result, $pos + 1 ), NL;
-			//$result = substr( $result, 0, $pos ) . $previous_letter .
-				//substr( $result, $pos + 1 );
-			//echo substr( $result, 0, $pos ) . $previous_letter .
-				//convertKanaToRomaji( substr( $result, $pos + 1 ), $拗音, $一般假名, $促音 ), NL;
-			//$result = substr( $result, 0, $pos ) . $previous_letter .
-				//convertKanaToRomaji( substr( $result, $pos + 1 ), $拗音, $一般假名, $促音 );
-			//$result = str_replace( 'ー', $previous_letter, $result );
-		//}
 	}
 	
 	return $result;
 }
 
+function convertKanaToVisualizedRomaji(
+	string $str,
+	array $prep,
+	array $拗音,
+	array $一般假名,
+	array $促音,
+	string $marker ) : string
+{
+	$store = array();
 
-function getWadokuAccentMarker(
-	string $kanji, array $wadoku_entry_accent ) : string
+	foreach( $prep as $k => $v )
+	{
+		$str = str_replace( $k, $v, $str );
+	}
+	
+	$len = mb_strlen( $str );
+	for( $i = 0; $i < $len; $i++ )
+	{
+		$char = mb_substr( $str, $i, 1 );
+		$store[ $i ] = $char;
+	}
+
+	$reverse_prep = array_flip( $prep );
+	$size_of_store = sizeof( $store );
+	
+	for( $i = 0; $i < $size_of_store; $i++ )
+	{
+		if( array_key_exists( $store[ $i ], $reverse_prep ) )
+		{
+			$store[ $i ] = $reverse_prep[ $store[ $i ] ];
+		}
+	}
+	/*
+	for( $i = 0; $i < $size_of_store; $i++ )
+	{
+		if( array_key_exists( $store[ $i ], $拗音 ) )
+		{
+			$store[ $i ] = $拗音[ $store[ $i ] ];
+		}
+	}
+	for( $i = 0; $i < $size_of_store; $i++ )
+	{
+		if( array_key_exists( $store[ $i ], $一般假名 ) )
+		{
+			$store[ $i ] = $一般假名[ $store[ $i ] ];
+		}
+	}
+	for( $i = 0; $i < $size_of_store; $i++ )
+	{
+		if( $store[ $i ] == 'っ' || $store[ $i ] == 'ッ' )
+		{
+			$store[ $i ] = substr( $store[ $i+1 ], 0, 1 );
+		}
+	}
+	*/
+	$marker_int = intval( $marker );
+	if( $marker_int == 1 )
+	{
+		$store[ 0 ] =  $store[ 0 ] . "\\";
+	}
+	// default to 0
+	else
+	{
+		$store[ 0 ] =  $store[ 0 ] . "/";
+	}
+	if( $marker_int > 1 )
+	{
+		$store[ $marker_int - 1 ] =  $store[ $marker_int - 1 ] . "\\";
+	}
+	return convertKanaToRomaji(
+		implode( $store ), $拗音, $一般假名, $促音 );
+}
+
+function getWadokuAccentIntValue(
+	string $kanji, array $wadoku_entry_accent ) : int
 {
 	if( array_key_exists( $kanji, $wadoku_entry_accent ) )
 	{
@@ -228,7 +252,26 @@ function getWadokuAccentMarker(
 		{
 			$marker = mb_substr( $marker, 0, 1 );
 		}
-		return getPitchAccentString( $marker );
+		return intval( $marker );
+	}
+	else
+	{
+		return -1;
+	}
+}
+
+function getWadokuAccentMarker(
+	string $kanji, array $wadoku_entry_accent, array $markers ) : string
+{
+	if( array_key_exists( $kanji, $wadoku_entry_accent ) )
+	{
+		$marker = $wadoku_entry_accent[ $kanji ];
+		// just get the first one
+		if( mb_strlen( $marker ) > 1 )
+		{
+			$marker = mb_substr( $marker, 0, 1 );
+		}
+		return getPitchAccentString( $marker, $markers );
 	}
 	else
 	{
@@ -236,11 +279,11 @@ function getWadokuAccentMarker(
 	}
 }
 
-function getPitchAccentString( string $str ) : string
+
+
+function getPitchAccentString( string $str, array $markers ) : string
 {
-	//global PA_ARRAY;
 	$pa_str = '';
-	$pa_array = array( '⓪','➀','➁','➂','➃','➄','➅','➆','➇' );
 	
 	for( $i = 0; $i < strlen( $str ); $i++ )
 	{
@@ -248,7 +291,7 @@ function getPitchAccentString( string $str ) : string
 		
 		if( is_numeric( $cur_char ) && $cur_char >= 0 && $cur_char <= 8 )
 		{
-			$pa_str .= $pa_array[ $cur_char ];
+			$pa_str .= $markers[ $cur_char ];
 		}
 		else
 		{
@@ -256,6 +299,18 @@ function getPitchAccentString( string $str ) : string
 		}
 	}
 	return $pa_str;
+}
+
+function getPitchAccentIntValue( string $str, array $markers ) : int
+{
+	foreach( $markers as $k => $v )
+	{
+		if( trim( $str ) == $v )
+		{
+			return $k;
+		}
+	}
+	return -1;
 }
 
 function getJapanDictExample( string $source ) : string
@@ -387,7 +442,7 @@ function removeBracketedAccentMarker( string $str ) : string
 	return $new_str;
 }
 
-function moveFurigana( string $str, array $kanji_kana, array $wadoku_entry_accent ) : string
+function moveFurigana( string $str, array $kanji_kana, array $wadoku_entry_accent, array $markers ) : string
 {
 	// no brackets
 	if( strpos( $str, '[' ) === false )
@@ -399,7 +454,8 @@ function moveFurigana( string $str, array $kanji_kana, array $wadoku_entry_accen
 	
 	if( array_key_exists( $kanji, $wadoku_entry_accent ) )
 	{
-		$marker = getPitchAccentString( $wadoku_entry_accent[ $kanji ] );
+		$marker = getPitchAccentString(
+			$wadoku_entry_accent[ $kanji ], $markers );
 	}
 	
 	if( array_key_exists( $kanji, $kanji_kana ) )

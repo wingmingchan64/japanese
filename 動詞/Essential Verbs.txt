@@ -1,19 +1,19 @@
-明日[あした➂] 東京に 行[い]きます。（行く[いく⓪]）
+明日[あした➂] 東京に 行[い]きます。（行く[いく⓪] i/ku）
 I'm going to Tokyo tomorrow.
 
-今朝[けさ➀] パンを 食[た]べました。（食べる[たべる➁]）
+今朝[けさ➀] パンを 食[た]べました。（食べる[たべる➁] ta/be\ru）
 I ate bread this morning.
 
-昨日[きのう➁]の夜[よる➀] バーで ワインを 飲[の]みました。（飲む[のむ➀]）
+昨日[きのう➁]の夜[よる➀] バーで ワインを 飲[の]みました。（飲む[のむ➀] no\mu）
 I drank wine at a bar last night.
 
-昨日 先生[せんせい➂]が 家[うち⓪]に 来[き]ました。（来る[くる➀]）
+昨日 先生[せんせい➂]が 家[うち⓪]に 来[き]ました。（来る[くる➀] ku\ru）
 A teacher came to my home yesterday.
 
-今朝5時に 起[お]きました。（起きる[おきる➁]）
+今朝5時に 起[お]きました。（起きる[おきる➁] o/ki\ru）
 I got up at 5:00 this morning.
 
-今日[きょう➀]は 早[はや➀]く 寝[ね]ません。（寝る[ねる⓪]）
+今日[きょう➀]は 早[はや➀]く 寝[ね]ません。（寝る[ねる⓪] ne/ru）
 Today I'm not going to sleep early.
 
 明日アメリカ[⓪]に 帰[かえ]ります。（帰る[かえる➀]）
@@ -364,31 +364,34 @@ I'm looking for my glasses.
 警察[けい￨さつ⓪]は 行方不明[ゆくえ･ふ￨めい➃]の 少年[しょう￨ねん⓪]を 捜した。
 The police searched for the lost boy.
 
-駅[えき➀]で 携帯を 拾[ひろ]いました。（拾う⓪）
+駅[えき➀]で 携帯を 拾[ひろ]いました。（拾う[ひろう⓪]）
 I picked up a mobile phone at the station.
 日本では 昼間でも 夜でも タクシーを 拾う ことができる。 （ことが出来る）
 In Japan you can always catch a cab, day or night.
 
-後[あと➁]で 連絡[れんらく]します。（連絡する⓪）
+後[あと➁]で 連絡[れんらく]します。（連絡する[れんらくする⓪]）
 I'll contact you later.
 
-猫[ねこ➀]を 飼[か]っています。（飼う➀）
+猫[ねこ➀]を 飼[か]っています。（飼う[かう➀]）
 I have a cat.
 ナンシーは 犬を 飼い たがっていますか。
 Does Nancy want to have a dog?
 
-部屋を 片付[かたづ]けます。（片付ける➃）
+部屋を 片付[かたづ]けます。（片付ける[かたづける➃]）
 I'll tidy up my room.
 あなたは その技術的[ぎじゅつ･てき⓪]な 問題を いつ 片づけたのですか。
 When did you get through with your engineering problem?
 
-N5に 合格[ごうかく]しました。（合格する⓪）
+片付く[かた･づ~く➂]
+片が付く[かたがつく]
+
+N5に 合格[ごうかく]しました。（合格する[ごうかくする⓪]）
 I passed the N5.
 
-毎日[まいにち➀] 運動[うんどう]しています。（運動する⓪）
+毎日[まいにち➀] 運動[うんどう]しています。（運動する[うんどうする⓪]）
 I do exercise everyday.
 
-道[みち⓪]が 込[こ]んでいます。（込む➀）
+道[みち⓪]が 込[こ]んでいます。（込む[こむ➀]）
 The road is busy.
 今晩は 列車が とても 込んでいる。
 The train is very crowded this evening.

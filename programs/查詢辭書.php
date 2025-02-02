@@ -193,7 +193,7 @@ if( $entry_xml != '' )
 	$entry_element = new SimpleXMLElement( $entry_xml );
 	$marker = 
 		getPitchAccentString( 
-			$entry_element->form->reading->accent );
+			$entry_element->form->reading->accent, $markers );
 	echo "Pitch accent: " . $kanji, '[', $kana, $marker, '] '
 		 . NL;
 

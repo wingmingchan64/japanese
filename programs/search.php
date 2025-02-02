@@ -19,6 +19,7 @@ require_once( "H:\\github\\japanese\\programs\\romaji_kanji.php" );
 // 和獨 database
 require_once( 'H:\japanese\programs\wadoku\data\和獨漢字_假名.php' );
 require_once( 'H:\japanese\programs\wadoku\data\和獨詞條_accent.php' );
+require_once( 'H:\japanese\programs\kana_romaji_lookup.php' );
 
 $input  = "";
 $buffer = '';
@@ -130,7 +131,7 @@ while( true )
 				elseif( $move_furi ) // only one option
 				{
 					$option_str = moveFurigana( 
-						$option_str, $和獨漢字_假名, $和獨詞條_accent );
+						$option_str, $和獨漢字_假名, $和獨詞條_accent, $markers );
 				}
 
 				$buffer .= trim( $option_str, "*" );
