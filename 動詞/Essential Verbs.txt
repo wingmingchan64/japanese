@@ -206,23 +206,28 @@ to/ritsukuro\u
 wa/rau
 笑[わら⓪]う
 
+ha/na\su
 妻[つま➀]は 今[いま➀] 電話で 友達と 話[はな]しています。（話す[はなす➁]）
 My wife is talking to her friend on the phone right now.
 あなたの 趣味[しゅ￨み➀] について 話して ください。
 Please tell me about your hobbies.
 に就[つ]いて about
 
+su/waru
 座[すわ]ってください。（座る[すわる⓪]）
 Please sit down.
 数人の 学生が ベンチに 座り、昼食を 食べていた。
 Some students were sitting on the bench and having lunch.
 疲れていたので、電車に 乗って 席に 座るなり、眠ってしまった。
 I was so exhausted that I fell asleep as soon as I got on the train and sat down.
+ne/muru
 眠[ねむ⓪]る
 疲[つか➂]れ noun
+tsu/kare\ru
 疲れる➂
 なり as soon as
 
+ta\tsu
 立[た]ってください。（立つ[たつ➀]）
 Please stand up.
 次々[つぎつぎ➁]に 立って 出ていった。（出[で➀]る）
@@ -230,38 +235,45 @@ One after another they stood up and went out.
 煙突[えん￨とつ⓪] から 煙[けむり⓪]が 立っていた。
 Smoke was rising from the chimney.
 
+ha\iru
 ここに 入[はい]らないでください。（入る[はいる➀]）
 Please don't enter here.
 
+o/ku
 ここに かばん[⓪]を 置[お]いてください。（置く[おく⓪]）
 Please put your bag here.
 彼女は いつも 自分の 部屋を きれいに して 置く。
 She always keeps her room clean.
 して acts as a connective indicating a state or condition after the 連用形[れんようけい] form of an adjective or the auxiliary verb ず
 
+tsu/ku\ru
 晩[ばん⓪]ご飯[はん➀]を 作[つく]ります。（作る[つくる➁]）
 I'll make dinner.
 どこ へ 行って も、彼は 必[かなら⓪]ず 友達を 作る。
 Wherever he may go, he is sure to make friends.
 必[かなら⓪]ず always, certainly
 
+u/ru
 この本[ほん➀]を 売[う]ります。（売る[うる⓪]）
 I'll sell this book.
 ガソリン は リットル 単位[たんい➀]で 売られる。
 Gasoline is sold by the liter.
 売られる passive
 
+su\mu
 東京に 住[す]んでいます。（住む[すむ➀]）
 I live in Tokyo.
 あなたは どのくらいの間、神戸に 住んでいますか。
 How long have you lived in Kobe?
 何[ど]の位[くらい⓪] how long
 
+shi/ru
 森[もり⓪]さんを 知[し]っていますか。（知る[しる⓪]）
 Do you know Mr.Ms. Mori?
 私は 自分が 感じた ことを 言えるのが 必要 である ことを 知った。
 I learned that I need to be able to say what I feel.
 必要[ひつ￨よう⓪]
+ka/njiru
 感[かん⓪]じる to feel, to experience
 
 会議[かいぎ➀]を 始[はじ]めます。（始める[はじめる⓪]）

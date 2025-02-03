@@ -262,6 +262,222 @@ function convertKanaToVisualizedRomaji(
 		implode( $store ), $拗音, $一般假名, $促音 );
 }
 
+/*
+Wadoku entry XML structure
+entry
+ form
+  orth+
+ reading
+  hira
+  hatsuon
+  accent
+ gramGrp
+ sense
+
+code:
+$entry_dom = new DOMDocument();
+$entry_dom->loadXML( $xml );
+print_r( $entry_dom->firstElementChild );
+
+DOMElement Object
+(
+    [tagName] => entry
+    [firstElementChild] => (object value omitted)
+    [lastElementChild] => (object value omitted)
+    [childElementCount] => 4
+    [previousElementSibling] =>
+    [nextElementSibling] =>
+    [nodeName] => entry
+    [nodeValue] => 食べる食べるたべるたべるた~べる2essenspeisenzu sich nehmenfressenprobierenleben von
+    [nodeType] => 1
+    [parentNode] => (object value omitted)
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] =>
+    [nextSibling] =>
+    [attributes] => (object value omitted)
+    [ownerDocument] => (object value omitted)
+    [namespaceURI] => http://www.wadoku.de/xml/entry
+    [prefix] =>
+    [localName] => entry
+    [textContent] => 食べる食べるたべるたべるた~べる2essenspeisenzu sich nehmenfressenprobierenleben von
+)
+print_r( $entry_dom->getElementsByTagName( 'gramGrp' )[ 0 ] );
+
+DOMElement Object
+(
+    [tagName] => gramGrp
+    [schemaTypeInfo] =>
+    [firstElementChild] => (object value omitted)
+    [lastElementChild] => (object value omitted)
+    [childElementCount] => 1
+    [previousElementSibling] => (object value omitted)
+    [nextElementSibling] => (object value omitted)
+    [nodeName] => gramGrp
+    [nodeValue] =>
+    [nodeType] => 1
+    [parentNode] => (object value omitted)
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => (object value omitted)
+    [nextSibling] => (object value omitted)
+    [attributes] => (object value omitted)
+    [ownerDocument] => (object value omitted)
+    [namespaceURI] => http://www.wadoku.de/xml/entry
+    [prefix] =>
+    [localName] => gramGrp
+    [textContent] =>
+)
+
+print_r( $entry_dom->getElementsByTagName( 'accent' )[ 0 ] );
+
+DOMElement Object
+(
+    [tagName] => accent
+    [schemaTypeInfo] =>
+    [firstElementChild] =>
+    [lastElementChild] =>
+    [childElementCount] => 0
+    [previousElementSibling] => (object value omitted)
+    [nextElementSibling] =>
+    [nodeName] => accent
+    [nodeValue] => 2
+    [nodeType] => 1
+    [parentNode] => (object value omitted)
+    [childNodes] => (object value omitted)
+    [firstChild] => (object value omitted)
+    [lastChild] => (object value omitted)
+    [previousSibling] => (object value omitted)
+    [nextSibling] =>
+    [attributes] => (object value omitted)
+    [ownerDocument] => (object value omitted)
+    [namespaceURI] => http://www.wadoku.de/xml/entry
+    [prefix] =>
+    [localName] => accent
+    [textContent] => 2
+)
+
+$entry_sim = new SimpleXMLElement( $xml );
+print_r( $entry_sim );
+SimpleXMLElement Object
+(
+    [@attributes] => Array
+        (
+            [id] => 8610599
+            [version] => 1.6
+            [HE] => true
+        )
+
+    [form] => SimpleXMLElement Object
+        (
+            [orth] => Array
+                (
+                    [0] => 食べる
+                    [1] => 食べる
+                    [2] => たべる
+                )
+
+            [reading] => SimpleXMLElement Object
+                (
+                    [hira] => たべる
+                    [hatsuon] => た~べる
+                    [accent] => 2
+                )
+
+        )
+
+    [gramGrp] => SimpleXMLElement Object
+        (
+            [doushi] => SimpleXMLElement Object
+                (
+                    [@attributes] => Array
+                        (
+                            [level] => 1e
+                            [transitivity] => trans
+                        )
+
+                )
+
+        )
+
+    [sense] => Array
+        (
+            [0] => SimpleXMLElement Object
+                (
+                    [trans] => Array
+                        (
+                            [0] => SimpleXMLElement Object
+                                (
+                                    [tr] => SimpleXMLElement Object
+                                        (
+                                            [text] => essen
+                                        )
+
+                                )
+
+                            [1] => SimpleXMLElement Object
+                                (
+                                    [tr] => SimpleXMLElement Object
+                                        (
+                                            [text] => speisen
+                                        )
+
+                                )
+
+                            [2] => SimpleXMLElement Object
+                                (
+                                    [tr] => SimpleXMLElement Object
+                                        (
+                                            [text] => zu sich nehmen
+                                        )
+
+                                )
+
+                            [3] => SimpleXMLElement Object
+                                (
+                                    [tr] => SimpleXMLElement Object
+                                        (
+                                            [text] => fressen
+                                        )
+
+                                )
+
+                            [4] => SimpleXMLElement Object
+                                (
+                                    [tr] => SimpleXMLElement Object
+                                        (
+                                            [text] => probieren
+                                        )
+
+                                )
+
+                        )
+
+                )
+
+            [1] => SimpleXMLElement Object
+                (
+                    [trans] => SimpleXMLElement Object
+                        (
+                            [tr] => SimpleXMLElement Object
+                                (
+                                    [text] => leben von
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+echo $entry_sim->form->orth[ 0 ];
+食べる
+*/
+
 function getWadokuAccentIntValue(
 	string $kanji, array $wadoku_entry_accent ) : int
 {
