@@ -27,241 +27,6 @@ function checkARGV( array $argv, int $num, string $msg )
 }
 
 // wadoku
-function cleanUpWadokuOutputString( string $str ) : string
-{
-	$replaced = array( '$'=>'\$', '"'=>'″'	);
-	
-	foreach( $replaced as $s => $r )
-	{
-		$str = str_replace( $s, $r, $str );
-	}
-	return $str;
-}
-// use this to clean up text contained in xml
-function cleanUpWadokuString( string $data ) : string
-{
-	// can't use , as the delimiter
-	$unwanted = array( ' ', '<', '>', '×', '△', 
-		'〈', '〉', '{', '}', '　', );
-	
-	foreach( $unwanted as $u )
-	{
-		$data = str_replace( $u, '', $data );
-	}
-	
-	return $data;
-}
-
-// use this to clean up the xml
-function cleanUpWadokuXML( string $xml ) : string
-{
-	$replaced = array( '"'=>'\"', '$'=>'\$' );
-	
-	foreach( $replaced as $s => $r )
-	{
-		$xml = str_replace( $s, $r, $xml );
-	}
-	return $xml;
-}
-
-function convertKanaToRomaji(
-	string $k,
-	array $拗音,
-	array $一般假名,
-	array $促音 ) : string
-{
-	if( $k == '' )
-	{
-		return $k;
-	}
-	
-	$假名 = trim( $k );
-	$len = mb_strlen( $假名 );
-	$result = $假名;
-
-	for( $i=0; $i < $len-1; $i++ )
-	{
-		$kana = mb_substr( $假名, $i, 2 );
-		
-		if( array_key_exists( $kana, $拗音 ) )
-		{
-			$result = str_replace( $kana, $拗音[ $kana ], $result );
-			$i++;
-		}
-	}
-	//echo $result, " result 2 ", NL;
-	for( $i=0; $i < $len; $i++ )
-	{
-		$kana = mb_substr( $假名, $i, 1 );
-		if( array_key_exists( $kana, $一般假名 ) )
-		{
-			$result = str_replace( $kana, $一般假名[ $kana ], $result );
-		}
-	}
-	//echo $result, " result 3 ", NL;
-
-	if( mb_strpos( $result, 'っ' ) !== false || 
-		mb_strpos( $result, 'ッ' ) !== false )
-	{
-		$pos = array();
-		for( $i = 0; $i < mb_strlen( $result ); $i++ )
-		{
-			$ch = mb_substr( $result, $i, 1 );
-			
-			if( $ch == 'っ' || $ch == 'ッ' )
-			{
-				$following_letter = mb_substr( $result, $i+1, 1 );
-				if( $following_letter == '' )
-				{
-					return $result;
-				}
-				$pos[ $i ] = $following_letter;
-			}
-		}
-		$new_result = '';
-		
-		for( $i = 0; $i < mb_strlen( $result ); $i++ )
-		{
-			$ch = mb_substr( $result, $i, 1 );
-			
-			if( $ch == 'っ' || $ch == 'ッ' )
-			{
-				$new_result .= $pos[ $i ];
-			}
-			else
-			{
-				$new_result .= $ch;
-			}
-		}
-		$result = $new_result;
-	}
-	//echo $result, " result 4 ", NL;
-
-	if( mb_strpos( $result, 'ー' ) !== false )
-	{
-		$pos = array();
-		for( $i = 0; $i < mb_strlen( $result ); $i++ )
-		{
-			$ch = mb_substr( $result, $i, 1 );
-			if( $ch == 'ー' )
-			{
-				$previous_letter = mb_substr( $result, $i-1, 1 );
-				$pos[ $i ] = $previous_letter;
-			}
-		}
-		$new_result = '';
-		
-		for( $i = 0; $i < mb_strlen( $result ); $i++ )
-		{
-			$ch = mb_substr( $result, $i, 1 );
-			
-			if( $ch == 'ー' )
-			{
-				$new_result .= $pos[ $i ];
-			}
-			else
-			{
-				$new_result .= $ch;
-			}
-		}
-		$result = $new_result;
-	}
-	//echo $result, ' result 5 ', NL;
-	
-	return $result;
-}
-
-function convertKanaToVisualizedRomaji(
-	string $str,
-	array $prep,
-	array $拗音,
-	array $一般假名,
-	array $促音,
-	string $marker ) : string
-{
-	echo "input: ", $str, NL;
-	$store = array();
-
-	foreach( $prep as $k => $v )
-	{
-		$str = str_replace( $k, $v, $str );
-	}
-	
-	$len = mb_strlen( $str );
-	for( $i = 0; $i < $len; $i++ )
-	{
-		$char = mb_substr( $str, $i, 1 );
-		$store[ $i ] = $char;
-	}
-
-	$reverse_prep = array_flip( $prep );
-	$size_of_store = sizeof( $store );
-	
-	for( $i = 0; $i < $size_of_store; $i++ )
-	{
-		if( array_key_exists( $store[ $i ], $reverse_prep ) )
-		{
-			$store[ $i ] = $reverse_prep[ $store[ $i ] ];
-		}
-	}
-	
-	for( $i = 0; $i < $size_of_store; $i++ )
-	{
-		if( array_key_exists( $store[ $i ], $拗音 ) )
-		{
-			$store[ $i ] = $拗音[ $store[ $i ] ];
-		}
-	}
-	for( $i = 0; $i < $size_of_store; $i++ )
-	{
-		if( array_key_exists( $store[ $i ], $一般假名 ) )
-		{
-			$store[ $i ] = $一般假名[ $store[ $i ] ];
-		}
-	}
-	for( $i = 0; $i < $size_of_store; $i++ )
-	{
-		if( $store[ $i ] == 'っ' || $store[ $i ] == 'ッ' )
-		{
-			$store[ $i ] = substr( $store[ $i+1 ], 0, 1 );
-		}
-	}
-	
-	for( $i = 0; $i < $size_of_store; $i++ )
-	{
-		if( $store[ $i ] == 'ー' )
-		{
-			$store[ $i ] = substr( $store[ $i-1 ], -1, 1 );
-		}
-	}
-	
-	if( $marker != '' )
-	{
-		$marker_int = intval( $marker );
-	}
-	else
-	{
-		$marker_int = -1;
-	}
-	if( $marker_int == 1 )
-	{
-		$store[ 0 ] =  $store[ 0 ] . "\\";
-	}
-	// default to 0
-	elseif( $marker_int != -1 )
-	{
-		$store[ 0 ] =  $store[ 0 ] . "/";
-	}
-	
-	if( $marker_int > 1 )
-	{
-		$store[ $marker_int - 1 ] =  $store[ $marker_int - 1 ] . "\\";
-	}
-	//echo implode( $store ), NL;
-	return convertKanaToRomaji(
-		implode( $store ), $拗音, $一般假名, $促音 );
-}
-
 /*
 Wadoku entry XML structure
 entry
@@ -476,7 +241,385 @@ SimpleXMLElement Object
 
 echo $entry_sim->form->orth[ 0 ];
 食べる
+
+$entry->registerXPathNamespace('e', 'http://www.wadoku.de/xml/entry'); 
+$midashigo = $entry->xpath( "//e:form//e:orth[@midashigo='true']" );
+
+foreach( $midashigo as $m )
+{
+	echo $m[ 0 ];
+}
 */
+
+// insert / and \ to indicate rising and falling pitches
+function addAccentMarkers( string $marker, array &$store )
+{
+	//echo $marker, NL;
+	if( $marker != '' )
+	{
+		$marker_int = intval( $marker );
+	}
+	else
+	{
+		$marker_int = -1; // add nothing if -1
+	}
+	
+	if( $marker_int == 1 )
+	{
+		$store[ 0 ] =  $store[ 0 ] . "\\";
+	}
+	// default to 0
+	elseif( $marker_int != -1 )
+	{
+		$store[ 0 ] =  $store[ 0 ] . "/";
+	}
+	
+	if( $marker_int > 1 )
+	{
+		$store[ $marker_int - 1 ] =  $store[ $marker_int - 1 ] . "\\";
+	}
+}
+
+// escape $ and "
+function cleanUpWadokuOutputString( string $str ) : string
+{
+	$replaced = array( '$'=>'\$', '"'=>"\\\""	);
+	
+	foreach( $replaced as $s => $r )
+	{
+		$str = str_replace( $s, $r, $str );
+	}
+	return $str;
+}
+
+// use this to clean up text contained in xml
+function cleanUpWadokuString( string $data ) : string
+{
+	// can't use , as the delimiter
+	$unwanted = array( ' ', '<', '>', '×', '△', 
+		'〈', '〉', '{', '}', '　', );
+	
+	foreach( $unwanted as $u )
+	{
+		$data = str_replace( $u, '', $data );
+	}
+	
+	return $data;
+}
+
+// use this to clean up the xml
+function cleanUpWadokuXML( string $xml ) : string
+{
+	$replaced = array( '"'=>'\"', '$'=>'\$' );
+	
+	foreach( $replaced as $s => $r )
+	{
+		$xml = str_replace( $s, $r, $xml );
+	}
+	return $xml;
+}
+
+// produce a string like い/ちど\, equivalent to いちど➂
+function convertKanaToVisualizedKana(
+	string $str,
+	array $prep,
+	array $拗音,
+	array $一般假名,
+	array $促音,
+	string $marker ) : string
+{
+	$store = array();
+	getKanaAsMoraeArray( $str, $prep, $store );
+	addAccentMarkers( $marker, $store );
+	return implode( $store );
+}
+
+// produce a string like i/chido\
+function convertKanaToVisualizedRomaji(
+	string $str,
+	array $prep,
+	array $拗音,
+	array $一般假名,
+	array $促音,
+	string $marker ) : string
+{
+	echo "input: ", $str, NL;
+	$store = array();
+	getKanaAsMoraeArray( $str, $prep, $store );
+	$size_of_store = sizeof( $store );
+	
+	for( $i = 0; $i < $size_of_store; $i++ )
+	{
+		if( array_key_exists( $store[ $i ], $拗音 ) )
+		{
+			$store[ $i ] = $拗音[ $store[ $i ] ];
+		}
+	}
+	for( $i = 0; $i < $size_of_store; $i++ )
+	{
+		if( array_key_exists( $store[ $i ], $一般假名 ) )
+		{
+			$store[ $i ] = $一般假名[ $store[ $i ] ];
+		}
+	}
+	for( $i = 0; $i < $size_of_store; $i++ )
+	{
+		if( $store[ $i ] == 'っ' || $store[ $i ] == 'ッ' )
+		{
+			$store[ $i ] = substr( $store[ $i+1 ], 0, 1 );
+		}
+	}
+	
+	for( $i = 0; $i < $size_of_store; $i++ )
+	{
+		if( $store[ $i ] == 'ー' )
+		{
+			$store[ $i ] = substr( $store[ $i-1 ], -1, 1 );
+		}
+	}
+	addAccentMarkers( $marker, $store );
+	return implode( $store );
+}
+
+function convertKanaToRomaji(
+	string $k,
+	array $拗音,
+	array $一般假名,
+	array $促音 ) : string
+{
+	if( $k == '' )
+	{
+		return $k;
+	}
+	
+	$假名 = trim( $k );
+	$len = mb_strlen( $假名 );
+	$result = $假名;
+
+	for( $i=0; $i < $len-1; $i++ )
+	{
+		$kana = mb_substr( $假名, $i, 2 );
+		
+		if( array_key_exists( $kana, $拗音 ) )
+		{
+			$result = str_replace( $kana, $拗音[ $kana ], $result );
+			$i++;
+		}
+	}
+
+	for( $i=0; $i < $len; $i++ )
+	{
+		$kana = mb_substr( $假名, $i, 1 );
+		if( array_key_exists( $kana, $一般假名 ) )
+		{
+			$result = str_replace( $kana, $一般假名[ $kana ], $result );
+		}
+	}
+
+	if( mb_strpos( $result, 'っ' ) !== false || 
+		mb_strpos( $result, 'ッ' ) !== false )
+	{
+		$pos = array();
+		for( $i = 0; $i < mb_strlen( $result ); $i++ )
+		{
+			$ch = mb_substr( $result, $i, 1 );
+			
+			if( $ch == 'っ' || $ch == 'ッ' )
+			{
+				$following_letter = mb_substr( $result, $i+1, 1 );
+				if( $following_letter == '' )
+				{
+					return $result;
+				}
+				$pos[ $i ] = $following_letter;
+			}
+		}
+		$new_result = '';
+		
+		for( $i = 0; $i < mb_strlen( $result ); $i++ )
+		{
+			$ch = mb_substr( $result, $i, 1 );
+			
+			if( $ch == 'っ' || $ch == 'ッ' )
+			{
+				$new_result .= $pos[ $i ];
+			}
+			else
+			{
+				$new_result .= $ch;
+			}
+		}
+		$result = $new_result;
+	}
+
+	if( mb_strpos( $result, 'ー' ) !== false )
+	{
+		$pos = array();
+		for( $i = 0; $i < mb_strlen( $result ); $i++ )
+		{
+			$ch = mb_substr( $result, $i, 1 );
+			if( $ch == 'ー' )
+			{
+				$previous_letter = mb_substr( $result, $i-1, 1 );
+				$pos[ $i ] = $previous_letter;
+			}
+		}
+		$new_result = '';
+		
+		for( $i = 0; $i < mb_strlen( $result ); $i++ )
+		{
+			$ch = mb_substr( $result, $i, 1 );
+			
+			if( $ch == 'ー' )
+			{
+				$new_result .= $pos[ $i ];
+			}
+			else
+			{
+				$new_result .= $ch;
+			}
+		}
+		$result = $new_result;
+	}
+	
+	return $result;
+}
+
+// convert a string like 二人，ににん，2 to 二人[ににん➁], 二人[に/に\ん] or 二人[ににん] ni/ni\n
+function convertTriplet( string $triplet, string $form, 
+	array $markers,
+	array $prep,
+	array $拗音,
+	array $一般假名,
+	array $促音
+) : array
+{
+	// $form, $markers defined in 常數.php
+	// $pred, etc. defined in H:\japanese\programs\kana_romaji_lookup.php
+	$triplets = array();
+	$result = array();
+	
+	if( mb_strpos( $triplet, '：' ) !== false )
+	{
+		$triplets = explode( '：', $triplet );
+	}
+	else
+	{
+		$triplets = array( $triplet );
+	}
+	//print_r( $triplets );
+	foreach( $triplets as $triplet )
+	{
+		$parts = explode( DELIMITER, $triplet );
+		
+		if( sizeof( $parts ) != 3 )
+		{
+			echo "$triplet is not a triplet", NL;
+			return $triplets;
+		}
+		
+		$詞條 = trim( $parts[ 0 ] );
+		$假名 = trim( $parts[ 1 ] );
+		$音調 = ( $parts[ 2 ] == '' ? -1 : intval( trim( $parts[ 2 ] ) ) );
+		if( $音調 > -1 )
+		{
+			$accent = getPitchAccentString( $音調, $markers );
+		}
+		else
+		{
+			$accent = '';
+		}
+		
+		if( $form == ACCENT_NUM )
+		{
+			array_push( $result, $詞條 . '[' . $假名 . $accent . ']' );
+		}
+		elseif( $form == ACCENT_KANA ) 
+		{
+			$假名 = convertKanaToVisualizedKana( $假名, $prep, $拗音, $一般假名, $促音, $音調 );
+			array_push( $result, $詞條 . '[' . $假名 . ']' );
+		}
+		elseif( $form == ACCENT_ROMAJI )
+		{
+			$羅馬字 = convertKanaToVisualizedRomaji( $假名, $prep, $拗音, $一般假名, $促音, $音調 );
+			array_push( $result, $詞條 . 
+				'[' . $假名 . ']' . ' ' . $羅馬字 );
+		}
+	}
+	return $result;
+}
+
+function getEntryTriplet(
+	string $entry, 
+	array $和獨詞條_id, 
+	array $和獨假名_id,
+	array $和獨id_詞條_假名_accent ) : array
+{
+	if( !array_key_exists( $entry, $和獨詞條_id ) &&
+		!array_key_exists( $entry, $和獨假名_id ) )
+	{
+		echo $entry . " not found", NL;
+		exit;
+	}
+	if( array_key_exists( $entry, $和獨詞條_id ) )
+	{
+		$ids = explode( DELIMITER, $和獨詞條_id[ $entry ] );
+	}
+	else
+	{
+		$ids = explode( DELIMITER, $和獨假名_id[ $entry ] );
+	}
+	
+	$result = array();
+	
+	foreach( $ids as $id )
+	{
+		$vars = explode( '：', $和獨id_詞條_假名_accent[ $id ] );
+		foreach( $vars as $var )
+		{
+			// find the first one
+			if( mb_strpos( $var, $entry ) !== false ) 
+			{
+				// eliminate repeated entries
+				if( !in_array( $var, $result ) )
+				{
+					array_push( $result, $var );
+				}
+			}
+		}
+	}
+	return $result;
+}
+
+function getKanaAsMoraeArray(
+	string $kanas, array $prep, array &$store )
+{
+	// $pred defined in H:\japanese\programs\kana_romaji_lookup.php
+	// turn all two-part (e.g. しゃ) mora to a single unicode char
+	// each unicode char represent one mora
+	foreach( $prep as $k => $v )
+	{
+		$kanas = str_replace( $k, $v, $kanas );
+	}
+	
+	$len = mb_strlen( $kanas );
+	for( $i = 0; $i < $len; $i++ )
+	{
+		$char = mb_substr( $kanas, $i, 1 );
+		$store[ $i ] = $char;
+	}
+	// convert unicode back to kana in the array
+	$reverse_prep = array_flip( $prep );
+	$size_of_store = sizeof( $store );
+	
+	for( $i = 0; $i < $size_of_store; $i++ )
+	{
+		if( array_key_exists( $store[ $i ], $reverse_prep ) )
+		{
+			$store[ $i ] = $reverse_prep[ $store[ $i ] ];
+		}
+	}
+}
 
 function getWadokuAccentIntValue(
 	string $kanji, array $wadoku_entry_accent ) : int
@@ -516,10 +659,9 @@ function getWadokuAccentMarker(
 	}
 }
 
-
-
 function getPitchAccentString( string $str, array $markers ) : string
 {
+	// array: defined in 常數.php
 	$pa_str = '';
 	
 	for( $i = 0; $i < strlen( $str ); $i++ )

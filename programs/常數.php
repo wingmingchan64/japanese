@@ -26,14 +26,24 @@ const 輸入漢字詞 = "必須輸入漢字詞";
 const 輸入漢字、假名詞 = "必須輸入漢字、假名詞";
 const 輸入假名詞 = "必須輸入假名詞";
 const 輸入羅馬字詞 = "必須輸入羅馬字詞";
+const 輸入id = "必須詞條 id";
 const 無此漢字詞 = "沒找到此漢字詞" . NL;
 const 無此假名詞 = "沒找到此假名詞" . NL;
 const 無此漢字、假名詞 = "沒找到此漢字、假名" . NL;
 const 無此羅馬字詞 = "沒找到此羅馬字" . NL;
+const 輸入程式名稱 = "程式名稱" . NL;
+const 無此id = "沒找到此 id" . NL;
+
+
 const DELIMITER = '，';
 const BRACKET_REGEX = '/\[\X+?]/';
 const MARKER_ARRAY = array( '⓪','➀','➁','➂','➃','➄','➅','➆','➇' );
-
+const ACCENT_NUM = '⓪';
+const ACCENT_KANA = "/あ\\";
+const ACCENT_ROMAJI = "/a\\";
+$accent_num    = ACCENT_NUM;
+$accent_kana   = ACCENT_KANA;
+$accent_romaji = ACCENT_ROMAJI;
 
 $HIRAGANA_RANGE = range( hexdec( '3040' ), hexdec( '309F' ) );
 $KATAKANA_RANGE = range( hexdec( '30A0' ), hexdec( '30FF' ) );

@@ -276,15 +276,18 @@ I learned that I need to be able to say what I feel.
 ka/njiru
 感[かん⓪]じる to feel, to experience
 
+ha/jimeru
 会議[かいぎ➀]を 始[はじ]めます。（始める[はじめる⓪]）
 We'll begin the meeting.
 私たちは 姉妹３人 で 喫茶店を 始めた。
 We three sisters opened a coffee shop.
 喫茶店[きっさ･てん➂]
 
+de/nwasuru
 明日電話します。（電話する）
 I'll call you tomorrow.
 
+no/ru
 電車に 乗[の]ります。（乗る[のる⓪]）
 I'll get on the train.
 １１時の 列車に 乗る つもりです。
@@ -292,6 +295,7 @@ I'm catching the 11:00 train.
 列車[れっ￨しゃ⓪]
 V 積[つ⓪]もり です I intend to
 
+a/biru
 シャワーを 浴[あ]びます。（浴びる[あびる⓪]）
 I'll take a shower.
 屋根は 日を 浴びて 輝いている。
@@ -301,6 +305,7 @@ The roof is shining in the sun.
 空には 太陽が 輝いています。
 The sun is shining in the sky.
 
+o/boe\ru
 覚[おぼ]えています。（覚える[おぼえる➂]）
 I remember.
 日本語の 便利な フレーズを 覚えてみましょう。
@@ -312,9 +317,11 @@ It is hard for foreigners to learn Japanese.
 その 音楽には 本当に 感動[かん￨どう⓪]を おぼえた。
 That music really gets me.
 
+wa/sureru
 家に 携帯[けいたい⓪]を 忘[わす]れました。（忘れる[わすれる⓪]）
 I forgot my mobile phone at home.
 
+ha/ra\u
 お金[かね⓪]を 払[はら]いました。（払う[はらう➁]）
 I paid (the money).
 払える かどうか 分からない ざます。
@@ -328,6 +335,7 @@ Jack brushed the dust off his coat.
 ブラシ: brush
 埃[ほこり⓪]
 
+ka\esu
 図書館[としょかん➁]に 本を 返[かえ]しに 行[い]きます。（返す[かえす➀]）
 I am going to the library to return a book.
 お前は 恩[おん➀]を 仇[あだ➁]で 返したな。
@@ -335,15 +343,19 @@ You bit the hand that fed you.
 お前[まえ⓪] you
 な emphasis
 
+shi/npaisuru
 心[しん]配[ぱい⓪]しないでください。（心配する）
 Don't worry.
 
+za/ngyousuru
 昨日も 残業[ざんぎょう]しました。（残業する）
 I worked overtime again yesterday.
 
+a/rau
 手を 洗[あら]います。（洗う[あらう⓪]）
 I'll wash my hands.
 
+hi/ku
 ピアノを 弾[ひ]きます。（弾く[ひく⓪]）
 I'll play the piano.
 弾[ひ]く

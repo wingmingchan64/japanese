@@ -36,6 +36,9 @@ if( array_key_exists( $term, $和獨漢字_假名 ) )
 	echo "假名: ", $kana, NL;
 }
 
+if( strpos( $term, ',' ) !== false )
+{}
+
 // use kanji to retrieve accent
 $marker = getWadokuAccentIntValue( $kanji, $和獨詞條_accent );
 echo $term, NL;
