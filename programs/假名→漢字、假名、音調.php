@@ -1,6 +1,6 @@
 <?php
 /*
-漢字→漢字、假名、音調 accent_kana
+假名→漢字、假名、音調 accent_kana
 */
 ini_set('memory_limit', '-1');
 require_once( 'H:\github\japanese\programs\函式.php' );
@@ -11,12 +11,12 @@ require_once( 'H:\japanese\programs\kana_romaji_lookup.php' );
 
 checkARGV( $argv, 3, 輸入羅馬字詞 );
 $form = trim( $argv [ 1 ] );
-$kanji = trim( $argv [ 2 ] );
+$kana = trim( $argv [ 2 ] );
 $result = array();
 
-if( array_key_exists( $kanji, $和獨詞條_id ) )
+if( array_key_exists( $kana, $和獨假名_id ) )
 {
-	$ids = $和獨詞條_id[ $kana ];
+	$ids = $和獨假名_id[ $kana ];
 	$ids = explode( DELIMITER, $ids );
 	foreach( $ids as $id )
 	{

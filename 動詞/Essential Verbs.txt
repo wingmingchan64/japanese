@@ -82,10 +82,11 @@ ka/riru
 友達に 漫画を 借[か]りました。（借りる[かりる⓪]）
 I borrowed a manga from my friend.
 
+o/shieru
 わたしは 日本語を 教[おし]えています。（教える[おしえる⓪]） 一段
 I am teaching Japanese.
 
-o/shieru
+na/rau
 子供[こども⓪]の時[とき➁]、ピアノ[⓪]を 習[なら]っていました。（習う[ならう➁]・習います） 五段
 When I was a kid, I was learning how to play the piano.
 車の 運転[うん￨てん⓪]を 習っています。
@@ -367,69 +368,87 @@ The raincoat sheds water perfectly.
 指先[ゆび･さき⓪] finger, fingertip
 弾[はじ]く
 
+u/tau
 アニソン[➀]を 歌[うた]います。（歌う[うたう⓪]）
 I'll sing an anime song.
 ジョンは ステージで 何を 歌いましたか。
 What did John sing on the stage?
 
+su/teru
 ゴミ[➁]を 捨[す]てます。（捨てる[すてる⓪]）
 I'll throw away the garbage.
 
+yo/yakusuru
 レストランを 予約[よやく]しました。（予約する[よやくする⓪]）
 I reserved a restaurant.
 
+to/maru
 ホテルに 泊[と]まります。（泊まる[とまる⓪]）
 I'll stay at a hotel.
 
+so/ujisuru
 明日部屋を 掃除[そうじ]します。（掃除する[そうじする⓪]）
 I'll clean my room tomorrow.
 
+se/ntakusuru
 明日の朝 洗濯[せんたく]します。（洗濯する[せんたくする⓪]）
 I'll do laundry tomorrow morning.
 
+o/mo\u
 田中さんも 来[く]ると 思[おも]います。（思う[おもう➁]）
 I think Mr./Ms. Tanaka is also coming.
 状況[じょう￨きょう⓪]は 深刻[しんこく⓪] だ と 思いますか。
 Do you regard the situation as serious?
 
+ki/ru
 コート[➀]を 着[き]ます。（着る[きる⓪]） 一段 着物⓪
 I'll put on a coat.
 
+ha/ku
 スカート[➁]を 履[は]きます。（履く[はく⓪]着く）
 I'll put on a skirt.
 
+ka/bu\ru
 帽子[ぼうし⓪]を 被[かぶ]ります。（被る[かぶる➁] 冠る）
 I'll put on a hat.
 その 機械は ほこりを かぶっていた。
 The machine was coated with dust.
 
+ko/umu\ru
 被る；蒙る[こうむ~る➂] to suffer; to receive (kindness, rebuke, support); to sustain (damage)
 
+ka/ke\ru
 眼鏡[めがね⓪]を 掛[か]けます。（掛ける[かける➁]）
 I'll put on glasses.
 ちょっと 声[➀]を かけたい とき
 When you want to talk to someone,
 
+su/ru
 ネクタイ[➀]を します。（する⓪）
 I'll put on a tie.
 
+ma/garu
 あの[⓪]交差点[こうさてん⓪]を  右[みぎ⓪]に 曲[ま]がってください。（曲がる[まがる⓪]）
 Please turn right at that intersection.
 ネクタイが 曲がってるよ。
 Your tie is crooked.
 風に 吹[ふ]かれて 木が 曲がった。
 
+wa/taru
 橋[はし➁]を 渡[わた]ります。（渡る[わたる⓪]）
 I'll cross the bridge.
 橋は 安全[あん￨ぜん⓪]です。車で わたれます。（わたれます potential）
 The bridge is safe; you can drive across.
 
+mi/gaku
 歯[は➀]を 磨[みが]きます。（磨く[みがく⓪]）
 I'll brush my teeth.
 
+sho/ukaisuru
 田中さんに 山本さんを 紹介[しょうかい]します。（紹介する[しょうかいする⓪]）
 I'll introduce Mr./Ms. Yamamoto to Mr./Ms. Tanaka.
 
+tsu\ku
 5時ごろ[➀] 大阪に 着[つ]きます。（着く[つく➀]）
 I'll arrive in Osaka around 5:00.
 
