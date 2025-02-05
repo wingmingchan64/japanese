@@ -6,7 +6,7 @@ php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、�
 php h:\github\japanese\programs\run_program.php "詞條→漢字、假名、音調 accent_kana"
 
 The command prompt window cannot deal with an input containing "…";
-therefore, all prefixes and suffixes will fail to show up.
+therefore, all prefixes and suffixes like …冊 will fail to show up.
 Use '...' instead.
 
 This program runs another program consistently.
