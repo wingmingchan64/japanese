@@ -5,6 +5,9 @@ php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、�
 php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、音調 accent_romaji"
 php h:\github\japanese\programs\run_program.php "詞條→漢字、假名、音調 accent_kana"
 
+The command prompt window cannot deal with an input containing "…";
+therefore, all prefixes and suffixes will fail to show up.
+Use '...' instead.
 
 This program runs another program consistently.
 */
@@ -37,23 +40,23 @@ while( true )
 	// most programs require parameters
 	// strings with spaces must be in quotes
 	echo "請輸入參數:", NL;
-	$參數 = readline();
+	$參數 = readline(); //  …冊
 	
 	if( $參數 == 'exit' )
 	{
 		echo "Bye!", NL;
 		exit;
 	}
+	//echo mb_strlen( $參數 ) . NL;
 	
 	if( $additional != '' )
 	{
-		$executable = "php $程式路徑 $additional $參數";
+		$executable = "php $程式路徑 $additional \"${參數}\"";
 	}
 	else
 	{
-		$executable = "php " . $程式路徑 . ' ' . $參數;
+		$executable = "php " . $程式路徑 . ' "' . $參數 . '"';
 	}
-	//echo $executable, NL;
 	$output = null;
 	$retval = null;
 	echo NL;

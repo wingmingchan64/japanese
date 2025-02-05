@@ -1,6 +1,6 @@
 <?php
 /*
-詞條→漢字、假名、音調 accent_kana
+php H:\github\japanese\programs\詞條→漢字、假名、音調.php accent_kana …冊
 */
 ini_set('memory_limit', '-1');
 require_once( 'H:\github\japanese\programs\函式.php' );
@@ -12,6 +12,8 @@ require_once( 'H:\japanese\programs\kana_romaji_lookup.php' );
 checkARGV( $argv, 3, 輸入詞條 );
 $form   = trim( $argv [ 1 ] );
 $entry  = trim( $argv [ 2 ] );
+$entry  = str_replace( '...', '…', $entry );
+//echo mb_strlen( $entry ) . NL;
 $result = array();
 
 if( array_key_exists( $entry, $和獨詞條_id ) )
