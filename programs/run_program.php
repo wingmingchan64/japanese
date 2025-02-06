@@ -4,12 +4,16 @@ php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、�
 php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、音調 accent_kana"
 php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、音調 accent_romaji"
 php h:\github\japanese\programs\run_program.php "詞條→漢字、假名、音調 accent_kana"
+php h:\github\japanese\programs\run_program.php "下載weblio詞條"
+
 
 The command prompt window cannot deal with an input containing "…";
 therefore, all prefixes and suffixes like …冊 will fail to show up.
 Use '...' instead.
 
-This program runs another program consistently.
+This program runs another program continuously with the same 
+programmatic (non-user) parameter(s), like accent_num above. 
+The program run can have its own runtime parameters.
 */
 require_once( "h:\\github\\japanese\\programs\\函式.php" );
 
