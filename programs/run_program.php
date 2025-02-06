@@ -4,7 +4,8 @@ php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、�
 php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、音調 accent_kana"
 php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、音調 accent_romaji"
 php h:\github\japanese\programs\run_program.php "詞條→漢字、假名、音調 accent_kana"
-php h:\github\japanese\programs\run_program.php "下載weblio詞條"
+php h:\github\japanese\programs\run_program.php "weblio\下載weblio詞條"
+php h:\github\japanese\programs\run_program.php "weblio\展示詞條内容"
 
 
 The command prompt window cannot deal with an input containing "…";
