@@ -1,243 +1,243 @@
-歩く[あるく➁],walk
-走る[はしる➁],run
-食べる[たべる➁],eat
-飲む[のむ➀],drink
-寝る[ねる⓪],sleep
-起きる[おきる➁],get up
-書く[かく➀],write
-読む[よむ➀],read
-話す[はなす➁],speak
-飛ぶ[とぶ⓪],fly
-泳ぐ[およぐ➁],swim
-触る[さわる⓪],touch
-見る[みる➀],see/look
-聞く[きく⓪],listen
-歌う[うたう⓪],sing
-踊る[おどる⓪],dance
-滑る[すべる➁],slip
-探す[さがす⓪],search/look for
-使う[つかう⓪],use
-消す[けす⓪],turn off
-点ける[つける➁],turn on
-作る[つくる➁],make
-座る[すわる⓪],sit
-立つ[たつ➀],stand
-待つ[まつ➀],wait
-押す[おす⓪],push
-引く[ひく⓪],pull
-運ぶ[はこぶ⓪],carry
-遊ぶ[あそぶ⓪],play
-開ける[あける⓪],open
-閉める[しめる➁],close
-帰る[かえる➀],go home
-叩く[たたく➁],beat
-売る[うる⓪],sell
-買う[かう⓪],buy
-忘れる[わすれる⓪],forget
-集める[あつめる➂],collect
-覚える[おぼえる➂],memorize
-攻める[せめる➁],attack
-守る[まもる➁],protect
-上げる[あげる⓪],raise
-下げる[さげる➁],lower
-捨てる[すてる⓪],throw away
-学ぶ[まなぶ⓪],learn
-取る[とる➀],take
-決める[きめる⓪],decide
-比べる[くらべる⓪],compare
-頼む[たのむ➁],request
-下りる[おりる➁],go down
-上る[のぼる⓪],go up/climb
-回る[まわる⓪],spin/rotate
-変わる[かわる⓪],change
-投げる[なげる➁],throw
-振る[ふる⓪],shake
-倒す[たおす➁],knock down
-建てる[たてる➁],build
-噛む[かむ➀],bite
-割る[わる⓪],crack
-外す[はずす⓪],take off
-付ける[つける➁],put on
-貰う[もらう⓪],receive
-調べる[しらべる➂],look up
-増える[ふえる➁],increase
-減る[へる⓪],decrease
-返す[かえす➀],return
-蹴る[ける➀],kick
-許す[ゆるす➁],forgive
-受ける[うける➁],receive
-見せる[みせる➁],show
-洗う[あらう⓪],wash
-借りる[かりる⓪],borrow
-貸す[かす⓪],lend
-片付ける[かたづける➃],clean up
-貯める[ためる⓪],save
-開く[ひらく➁],open
-閉じる[とじる➁],close
-繫ぐ[つなぐ⓪],connect
-貼る[はる⓪],stick
-切る[きる➀],cut
-拭う[ぬぐう➁],wipe
-詰める[つめる➁],pack
-蒔く[まく➀],sow
-育つ[そだつ➁],grow
-吹く[ふく➀],blow
-摑む[つかむ➁],grasp
-感じる[かんじる⓪],feel
-被る[かぶる➁],wear (head)
-履く[はく⓪],wear
-傷つく[きずつく➂],be hurt
-直す[なおす➁],fix
-逃げる[にげる➁],escape
-毀す[こわす➁],break
-包む[つつむ➁],wrap
-褒める[ほめる➁],praise
-教える[おしえる⓪],teach
-叱る[しかる⓪],scold
-笑う[わらう⓪],laugh
-泣く[なく⓪],cry
-怒る[おこる➁],get angry
-驚く[おどろく➂],be surprised
-着る[きる⓪],put on
-脱ぐ[ぬぐ➀],take off
-打つ[うつ➀],hit
-呼ぶ[よぶ⓪],call
-答える[こたえる➂],answer
-戦う[たたかう⓪],fight
-遅れる[おくれる⓪],be late
-乗る[のる⓪],ride
-愛する[あいする➂],love
-働く[はたらく⓪],work
-潰す[つぶす⓪],crush
-尋ねる[たずねる➂],visit
-勉強する[べんきょうする⓪],study
-出発する[しゅっぱつする⓪],depart
-到着する[とうちゃくする⓪],arrive
-休む[やすむ➁],rest
-並ぶ[ならぶ⓪],line up
-捕まえる[つかまえる⓪],catch
-送る[おくる⓪],send
-賛成する[さんせいする⓪],agree
-反対する[はんたいする⓪],oppose
-測る[はかる➁],measure
-済ます[すます➁],finish
-料理する[りょうりする➀],cook
-計画する[けいかくする⓪],plan
-注ぐ[そそぐ⓪],pour
-手伝う[てつだう➂],help
-疑う[うたがう⓪],doubt
-計算する[けいさんする⓪],calculate
-混ぜる[まぜる➁],mix
-組み立てる[くみたてる➀],assemble
-沈む[しずむ⓪],sink
-連絡する[れんらくする⓪],contact
-予約する[よやくする⓪],reserve
-思う[おもう➁],think
-見つける[みつける⓪],find
-曲がる[まがる⓪],turn
-期待する[きたいする⓪],expect
-集中する[しゅうちゅうする⓪],concentrate
-紹介する[しょうかいする⓪],introduce
-焦る[あせる➁],panic
-交換する[こうかんする⓪],exchange
-喋る[しゃべる➁],talk
-信じる[しんじる➂],believe
-乾かす[かわかす➂],dry
-分ける[わける➁],divide
-ぶつかる[⓪],bump into
-温める[あたためる➃],warm up
-冷やす[ひやす➁],cool
-避ける[さける➁],avoid
-落とす[おとす➁],drop
-祝う[いわう➁],celebrate
-失う[うしなう⓪],lose
-選ぶ[えらぶ➁],choose
-祈る[いのる➁],pray
-伝える[つたえる⓪],convey
-伸ばす[のばす➁],reach out
-我慢する[がまんする➀],endure
-刺す[さす➀],stab
-並べる[ならべる⓪],arrange
-参加する[さんかする⓪],participate
-回す[まわす⓪],spin
-隠れる[かくれる➂],hide
-嗅ぐ[かぐ⓪],smell
-叫ぶ[さけぶ➁],shout
-畳む[たたむ⓪],fold
-浮く[うく⓪],float
-断わる[ことわる➂],reject
-好む[このむ➁],prefer
-騒ぐ[さわぐ➁],make noise
-興奮する[こうふんする⓪],get excited
-剃る[そる➀],shave
-応援する[おうえんする⓪],cheer
-反応する[はんのうする⓪],react
-覗く[のぞく⓪],peek
-寝坊する[ねぼうする⓪],overskeep
-照らす[てらす⓪],shine
-鍛える[きたえる➂],train
-磨く[みがく⓪],brush
-持つ[もつ➀],hold
-咲く[さく⓪],bloom
-住む[すむ➀],live
-説明する[せつめいする⓪],explain
-吸う[すう⓪],inhale
-研究する[けんきゅうする⓪],research
-描く[かく➀],draw
-量る[はかる➁],weigh
-修理する[しゅうりする➀],repair
-味わう[あじわう➂],taste
-浴びる[あびる⓪],bathe
-渡す[わたす⓪],give
-稼ぐ[かせぐ➁],earn
-追う[おう⓪],chase
-払う[はらう➁],pay
-運転する[うんてんする⓪],drive
-洗濯する[せんたくする⓪],do laundry
-泊まる[とまる⓪],stay(overnight)
-溶ける[とける➁],melt
-配る[くばる➁],distribute
-掘る[ほる➀],dig
-渡る[わたる⓪],cross
-申し込む[もうしこむ➀],apply
-耕す[たがやす➂],plow
-故障する[こしょうする⓪],break down
-塗る[ぬる⓪],paint
-悩む[なやむ➁],worry
-飼う[かう➀],have (a pet)
-通う[かよう⓪],commute
-挑む[いどむ➁],challenge
-踏む[ふむ⓪],step on
-越える[こえる⓪],jump over
-植える[うえる⓪],plant
-抜く[ぬく⓪],pull out
-積む[つむ⓪],pile up
-太る[ふとる➁],get fat
-痩せる[やせる⓪],lose weight
-編む[あむ➀],knit
-解く[とく➀],solve
-怪我する[けがする⓪],get injured
-戻る[もどる➁],return
-慰める[なぐさめる➃],comfort
-納得する[なっとくする⓪],be convinced
-汚れる[よごれる⓪],get dirty
-助ける[たすける➂],save
-集まる[あつまる➂],gather
-刈る[かる⓪],mow
-覆う[おおう⓪],cover
-濡れる[ぬれる⓪],get wet
-溺れる[おぼれる⓪],drown
-結婚する[けっこんする⓪],marry
-訴える[うったえる➃],sue
-欠ける[かける⓪],be chipped
-取り消す[とりけす⓪➂],cancel
-理解する[りかいする➀],understand
-腐る[くさる➁],rot
-従う[したがう⓪],obey
-緊張する[きんちょうする⓪],get nervous
-握る[にぎる⓪],grip
-離婚する[りこんする⓪],divorce
-睨む[にらむ➁],glare
-掛ける[かける➁],lock
-丸める[まるめる⓪],roll into a ball
-間違える[まちがえる➃],make a mistake
+a/ru\ku,歩く,[あるく➁],walk
+ha/shi\ru,走る,[はしる➁],run
+ta/be\ru,食べる,[たべる➁],eat
+no\mu,飲む,[のむ➀],drink
+ne/ru,寝る,[ねる⓪],sleep
+o/ki\ru,起きる,[おきる➁],get up
+ka\ku,書く,[かく➀],write
+yo\mu,読む,[よむ➀],read
+ha/na\su,話す,[はなす➁],speak
+to/bu,飛ぶ,[とぶ⓪],fly
+o/yo\gu,泳ぐ,[およぐ➁],swim
+sa/waru,触る,[さわる⓪],touch
+mi\ru,見る,[みる➀],see/look
+ki/ku,聞く,[きく⓪],listen
+u/tau,歌う,[うたう⓪],sing
+o/doru,踊る,[おどる⓪],dance
+su/be\ru,滑る,[すべる➁],slip
+sa/gasu,探す,[さがす⓪],search/look for
+tsu/kau,使う,[つかう⓪],use
+ke/su,消す,[けす⓪],turn off
+tsu/ke\ru,点ける,[つける➁],turn on
+tsu/ku\ru,作る,[つくる➁],make
+su/waru,座る,[すわる⓪],sit
+ta\tsu,立つ,[たつ➀],stand
+ma\tsu,待つ,[まつ➀],wait
+o/su,押す,[おす⓪],push
+hi/ku,引く,[ひく⓪],pull
+ha/kobu,運ぶ,[はこぶ⓪],carry
+a/sobu,遊ぶ,[あそぶ⓪],play
+a/keru,開ける,[あける⓪],open
+shi/me\ru,閉める,[しめる➁],close
+ka\eru,帰る,[かえる➀],go home
+ta/ta\ku,叩く,[たたく➁],beat
+u/ru,売る,[うる⓪],sell
+ka/u,買う,[かう⓪],buy
+wa/sureru,忘れる,[わすれる⓪],forget
+a/tsume\ru,集める,[あつめる➂],collect
+o/boe\ru,覚える,[おぼえる➂],memorize
+se/me\ru,攻める,[せめる➁],attack
+ma/mo\ru,守る,[まもる➁],protect
+a/geru,上げる,[あげる⓪],raise
+sa/ge\ru,下げる,[さげる➁],lower
+su/teru,捨てる,[すてる⓪],throw away
+ma/nabu,学ぶ,[まなぶ⓪],learn
+to\ru,取る,[とる➀],take
+ki/meru,決める,[きめる⓪],decide
+ku/raberu,比べる,[くらべる⓪],compare
+ta/no\mu,頼む,[たのむ➁],request
+o/ri\ru,下りる,[おりる➁],go down
+no/boru,上る,[のぼる⓪],go up/climb
+ma/waru,回る,[まわる⓪],spin/rotate
+ka/waru,変わる,[かわる⓪],change
+na/ge\ru,投げる,[なげる➁],throw
+fu/ru,振る,[ふる⓪],shake
+ta/o\su,倒す,[たおす➁],knock down
+ta/te\ru,建てる,[たてる➁],build
+ka\mu,噛む,[かむ➀],bite
+wa/ru,割る,[わる⓪],crack
+ha/zusu,外す,[はずす⓪],take off
+tsu/ke\ru,付ける,[つける➁],put on
+mo/rau,貰う,[もらう⓪],receive
+shi/rabe\ru,調べる,[しらべる➂],look up
+fu/e\ru,増える,[ふえる➁],increase
+he/ru,減る,[へる⓪],decrease
+ka\esu,返す,[かえす➀],return
+ke\ru,蹴る,[ける➀],kick
+yu/ru\su,許す,[ゆるす➁],forgive
+u/ke\ru,受ける,[うける➁],receive
+mi/se\ru,見せる,[みせる➁],show
+a/rau,洗う,[あらう⓪],wash
+ka/riru,借りる,[かりる⓪],borrow
+ka/su,貸す,[かす⓪],lend
+ka/tazuke\ru,片付ける,[かたづける➃],clean up
+ta/meru,貯める,[ためる⓪],save
+hi/ra\ku,開く,[ひらく➁],open
+to/ji\ru,閉じる,[とじる➁],close
+tsu/nagu,繫ぐ,[つなぐ⓪],connect
+ha/ru,貼る,[はる⓪],stick
+ki\ru,切る,[きる➀],cut
+nu/gu\u,拭う,[ぬぐう➁],wipe
+tsu/me\ru,詰める,[つめる➁],pack
+ma\ku,蒔く,[まく➀],sow
+so/da\tsu,育つ,[そだつ➁],grow
+fu\ku,吹く,[ふく➀],blow
+tsu/ka\mu,摑む,[つかむ➁],grasp
+ka/njiru,感じる,[かんじる⓪],feel
+ka/bu\ru,被る,[かぶる➁],wear (head)
+ha/ku,履く,[はく⓪],wear
+ki/zutsu\ku,傷つく,[きずつく➂],be hurt
+na/o\su,直す,[なおす➁],fix
+ni/ge\ru,逃げる,[にげる➁],escape
+ko/wa\su,毀す,[こわす➁],break
+tsu/tsu\mu,包む,[つつむ➁],wrap
+ho/me\ru,褒める,[ほめる➁],praise
+o/shieru,教える,[おしえる⓪],teach
+shi/karu,叱る,[しかる⓪],scold
+wa/rau,笑う,[わらう⓪],laugh
+na/ku,泣く,[なく⓪],cry
+o/ko\ru,怒る,[おこる➁],get angry
+o/doro\ku,驚く,[おどろく➂],be surprised
+ki/ru,着る,[きる⓪],put on
+nu\gu,脱ぐ,[ぬぐ➀],take off
+u\tsu,打つ,[うつ➀],hit
+yo/bu,呼ぶ,[よぶ⓪],call
+ko/tae\ru,答える,[こたえる➂],answer
+ta/takau,戦う,[たたかう⓪],fight
+o/kureru,遅れる,[おくれる⓪],be late
+no/ru,乗る,[のる⓪],ride
+a/isu\ru,愛する,[あいする➂],love
+ha/taraku,働く,[はたらく⓪],work
+tsu/busu,潰す,[つぶす⓪],crush
+ta/zune\ru,尋ねる,[たずねる➂],visit
+be/nkyousuru,勉強する,[べんきょうする⓪],study
+shu/ppatsusuru,出発する,[しゅっぱつする⓪],depart
+to/uchakusuru,到着する,[とうちゃくする⓪],arrive
+ya/su\mu,休む,[やすむ➁],rest
+na/rabu,並ぶ,[ならぶ⓪],line up
+tsu/kamaeru,捕まえる,[つかまえる⓪],catch
+o/kuru,送る,[おくる⓪],send
+sa/nseisuru,賛成する,[さんせいする⓪],agree
+ha/ntaisuru,反対する,[はんたいする⓪],oppose
+ha/ka\ru,測る,[はかる➁],measure
+su/ma\su,済ます,[すます➁],finish
+ryo\urisuru,料理する,[りょうりする➀],cook
+ke/ikakusuru,計画する,[けいかくする⓪],plan
+so/sogu,注ぐ,[そそぐ⓪],pour
+te/tsuda\u,手伝う,[てつだう➂],help
+u/tagau,疑う,[うたがう⓪],doubt
+ke/isansuru,計算する,[けいさんする⓪],calculate
+ma/ze\ru,混ぜる,[まぜる➁],mix
+ku\mitateru,組み立てる,[くみたてる➀],assemble
+shi/zumu,沈む,[しずむ⓪],sink
+re/nrakusuru,連絡する,[れんらくする⓪],contact
+yo/yakusuru,予約する,[よやくする⓪],reserve
+o/mo\u,思う,[おもう➁],think
+mi/tsukeru,見つける,[みつける⓪],find
+ma/garu,曲がる,[まがる⓪],turn
+ki/taisuru,期待する,[きたいする⓪],expect
+shu/uchuusuru,集中する,[しゅうちゅうする⓪],concentrate
+sho/ukaisuru,紹介する,[しょうかいする⓪],introduce
+a/se\ru,焦る,[あせる➁],panic
+ko/ukansuru,交換する,[こうかんする⓪],exchange
+sha/be\ru,喋る,[しゃべる➁],talk
+shi/nji\ru,信じる,[しんじる➂],believe
+ka/waka\su,乾かす,[かわかす➂],dry
+wa/ke\ru,分ける,[わける➁],divide
+bu/tsukaru,ぶつかる,[ぶつかる⓪],bump into
+a/tatame\ru,温める,[あたためる➃],warm up
+hi/ya\su,冷やす,[ひやす➁],cool
+sa/ke\ru,避ける,[さける➁],avoid
+o/to\su,落とす,[おとす➁],drop
+i/wa\u,祝う,[いわう➁],celebrate
+u/shinau,失う,[うしなう⓪],lose
+e/ra\bu,選ぶ,[えらぶ➁],choose
+i/no\ru,祈る,[いのる➁],pray
+tsu/taeru,伝える,[つたえる⓪],convey
+no/ba\su,伸ばす,[のばす➁],reach out
+ga\mansuru,我慢する,[がまんする➀],endure
+sa\su,刺す,[さす➀],stab
+na/raberu,並べる,[ならべる⓪],arrange
+sa/nkasuru,参加する,[さんかする⓪],participate
+ma/wasu,回す,[まわす⓪],spin
+ka/kure\ru,隠れる,[かくれる➂],hide
+ka/gu,嗅ぐ,[かぐ⓪],smell
+sa/ke\bu,叫ぶ,[さけぶ➁],shout
+ta/tamu,畳む,[たたむ⓪],fold
+u/ku,浮く,[うく⓪],float
+ko/towa\ru,断わる,[ことわる➂],reject
+ko/no\mu,好む,[このむ➁],prefer
+sa/wa\gu,騒ぐ,[さわぐ➁],make noise
+ko/ufunsuru,興奮する,[こうふんする⓪],get excited
+so\ru,剃る,[そる➀],shave
+o/uensuru,応援する,[おうえんする⓪],cheer
+ha/nnousuru,反応する,[はんのうする⓪],react
+no/zoku,覗く,[のぞく⓪],peek
+ne/bousuru,寝坊する,[ねぼうする⓪],overskeep
+te/rasu,照らす,[てらす⓪],shine
+ki/tae\ru,鍛える,[きたえる➂],train
+mi/gaku,磨く,[みがく⓪],brush
+mo\tsu,持つ,[もつ➀],hold
+sa/ku,咲く,[さく⓪],bloom
+su\mu,住む,[すむ➀],live
+se/tsumeisuru,説明する,[せつめいする⓪],explain
+su/u,吸う,[すう⓪],inhale
+ke/nkyuusuru,研究する,[けんきゅうする⓪],research
+ka\ku,描く,[かく➀],draw
+ha/ka\ru,量る,[はかる➁],weigh
+shu\urisuru,修理する,[しゅうりする➀],repair
+a/jiwa\u,味わう,[あじわう➂],taste
+a/biru,浴びる,[あびる⓪],bathe
+wa/tasu,渡す,[わたす⓪],give
+ka/se\gu,稼ぐ,[かせぐ➁],earn
+o/u,追う,[おう⓪],chase
+ha/ra\u,払う,[はらう➁],pay
+u/ntensuru,運転する,[うんてんする⓪],drive
+se/ntakusuru,洗濯する,[せんたくする⓪],do laundry
+to/maru,泊まる,[とまる⓪],stay(overnight)
+to/ke\ru,溶ける,[とける➁],melt
+ku/ba\ru,配る,[くばる➁],distribute
+ho\ru,掘る,[ほる➀],dig
+wa/taru,渡る,[わたる⓪],cross
+mo\ushikomu,申し込む,[もうしこむ➀],apply
+ta/gaya\su,耕す,[たがやす➂],plow
+ko/shousuru,故障する,[こしょうする⓪],break down
+nu/ru,塗る,[ぬる⓪],paint
+na/ya\mu,悩む,[なやむ➁],worry
+ka\u,飼う,[かう➀],have (a pet)
+ka/you,通う,[かよう⓪],commute
+i/do\mu,挑む,[いどむ➁],challenge
+fu/mu,踏む,[ふむ⓪],step on
+ko/eru,越える,[こえる⓪],jump over
+u/eru,植える,[うえる⓪],plant
+nu/ku,抜く,[ぬく⓪],pull out
+tsu/mu,積む,[つむ⓪],pile up
+fu/to\ru,太る,[ふとる➁],get fat
+ya/seru,痩せる,[やせる⓪],lose weight
+a\mu,編む,[あむ➀],knit
+to\ku,解く,[とく➀],solve
+ke/gasuru,怪我する,[けがする⓪],get injured
+mo/do\ru,戻る,[もどる➁],return
+na/gusame\ru,慰める,[なぐさめる➃],comfort
+na/ttokusuru,納得する,[なっとくする⓪],be convinced
+yo/goreru,汚れる,[よごれる⓪],get dirty
+ta/suke\ru,助ける,[たすける➂],save
+a/tsuma\ru,集まる,[あつまる➂],gather
+ka/ru,刈る,[かる⓪],mow
+o/ou,覆う,[おおう⓪],cover
+nu/reru,濡れる,[ぬれる⓪],get wet
+o/boreru,溺れる,[おぼれる⓪],drown
+ke/kkonsuru,結婚する,[けっこんする⓪],marry
+u/ttae\ru,訴える,[うったえる➃],sue
+ka/keru,欠ける,[かける⓪],be chipped
+to/rike\su⓪,取り消す,[とりけす⓪➂],cancel
+ri\kaisuru,理解する,[りかいする➀],understand
+ku/sa\ru,腐る,[くさる➁],rot
+shi/tagau,従う,[したがう⓪],obey
+ki/nchousuru,緊張する,[きんちょうする⓪],get nervous
+ni/giru,握る,[にぎる⓪],grip
+ri/konsuru,離婚する,[りこんする⓪],divorce
+ni/ra\mu,睨む,[にらむ➁],glare
+ka/ke\ru,掛ける,[かける➁],lock
+ma/rumeru,丸める,[まるめる⓪],roll into a ball
+ma/chigae\ru,間違える,[まちがえる➃],make a mistake

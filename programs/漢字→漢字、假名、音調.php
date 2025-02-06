@@ -9,14 +9,14 @@ require_once( 'H:\japanese\programs\wadoku\data\和獨詞條_id.php' );
 require_once( 'H:\japanese\programs\wadoku\data\和獨假名_id.php' );
 require_once( 'H:\japanese\programs\kana_romaji_lookup.php' );
 
-checkARGV( $argv, 3, 輸入羅馬字詞 );
-$form = trim( $argv [ 1 ] );
-$kanji = trim( $argv [ 2 ] );
+checkARGV( $argv, 3, 輸入漢字詞 );
+$form   = trim( $argv [ 1 ] );
+$kanji  = trim( $argv [ 2 ] );
 $result = array();
 
 if( array_key_exists( $kanji, $和獨詞條_id ) )
 {
-	$ids = $和獨詞條_id[ $kana ];
+	$ids = $和獨詞條_id[ $kanji ];
 	$ids = explode( DELIMITER, $ids );
 	foreach( $ids as $id )
 	{

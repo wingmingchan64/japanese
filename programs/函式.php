@@ -659,6 +659,7 @@ function getWadokuAccentMarker(
 	}
 }
 
+// return a string like ⓪
 function getPitchAccentString( string $str, array $markers ) : string
 {
 	// array: defined in 常數.php
@@ -680,6 +681,7 @@ function getPitchAccentString( string $str, array $markers ) : string
 	return $pa_str;
 }
 
+// 
 function getPitchAccentIntValue( string $str, array $markers ) : int
 {
 	foreach( $markers as $k => $v )
