@@ -1,93 +1,93 @@
 i/ku
-明日[あした➂] 東京に 行[い]きます。（行く[いく⓪]）
+明日[あした➂] 東京に 行[い]きます。（行く[いく⓪] 行きます）
 I'm going to Tokyo tomorrow.
 
 ta/be\ru
-今朝[けさ➀] パンを 食[た]べました。（食べる[たべる➁]）
+今朝[けさ➀] パンを 食[た]べました。（食べる[たべる➁] 食べます）
 I ate bread this morning.
 
 no\mu
-昨日[きのう➁]の夜[よる➀] バーで ワインを 飲[の]みました。（飲む[のむ➀]）
+昨日[きのう➁]の夜[よる➀] バーで ワインを 飲[の]みました。（飲む[のむ➀] 飲みます）
 I drank wine at a bar last night.
 
-ku\ru
-昨日 先生[せんせい➂]が 家[うち⓪]に 来[き]ました。（来る[くる➀]）
+*ku\ru
+昨日 先生[せんせい➂]が 家[うち⓪]に 来[き]ました。（来る[くる➀] きます）
 A teacher came to my home yesterday.
 
 o/ki\ru
-今朝5時に 起[お]きました。（起きる[おきる➁]）
+今朝5時に 起[お]きました。（起きる[おきる➁] 起きます）
 I got up at 5:00 this morning.
 
 ne/ru
-今日[きょう➀]は 早[はや➀]く 寝[ね]ません。（寝る[ねる⓪]）
+今日[きょう➀]は 早[はや➀]く 寝[ね]ません。（寝る[ねる⓪] 寝ます）
 Today I'm not going to sleep early.
 
 ka\eru
-明日アメリカ[⓪]に 帰[かえ]ります。（帰る[かえる➀]）
+明日アメリカ[⓪]に 帰[かえ]ります。（帰る[かえる➀] 帰ります）
 I'm going back to the US tomorrow.
 
 be/nkyousuru
-昨日図書館[としょかん➁]で 勉強[べんきょう]しました。（勉強する[べんきょうする⓪]）
+昨日図書館[としょかん➁]で 勉強[べんきょう]しました。（勉強する[べんきょうする⓪] 勉強します）
 I studied at the library yesterday.
 
-a\u
-今朝駅[えき➀]で 田中[たなか⓪]さんに 会[あ]いました。（会う[あう➀]）
+*a\u
+今朝駅[えき➀]で 田中[たなか⓪]さんに 会[あ]いました。（会う[あう➀] 会います）
 I met Mr./Ms. Tanaka at the station this morning.
 
 ya/su\mu
-明日仕事[しごと⓪]を 休[やす]みます。（休む[やすむ➁]）
+明日仕事[しごと⓪]を 休[やす]みます。（休む[やすむ➁] 休みます）
 I am going to take a day off from work tomorrow.
 
 ha/taraku
-昨日も10時まで[⓪] 働[はたら]きました。（働く[はたらく⓪]）
+昨日も10時まで[⓪] 働[はたら]きました。（働く[はたらく⓪] 働きます）
 I worked until 10:00 again yesterday.
 
 mi\ru
-昨日映画[えいが➀]を 見[み]ました。（見る[みる➀]）
+昨日映画[えいが➀]を 見[み]ました。（見る[みる➀] 見ます）
 I saw a movie yesterday.
 
 yo\mu
-今晩[こんばん➀]漫画[まんが⓪]を 読[よ]みます。（読む[よむ➀]）
+今晩[こんばん➀]漫画[まんが⓪]を 読[よ]みます。（読む[よむ➀] 読みます）
 I'm going to read a manga tonight.
 
 ka\ku
-友達[ともだち⓪]に クリスマスカード[➅]を 書[か]きました。（書く[かく➀]）
+友達[ともだち⓪]に クリスマスカード[➅]を 書[か]きました。（書く[かく➀] 書きます）
 I wrote a Christmas card for my friend.
 
-ki/ku
-今晩この音楽[おんがく➀]を 聞[き]きます。（聞く[きく⓪]）
+*ki/ku
+今晩この音楽[おんがく➀]を 聞[き]きます。（聞く[きく⓪] 聞きます）
 I'll listen to this music tonight.
 
 ka/u
-コンビニ[⓪]で お茶[おちゃ]を 買[か]います。（買う[かう⓪]）
+コンビニ[⓪]で お茶[おちゃ]を 買[か]います。（買う[かう⓪] 買います）
 I'll buy tea at a convenience store.
 
 to\ru
-富士山[ふじさん➀]の写真[しゃしん⓪]を 撮[と]りました。（撮る[とる➀]）
+富士山[ふじさん➀]の写真[しゃしん⓪]を 撮[と]りました。（撮る[とる➀] 撮ります）
 I took a picture of Mt. Fuji.
 
 ki\ru
-にんじん[⓪]を 切[き]ります。（切る[きる➀]） 五段 切符⓪切手⓪
+にんじん[⓪]を 切[き]ります。（切る[きる➀] 切ります） 五段 切符⓪切手⓪
 I'll cut the carrot.
 
-o/kuru
-メール[➀]を 送[おく]ります。（送る[おくる⓪]）
+*o/kuru
+メール[➀]を 送[おく]ります。（送る[おくる⓪] 送ります）
 I will send an email.
 
 ka/su
-友達に 漫画を 貸[か]しました。（貸す[かす⓪]）
+友達に 漫画を 貸[か]しました。（貸す[かす⓪] 貸します）
 I lent a manga to my friend.
 
 ka/riru
-友達に 漫画を 借[か]りました。（借りる[かりる⓪]）
+友達に 漫画を 借[か]りました。（借りる[かりる⓪] かります）
 I borrowed a manga from my friend.
 
 o/shieru
-わたしは 日本語を 教[おし]えています。（教える[おしえる⓪]） 一段
+わたしは 日本語を 教[おし]えています。（教える[おしえる⓪] 教えます） 一段
 I am teaching Japanese.
 
 na/rau
-子供[こども⓪]の時[とき➁]、ピアノ[⓪]を 習[なら]っていました。（習う[ならう➁]・習います） 五段
+子供[こども⓪]の時[とき➁]、ピアノ[⓪]を 習[なら]っていました。（習う[ならう➁] 習います） 五段
 When I was a kid, I was learning how to play the piano.
 車の 運転[うん￨てん⓪]を 習っています。
 I'm learning to drive.
@@ -106,49 +106,51 @@ One is never too old to learn.
 I studied in Paris because I wanted to learn the process of authentic French confectionary.
 
 wa/ka\ru
-中国語[ちゅうごくご⓪]が 分[わ]かります。（分かる[わかる➁]）
+中国語[ちゅうごくご⓪]が 分[わ]かります。（分かる[わかる➁] 分かります）
 I understand Chinese.
 
 a/sobu
-昨日友達と 遊[あそ]びました。（遊ぶ[あそぶ⓪]）
+昨日友達と 遊[あそ]びました。（遊ぶ[あそぶ⓪] 遊びます）
 I hung out with my friend yesterday.
 ２人の子供が 通りで 遊んでいた。
 There were two children playing on the street.
 
 ke/kkonsuru
-リカと 結婚[けっこん]します。（結婚する[けっこんする⓪]）
+リカと 結婚[けっこん]します。（結婚する[けっこんする⓪] 結婚します）
 I'm going to get married to Rika.
 
 ri/konsuru
-マリカと 離婚[りこん]します。（離婚する[りこんする⓪]）
+マリカと 離婚[りこん]します。（離婚する[りこんする⓪] 離婚します）
 I am going to get divorced with Marika.
 
 ke/su
-電気[でんき➀]を 消[け]します。（消す[けす⓪]）
+電気[でんき➀]を 消[け]します。（消す[けす⓪] 消します）
 I'll turn off the light.
 騒音[そう￨おん⓪]に 消されて 私の 声[こえ➀]は 人に 届[とど]かなかった。
 I couldn't make myself heard above the noise.
 to/doke\ru
-届[とど➂]ける to deliver
+届[とど➂]ける 届けます to deliver
 
 tsu/ke\ru
-電気を 付[つ]けます。（付ける[つける➁]） transitive
+電気を 付[つ]けます。（付ける[つける➁] 付けます） transitive
 I'll turn on the light.
 
 tsu\ku
-テレビが つきません。（付く➀） intransitive, to be attached
+テレビが つきません。（付く➀ 付きます） intransitive, to be attached
 The TV won't turn on.
 お風呂は ついてますか。
 Does it have a bathroom?
 
-hi/raku
-庭の バラの 木の つぼみ が 少しずつ 開[ひら]き 始める。（開く[ひらく⓪]） transitive/intransitive
+*hi/raku
+庭の バラの 木の つぼみ が 少しずつ 開[ひら]き 始める。（開く[ひらく⓪] 開きます） transitive/intransitive
 Little by little, the buds on the rosebush in my garden begin to open.
+蕾[つ/ぼみ\]
+少しずつ[す/こし･ず\つ]
 先週、私達は 舞踏会を 開きました。
 We gave a ball last week.
 
 a/keru
-ドア[➀]を 開[あ]けてください。（開ける[あける⓪]・明ける・空ける⓪） transitive
+ドア[➀]を 開[あ]けてください。（開ける[あける⓪] 開けます・明ける・空ける⓪ ） transitive
 Please open the door.
 夜が 明ける。
 Day is breaking.
@@ -158,43 +160,45 @@ Please leave next Saturday afternoon free.
 Empty the purse into this bag.
 
 hi/raku
+開く intransitive
+a/ku
 開く[あく⓪] intransitive
 o/to\su
-落とす[おとす➁] transitive
+落とす[おとす➁] 落とします transitive
 o/chi\ru
-落ちる[おちる➁] intransitive
+落ちる[おちる➁] 落ちます intransitive
 shi/me\ru
-閉める[しめる➁] transitive
+閉める[しめる➁] 閉めます transitive
 shi/ma\ru
-閉まる[しまる➁] intransitive
+閉まる[しまる➁] 閉まります intransitive
 ke/su
-消す[けす⓪] transitive
+消す[けす⓪] 消します transitive
 ki/eru
-消える[きえる⓪] intransitive
+消える[きえる⓪] 消えます intransitive
 i/reru
-入れる[いれる⓪] transitive
+入れる[いれる⓪] 入れます transitive
 ha\iru
-入る[はいる➀] intransitive
+入る[はいる➀] 入ります intransitive
 da\su
-出す[だす➀] transitive
+出す[だす➀] 出します transitive
 de\ru
-出る[でる➀] intransitive
+出る[でる➀] 出ます intransitive
 
 i/so\gu
-急[いそ]いでください。（ぎて->いで）（急ぐ[いそぐ➁]）
+急[いそ]いでください。（ぎて->いで）（急ぐ[いそぐ➁] 急ぎます）
 Hurry up!
 ニックは バスに 間に合う ように 急いだ。
 Nick hurried to catch the bus.
-間に合う[ま･に･あ~う➂] to be in time
+間に合う[ま･に･あ~う➂] 間に合います to be in time
 ように so that
 「この様に」などという具合に、比較して、同じ類のもののであることを示したりする際に使われる表現。「ように」は助動詞「ようだ」の連用形。
 
 ma\tsu
-彼女[かのじょ➀]を 待[ま]っています。（待つ[まつ➀]）
+彼女[かのじょ➀]を 待[ま]っています。（待つ[まつ➀] 待ちます）
 I'm waiting for my girlfriend.
 
 tsu/kau
-このはさみ[➂]、使[つか]ってもいいですか。（使う[つかう⓪]）
+このはさみ[➂]、使[つか]ってもいいですか。（使う[つかう⓪] 使います）
 Can I use these scissors?
 
 mi/se\ru
@@ -205,31 +209,34 @@ I smile, as if to mend the situation.
 to/ritsukuro\u
 取り繕う[とり･つくろ~う➄] to smooth over a mistake
 wa/rau
-笑[わら⓪]う
+笑[わら⓪]う 笑います
+クラスの もの 皆が 彼の 冗談に 笑った。
+The whole class laughed at his joke.
+冗談[じょ/うだ\ん]
 
 ha/na\su
-妻[つま➀]は 今[いま➀] 電話で 友達と 話[はな]しています。（話す[はなす➁]）
+妻[つま➀]は 今[いま➀] 電話で 友達と 話[はな]しています。（話す[はなす➁] 話します）
 My wife is talking to her friend on the phone right now.
 あなたの 趣味[しゅ￨み➀] について 話して ください。
 Please tell me about your hobbies.
-に就[つ]いて about
+に就ついて[に/つ\いて] about
 
 su/waru
-座[すわ]ってください。（座る[すわる⓪]）
+座[すわ]ってください。（座る[すわる⓪] 座ります）
 Please sit down.
 数人の 学生が ベンチに 座り、昼食を 食べていた。
 Some students were sitting on the bench and having lunch.
 疲れていたので、電車に 乗って 席に 座るなり、眠ってしまった。
 I was so exhausted that I fell asleep as soon as I got on the train and sat down.
 ne/muru
-眠[ねむ⓪]る
+眠[ねむ⓪]る 眠ります
 疲[つか➂]れ noun
 tsu/kare\ru
 疲れる➂
 なり as soon as
 
 ta\tsu
-立[た]ってください。（立つ[たつ➀]）
+立[た]ってください。（立つ[たつ➀] 立ちます）
 Please stand up.
 次々[つぎつぎ➁]に 立って 出ていった。（出[で➀]る）
 One after another they stood up and went out.
@@ -237,48 +244,48 @@ One after another they stood up and went out.
 Smoke was rising from the chimney.
 
 ha\iru
-ここに 入[はい]らないでください。（入る[はいる➀]）
+ここに 入[はい]らないでください。（入る[はいる➀] 入ります）
 Please don't enter here.
 
 o/ku
-ここに かばん[⓪]を 置[お]いてください。（置く[おく⓪]）
+ここに かばん[⓪]を 置[お]いてください。（置く[おく⓪] 置きます）
 Please put your bag here.
 彼女は いつも 自分の 部屋を きれいに して 置く。
 She always keeps her room clean.
 して acts as a connective indicating a state or condition after the 連用形[れんようけい] form of an adjective or the auxiliary verb ず
 
-tsu/ku\ru
-晩[ばん⓪]ご飯[はん➀]を 作[つく]ります。（作る[つくる➁]）
+*tsu/ku\ru
+晩[ばん⓪]ご飯[はん➀]を 作[つく]ります。（作る[つくる➁] 作ります）
 I'll make dinner.
 どこ へ 行って も、彼は 必[かなら⓪]ず 友達を 作る。
 Wherever he may go, he is sure to make friends.
-必[かなら⓪]ず always, certainly
+必ず[か/ならず] always, certainly
 
 u/ru
-この本[ほん➀]を 売[う]ります。（売る[うる⓪]）
+この本[ほん➀]を 売[う]ります。（売る[うる⓪] 売ります）
 I'll sell this book.
 ガソリン は リットル 単位[たんい➀]で 売られる。
 Gasoline is sold by the liter.
 売られる passive
 
 su\mu
-東京に 住[す]んでいます。（住む[すむ➀]）
+東京に 住[す]んでいます。（住む[すむ➀] 住みます）
 I live in Tokyo.
 あなたは どのくらいの間、神戸に 住んでいますか。
 How long have you lived in Kobe?
 何[ど]の位[くらい⓪] how long
 
 shi/ru
-森[もり⓪]さんを 知[し]っていますか。（知る[しる⓪]）
+森[もり⓪]さんを 知[し]っていますか。（知る[しる⓪] 知ります）
 Do you know Mr.Ms. Mori?
 私は 自分が 感じた ことを 言えるのが 必要 である ことを 知った。
 I learned that I need to be able to say what I feel.
 必要[ひつ￨よう⓪]
 ka/njiru
-感[かん⓪]じる to feel, to experience
+感[かん⓪]じる 感じます to feel, to experience
 
 ha/jimeru
-会議[かいぎ➀]を 始[はじ]めます。（始める[はじめる⓪]）
+会議[かいぎ➀]を 始[はじ]めます。（始める[はじめる⓪] 始めます）
 We'll begin the meeting.
 私たちは 姉妹３人 で 喫茶店を 始めた。
 We three sisters opened a coffee shop.
@@ -289,12 +296,12 @@ de/nwasuru
 I'll call you tomorrow.
 
 no/ru
-電車に 乗[の]ります。（乗る[のる⓪]）
+電車に 乗[の]ります。（乗る[のる⓪] 乗ります）
 I'll get on the train.
 １１時の 列車に 乗る つもりです。
 I'm catching the 11:00 train.
 列車[れっ￨しゃ⓪]
-V 積[つ⓪]もり です I intend to
+積[つ⓪]もり intention, ~です I intend to
 
 a/biru
 シャワーを 浴[あ]びます。（浴びる[あびる⓪]）
@@ -322,7 +329,7 @@ wa/sureru
 家に 携帯[けいたい⓪]を 忘[わす]れました。（忘れる[わすれる⓪]）
 I forgot my mobile phone at home.
 
-ha/ra\u
+*ha/ra\u
 お金[かね⓪]を 払[はら]いました。（払う[はらう➁]）
 I paid (the money).
 払える かどうか 分からない ざます。
@@ -336,7 +343,7 @@ Jack brushed the dust off his coat.
 ブラシ: brush
 埃[ほこり⓪]
 
-ka\esu
+*ka\esu
 図書館[としょかん➁]に 本を 返[かえ]しに 行[い]きます。（返す[かえす➀]）
 I am going to the library to return a book.
 お前は 恩[おん➀]を 仇[あだ➁]で 返したな。
@@ -353,15 +360,14 @@ za/ngyousuru
 I worked overtime again yesterday.
 
 a/rau
-手を 洗[あら]います。（洗う[あらう⓪]）
+手を 洗[あら]います。（洗う[あらう⓪] 洗います）
 I'll wash my hands.
 
 hi/ku
-ピアノを 弾[ひ]きます。（弾く[ひく⓪]）
+ピアノを 弾[ひ]きます。（弾く[ひく⓪] 弾きます）
 I'll play the piano.
-弾[ひ]く
 
-彼は 私の 顔を 指先で ぽんと はじいた。（弾く[はじく➁]）
+彼は 私の 顔を 指先で ぽんと はじいた。（弾く[はじく➁] 弾きます）
 He flicked me in the face.
 この レインコートは 水を 完全に はじく。
 The raincoat sheds water perfectly.
@@ -369,21 +375,21 @@ The raincoat sheds water perfectly.
 弾[はじ]く
 
 u/tau
-アニソン[➀]を 歌[うた]います。（歌う[うたう⓪]）
+アニソン[➀]を 歌[うた]います。（歌う[うたう⓪] 歌います）
 I'll sing an anime song.
 ジョンは ステージで 何を 歌いましたか。
 What did John sing on the stage?
 
 su/teru
-ゴミ[➁]を 捨[す]てます。（捨てる[すてる⓪]）
+ゴミ[➁]を 捨[す]てます。（捨てる[すてる⓪] 捨てます）
 I'll throw away the garbage.
 
 yo/yakusuru
 レストランを 予約[よやく]しました。（予約する[よやくする⓪]）
 I reserved a restaurant.
 
-to/maru
-ホテルに 泊[と]まります。（泊まる[とまる⓪]）
+*to/maru
+ホテルに 泊[と]まります。（泊まる[とまる⓪] 泊まります）
 I'll stay at a hotel.
 
 so/ujisuru
@@ -394,14 +400,14 @@ se/ntakusuru
 明日の朝 洗濯[せんたく]します。（洗濯する[せんたくする⓪]）
 I'll do laundry tomorrow morning.
 
-o/mo\u
-田中さんも 来[く]ると 思[おも]います。（思う[おもう➁]）
+*o/mo\u
+田中さんも 来[く]ると 思[おも]います。（思う[おもう➁] 思います）
 I think Mr./Ms. Tanaka is also coming.
 状況[じょう￨きょう⓪]は 深刻[しんこく⓪] だ と 思いますか。
 Do you regard the situation as serious?
 
 ki/ru
-コート[➀]を 着[き]ます。（着る[きる⓪]） 一段 着物⓪
+コート[➀]を 着[き]ます。（着る[きる⓪] 着ます） 一段 着物⓪
 I'll put on a coat.
 
 ha/ku
@@ -414,7 +420,7 @@ I'll put on a hat.
 その 機械は ほこりを かぶっていた。
 The machine was coated with dust.
 
-ko/umu\ru
+*ko/umu\ru
 被る；蒙る[こうむ~る➂] to suffer; to receive (kindness, rebuke, support); to sustain (damage)
 
 ka/ke\ru
@@ -428,20 +434,20 @@ su/ru
 I'll put on a tie.
 
 ma/garu
-あの[⓪]交差点[こうさてん⓪]を  右[みぎ⓪]に 曲[ま]がってください。（曲がる[まがる⓪]）
+あの[⓪]交差点[こうさてん⓪]を  右[みぎ⓪]に 曲[ま]がってください。（曲がる[まがる⓪] 曲がります）
 Please turn right at that intersection.
 ネクタイが 曲がってるよ。
 Your tie is crooked.
 風に 吹[ふ]かれて 木が 曲がった。
 
 wa/taru
-橋[はし➁]を 渡[わた]ります。（渡る[わたる⓪]）
+橋[はし➁]を 渡[わた]ります。（渡る[わたる⓪] 渡ります）
 I'll cross the bridge.
 橋は 安全[あん￨ぜん⓪]です。車で わたれます。（わたれます potential）
 The bridge is safe; you can drive across.
 
 mi/gaku
-歯[は➀]を 磨[みが]きます。（磨く[みがく⓪]）
+歯[は➀]を 磨[みが]きます。（磨く[みがく⓪] 磨きます）
 I'll brush my teeth.
 
 sho/ukaisuru
@@ -449,17 +455,17 @@ sho/ukaisuru
 I'll introduce Mr./Ms. Yamamoto to Mr./Ms. Tanaka.
 
 tsu\ku
-5時ごろ[➀] 大阪に 着[つ]きます。（着く[つく➀]）
+5時ごろ[➀] 大阪に 着[つ]きます。（着く[つく➀] 着きます）
 I'll arrive in Osaka around 5:00.
 
-sa/gasu
-眼鏡を 探[さが]しています。（探す[さがす⓪] 捜す）
+*sa/gasu
+眼鏡を 探[さが]しています。（探す[さがす⓪] 探します）
 I'm looking for my glasses.
 警察[けい￨さつ⓪]は 行方不明[ゆくえ･ふ￨めい➃]の 少年[しょう￨ねん⓪]を 捜した。
 The police searched for the lost boy.
 
-hi/rou
-駅[えき➀]で 携帯を 拾[ひろ]いました。（拾う[ひろう⓪]）
+*hi/rou
+駅[えき➀]で 携帯を 拾[ひろ]いました。（拾う[ひろう⓪] 拾います）
 I picked up a mobile phone at the station.
 日本では 昼間でも 夜でも タクシーを 拾う ことができる。 （ことが出来る）
 In Japan you can always catch a cab, day or night.
@@ -469,7 +475,7 @@ re/nrakusuru
 I'll contact you later.
 
 ka\u
-猫[ねこ➀]を 飼[か]っています。（飼う[かう➀]）
+猫[ねこ➀]を 飼[か]っています。（飼う[かう➀] 飼います）
 I have a cat.
 ナンシーは 犬を 飼い たがっていますか。
 Does Nancy want to have a dog?
@@ -496,18 +502,18 @@ u/ndousuru
 毎日[まいにち➀] 運動[うんどう]しています。（運動する[うんどうする⓪]）
 I do exercise everyday.
 
-ko\mu
-道[みち⓪]が 込[こ]んでいます。（込む[こむ➀]）
+*ko\mu
+道[みち⓪]が 込[こ]んでいます。（込む[こむ➀] 込みます）
 The road is busy.
 今晩は 列車が とても 込んでいる。
 The train is very crowded this evening.
 
-shu/ssekisuru
+*shu/ssekisuru
 会議に 出席[しゅっせき⓪]します。（出席する）
 I'll attend the meeting.
 
-tsu/taeru
-田中さんに よろしく 伝[つた]えてください。（伝える）
+*tsu/taeru
+田中さんに よろしく 伝[つた]えてください。（伝える 伝えます）
 Please say "Hi" to Mr./Ms. Tanaka.
 奥様[おく･さま➀]に よろしく お伝え ください。 (note the use of お)
 Please say hello to your wife.
@@ -528,7 +534,7 @@ cho/kinsuru
 日本に 旅行する ために 貯金[ちょきん]しています。（貯金する）
 I'm saving money to travel to Japan.
 
-na/re\ru
+*na/re\ru
 日本の 生活[せいかつ⓪]に 慣[な]れましたか。（慣れる）
 Did you get used to living in Japan?
 学生の 時は 勉強する ことに なれていた。
@@ -557,8 +563,8 @@ ka/ke\ru
 鍵[かぎ➁]を 掛[か]けます。（掛ける）
 I'll lock.
 
-ha/kobu
-この箱[はこ⓪]を あそこ[⓪]まで 運[はこ]んでください。（運ぶ）
+*ha/kobu
+この箱[はこ⓪]を あそこ[⓪]まで 運[はこ]んでください。（運ぶ 運びます）
 Please carry this box over there.
 荷物を 二階に 運んで いただけませんか。（頂ける⓪）
 Would you carry my luggage upstairs?
@@ -574,7 +580,7 @@ i/reru
 I'll turn on the computer.
 
 sa/sou
-山本さんも 誘[さそ]いましょう。（誘う）
+山本さんも 誘[さそ]いましょう。（誘う 誘います）
 Let's ask Mr./Ms. Yamamoto to join us as well.
 ウラウラと した 日差し に誘われて、眠りに落ちた。 （した：する）
 The soft, gentle sunlight beckoned me to sleep.
@@ -584,8 +590,8 @@ sho\utaisuru
 田中さんを 結婚式[けっこんしき➂]に 招待[しょうたい]しました。（招待する）
 I invited Mr./Ms. Tanaka to my wedding.
 
-ta/no\mu
-焼き鳥[やきとり⓪]を 頼[たの]みました。（頼む）
+*ta/no\mu
+焼き鳥[やきとり⓪]を 頼[たの]みました。（頼む 頼みます）
 I ordered a yakitori.
 私が 頼んだ もの が まだ 届[とど]いていません。
 I'm still waiting for my order.
@@ -593,7 +599,7 @@ I'm still waiting for my order.
 Take care of Mr. Tanaka for me!
 
 na/rabu
-並[なら]んでいますか。（並ぶ）
+並[なら]んでいますか。（並ぶ 並びます）
 Are you in line?
 列[れつ➀]に 並んで 長い間[ながいあいだ➁] 待たされた 後[あと➀]、身分証明[み￨ぶん･しょう￨めい➃] として 正式[せい￨しき⓪]な 出生証明書[しゅっしょう･しょうめいしょ]が 必要[ひつ￨よう⓪] だ と いわれた。
 After a long wait in line, she was told she should get a certified copy of her birth certificate as identification.

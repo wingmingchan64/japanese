@@ -823,7 +823,12 @@ function removeBracketedAccentMarker( string $str ) : string
 	return $new_str;
 }
 
-function moveFurigana( string $str, array $kanji_kana, array $wadoku_entry_accent, array $markers ) : string
+function moveFurigana( 
+	string $str, 
+	array $kanji_kana, // $和獨漢字_假名
+	array $wadoku_entry_accent, // $和獨詞條_accent
+	array $markers // MARKER_ARRAY
+) : string
 {
 	// no brackets
 	if( strpos( $str, '[' ) === false )

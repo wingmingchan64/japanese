@@ -166,7 +166,11 @@ while( true )
 					elseif( $move_furi )
 					{
 						$parts[ $i ] = moveFurigana(
-							$parts[ $i ], $和獨漢字_假名, $和獨詞條_accent );
+							$parts[ $i ], 
+							$和獨漢字_假名, 
+							$和獨詞條_accent,
+							MARKER_ARRAY
+							);
 					}
 				}
 					
