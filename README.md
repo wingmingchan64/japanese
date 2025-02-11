@@ -259,7 +259,7 @@ Array
 )
 </pre>
 <ul>
-<li>Because I know all common Japanese 漢字 and many many Chinese counterparts, I can link homomyns and variants like <code>搗く、舂く</code>, <code>衝く、突く、撞く</code>, <code>就く、即く、着く</code>, <code>点く、付く</code> and <code>付く、憑く</code> as related groups and memorize them as groups; and all 16 homonyms and variants can also be treated as a group</li>
+<li>Because I know all common Japanese 漢字 and many many more Chinese 漢字, I can link homomyns and variants like <code>搗く、舂く</code>, <code>衝く、突く、撞く</code>, <code>就く、即く、着く</code>, <code>点く、付く</code> and <code>付く、憑く</code> as related groups and memorize them as groups; and all 16 homonyms and variants can also be treated as a single group</li>
 <li>It is easier to see the relation if the transitive group is added to the picture:</li>
 </ul>
 <pre>
@@ -278,7 +278,7 @@ Array
 )
 </pre>
 <ul>
-<li>I have also memorized homomyns like <code>片付ける[か/たづけ\る]</code> and <code>嫁ける[か/たづけ\る]</code></li>
+<li>I have also memorized homomyns like <code>片付ける[か/たづけ\る]</code> and <code>嫁ける[か/たづけ\る]</code> as a pair (one of the meanings of 片付ける is to marry off a daughter) by making up a phrase like to marry off a daughter to clean up someone's house</li>
 </ul>
 <h2>Entries Containing a 漢字</h2>
 <ul>
