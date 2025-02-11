@@ -65,7 +65,7 @@ Jisho.org:
 <ul>
 <li>As of January 5, 2025, the <a href="https://wadoku.de/wiki/display/WAD/Downloads+und+Links">XML dump</a> contains 433,218 entries</li>
 <li>I find this XML dump (I call it the wadoku database) extremely useful</li>
-<li>I create a PHP file containing an array mapping entry id to entry XML (和獨id_xml_entry.php, 237MB)</li>
+<li>I create a PHP file containing an array mapping entry ID to entry XML (和獨id_xml_entry.php, 237MB)</li>
 <li>I create a map, containing 漢字-ID pairs for easy lookup</li>
 <li>I create a map, containing 仮名-ID pairs for easy lookup</li>
 <li>I create a map, containing 羅馬名-漢字-仮名 combinations for easy lookup</li>
