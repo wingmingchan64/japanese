@@ -260,5 +260,23 @@ Array
 </pre>
 <ul>
 <li>Because I know all common Japanese 漢字 and many many Chinese counterparts, I can link homomyns and variants like <code>搗く、舂く</code>, <code>衝く、突く、撞く</code>, <code>就く、即く、着く</code>, <code>点く、付く</code> and <code>付く、憑く</code> as related groups and memorize them as groups; and all 16 homonyms and variants can also be treated as a group</li>
+<li>It is easier to see the relation if the transitive group is added to the picture:</li>
+</ul>
+<pre>
+Array
+(
+    [0] => 即ける[つ/け\る]
+    [1] => 卽ける[つ/け\る]
+    [2] => 就ける[つ/け\る]
+    [3] => 浸ける[つ/ける]
+    [4] => 漬ける[つ/ける]
+    [5] => 付ける[つ/け\る]
+    [6] => 附ける[つ/け\る]
+    [7] => 点ける[つ/け\る]
+    [8] => 付ける[つ/け\る]
+    [9] => 着ける[つ/け\る]
+)
+</pre>
+<ul>
 <li>I have also memorized homomyns like <code>片付ける[か/たづけ\る]</code> and <code>嫁ける[か/たづけ\る]</code></li>
 </ul>
