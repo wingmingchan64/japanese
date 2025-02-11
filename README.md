@@ -283,7 +283,7 @@ Array
 <h2>Entries Containing a 漢字</h2>
 <ul>
 <li>The program <kbd>run_program.php</kbd> can also be used to drive other programs</li>
-<li>Three related programs can be driven to display wadoku entries containing a certain 漢字 as the first 字, last 字, or a 字 somewhere in the middle of the entries</li>
+<li>Three related programs can be driven to display wadoku entries containing a certain 漢字 as the first 字, last 字, or anywhere in the entries</li>
 </ul>
 <pre>
 H:\php809>php h:\github\japanese\programs\run_program.php "漢字→尾字漢字詞條 accent_kana"
