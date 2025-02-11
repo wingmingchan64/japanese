@@ -259,6 +259,6 @@ Array
 )
 </pre>
 <ul>
-<li>Because I know all Japanese 漢字 and many many Chinese counterparts, I can link homomyns and variants like <code>搗く、舂く</code>, <code>衝く、突く、撞く</code>, <code>就く、即く、着く</code>, <code>点く、付く、附く</code> and <code>付く、憑く</code> as related groups and memorize them as groups; and all 16 homonyms and variants can also be treated as a group</li>
+<li>Because I know all Japanese 漢字 and many many Chinese counterparts, I can link homomyns and variants like <code>搗く、舂く</code>, <code>衝く、突く、撞く</code>, <code>就く、即く、着く</code>, <code>点く、付く</code> and <code>付く、憑く</code> as related groups and memorize them as groups; and all 16 homonyms and variants can also be treated as a group</li>
 <li>I have also memorized homomyns like <code>片付ける[か/たづけ\る]</code> and <code>嫁ける[か/たづけ\る]</code></li>
 </ul>
