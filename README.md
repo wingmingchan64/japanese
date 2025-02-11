@@ -278,7 +278,7 @@ Array
 )
 </pre>
 <ul>
-<li>I have also memorized homomyns like <code>片付ける[か/たづけ\る]</code> and <code>嫁ける[か/たづけ\る]</code> as a pair (one of the meanings of 片付ける is to marry off a daughter) by making up a phrase like to marry off a daughter to clean up someone's house</li>
+<li>I have also memorized homomyns like <code>片付ける[か/たづけ\る]</code> and <code>嫁ける[か/たづけ\る]</code> as a pair (one of the meanings of 片付ける is to marry off a daughter) by making up a phrase like "to marry off a daughter to someone to clean up his house"</li>
 </ul>
 <h2>Entries Containing a 漢字</h2>
 <ul>
