@@ -8,6 +8,9 @@ php h:\github\japanese\programs\run_program.php "漢字→漢字、假名、音�
 php h:\github\japanese\programs\run_program.php "漢字→漢字、假名、音調 accent_kana"
 php h:\github\japanese\programs\run_program.php "weblio\下載weblio詞條"
 php h:\github\japanese\programs\run_program.php "weblio\展示詞條内容"
+php h:\github\japanese\programs\run_program.php "漢字→含此漢字詞條 accent_kana"
+php h:\github\japanese\programs\run_program.php "漢字→首字漢字詞條 accent_kana"
+php h:\github\japanese\programs\run_program.php "漢字→尾字漢字詞條 accent_kana"
 
 
 The command prompt window cannot deal with an input containing "…";
