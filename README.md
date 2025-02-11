@@ -64,13 +64,12 @@ Jisho.org:
 <h3>和独辞典</h3>
 <ul>
 <li>As of January 5, 2025, the <a href="https://wadoku.de/wiki/display/WAD/Downloads+und+Links">XML dump</a> contains 433,218 entries</li>
-<li><a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">id_kanji_kana_accent.txt</a> containing 433,218 entries extracted from the XML file</li>
 <li>I find this XML dump (I call it the wadoku database) extremely useful</li>
-<li>I create a PHP file containing an array mapping entry id to entry XML</li>
+<li>I create a PHP file containing an array mapping entry id to entry XML (和獨id_xml_entry.php, 237MB)</li>
 <li>I create a map, containing 漢字-ID pairs for easy lookup</li>
 <li>I create a map, containing 仮名-ID pairs for easy lookup</li>
 <li>I create a map, containing 羅馬名-漢字-仮名 combinations for easy lookup</li>
-<li>Since these files are very large, I provide instead the <a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">programs</a> used to create these files</li>
+<li>Since these data files are very large, I cannot upload them to github; instead I provide the <a href="https://github.com/wingmingchan64/japanese/tree/main/programs/wadoku">programs</a> used to generate them</li>
 <li>With an ID, the XML content can be retrieved, processed and displayed</li>
 <li>Information contained in the XML: ID, 漢字, 仮名, pitch accent, meanings (in German) and so on</li>
 <li>I create these files locally to avoid querying the website directly</li>
