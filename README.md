@@ -220,7 +220,7 @@ Array
 </pre>
 <h2>Homonyms and Variants</h2>
 <ul>
-<li>I have a program named <kbd>run_program.php</kbd> that can execute another program with programmatic and user parameters</li>
+<li>I have a program named <kbd>run_program.php</kbd> that can execute another program, with programmatic and user parameters, repeatedly</li>
 <li>When the program named <kbd>羅馬字→漢字、假名、音調.php</kbd> with the programmatic parameter <kbd>accent_kana</kbd> is executed, this program can be used to display homonyms and variants drawn from the wadoku database</li>
 <li>I can memorize not just a single word, but a group of related variants as well as homoyms</li>
 </ul>
