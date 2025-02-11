@@ -37,7 +37,13 @@ entry
   hatsuon
   accent
  gramGrp
- sense
+ sense +
+  trans
+   tr
+    token/text
+	bracket
+	 expl
+	  text
 
 code:
 $entry_dom = new DOMDocument();

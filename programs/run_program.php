@@ -15,7 +15,7 @@ Use '...' instead.
 
 This program runs another program continuously with the same 
 programmatic (non-user) parameter(s), like accent_num above. 
-The program run can have its own runtime parameters.
+The execution of the program can have its own runtime parameters.
 */
 require_once( "h:\\github\\japanese\\programs\\函式.php" );
 

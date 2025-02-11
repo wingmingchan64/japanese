@@ -218,3 +218,43 @@ Array
     [Condition (-tara)] => 帰ったら,帰らなかったら
 )
 </pre>
+<h2>Homonyms and Variants</h2>
+<ul>
+<li>I have a program named <kbd>run_program.php</kbd> that can execute another program with programmatic and user parameters</li>
+<li>When the program named <kbd>羅馬字→漢字、假名、音調.php</kbd> with the programmatic parameter <kbd>accent_kana</kbd> is executed, this program can be used to display homonyms and variants drawn from the wadoku database</li>
+<li>I can memorize not just a single word, but a group of related variants as well as homoyms</li>
+</ul>
+<pre>
+H:\php809>php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、音調 accent_kana"
+請輸入參數:
+tobu
+
+Array
+(
+    [0] => 飛ぶ[と/ぶ]
+    [1] => 跳ぶ[と/ぶ]
+)
+
+請輸入參數:
+tsuku
+
+Array
+(
+    [0] => 付く[つ\く]
+    [1] => 附く[つ\く]
+    [2] => 点く[つ\く]
+    [3] => 浸く[つ\く]
+    [4] => 漬く[つ\く]
+    [5] => 即く[つ\く]
+    [6] => 着く[つ\く]
+    [7] => 築く[つ\く]
+    [8] => 就く[つ\く]
+    [9] => 吐く[つ\く]
+    [10] => 搗く[つ\く]
+    [11] => 舂く[つ\く]
+    [12] => 憑く[つ\く]
+    [13] => 突く[つ\く]
+    [14] => 衝く[つ\く]
+    [15] => 撞く[つ\く]
+)
+</pre>
