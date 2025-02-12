@@ -29,6 +29,8 @@
 
 は/な\す
 話す,[は/な\す],speak
+  放す to release; to let go, to add sth to water, broth
+  離す to separate; to part; to divide; to keep apart
 
 と/ぶ
 飛ぶ,[と/ぶ],fly,跳ぶ/翔ぶ
@@ -146,7 +148,10 @@
 わ/すれる
 忘れる,[わ/すれる],forget
 
-a/tsume\ru,集める,[あつめる➂],collect
+あ/つめ\る
+集める,[あ/つめ\る],collect
+  趣味は切手を集めることです。
+
 o/boe\ru,覚える,[おぼえる➂],memorize
 se/me\ru,攻める,[せめる➁],attack
 ma/mo\ru,守る,[まもる➁],protect
