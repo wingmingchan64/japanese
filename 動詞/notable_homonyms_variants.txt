@@ -1,0 +1,30 @@
+Array
+(
+[0] => 闥[た\つ]
+[1] => 絶つ[た\つ] to sever; to cut off; to suppress; to eradicate; to exterminate; to abstain
+[2] => 断つ[た\つ]
+[3] => 裁つ[た\つ] to cut (cloth)
+[4] => 截つ[た\つ]
+[5] => 経つ[た\つ] to pass (of time); to elapse
+[6] => 立つ[た\つ]
+[7] => 起つ[た\つ] to take action; to act; to rise (up); to rouse oneself
+[8] => 発つ[た\つ] to depart (on a journey, trip, etc.); to leave; to set off; to start
+[9] => 辰[た/つ]
+[10] => 竜[た/つ]
+[11] => 龍[た/つ]
+[12] => 建つ[た\つ] to be erected; to be built
+[13] => 勃つ[た\つ] to have an erection; to become erect
+)
+
+切断[せつだん]する 截断[せつだん]
+截断[さいだん]する
+経過[け/いか] passage (of time); elapsing; lapse
+出発[しゅ/っぱつ] departure; leaving; setting off
+出発日
+出発時間
+出発地
+出発点
+出発予定時刻[よていじこく]
+出発便[びん]
+出発時刻[じこく]
+勃起[ぼっき]する

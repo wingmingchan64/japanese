@@ -2,7 +2,7 @@
 歩く,[あ/る\く],walk
 
 は/し\る
-走る,走る[は/し\る],run
+走る,走る[は/し\る],run,奔る/疾る/趨る
 
 た/べ\る
 食べる,[た/べ\る],eat
@@ -18,9 +18,14 @@
 
 か\く
 書く,[か\く],write
-
+  掻く[か\く] to scratch, to perspire, to shovel
+  舁く[か\く]
+  欠く[か/く]/闕く to chip, to lack
+  
 よ\む
 読む,[よ\む],read
+  訓む to read (a kanji) with its native Japanese reading
+  詠む to compose, to write, to recite
 
 は/な\す
 話す,[は/な\す],speak
@@ -33,38 +38,114 @@
 
 さ/わる
 触る,[さ/わる],touch
+  障る[さ/わる] to be harmful to; to hinder; to interfere with; to irritate
 
 み\る
 見る,[み\る],see/look
 
-ki/ku,
+き/く
 聞く,[き/く],listen
-u/tau,
+
+う/たう
 歌う,[う/たう],sing
-o/doru,
+
+お/どる
 踊る,[お/どる],dance
-o/doru,
-躍る,[お/どる],jump
-su/be\ru,滑る,[すべる➁],slip
-sa/gasu,探す,[さがす⓪],search/look for
-tsu/kau,使う,[つかう⓪],use
-ke/su,消す,[けす⓪],turn off
-tsu/ke\ru,点ける,[つける➁],turn on
-tsu/ku\ru,作る,[つくる➁],make
-su/waru,座る,[すわる⓪],sit
-ta\tsu,立つ,[たつ➀],stand
-ma\tsu,待つ,[まつ➀],wait
-o/su,押す,[おす⓪],push
-hi/ku,引く,[ひく⓪],pull
-ha/kobu,運ぶ,[はこぶ⓪],carry
-a/sobu,遊ぶ,[あそぶ⓪],play
-a/keru,開ける,[あける⓪],open
-shi/me\ru,閉める,[しめる➁],close
-ka\eru,帰る,[かえる➀],go home
-ta/ta\ku,叩く,[たたく➁],beat
-u/ru,売る,[うる⓪],sell
-ka/u,買う,[かう⓪],buy
-wa/sureru,忘れる,[わすれる⓪],forget
+  躍る[お/どる] to jump
+
+す/べ\る
+滑る,[す/べ\る],slip,辷る
+  統べる[す/べ\る]/総べる to rule over; to govern; to command; to control; to integrate; to consolidate; to unite; to incorporate
+
+さ/がす
+探す,[さ/がす],search/look for, 捜す
+
+つ/かう
+使う,[つ/かう],use, 遣う
+
+け/す
+消す,[け/す],turn off
+
+つ/け\る
+点ける,[つ/け\る],turn on
+  就ける/即ける to install (a king), to appoint, to assign
+  漬ける/浸ける to soak
+  漬ける to pickle
+  付ける/着ける/附ける
+
+つ/く\る
+作る,[つ/く\る],make, 造る/創る
+
+す/わる
+座る,[す/わる],sit,坐る/据わる
+
+た\つ
+立つ,[た\つ],stand
+  絶つ/断つ/裁つ/截つ
+  経つ
+  起つ
+  発つ
+  建つ
+  勃つ
+
+ま\つ待つ
+[ま\つ],wait,俟つ
+
+お/す
+押す,[お/す],push
+  推す to recommend
+  押す/圧す to overpower
+
+ひ/く
+引く,[ひ/く],pull,曳く,牽く
+  弾く[ひ/く]
+  挽く to saw
+  挽く/碾く to grind (eg coffee)
+  轢く to run over, to knock down
+
+は/こぶ
+運ぶ,[は/こぶ],carry
+
+あ/そぶ
+遊ぶ,[あ/そぶ],play
+
+あ/ける
+開ける,[あ/ける],open,明ける/空ける
+
+し/め\る
+閉める,[し/め\る],close
+  締める to tie, to fasten, to put on
+  締める/緊める to be strict
+  締める/〆る to total, to kill (fish, poultry)
+  絞める to strangle
+  湿る to become wet
+  占める to occupy, to account for
+
+か\える
+帰る,[か\える],go home,還る
+  返る[か\える]/反る to return, to become extremely
+  孵る[か\える]
+  替える[か/える]/換える/代える
+
+た/た\く
+叩く,[た/た\く],beat,敲く
+
+う/る
+売る,[う/る],sell
+  得る[う\る] to be able to, to get, to acquire
+  売買[ば\いばい]
+  商売[しょ\うばい]
+  貿易[ぼ/うえき]
+
+か/う
+買う,[か/う],buy
+  交う[か\う] to pass each other
+  支う[か\う] to support
+  飼う[か\う]
+  
+わ/すれる
+忘れる,[わ/すれる],forget
+
 a/tsume\ru,集める,[あつめる➂],collect
 o/boe\ru,覚える,[おぼえる➂],memorize
 se/me\ru,攻める,[せめる➁],attack
