@@ -2,7 +2,7 @@
 歩く,[あ/る\く],walk
 
 は/し\る
-走る,走る[は/し\る],run,奔る/疾る/趨る
+走る,[は/し\る],run,奔る/疾る/趨る
 
 た/べ\る
 食べる,[た/べ\る],eat
@@ -36,20 +36,26 @@
 飛ぶ,[と/ぶ],fly,跳ぶ/翔ぶ
 
 お/よ\ぐ
-泳ぐ,[お/よ\ぐ],swim
+泳ぐ,[お/よ\ぐ],swim,游ぐ
 
 さ/わる
 触る,[さ/わる],touch
   障る[さ/わる] to be harmful to; to hinder; to interfere with; to irritate
 
 み\る
-見る,[み\る],see/look
-
+見る,[み\る],see/look,視る/観る
+  看る to look after
+  診る
+  
 き/く
-聞く,[き/く],listen
+聞く,[き/く],listen,聴く
+  訊く to ask, to enquire, to query
+  効く/利く to be effective, to function well, to taste alcohol
 
 う/たう
-歌う,[う/たう],sing
+歌う,[う/たう],sing,唄う/詠う/唱う
+  謳う to extol, to celebrate, to declare
+  謡う to chant
 
 お/どる
 踊る,[お/どる],dance
@@ -66,14 +72,14 @@
 使う,[つ/かう],use, 遣う
 
 け/す
-消す,[け/す],turn off
+消す,[け/す],turn off, erase, extinguish, remove
 
 つ/け\る
 点ける,[つ/け\る],turn on
   就ける/即ける to install (a king), to appoint, to assign
   漬ける/浸ける to soak
   漬ける to pickle
-  付ける/着ける/附ける
+  付ける/着ける/附ける to attach, to wear
 
 つ/く\る
 作る,[つ/く\る],make, 造る/創る

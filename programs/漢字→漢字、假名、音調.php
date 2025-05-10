@@ -1,5 +1,6 @@
 <?php
 /*
+php H:\github\japanese\programs\漢字→漢字、假名、音調.php accent_kana 起きる
 漢字→漢字、假名、音調 accent_kana
 */
 ini_set('memory_limit', '-1');
