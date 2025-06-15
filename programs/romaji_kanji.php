@@ -8,7 +8,7 @@ php H:\github\japanese\programs\輸入日本語.php
 php H:\github\japanese\programs\輸入日本語.php 0
 key => : separated values
 
-Accent markers: ⓪➀➁➂➃➄➅➆ (from wakoku)
+Accent markers: ⓪➀➁➂➃➄➅➆ (frowakoku)
 always in the last pair of [] so that they can be removed programmatically
 ⓪ low in the first mora （モーラ、拍）, then high throughout
 ➀➁➂➃➄➅➆ the position of the last high-pitched mora
@@ -23,21 +23,21 @@ $romaji_kanji = array(
 "slash"=>"／",
 "tilda"=>"〜",
 
-"a"=>"あ:亜[あ⓪]",
-"aa"=>"ああ[➀]", // like that, that much
-"abekobe"=>"あべこべ[⓪]",
-"abiru"=>"浴[あ⓪]びる", // take a shower 
-"abunai"=>"危[あぶ⓪]ない", // dangerous
-"abura"=>"油[あぶら⓪]", // oil
-"aburu"=>"あぶる[➁]:炙[あぶ➁]る:焙[あぶ➁]る",
-"acchi"=>"あっち[➂]:彼方[あっち➂]", // other side, over there casual 
-"atchi"=>"あっち[➂]:彼方[あっち➂]", // other side, over there casual 
-"achikochi"=>"あちこち[➁]:彼方此方[あちこち➁]", // all over, here and there 
-"achira"=>"あちら[⓪]:彼方[あちら⓪]", //  over there, that way
-"achirakochira"=>"あちらこちら:彼方此方[あちらこちら]",
-"adana"=>"あだ名[な⓪]", // 渾名 nickname
-"adobaisu"=>"アドバイス[➂]", // advice
-"afureru"=>"あふれる[➂]:溢[あふ➂]れる",
+"a"=>"あ:亜[あ/]",
+"aa"=>"ああ[あ\あ]", // like that, that much
+"abekobe"=>"あべこべ[あ/べこべ]",// contrary
+"abiru"=>"浴びる[あ/びる]", // take a shower 
+"abunai"=>"危ない[あ/ぶない]", // dangerous
+"abura"=>"油[あ/ぶら]", // oil
+"aburu"=>"あぶる[あ/ぶ\る]:炙る[あ/ぶ\る]:焙る[あ/ぶ\る]",
+"acchi"=>"あっち[あ/っち\]:彼方[あ/っち\]", // other side, over there casual 
+"atchi"=>"あっち[あ/っち\]:彼方[あ/っち\]", // other side, over there casual 
+"achikochi"=>"あちこち[あ/ち\こち]:彼方此方[あ/ち\こち]", // all over, here and thereK L;'
+"achira"=>"あちら[あ/ちら]:彼方[あ/ちら]", //  over there, that way
+"achirakochira"=>"あちらこちら:彼方此方[あ/ちらこ\ちら]",
+"adana"=>"渾名[あ/だな]", // nickname
+"adobaisu"=>"アドバイス[あ/どば\いす]", // advice
+"afureru"=>"あふれる[あ/ふれ\る]:溢れる[あ/ふれ\る]",
 "agaru"=>"上[あ⓪]がる", // 騰がる get nervous, go up, increase (in quality or quantity), go up, rise (physical movement)
 "age"=>"あげ",
 "agemasu"=>"あげます", 
