@@ -1,9 +1,10 @@
 <?php
 /*
 php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、音調 accent_num"
-php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、音調 accent_kana"
 php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、音調 accent_romaji"
-php h:\github\japanese\programs\run_program.php "詞條→漢字、假名、音調 accent_kana"
+// [た\くしー]
+php h:\github\japanese\programs\run_program.php "羅馬字→漢字、假名、音調 accent_kana"
+php h:\github\japanese\programs\run_program.php "詞條→漢字、假名、音調 accent_num"
 php h:\github\japanese\programs\run_program.php "漢字→漢字、假名、音調 accent_romaji"
 php h:\github\japanese\programs\run_program.php "漢字→漢字、假名、音調 accent_kana"
 php h:\github\japanese\programs\run_program.php "weblio\下載weblio詞條"
